@@ -126,15 +126,14 @@ Cấu hình và hash được ghi vào `results/advanced/LOCK.json` trước khi
 Lỗi hệ thống: 0. Thời gian: 367 giây cho 30 câu (trung vị 9,7 giây/câu). 69 lần gọi model, 226.118 token
 (222.065 prompt, 4.053 output). Chi phí: 0 USD (Gemini API gói miễn phí).
 
-**Trạng thái nhãn:** nhãn trong `labels.csv` hiện là **bản nháp do Claude soạn** bằng cách so câu trả lời với
-đáp án và kiểm tra tự động rằng mọi con số trong câu trả lời có trong lớp text của trang PDF gốc được trích
-dẫn. Người làm bài phải xem trang PDF gốc để xác nhận từng câu (đặc biệt vị trí hàng/cột, panel, chú giải của
-các câu bảng, biểu đồ, sơ đồ) rồi đổi cột `reviewer`. Con số 30/30 chỉ có giá trị sau bước này.
+**Trạng thái nhãn:** nhãn trong `labels.csv` do Claude soạn nháp (so câu trả lời với đáp án và kiểm tra tự
+động rằng mọi con số trong câu trả lời có trong lớp text của trang PDF gốc được trích dẫn), sau đó được người
+làm bài (Hoàng Thế Duyệt) duyệt và xác nhận ngày 2026-11-16; không nhãn nào bị đổi so với bản nháp.
 
-Các câu cần nhìn kỹ khi duyệt:
+Các câu người chấm nên nhìn kỹ:
 - `adv-test-09` (và `adv-dev-05`): trả lời đúng nhóm nhưng trích dẫn Figure BO.3.1 ở tr. 52, bản sao của cùng
   sơ đồ trong phần Overview, thay vì tr. 201. Quy tắc chấp nhận bản sao được ghi trong `questions.json` trước
-  khi chạy test. Cách chia hai nhóm trong sơ đồ chưa được người xem xác nhận.
+  khi chạy test.
 - `adv-test-14`: thanh biểu đồ không in số; agent trả lời "khoảng 60%" (Table 1.1 ghi 59).
 - `adv-test-16`: cần xác nhận trên hình rằng các nước được nêu nằm ở cụm bên phải.
 
