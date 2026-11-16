@@ -1,0 +1,134 @@
+{
+  "run_id": "20261116T085609Z",
+  "command": "C:\\Users\\LENOVO\\orca\\workspaces\\K5-L3B-DAY07-2A202603980-HoangTheDuyet-RetrievalContext\\labday7\\src\\eval_retrieval.py --split test --allow-test --methods dense,hybrid_rrf --budget 2700 --chunks starter/data/day6/chunks_B.json",
+  "split": "test",
+  "started_at": "2026-11-16T08:56:09.269483+00:00",
+  "finished_at": "2026-11-16T08:56:40.898076+00:00",
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "git": {
+    "commit": "4f38a31024913176c868769741c37660b13f3f2a",
+    "dirty_files": [
+      "?? results/retrieval_test_20261116T085531Z/",
+      "?? results/retrieval_test_20261116T085609Z/"
+    ]
+  },
+  "inputs": {
+    "questions": {
+      "path": "data/benchmark/questions.json",
+      "sha256": "5f4c4046643100dd2cd318d14a9164f140b538e0e46409faab5731ec55552a2d",
+      "answerable_in_split": 9
+    },
+    "chunks": {
+      "path": "starter\\data\\day6\\chunks_B.json",
+      "sha256": "a78d08254714780fbf43c0d3f1d8a16f002d716ba4ccc78956b309674f6bd78b",
+      "chunks": 130,
+      "database_equals_export": true
+    },
+    "index": {
+      "table": "day6_chunks",
+      "strategy": "B"
+    }
+  },
+  "config": {
+    "methods": [
+      "dense",
+      "hybrid_rrf"
+    ],
+    "top_k": 3,
+    "candidate_pool": 10,
+    "context_budget_chars": 2700,
+    "context_packing": "starter/baseline.py pack_context over the top-3 results",
+    "filter_policy": "question `filter` (user-provided) applied identically to every method",
+    "bm25": {
+      "k1": 1.5,
+      "b": 0.75,
+      "tokenizer": "NFC casefold \\w+, no stemming/stop words"
+    },
+    "hybrid_rrf": {
+      "k": 60,
+      "inputs": [
+        "dense",
+        "bm25"
+      ],
+      "pool_per_retriever": 10
+    },
+    "hybrid_rrf_rerank": null
+  },
+  "embedder": {
+    "model_id": "google/embeddinggemma-2",
+    "revision": "unpinned (same as Day 6)",
+    "dimensions": 768,
+    "dtype": "float32",
+    "device": "cpu",
+    "normalize_embeddings": true,
+    "query_prompt_name": "SearchQuery",
+    "query_prompt": "task: search result | query: ",
+    "load_seconds": 11.08,
+    "packages": {
+      "sentence-transformers": "6.3.0",
+      "transformers": "5.23.0",
+      "torch": "2.15.0",
+      "huggingface-hub": "2.4.0",
+      "numpy": "2.4.6",
+      "psycopg": "3.3.8"
+    }
+  },
+  "cost_usd": 0.0,
+  "summaries": [
+    {
+      "method": "dense",
+      "hit_at_1": {
+        "n": 7,
+        "N": 9,
+        "rate": 0.778
+      },
+      "evidence_hit_at_3": {
+        "n": 7,
+        "N": 9,
+        "rate": 0.778
+      },
+      "context_evidence_rate": {
+        "n": 7,
+        "N": 9,
+        "rate": 0.778
+      },
+      "gold_in_pool": {
+        "n": 9,
+        "N": 9
+      },
+      "mrr_at_pool": 0.821,
+      "avg_context_chars": 2018.1,
+      "avg_context_chunks": 3,
+      "median_ms": 245.5,
+      "cost_usd": 0.0
+    },
+    {
+      "method": "hybrid_rrf",
+      "hit_at_1": {
+        "n": 6,
+        "N": 9,
+        "rate": 0.667
+      },
+      "evidence_hit_at_3": {
+        "n": 8,
+        "N": 9,
+        "rate": 0.889
+      },
+      "context_evidence_rate": {
+        "n": 8,
+        "N": 9,
+        "rate": 0.889
+      },
+      "gold_in_pool": {
+        "n": 9,
+        "N": 9
+      },
+      "mrr_at_pool": 0.773,
+      "avg_context_chars": 2137.6,
+      "avg_context_chunks": 3,
+      "median_ms": 277.9,
+      "cost_usd": 0.0
+    }
+  ]
+}

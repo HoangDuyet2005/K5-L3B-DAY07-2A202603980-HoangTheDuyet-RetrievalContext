@@ -182,3 +182,40 @@ Cấu hình dưới đây được chốt trên dev và khóa bằng **commit ch
 2. Agent: `python -m src.run_agent --split test --allow-test` cho baseline (`--method dense --budget 800`) và cấu hình chọn (`--method hybrid_rrf --budget 2700`), 12 câu mỗi cấu hình.
 3. Chấm tay **toàn bộ** test (9 câu có đáp án + 3 câu thiếu bằng chứng, cho cả hai cấu hình): grounded answer 0/1/2, citation hỗ trợ, abstention, và **context 0/1/2** cho mọi câu có đáp án (BENCHMARK.md §2 yêu cầu ít nhất 5). Lỗi provider được báo riêng.
 4. Không chạy lại test để "lấy kết quả tốt hơn". Nếu một lần chạy bị lỗi hạ tầng (ví dụ hết hạn mức ngày), chỉ chạy tiếp các câu chưa chạy và ghi rõ.
+
+## 5. Kết quả test (holdout, chạy một lần sau khóa `4f38a31`)
+
+**Retrieval** (câu hỏi gốc, 9 câu test có đáp án): runs `retrieval_test_20261116T085531Z` (budget 800) và `retrieval_test_20261116T085609Z` (budget 2.700).
+
+| Cấu hình | Hit@1 | Evidence Hit@3 | MRR@10 | Context Evidence Rate | Context TB (ký tự) | Median ms |
+|---|---|---|---|---|---|---|
+| Baseline dense/800 | 7/9 | 7/9 | 0.821 | 5/9 | 665 | 213 |
+| **Chọn: hybrid RRF/2.700** | 6/9 | 8/9 | 0.773 | 8/9 | 2.138 | 278 |
+| (đối chiếu) dense/2.700 | 7/9 | 7/9 | 0.821 | 7/9 | 2.018 | 246 |
+| (đối chiếu) hybrid RRF/800 | 6/9 | 8/9 | 0.773 | 5/9 | 619 | 206 |
+
+Trượt top-1: dense trượt test-a1 (chunk evidence ở hạng 7) và test-a3 (hạng 4); hybrid trượt test-a1 (hạng 3), test-a2 (hạng 2), test-a3 (hạng 8). Khác với dev, trên test hybrid **thua dense ở Hit@1** (6 so với 7) nhưng **thắng ở Evidence Hit@3** (8 so với 7) nhờ BM25 kéo test-a1 từ hạng 7 lên hạng 3. Test chỉ có 9 câu nên mỗi câu là 11 điểm phần trăm.
+
+**Agent** (12 câu test mỗi cấu hình): runs `agent_test_dense_b800_test-baseline_20261116T085657Z` và `agent_test_hybrid_rrf_b2700_test-selected_20261116T090045Z`, `gemini-3.5-flash-lite`, 0 lỗi provider, 0 USD (free tier). Nhãn: Claude chấm nháp; học viên duyệt toàn bộ 24 dòng, đối chiếu PDF, không sửa.
+
+| Chỉ số | Baseline dense/800 | **Chọn: hybrid RRF/2.700** |
+|---|---|---|
+| Tool use | 12/12 | 12/12 |
+| Phân bố số search (1 / 3 lần) | 5 / 7 | 8 / 4 |
+| Grounded answer 0/1/2, trung bình /2 | 4/0/5, 1.11 | 1/0/8, **1.78** |
+| Citation hợp lệ | 5/7 | **8/8** |
+| Câu trả lời có citation | 7/7 | 8/8 |
+| Từ chối đúng (thiếu bằng chứng) | 2/3 | **3/3** |
+| Từ chối nhầm (có đáp án) | 3/9 | **1/9** |
+| Context Evidence Rate (tự động, context cuối) | 5/9 | **8/9** |
+| Context chấm tay 0/1/2 | 4/0/5 | 1/0/8 |
+| Model calls / token (prompt + output) | 38 / 27.740 | 32 / 30.821 |
+| Thời gian: trung vị mỗi câu / tổng | 17,4 s / 200 s | 10,4 s / 152 s |
+
+Thời gian test gồm cả giãn cách 4,5 s giữa các request (sửa hạ tầng trước test).
+
+**Đọc kết quả:**
+- Kết luận dev được giữ trên test: cấu hình chọn tốt hơn baseline ở grounded answer (1.78 so với 1.11), citation, từ chối đúng và từ chối nhầm, với ít model call hơn và token chỉ nhiều hơn khoảng 11%.
+- **test-a3** (103 nước, 86%; trang 52): cả hai cấu hình không đưa chunk evidence `p052s0:c001` vào context; agent từ chối trung thực. Lỗi retrieval (hybrid xếp chunk này hạng 8 với câu hỏi gốc).
+- **test-u1** (Pantawid, câu bẫy với số hộ của Kenya trong cùng chunk): **không cấu hình nào bịa**. Cấu hình chọn gọi `abstain`; baseline nói đúng nội dung "không có số hộ" nhưng qua tool `answer`, nên theo `agent_metrics.py` bị tính là không từ chối.
+- Baseline test-a2: dùng `answer` để nói "không có thông tin" vì chunk evidence (trang 47) không vừa context 800 ký tự; cùng kiểu lỗi #5 ở dev.

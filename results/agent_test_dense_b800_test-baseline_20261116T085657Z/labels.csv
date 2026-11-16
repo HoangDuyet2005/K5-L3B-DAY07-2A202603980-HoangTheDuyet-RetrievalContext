@@ -1,0 +1,13 @@
+﻿query_id,split,answerable,status,abstain_reason,citations,answer_grade,citation_support,abstention_correct,context_grade,reviewer,note
+test-a1,test,1,abstain,model_abstained,,0,,,0,"Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa","Từ chối; context chỉ có p036 c000 (tỷ lệ toàn cầu), không có chunk evidence p039 c000 (43%) do budget 800 và query"
+test-a2,test,1,answered,,B:wb-ppp-2024:p047s0:c000,0,0,,0,"Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa","Dùng tool answer để nói passage không có thông tin; context chỉ có p047 c000 (phần đầu Box O.2), chunk evidence p047 c001 không vào context. Citation không hỗ trợ nội dung đáp án. CẦN XEM KỸ"
+test-a3,test,1,abstain,model_abstained,,0,,,0,"Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa","Từ chối; context chỉ có p051 c000 (định nghĩa chỉ số), không có p052 c001 (103 nước, 86%)"
+test-a4,test,1,answered,,B:wb-ppp-2024:p053s0:c001,2,1,,2,"Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa","50% điện, 65% nước uống cơ bản; khớp p053 c001"
+test-a5,test,1,answered,,B:wb-ppp-2024:p056s0:c002,2,1,,2,"Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa",71.2% không được bảo trợ xã hội; khớp p056 c002
+test-a6,test,1,answered,,B:wb-ppp-2024:p060s0:c001,2,1,,2,"Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa",Giảm hơn một nửa phát thải tăng thêm; khớp p060 c001
+test-a7,test,1,answered,,B:wb-ppp-2024:p063s0:c001,2,1,,2,"Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa",CBAM là carbon tariff phạt hàng phát thải cao xuất sang EU; khớp p063 c001
+test-a8,test,1,answered,,B:wb-ppp-2024:p070s0:c000,2,1,,2,"Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa","90% phát thải CO2 lịch sử, khoảng 2/3 từ nước thu nhập cao; khớp p070 c000"
+test-a9,test,1,abstain,model_abstained,,0,,,0,"Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa","Từ chối; filter priorities đúng nhưng 3 query không đưa p072 c002 vào top-3 dense; context p066, p065"
+test-u1,test,0,answered,,B:wb-ppp-2024:p056s0:c001,,0,0,,"Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa","Câu bẫy: KHÔNG lấy số hộ của Kenya. Nội dung là từ chối đúng (không có số hộ cho Pantawid) nhưng dùng tool answer kèm citation, nên script tính là không từ chối. CẦN XEM KỸ"
+test-u2,test,0,abstain,model_abstained,,,,1,,"Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa","Từ chối, không khẳng định gì về thất nghiệp thanh niên"
+test-u3,test,0,abstain,model_abstained,,,,1,,"Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa","Từ chối, không đưa ra tỷ lệ xuất khẩu than"

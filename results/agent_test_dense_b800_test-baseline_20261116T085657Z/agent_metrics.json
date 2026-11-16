@@ -1,0 +1,42 @@
+{
+  "split": "test",
+  "cases": 12,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 12,
+    "N": 12
+  },
+  "grounded_answer": {
+    "0": 4,
+    "1": 0,
+    "2": 5,
+    "N": 9,
+    "mean": 1.1111111111111112
+  },
+  "citation_validity": {
+    "n": 5,
+    "N": 7
+  },
+  "answer_citation_coverage": {
+    "n": 7,
+    "N": 7
+  },
+  "abstention": {
+    "n": 2,
+    "N": 3
+  },
+  "false_abstention": {
+    "n": 3,
+    "N": 9
+  },
+  "context_evidence_rate": {
+    "n": 5,
+    "N": 9
+  },
+  "context_grade": {
+    "0": 4,
+    "1": 0,
+    "2": 5,
+    "N": 9
+  }
+}

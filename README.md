@@ -1,5 +1,7 @@
 # Day 7 — Agentic RAG
 
+> **Bài làm của Hoàng Thế Duyệt (2A202603980):** cách cài đặt và chạy ở [`src/README.md`](src/README.md); benchmark ở [`data/benchmark/`](data/benchmark/README.md); nhật ký thử nghiệm và kết quả ở [`results/EXPERIMENTS.md`](results/EXPERIMENTS.md); báo cáo ở [`report/individual/2A202603980_HoangTheDuyet.md`](report/individual/2A202603980_HoangTheDuyet.md). Phần dưới là đề bài gốc.
+
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.

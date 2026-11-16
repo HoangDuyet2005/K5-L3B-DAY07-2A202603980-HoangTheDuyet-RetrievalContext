@@ -1,0 +1,109 @@
+[
+  {
+    "query_id": "test-a1",
+    "citation_support": [],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa",
+    "note": "Từ chối; context chỉ có p036 c000 (tỷ lệ toàn cầu), không có chunk evidence p039 c000 (43%) do budget 800 và query",
+    "answer_grade": 0,
+    "context_grade": 0
+  },
+  {
+    "query_id": "test-a2",
+    "citation_support": [
+      false
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa",
+    "note": "Dùng tool answer để nói passage không có thông tin; context chỉ có p047 c000 (phần đầu Box O.2), chunk evidence p047 c001 không vào context. Citation không hỗ trợ nội dung đáp án. CẦN XEM KỸ",
+    "answer_grade": 0,
+    "context_grade": 0
+  },
+  {
+    "query_id": "test-a3",
+    "citation_support": [],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa",
+    "note": "Từ chối; context chỉ có p051 c000 (định nghĩa chỉ số), không có p052 c001 (103 nước, 86%)",
+    "answer_grade": 0,
+    "context_grade": 0
+  },
+  {
+    "query_id": "test-a4",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa",
+    "note": "50% điện, 65% nước uống cơ bản; khớp p053 c001",
+    "answer_grade": 2,
+    "context_grade": 2
+  },
+  {
+    "query_id": "test-a5",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa",
+    "note": "71.2% không được bảo trợ xã hội; khớp p056 c002",
+    "answer_grade": 2,
+    "context_grade": 2
+  },
+  {
+    "query_id": "test-a6",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa",
+    "note": "Giảm hơn một nửa phát thải tăng thêm; khớp p060 c001",
+    "answer_grade": 2,
+    "context_grade": 2
+  },
+  {
+    "query_id": "test-a7",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa",
+    "note": "CBAM là carbon tariff phạt hàng phát thải cao xuất sang EU; khớp p063 c001",
+    "answer_grade": 2,
+    "context_grade": 2
+  },
+  {
+    "query_id": "test-a8",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa",
+    "note": "90% phát thải CO2 lịch sử, khoảng 2/3 từ nước thu nhập cao; khớp p070 c000",
+    "answer_grade": 2,
+    "context_grade": 2
+  },
+  {
+    "query_id": "test-a9",
+    "citation_support": [],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa",
+    "note": "Từ chối; filter priorities đúng nhưng 3 query không đưa p072 c002 vào top-3 dense; context p066, p065",
+    "answer_grade": 0,
+    "context_grade": 0
+  },
+  {
+    "query_id": "test-u1",
+    "citation_support": [
+      false
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa",
+    "note": "Câu bẫy: KHÔNG lấy số hộ của Kenya. Nội dung là từ chối đúng (không có số hộ cho Pantawid) nhưng dùng tool answer kèm citation, nên script tính là không từ chối. CẦN XEM KỸ",
+    "abstention_correct": false
+  },
+  {
+    "query_id": "test-u2",
+    "citation_support": [],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa",
+    "note": "Từ chối, không khẳng định gì về thất nghiệp thanh niên",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "test-u3",
+    "citation_support": [],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16 (đối chiếu PDF), không sửa",
+    "note": "Từ chối, không đưa ra tỷ lệ xuất khẩu than",
+    "abstention_correct": true
+  }
+]
