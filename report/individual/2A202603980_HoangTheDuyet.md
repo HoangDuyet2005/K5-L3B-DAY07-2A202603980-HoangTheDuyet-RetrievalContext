@@ -1,6 +1,6 @@
 # Báo cáo Day 7
 
-Học viên: Hoàng Thế Duyệt · MSSV 2A202603980 · Lớp L3B. Cách chạy: [`src/README.md`](../../src/README.md). Nhật ký đầy đủ (giả thuyết ghi trước, run ID, commit): [`results/EXPERIMENTS.md`](../../results/EXPERIMENTS.md).
+Học viên: Hoàng Thế Duyệt · MSSV 2A202603980 · Lớp L3B. Cách cài đặt và lệnh chạy: ghi trong mục "Agent và đánh giá" (phần cơ bản) và cuối mục "Thử thách nâng cao". Nhật ký đầy đủ (giả thuyết ghi trước, run ID, commit): [`results/EXPERIMENTS.md`](../../results/EXPERIMENTS.md).
 
 ## Dữ liệu và benchmark
 
@@ -53,7 +53,7 @@ Chấm context (test, 0/1/2): baseline 4/0/5, cấu hình chọn 1/0/8. Context 
 | dev-u1 (chọn, B1) | Thiếu bằng chứng, **lỗi** | 3 search về Vietnam → context `p036s0:c000` (tỷ lệ toàn cầu) | "The poverty rate in Vietnam fell from 38 percent in 1990 to 8.5 percent in 2024 [B:wb-ppp-2024:p036s0:c000]" | **Bịa**: chunk không nhắc Vietnam; citation có trong context (validator cho qua) nhưng không hỗ trợ. Abstention sai, citation 0 |
 | test-a3 (cả hai) | Có đáp án, **lỗi retrieval** | 3 search về chỉ số rủi ro khí hậu → context `p049`, `p051`, không có `p052s0:c001` | abstain: không có số nước được bao phủ | Grounded 0, context 0. Hybrid xếp chunk evidence hạng 8 với câu hỏi gốc; agent từ chối trung thực |
 
-- **Đường dẫn trace, nhãn, lệnh chạy, thời gian và chi phí:** retrieval `results/retrieval_dev_20261116T055416Z`, `…055514Z`, `results/retrieval_test_20261116T085531Z`, `…085609Z`; agent dev `results/agent_dev_*_b1-*`; agent test `results/agent_test_dense_b800_test-baseline_20261116T085657Z`, `results/agent_test_hybrid_rrf_b2700_test-selected_20261116T090045Z`. Mỗi thư mục có `traces*.jsonl`, `run_metadata.json` (commit, sha256 benchmark và corpus, cấu hình, phiên bản), và với agent `review_sheet.md`, `labels.csv`, `agent_metrics.json`. Lệnh chạy: `src/README.md`. Thời gian: retrieval khoảng 1 phút mỗi run (gồm 12–17 s nạp model); agent dev 270 s (baseline) và 264 s (chọn); agent test 200 s và 152 s. Token agent: dev 57.782 và 49.652; test 27.740 và 30.821 (không có thinking token). Chi phí: 0 USD (Gemini free tier, model và DB local).
+- **Đường dẫn trace, nhãn, lệnh chạy, thời gian và chi phí:** retrieval `results/retrieval_dev_20261116T055416Z`, `…055514Z`, `results/retrieval_test_20261116T085531Z`, `…085609Z`; agent dev `results/agent_dev_*_b1-*`; agent test `results/agent_test_dense_b800_test-baseline_20261116T085657Z`, `results/agent_test_hybrid_rrf_b2700_test-selected_20261116T090045Z`. Mỗi thư mục có `traces*.jsonl`, `run_metadata.json` (commit, sha256 benchmark và corpus, cấu hình, phiên bản), và với agent `review_sheet.md`, `labels.csv`, `agent_metrics.json`. Lệnh chạy: xem "Cách cài đặt và lệnh chạy" ở cuối mục này. Thời gian: retrieval khoảng 1 phút mỗi run (gồm 12–17 s nạp model); agent dev 270 s (baseline) và 264 s (chọn); agent test 200 s và 152 s. Token agent: dev 57.782 và 49.652; test 27.740 và 30.821 (không có thinking token). Chi phí: 0 USD (Gemini free tier, model và DB local).
 - **Kết quả trước/sau, ví dụ lỗi, đánh đổi và giới hạn:**
   - Trước/sau trên test: grounded 1.11 → 1.78, từ chối nhầm 3/9 → 1/9, từ chối đúng 2/3 → 3/3, citation hợp lệ 5/7 → 8/8, Context Evidence Rate 5/9 → 8/9.
   - Đánh đổi: context dài khoảng 3,2 lần (665 → 2.138 ký tự) nhưng agent cần ít lượt gọi hơn (38 → 32 trên test) nên token chỉ tăng khoảng 11% và thời gian mỗi câu giảm (17,4 → 10,4 s). Thời gian retrieval của hybrid và dense gần như nhau (200–280 ms mỗi query, phần lớn là embed query; BM25 khoảng 1 ms). Trên test hybrid thua dense ở Hit@1 (6/9 so với 7/9) nhưng thắng Evidence Hit@3 (8/9 so với 7/9); với context 3 chunk, Hit@3 quan trọng hơn Hit@1. Rerank không đáng chi phí trên dữ liệu này.
@@ -66,6 +66,108 @@ Chấm context (test, 0/1/2): baseline 4/0/5, cấu hình chọn 1/0/8. Context 
     - Gói miễn phí có hạn mức (15 request/phút, 500/ngày) và Google có thể dùng dữ liệu gửi lên; dữ liệu chỉ gồm báo cáo công khai và câu hỏi tự viết.
     - Nhãn do AI chấm nháp và học viên duyệt; có thể còn thiên lệch của người soạn benchmark.
 
+**Cách cài đặt và lệnh chạy (phần cơ bản).** Code nằm trong `src/`:
+
+| File | Việc |
+|---|---|
+| `config.py` | Mọi lựa chọn kỹ thuật (model, index, filter); đọc `.env` cho secret |
+| `day6.py` | Đọc Day 6 ở chế độ chỉ đọc, đổi chunk sang định dạng Day 7, embed query, dense search |
+| `lexical.py`, `hybrid.py`, `rerank.py` | BM25, RRF (k = 60), rerank cross-encoder `cross-encoder/ms-marco-MiniLM-L6-v2` |
+| `eval_retrieval.py` | Benchmark retrieval: Hit@1, Evidence Hit@3, MRR@10, Context Evidence Rate |
+| `gemini.py`, `agent.py`, `run_agent.py` | Client Gemini, vòng lặp agent (search / answer / abstain), chạy agent và ghi trace |
+| `review.py` | Tạo bảng chấm tay, tổng hợp nhãn bằng `starter/agent_metrics.py` |
+| `check_day6.py`, `verify_benchmark.py` | Kiểm tra kết nối Day 6, export chunk, kiểm tra benchmark |
+
+Chuẩn bị:
+
+1. Kho Day 6: cần repo Day 6 ([K5-L3B-DAY06-HoangTheDuyet-2A202603980-DataIngestion](https://github.com/HoangDuyet2005/K5-L3B-DAY06-HoangTheDuyet-2A202603980-DataIngestion)) đã ingest (strategy A 189 dòng, B 130 dòng). Bật database: `cd <repo Day 6>/starter && docker compose up -d`. Nếu volume trống, chạy lại `python -m src.run ingest` của Day 6.
+2. Python 3.11 và các package (phiên bản giống Day 6 để query embedding khớp index): `python -m venv .venv` rồi `.venv/Scripts/python -m pip install -r requirements.txt`. Có thể dùng luôn venv của Day 6 (`<repo Day 6>/starter/.venv`), là môi trường đã dùng cho mọi kết quả trong `results/`.
+3. Chép `.env.example` thành `.env`, điền `GEMINI_API_KEY` (Google AI Studio). `.env` không được commit.
+4. PDF gốc (chỉ cần cho `verify_benchmark` và phần nâng cao): tải từ link trong `data/benchmark/README.md`, sha256 `0f22fde0…af746`.
+
+Lần đầu chạy sẽ tải `google/embeddinggemma-2` và (nếu dùng rerank) `cross-encoder/ms-marco-MiniLM-L6-v2` (khoảng 90 MB) từ Hugging Face.
+
+Lệnh chạy, từ thư mục gốc repo:
+
+```bash
+# Kiểm tra kết nối Day 6 và tạo lại file chunk dùng cho BM25/hybrid (sha256 a78d0825…bd78b)
+python -m src.check_day6 info
+python -m src.check_day6 export --output starter/data/day6/chunks_B.json
+
+# Kiểm tra benchmark đã khóa (evidence nằm trong chunk đúng trang và trong text PDF)
+python -m src.verify_benchmark --chunks starter/data/day6/chunks_B.json --pdf "<PDF>"
+
+# Retrieval trên dev (không gọi Gemini)
+python -m src.eval_retrieval --split dev --chunks starter/data/day6/chunks_B.json \
+    --methods dense,bm25,hybrid_rrf,hybrid_rrf_rerank --budget 800      # và --budget 2700
+
+# Agent trên dev: baseline và cấu hình chọn
+python -m src.run_agent --split dev --method dense --budget 800 --chunks starter/data/day6/chunks_B.json
+python -m src.run_agent --split dev --method hybrid_rrf --budget 2700 --chunks starter/data/day6/chunks_B.json
+
+# Bảng chấm tay và tổng hợp nhãn
+python -m src.review sheet --run results/<run> --chunks starter/data/day6/chunks_B.json
+python -m src.review aggregate --run results/<run>
+
+# Test: chỉ sau khi khóa cấu hình (cần cờ --allow-test)
+python -m src.eval_retrieval --split test --allow-test --methods dense,hybrid_rrf --budget 2700 --chunks starter/data/day6/chunks_B.json
+python -m src.run_agent --split test --allow-test --method hybrid_rrf --budget 2700 --chunks starter/data/day6/chunks_B.json
+
+# Unit test (offline, không cần DB hay model)
+python -m unittest discover -s tests -v
+```
+
+Lưu ý tái lập: retrieval (dense, BM25, RRF, rerank) là xác định, chạy lại ra đúng thứ hạng và điểm; Gemini thì không (trace ghi `modelVersion` từng lần gọi, chạy lại có thể khác vài câu). Reranker cố định revision `233902d2…`. `starter/data/` bị `.gitignore`; file chunk được tạo lại bằng lệnh `export` ở trên và kiểm tra bằng sha256.
+
 ## Thử thách nâng cao (nếu thực hiện)
 
-Không thực hiện.
+Chi tiết đầy đủ: [docs/ADVANCED.md](../../docs/ADVANCED.md). Số trang dưới đây là số trang PDF (1–300).
+
+- Tài liệu, nguồn, quyền sử dụng, số trang và phiên bản:
+  - World Bank. 2024. *Poverty, Prosperity, and Planet Report 2024: Pathways Out of the Polycrisis*, doi:10.1596/978-1-4648-2123-3, https://www.worldbank.org/en/publication/poverty-prosperity-and-planet.
+  - Bản PDF đầy đủ 300 trang, sha256 `0f22fde0…f746` (`data/advanced/index_stats.json`); giấy phép CC BY 3.0 IGO. PDF không nằm trong repo, tải từ nguồn trên.
+- Cách xử lý text, bảng, ảnh, biểu đồ; phạm vi index và phần chưa xử lý:
+  - Text: lớp text của cả 300 trang (`pypdf`), cắt chunk khoảng 1.800 ký tự → 612 chunk.
+  - Bảng, biểu đồ, sơ đồ, bản đồ: 114 trang có nhãn FIGURE/TABLE/MAP được gửi từng trang cho model vision `gemini-3.1-flash-lite`; mỗi hình thành một chunk có nhãn, loại, tiêu đề, bbox trên trang và nội dung chép lại → 89 chart, 19 table, 6 diagram, 4 map. 11 trang sơ đồ/bản đồ được mô tả lại bằng `gemini-3.5-flash` (phục vụ dưới tên `gemini-3.6-flash`) sau khi dev cho thấy một mô tả sai cấu trúc.
+  - Tổng 730 chunk; 0 trang hình/bảng lỗi. 10 trang gần như không có text (bìa, trang trống, mở chương) không có nội dung để index. Hình không có nhãn trong lớp text không được gửi cho vision model.
+  - Truy xuất: BM25 + tra theo nhãn hình/bảng; không dùng embedding (không kịp embedding lại 300 trang bằng CPU).
+- Cách chia benchmark, schema evidence, model và cấu hình đã chốt trên dev:
+  - `data/advanced/benchmark/questions.json`: dev 15 câu có đáp án + 3 câu thiếu bằng chứng; test 24 + 6, chia trước khi chạy agent. Mỗi câu có ID, nhóm chính, đáp án hoặc hành vi từ chối, trang, vị trí (hàng/cột, panel, chú giải), đoạn trích và lý do; câu thiếu bằng chứng ghi cách kiểm tra.
+  - Agent `gemini-3.1-flash-lite`, temperature 0. Ba cấu hình trên dev: d1 15/18, d2 15/18, d3 17/18 (số của d1, d2 là đọc trace, không có file nhãn). Chốt d3: BM25 + tra nhãn, top-k 8, context 24.000 ký tự, tối đa 3 lượt tìm, tìm dự phòng bằng chính câu hỏi, coi câu trả lời "không có thông tin" là từ chối. Khóa trong `results/advanced/LOCK.json` trước khi chạy test; test chạy một lần.
+
+| Nhóm test | Đạt / tổng | Tỷ lệ | Lỗi / nhận xét |
+|---|---|---|---|
+| Bảng | 6/6 | 100% | |
+| Ảnh, sơ đồ | 5/5 | 100% | `adv-test-09` trích dẫn bản sao của cùng sơ đồ ở tr. 52 (Figure BO.3.1) thay vì tr. 201; quy tắc chấp nhận bản sao ghi trước khi chạy test |
+| Biểu đồ | 5/5 | 100% | `adv-test-14`: thanh không in số, agent trả lời "khoảng 60%" (Table 1.1 ghi 59) |
+| Multi-hop | 4/4 | 100% | |
+| Text | 4/4 | 100% | |
+| Thiếu bằng chứng | 6/6 | 100% | |
+| **Toàn bộ** | **30/30** | **100%** | 0 lỗi hệ thống |
+
+- Trace, nhãn và evidence từng câu; thời gian, chi phí, lỗi hệ thống:
+  - `results/advanced/test_final_20261116T113544Z/`: `traces.jsonl`, `review_sheet.md`, `labels.csv`, `metrics.json`, `run_metadata.json`.
+  - 367 giây cho 30 câu (trung vị 9,7 giây/câu); 69 lần gọi model, 226.118 token; 0 USD (gói miễn phí); 0 lỗi hệ thống.
+  - Nhãn do AI (Claude) chấm nháp bằng cách so với đáp án và lớp text của trang PDF gốc, học viên duyệt và xác nhận; không nhãn nào đổi so với bản nháp.
+- Giới hạn, cách tái lập và đường dẫn benchmark:
+  - Giới hạn: retrieval chỉ dùng từ khóa (dev-11 trượt vì câu hỏi diễn đạt xa từ ngữ tài liệu); mô tả hình do model tạo có thể sai, 89 mô tả biểu đồ chưa được kiểm từng cái; phần lớn câu hỏi nêu thẳng nhãn hình/bảng nên dễ hơn câu hỏi tự nhiên; benchmark do AI soạn từ lớp text của PDF (AI không xem được ảnh trang); test chỉ chạy một lần, chưa đo độ dao động.
+  - Đường dẫn benchmark: `data/advanced/benchmark/questions.json` (đáp án, evidence) và `cases.json` (chỉ câu hỏi, thứ agent được thấy).
+  - Tái lập: chuẩn bị như phần cơ bản (Python có `pypdf`, `GEMINI_API_KEY` trong `.env`; không cần database Day 6), rồi chạy từ thư mục gốc repo:
+
+```bash
+# Index: text của 300 trang + mô tả hình/bảng (lượt một), rồi lượt hai cho sơ đồ/bản đồ
+python -m src.adv.ingest --pdf "<PDF>"
+python -m src.adv.ingest --pdf "<PDF>" --redo-kinds diagram,map --vision-model gemini-3.5-flash
+
+# Benchmark: tạo cases.json, kiểm tra số câu mỗi nhóm; đối chiếu evidence với lớp text trang PDF gốc
+python -m src.adv.bench build
+python -m src.adv.bench check --pdf "<PDF>"
+
+# Agent: dev với cấu hình đã chốt (mặc định), rồi test một lần
+python -m src.adv.run --split dev --label d3
+python -m src.adv.run --split test --allow-test --label final
+
+# Bảng chấm tay và tổng hợp đạt/không đạt
+python -m src.adv.review sheet --run results/advanced/<run>
+python -m src.adv.review aggregate --run results/advanced/<run>
+```
