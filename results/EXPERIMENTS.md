@@ -71,3 +71,33 @@ Không thay đổi tiêu chí này sau khi thấy kết quả. Nếu buộc ph�
 - **Lỗi dev #1 (dev-q04): context bị khóa bởi chunk đầu tiên.** Với budget 800, chunk của lượt search đầu chiếm gần hết budget; evidence tìm thấy ở lượt sau bị bỏ. Agent vẫn từ chối đúng với context nó thấy. Liên quan trực tiếp tới E2.
 - **Lỗi dev #2 (dev-q01): thiếu một phần đáp án trong context.** Context chỉ chứa một chunk cùng chủ đề (tỷ lệ 8.5%) nhưng thiếu số người (692 million); agent từ chối thay vì trả lời một nửa. Ở đánh giá retrieval, câu hỏi gốc đưa chunk evidence lên hạng 3 của dense; còn 3 query agent tự viết lại ("extreme poverty 2024 share population people", "8.5 percent 2024 extreme poverty people million"…) không đưa được nó vào top-3. Liên quan tới E1 (xếp lại ứng viên) và E2 (chứa thêm chunk).
 - **Thời gian và token:** mỗi lần gọi Gemini mất 15–37 s; mỗi câu 55–128 s (trung vị khoảng 92 s); tổng 12.575 token cho 4 câu (prompt 9.024, output 430, thinking 3.121). Ước tính chạy đủ 23 câu dev mất khoảng 35 phút và khoảng 70k token cho mỗi cấu hình.
+
+### E1 và E2: kết quả retrieval trên dev
+
+- **Runs:** `retrieval_dev_20261116T055416Z` (budget 800) và `retrieval_dev_20261116T055514Z` (budget 2.700), cùng commit `0eb4d4d`, cây code sạch (`dirty_files` chỉ liệt kê thư mục kết quả của chính các run). 20 câu dev có đáp án, top-3, pool 10, chi phí 0 USD.
+- **Tái lập:** dense, BM25 và hybrid RRF ở budget 800 ra đúng số liệu của run `retrieval_dev_20261116T050028Z`.
+
+| Phương pháp | Budget | Hit@1 | Evidence Hit@3 | MRR@10 | Context Evidence Rate | Context TB (ký tự) | Median ms |
+|---|---|---|---|---|---|---|---|
+| Dense (baseline) | 800 | 16/20 | 20/20 | 0.875 | 6/20 | 623.7 | 217 |
+| BM25 | 800 | 18/20 | 20/20 | 0.950 | 7/20 | 624.7 | 1 |
+| Hybrid RRF | 800 | 18/20 | 20/20 | 0.950 | 7/20 | 581.8 | 221 |
+| Hybrid RRF + rerank (E1) | 800 | 18/20 | 20/20 | 0.950 | 8/20 | 602.0 | 639 |
+| Dense | 2.700 | 16/20 | 20/20 | 0.875 | **20/20** | 2037.5 | 218 |
+| BM25 | 2.700 | 18/20 | 20/20 | 0.950 | **20/20** | 2161.7 | 1 |
+| Hybrid RRF | 2.700 | 18/20 | 20/20 | 0.950 | **20/20** | 2129.1 | 217 |
+| Hybrid RRF + rerank | 2.700 | 18/20 | 20/20 | 0.950 | **20/20** | 2134.0 | 668 |
+
+**E1 (rerank), so với dự đoán:** **không xác nhận.** Hit@1 giữ 18/20 và MRR@10 giữ 0.950, không vượt như dự đoán. Rerank sửa đúng một lỗi "cùng chủ đề, sai đoạn" theo giả thuyết: dev-q01 đưa chunk evidence từ hạng 2 lên hạng 1. Nhưng nó làm hỏng dev-q05 (hạng 1 xuống hạng 2) và không sửa được dev-q19 (vẫn hạng 2), nên tổng không đổi. Context Evidence Rate ở budget 800 tăng 7 → 8/20 (nhờ dev-q01). Retrieval chậm thêm khoảng 420 ms mỗi câu trên CPU. Rủi ro ghi trước ("model MS MARCO có thể không hợp câu hỏi số liệu") phù hợp với kết quả hòa này.
+
+**E2 (budget 2.700), so với dự đoán:** **xác nhận.** Context Evidence Rate tăng từ 6–8/20 lên 20/20 ở cả 4 phương pháp, bằng Evidence Hit@3, như dự đoán. Nguyên nhân Context Evidence Rate thấp đúng là budget, không phải xếp hạng. Đổi lại, context dài hơn khoảng 3,3–3,7 lần (khoảng 600 → khoảng 2.040–2.160 ký tự), nên token input của agent tăng tương ứng.
+
+**Bước A (tiêu chí ở mục 1), áp dụng đúng thứ tự đã chốt:**
+1. Context Evidence Rate: 4 cấu hình budget 2.700 hòa 20/20; các cấu hình 800 bị loại.
+2. Hit@1: BM25, hybrid RRF, hybrid RRF + rerank hòa 18/20; dense (16/20) bị loại.
+3. MRR@10: ba cấu hình còn lại hòa 0.950.
+4. Context ngắn hơn: hybrid RRF 2129.1 < rerank 2134.0 < BM25 2161.7.
+
+→ **Ứng viên: hybrid RRF, budget 2.700.** Chênh lệch ở bước 4 rất nhỏ (khoảng 5–33 ký tự trung bình), nên trên dev ba ứng viên gần như ngang nhau; việc chọn hybrid RRF là theo đúng tiêu chí đã ghi, không phải vì nó tốt hơn rõ rệt. Metric này đo bằng **câu hỏi gốc**; agent sẽ tự viết query, nên bước B (agent trên dev) mới là xác nhận thực tế.
+
+**Bước B, dự kiến:** chạy agent Gemini đủ 23 câu dev cho baseline (dense, 800) và ứng viên (hybrid RRF, 2.700), cùng `max_searches` = 3, rồi chấm tay grounded answer, citation và abstention.
