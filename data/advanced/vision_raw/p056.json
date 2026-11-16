@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 7327,
+ "total_tokens": 1201,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 0.8\",\n      \"kind\": \"chart\",\n      \"title\": \"A large share of the population in Sub-Saharan Africa does not have access to social protection or a financial account\",\n      \"bbox\": [\n        488,\n        165,\n        785,\n        835\n      ],\n      \"content\": \"The chart is a bar chart showing the 'Population (%)' on the y-axis and regions on the x-axis. It compares two categories: 'Share of population exposed without social protection' (blue bars) and 'Share of population exposed without a financial account' (yellow bars). Regions included are: East Asia and Pacific, Europe and Central Asia, Latin America and the Caribbean, Middle East and North Africa, North America, South Asia, and Sub-Saharan Africa. For Sub-Saharan Africa, the 'Share of population exposed without social protection' is approximately 71.2% (as mentioned in the text). The chart shows that Sub-Saharan Africa has the highest share of population exposed without social protection among the regions shown. Source: World Bank calculations using data from the World Bank Group Scorecard indicator: the percentage of people at high risk of climate-related hazards globally, https://scorecard.worldbank.org/en/scorecard/home. Note: The figure shows the share of population exposed to any hazard that neither receives social protection benefits nor contributes to social insurance, and the share of population exposed to any hazard that does not have a financial account (including mobile money). For North America, the share of population exposed to any climate-related hazard and without social protection or access to a financial account is zero. See annex 3B in chapter 3 for more details.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 0.8",
+   "kind": "chart",
+   "title": "A large share of the population in Sub-Saharan Africa does not have access to social protection or a financial account",
+   "bbox": [
+    488,
+    165,
+    785,
+    835
+   ],
+   "content": "The chart is a bar chart showing the 'Population (%)' on the y-axis and regions on the x-axis. It compares two categories: 'Share of population exposed without social protection' (blue bars) and 'Share of population exposed without a financial account' (yellow bars). Regions included are: East Asia and Pacific, Europe and Central Asia, Latin America and the Caribbean, Middle East and North Africa, North America, South Asia, and Sub-Saharan Africa. For Sub-Saharan Africa, the 'Share of population exposed without social protection' is approximately 71.2% (as mentioned in the text). The chart shows that Sub-Saharan Africa has the highest share of population exposed without social protection among the regions shown. Source: World Bank calculations using data from the World Bank Group Scorecard indicator: the percentage of people at high risk of climate-related hazards globally, https://scorecard.worldbank.org/en/scorecard/home. Note: The figure shows the share of population exposed to any hazard that neither receives social protection benefits nor contributes to social insurance, and the share of population exposed to any hazard that does not have a financial account (including mobile money). For North America, the share of population exposed to any climate-related hazard and without social protection or access to a financial account is zero. See annex 3B in chapter 3 for more details."
+  }
+ ],
+ "parse_ok": true,
+ "page": 56,
+ "captions": [
+  "FIGURE O.8"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,39 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5409,
+ "total_tokens": 1278,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"MAP 0.2\",\n      \"kind\": \"map\",\n      \"title\": \"Large populations are exposed to extreme weather events in South Asia and East Asia and Pacific, and vulnerability is high in Sub-Saharan Africa\",\n      \"bbox\": [\n        84,\n        167,\n        405,\n        832\n      ],\n      \"content\": \"The map displays regional population data using three concentric circles: Gray circles represent the total sample population, blue circles represent the population exposed to any type of climate-related hazard, and red circles represent the population exposed to any type of climate-related hazard and vulnerable along at least one dimension. Regions shown include North America, Latin America and the Caribbean, Europe and Central Asia, South Asia, East Asia and Pacific, Sub-Saharan Africa, and Middle East and North Africa. A note specifies that in Sub-Saharan Africa, the blue circle is barely visible because almost everyone exposed is also vulnerable. Source: World Bank calculations using data from the World Bank Group Scorecard indicator: the percentage of people at high risk of climate-related hazards globally, https://scorecard.worldbank.org/en/scorecard/home.\"\n    },\n    {\n      \"label\": \"BOX 0.3\",\n      \"kind\": \"diagram\",\n      \"title\": \"How is the number of people at risk from extreme weather hazards calculated?\",\n      \"bbox\": [\n        619,\n        137,\n        812,\n        862\n      ],\n      \"content\": \"The diagram/text box defines the percentage of people at high risk from climate-related hazards globally as the number of people who are both exposed to a set of key climate-related hazards (floods, droughts, cyclones, and heatwaves) and are also highly vulnerable (having a propensity to be adversely affected or unable to cope with the effects), as a share of the global population. People are counted as being at high risk if they are exposed to at least one hazard and are identified as highly vulnerable on at least one dimension of vulnerability.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "MAP 0.2",
+   "kind": "map",
+   "title": "Large populations are exposed to extreme weather events in South Asia and East Asia and Pacific, and vulnerability is high in Sub-Saharan Africa",
+   "bbox": [
+    84,
+    167,
+    405,
+    832
+   ],
+   "content": "The map displays regional population data using three concentric circles: Gray circles represent the total sample population, blue circles represent the population exposed to any type of climate-related hazard, and red circles represent the population exposed to any type of climate-related hazard and vulnerable along at least one dimension. Regions shown include North America, Latin America and the Caribbean, Europe and Central Asia, South Asia, East Asia and Pacific, Sub-Saharan Africa, and Middle East and North Africa. A note specifies that in Sub-Saharan Africa, the blue circle is barely visible because almost everyone exposed is also vulnerable. Source: World Bank calculations using data from the World Bank Group Scorecard indicator: the percentage of people at high risk of climate-related hazards globally, https://scorecard.worldbank.org/en/scorecard/home."
+  },
+  {
+   "label": "BOX 0.3",
+   "kind": "diagram",
+   "title": "How is the number of people at risk from extreme weather hazards calculated?",
+   "bbox": [
+    619,
+    137,
+    812,
+    862
+   ],
+   "content": "The diagram/text box defines the percentage of people at high risk from climate-related hazards globally as the number of people who are both exposed to a set of key climate-related hazards (floods, droughts, cyclones, and heatwaves) and are also highly vulnerable (having a propensity to be adversely affected or unable to cope with the effects), as a share of the global population. People are counted as being at high risk if they are exposed to at least one hazard and are identified as highly vulnerable on at least one dimension of vulnerability."
+  }
+ ],
+ "parse_ok": true,
+ "page": 51,
+ "captions": [
+  "MAP O.2"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4476,
+ "total_tokens": 1205,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 1C.1\",\n      \"kind\": \"chart\",\n      \"title\": \"Concentration of extreme poverty in Sub-Saharan Africa and fragile and conflict-affected situations under various poverty rates for India in 2022\",\n      \"bbox\": [\n        376,\n        167,\n        705,\n        833\n      ],\n      \"content\": \"The chart is a stacked area chart showing the share of the global poor in 2022 (%) on the y-axis against various poverty rates in India (%) on the x-axis (ranging from 12 to 0). The legend includes: 'FCS in SSA' (dark blue), 'Non-FCS in SSA' (brown), 'FCS outside SSA' (red), and 'Other countries' (light blue). A vertical line indicates the 'India poverty rate in 2022'. The chart shows that as the poverty rate in India decreases (moving right on the x-axis), the share of the global poor in other categories increases. Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org. Note: FCS = fragile and conflict-affected situations; SSA = Sub-Saharan Africa. Figure shows the share of the global extreme poor in 2022 under various scenarios for extreme poverty in India. Extreme poverty is reported using the $2.15 per person per day poverty line (expressed in 2017 purchasing power parity dollars). Moving along the horizontal axis to the right decreases extreme poverty in India. Vertical line is drawn at the India estimate included in the baseline results (figure 1.6, panel a, in the main text).\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 1C.1",
+   "kind": "chart",
+   "title": "Concentration of extreme poverty in Sub-Saharan Africa and fragile and conflict-affected situations under various poverty rates for India in 2022",
+   "bbox": [
+    376,
+    167,
+    705,
+    833
+   ],
+   "content": "The chart is a stacked area chart showing the share of the global poor in 2022 (%) on the y-axis against various poverty rates in India (%) on the x-axis (ranging from 12 to 0). The legend includes: 'FCS in SSA' (dark blue), 'Non-FCS in SSA' (brown), 'FCS outside SSA' (red), and 'Other countries' (light blue). A vertical line indicates the 'India poverty rate in 2022'. The chart shows that as the poverty rate in India decreases (moving right on the x-axis), the share of the global poor in other categories increases. Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org. Note: FCS = fragile and conflict-affected situations; SSA = Sub-Saharan Africa. Figure shows the share of the global extreme poor in 2022 under various scenarios for extreme poverty in India. Extreme poverty is reported using the $2.15 per person per day poverty line (expressed in 2017 purchasing power parity dollars). Moving along the horizontal axis to the right decreases extreme poverty in India. Vertical line is drawn at the India estimate included in the baseline results (figure 1.6, panel a, in the main text)."
+  }
+ ],
+ "parse_ok": true,
+ "page": 126,
+ "captions": [
+  "FIGURE 1C.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

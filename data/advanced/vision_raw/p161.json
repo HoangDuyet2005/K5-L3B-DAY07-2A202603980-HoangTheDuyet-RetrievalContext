@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 3846,
+ "total_tokens": 1270,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 2.11\",\n      \"kind\": \"chart\",\n      \"title\": \"More economies moved to a lower-inequality group than to a higher-inequality group, 2000–20\",\n      \"bbox\": [\n        158,\n        168,\n        602,\n        832\n      ],\n      \"content\": \"This is a Sankey diagram showing the flow of economies between inequality groups (High, Moderate, Low) over five-year periods from 2000 to 2020. The y-axis represents the number of economies in each group. High inequality is defined as Gini index > 40, Moderate as 30-40, and Low as < 30. Data labels for 2000: High=70, Moderate=65, Low=14. Data labels for 2005: High=70, Moderate=65, Low=14. Data labels for 2010: High=62, Moderate=62, Low=15. Data labels for 2015: High=56, Moderate=68, Low=18. Data labels for 2020: High=47, Moderate=68, Low=20. Flows between groups are labeled with the number of economies moving. Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org. Note: High inequality is defined as economies with a Gini index above 40, moderate as those between 30 and 40, and low as those below 30. This chart shows the number of economies in each group in the start year and end year at five-year periods. When no survey is available for a given year, data from the most recent survey year are used. The earliest survey is backcasted when the first survey is available only after 2000 to avoid missing values.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 2.11",
+   "kind": "chart",
+   "title": "More economies moved to a lower-inequality group than to a higher-inequality group, 2000–20",
+   "bbox": [
+    158,
+    168,
+    602,
+    832
+   ],
+   "content": "This is a Sankey diagram showing the flow of economies between inequality groups (High, Moderate, Low) over five-year periods from 2000 to 2020. The y-axis represents the number of economies in each group. High inequality is defined as Gini index > 40, Moderate as 30-40, and Low as < 30. Data labels for 2000: High=70, Moderate=65, Low=14. Data labels for 2005: High=70, Moderate=65, Low=14. Data labels for 2010: High=62, Moderate=62, Low=15. Data labels for 2015: High=56, Moderate=68, Low=18. Data labels for 2020: High=47, Moderate=68, Low=20. Flows between groups are labeled with the number of economies moving. Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org. Note: High inequality is defined as economies with a Gini index above 40, moderate as those between 30 and 40, and low as those below 30. This chart shows the number of economies in each group in the start year and end year at five-year periods. When no survey is available for a given year, data from the most recent survey year are used. The earliest survey is backcasted when the first survey is available only after 2000 to avoid missing values."
+  }
+ ],
+ "parse_ok": true,
+ "page": 161,
+ "captions": [
+  "FIGURE 2.11"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

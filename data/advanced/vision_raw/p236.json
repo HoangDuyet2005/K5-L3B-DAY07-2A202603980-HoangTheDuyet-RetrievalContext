@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 2802,
+ "total_tokens": 1213,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 3A.1\",\n      \"kind\": \"chart\",\n      \"title\": \"The evolution of World Bank Vision and Scorecard indicators for food and nutrition security\",\n      \"bbox\": [\n        85,\n        155,\n        545,\n        845\n      ],\n      \"content\": \"The figure contains three line charts showing trends in food and nutrition security indicators. Panel a: Global prevalence of undernourishment (%), x-axis 2001-2023, y-axis 7-14%. Shows a downward trend from approx. 13.5% in 2001 to approx. 8% around 2015-2017, followed by a slight increase. Panel b: Global prevalence of stunting of children under five years (%), x-axis 2000-2022, y-axis 20-34%. Shows a steady downward trend from approx. 33% in 2000 to approx. 22% in 2022. Panel c: Global prevalence of moderate or severe food insecurity (%), x-axis 2014-2023, y-axis 21-31%. Shows an upward trend from approx. 22% in 2014 to approx. 25% in 2019, followed by a sharp increase to approx. 29% in 2020, remaining relatively stable thereafter. Sources: Panels a and c are reported by the Food and Agriculture Organization (FAO); panel b is reported by the United Nations Children’s Fund, the World Health Organization, and the World Bank, all accessed through the FAOSTAT database.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 3A.1",
+   "kind": "chart",
+   "title": "The evolution of World Bank Vision and Scorecard indicators for food and nutrition security",
+   "bbox": [
+    85,
+    155,
+    545,
+    845
+   ],
+   "content": "The figure contains three line charts showing trends in food and nutrition security indicators. Panel a: Global prevalence of undernourishment (%), x-axis 2001-2023, y-axis 7-14%. Shows a downward trend from approx. 13.5% in 2001 to approx. 8% around 2015-2017, followed by a slight increase. Panel b: Global prevalence of stunting of children under five years (%), x-axis 2000-2022, y-axis 20-34%. Shows a steady downward trend from approx. 33% in 2000 to approx. 22% in 2022. Panel c: Global prevalence of moderate or severe food insecurity (%), x-axis 2014-2023, y-axis 21-31%. Shows an upward trend from approx. 22% in 2014 to approx. 25% in 2019, followed by a sharp increase to approx. 29% in 2020, remaining relatively stable thereafter. Sources: Panels a and c are reported by the Food and Agriculture Organization (FAO); panel b is reported by the United Nations Children’s Fund, the World Health Organization, and the World Bank, all accessed through the FAOSTAT database."
+  }
+ ],
+ "parse_ok": true,
+ "page": 236,
+ "captions": [
+  "FIGURE 3A.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

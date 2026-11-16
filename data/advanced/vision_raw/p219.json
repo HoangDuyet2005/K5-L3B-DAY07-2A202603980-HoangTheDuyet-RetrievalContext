@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4289,
+ "total_tokens": 1210,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 3.11\",\n      \"kind\": \"chart\",\n      \"title\": \"Lower emissions from poverty alleviation projected with energy efficiency and decarbonization\",\n      \"bbox\": [\n        333,\n        167,\n        645,\n        833\n      ],\n      \"content\": \"The figure consists of two line charts showing projected emissions relative to global 2019 CO2e emissions (%) from 2022 to 2050. Panel a shows 'Poverty at $2.15' and Panel b shows 'Poverty at $6.85'. Both panels share the same legend: 'Baseline' (blue), 'Energy efficient' (yellow), and 'Decarbonizing' (red). In both panels, the Baseline scenario shows the highest emissions, followed by Energy efficient, with Decarbonizing showing the lowest emissions. In panel a, the values range from 0 to approx. 8% by 2050. In panel b, the values range from 0 to approx. 45% (Baseline), 30% (Energy efficient), and 22% (Decarbonizing) by 2050. Source: Wollburg, Hallegatte, and Mahler 2023. Note: CO2e = carbon dioxide equivalent. The figure shows additional emissions relative to 2019 if poverty were to be alleviated at the $2.15 and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). The baseline scenario uses historical emission intensities. Energy-efficient and decarbonizing scenarios assume that all countries achieve the top 10 percent historical performance in energy efficiency and decarbonization.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 3.11",
+   "kind": "chart",
+   "title": "Lower emissions from poverty alleviation projected with energy efficiency and decarbonization",
+   "bbox": [
+    333,
+    167,
+    645,
+    833
+   ],
+   "content": "The figure consists of two line charts showing projected emissions relative to global 2019 CO2e emissions (%) from 2022 to 2050. Panel a shows 'Poverty at $2.15' and Panel b shows 'Poverty at $6.85'. Both panels share the same legend: 'Baseline' (blue), 'Energy efficient' (yellow), and 'Decarbonizing' (red). In both panels, the Baseline scenario shows the highest emissions, followed by Energy efficient, with Decarbonizing showing the lowest emissions. In panel a, the values range from 0 to approx. 8% by 2050. In panel b, the values range from 0 to approx. 45% (Baseline), 30% (Energy efficient), and 22% (Decarbonizing) by 2050. Source: Wollburg, Hallegatte, and Mahler 2023. Note: CO2e = carbon dioxide equivalent. The figure shows additional emissions relative to 2019 if poverty were to be alleviated at the $2.15 and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). The baseline scenario uses historical emission intensities. Energy-efficient and decarbonizing scenarios assume that all countries achieve the top 10 percent historical performance in energy efficiency and decarbonization."
+  }
+ ],
+ "parse_ok": true,
+ "page": 219,
+ "captions": [
+  "FIGURE 3.11"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

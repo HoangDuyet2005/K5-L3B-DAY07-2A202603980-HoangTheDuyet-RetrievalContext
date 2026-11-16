@@ -1,0 +1,41 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4521,
+ "total_tokens": 1189,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE O.15\",\n      \"kind\": \"chart\",\n      \"title\": \"Positive relationship between income levels and GHG emissions (continued)\",\n      \"bbox\": [\n        85,\n        168,\n        375,\n        832\n      ],\n      \"content\": {\n        \"chart_type\": \"stacked area chart\",\n        \"title_panel_c\": \"c. High-income and upper-middle-income countries are responsible for 90 percent of historical emissions\",\n        \"y_axis\": \"Cumulative CO2 emissions (gt)\",\n        \"x_axis\": \"Years from 1850 to 2020\",\n        \"legend\": [\n          \"Low-income\",\n          \"Lower-middle-income\",\n          \"Upper-middle-income\",\n          \"High-income\"\n        ],\n        \"data_trends\": \"The chart shows a cumulative increase in CO2 emissions from 1850 to 2020. High-income countries represent the largest share of cumulative emissions, followed by upper-middle-income countries. Lower-middle-income and low-income countries represent a very small fraction of the total cumulative emissions.\",\n        \"sources\": \"Panel c: PRIMAP-hist data from Gütschow, Pflüger, and Busch 2024.\",\n        \"notes\": \"CO2e = carbon dioxide equivalent; GHG = greenhouse gas; CO2 emissions are cumulative in gigatons (gt) and do not include emissions from LULUCF. Country income groups are fixed at 2022 definitions.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE O.15",
+   "kind": "chart",
+   "title": "Positive relationship between income levels and GHG emissions (continued)",
+   "bbox": [
+    85,
+    168,
+    375,
+    832
+   ],
+   "content": {
+    "chart_type": "stacked area chart",
+    "title_panel_c": "c. High-income and upper-middle-income countries are responsible for 90 percent of historical emissions",
+    "y_axis": "Cumulative CO2 emissions (gt)",
+    "x_axis": "Years from 1850 to 2020",
+    "legend": [
+     "Low-income",
+     "Lower-middle-income",
+     "Upper-middle-income",
+     "High-income"
+    ],
+    "data_trends": "The chart shows a cumulative increase in CO2 emissions from 1850 to 2020. High-income countries represent the largest share of cumulative emissions, followed by upper-middle-income countries. Lower-middle-income and low-income countries represent a very small fraction of the total cumulative emissions.",
+    "sources": "Panel c: PRIMAP-hist data from Gütschow, Pflüger, and Busch 2024.",
+    "notes": "CO2e = carbon dioxide equivalent; GHG = greenhouse gas; CO2 emissions are cumulative in gigatons (gt) and do not include emissions from LULUCF. Country income groups are fixed at 2022 definitions."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 71,
+ "captions": [
+  "FIGURE O.15"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

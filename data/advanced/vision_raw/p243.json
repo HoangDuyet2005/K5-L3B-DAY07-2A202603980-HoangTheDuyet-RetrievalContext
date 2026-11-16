@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 2831,
+ "total_tokens": 1142,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 3D.1\",\n      \"kind\": \"chart\",\n      \"title\": \"Greenhouse gas emissions and capture from LULUCF, 2022\",\n      \"bbox\": [\n        238,\n        355,\n        598,\n        817\n      ],\n      \"content\": \"The chart is a horizontal stacked bar chart showing GHG emissions (mt CO2e) by region. The x-axis ranges from -2,500 to 2,500. Negative values represent capture (Forest land), and positive values represent emissions (Deforestation, Organic soil, Other land). Legend: Deforestation (dark blue), Forest land (tan), Organic soil (red), Other land (light blue). Regions: Sub-Saharan Africa (high emissions, low capture), South Asia (low emissions, low capture), North America (moderate emissions, moderate capture), Middle East and North Africa (low emissions, low capture), Latin America and the Caribbean (high emissions, moderate capture), Europe and Central Asia (moderate emissions, high capture), East Asia and Pacific (high emissions, high capture). Source: Emissions Database for Global Atmospheric Research and Grassi et al. 2023. Note: Values shown are from 2022. CO2e = carbon dioxide equivalent; GHG = greenhouse gas; LULUCF = land use, land use change, and forestry; mt = megaton.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 3D.1",
+   "kind": "chart",
+   "title": "Greenhouse gas emissions and capture from LULUCF, 2022",
+   "bbox": [
+    238,
+    355,
+    598,
+    817
+   ],
+   "content": "The chart is a horizontal stacked bar chart showing GHG emissions (mt CO2e) by region. The x-axis ranges from -2,500 to 2,500. Negative values represent capture (Forest land), and positive values represent emissions (Deforestation, Organic soil, Other land). Legend: Deforestation (dark blue), Forest land (tan), Organic soil (red), Other land (light blue). Regions: Sub-Saharan Africa (high emissions, low capture), South Asia (low emissions, low capture), North America (moderate emissions, moderate capture), Middle East and North Africa (low emissions, low capture), Latin America and the Caribbean (high emissions, moderate capture), Europe and Central Asia (moderate emissions, high capture), East Asia and Pacific (high emissions, high capture). Source: Emissions Database for Global Atmospheric Research and Grassi et al. 2023. Note: Values shown are from 2022. CO2e = carbon dioxide equivalent; GHG = greenhouse gas; LULUCF = land use, land use change, and forestry; mt = megaton."
+  }
+ ],
+ "parse_ok": true,
+ "page": 243,
+ "captions": [
+  "FIGURE 3D.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

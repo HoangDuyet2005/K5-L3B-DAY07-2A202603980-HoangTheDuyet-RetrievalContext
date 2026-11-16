@@ -1,0 +1,74 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5013,
+ "total_tokens": 1536,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 1.5\",\n      \"kind\": \"chart\",\n      \"title\": \"Poverty forecasts through 2030 by region\",\n      \"bbox\": [\n        180,\n        165,\n        515,\n        835\n      ],\n      \"content\": {\n        \"panels\": [\n          {\n            \"title\": \"a. Poverty rates at $2.15\",\n            \"y_axis\": \"Poverty rate at $2.15 (%)\",\n            \"x_axis\": \"Years\",\n            \"legend\": [\n              \"Europe and Central Asia\",\n              \"East Asia and Pacific\",\n              \"Latin America and the Caribbean\",\n              \"Middle East and North Africa\",\n              \"South Asia\",\n              \"Sub-Saharan Africa\",\n              \"Rest of the world\"\n            ],\n            \"data_labels\": {\n              \"Sub-Saharan Africa\": \"32.7\",\n              \"South Asia\": \"9.0\",\n              \"Middle East and North Africa\": \"2.9\"\n            }\n          },\n          {\n            \"title\": \"b. Poverty rates at $6.85\",\n            \"y_axis\": \"Poverty rate at $6.85 (%)\",\n            \"x_axis\": \"Years\",\n            \"legend\": [\n              \"Europe and Central Asia\",\n              \"East Asia and Pacific\",\n              \"Latin America and the Caribbean\",\n              \"Middle East and North Africa\",\n              \"South Asia\",\n              \"Sub-Saharan Africa\",\n              \"Rest of the world\"\n            ],\n            \"data_labels\": {\n              \"Sub-Saharan Africa\": \"84.9\",\n              \"South Asia\": \"41.2\",\n              \"Middle East and North Africa\": \"21.3\",\n              \"Latin America and the Caribbean\": \"17.9\",\n              \"East Asia and Pacific\": \"5.6\",\n              \"Europe and Central Asia\": \"1.2\",\n              \"Rest of the world\": \"63.9\"\n            }\n          }\n        ],\n        \"source\": \"World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\",\n        \"note\": \"Poverty rates are reported for the $2.15 and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). Between 2022 and 2029 poverty is projected based on per capita gross domestic product growth projections in Global Economic Prospects, June 2024 (World Bank 2024d), complemented by the Macro Poverty Outlook (World Bank 2024e) and the World Economic Outlook (IMF 2024); for 2030, average annual historic per capita growth rates (2010–19) are used. In Sub-Saharan Africa and in the Middle East and North Africa, surveys cover less than 50 percent of the population after 2019 and 2018, respectively. See annex 1A for more details on the projections.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 1.5",
+   "kind": "chart",
+   "title": "Poverty forecasts through 2030 by region",
+   "bbox": [
+    180,
+    165,
+    515,
+    835
+   ],
+   "content": {
+    "panels": [
+     {
+      "title": "a. Poverty rates at $2.15",
+      "y_axis": "Poverty rate at $2.15 (%)",
+      "x_axis": "Years",
+      "legend": [
+       "Europe and Central Asia",
+       "East Asia and Pacific",
+       "Latin America and the Caribbean",
+       "Middle East and North Africa",
+       "South Asia",
+       "Sub-Saharan Africa",
+       "Rest of the world"
+      ],
+      "data_labels": {
+       "Sub-Saharan Africa": "32.7",
+       "South Asia": "9.0",
+       "Middle East and North Africa": "2.9"
+      }
+     },
+     {
+      "title": "b. Poverty rates at $6.85",
+      "y_axis": "Poverty rate at $6.85 (%)",
+      "x_axis": "Years",
+      "legend": [
+       "Europe and Central Asia",
+       "East Asia and Pacific",
+       "Latin America and the Caribbean",
+       "Middle East and North Africa",
+       "South Asia",
+       "Sub-Saharan Africa",
+       "Rest of the world"
+      ],
+      "data_labels": {
+       "Sub-Saharan Africa": "84.9",
+       "South Asia": "41.2",
+       "Middle East and North Africa": "21.3",
+       "Latin America and the Caribbean": "17.9",
+       "East Asia and Pacific": "5.6",
+       "Europe and Central Asia": "1.2",
+       "Rest of the world": "63.9"
+      }
+     }
+    ],
+    "source": "World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.",
+    "note": "Poverty rates are reported for the $2.15 and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). Between 2022 and 2029 poverty is projected based on per capita gross domestic product growth projections in Global Economic Prospects, June 2024 (World Bank 2024d), complemented by the Macro Poverty Outlook (World Bank 2024e) and the World Economic Outlook (IMF 2024); for 2030, average annual historic per capita growth rates (2010–19) are used. In Sub-Saharan Africa and in the Middle East and North Africa, surveys cover less than 50 percent of the population after 2019 and 2018, respectively. See annex 1A for more details on the projections."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 96,
+ "captions": [
+  "FIGURE 1.5"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

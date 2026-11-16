@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4720,
+ "total_tokens": 1048,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 1.10\",\n      \"kind\": \"chart\",\n      \"title\": \"Comparison of rural and urban poverty rates, 2022\",\n      \"bbox\": [\n        83,\n        167,\n        830,\n        756\n      ],\n      \"content\": \"The figure consists of two donut charts comparing the share of the global poor in rural and urban areas at two different poverty lines. Legend: Rural (dark blue), Urban (gold). Panel a: Share of global poor at $2.15. The chart shows a larger proportion of the global poor at this poverty line reside in rural areas, with Sub-Saharan Africa being the largest segment, followed by South Asia and East Asia and Pacific. Panel b: Share of global poor at $6.85. The chart shows a more balanced distribution between rural and urban areas compared to panel a, with South Asia and Sub-Saharan Africa being the dominant regions for both rural and urban poor.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 1.10",
+   "kind": "chart",
+   "title": "Comparison of rural and urban poverty rates, 2022",
+   "bbox": [
+    83,
+    167,
+    830,
+    756
+   ],
+   "content": "The figure consists of two donut charts comparing the share of the global poor in rural and urban areas at two different poverty lines. Legend: Rural (dark blue), Urban (gold). Panel a: Share of global poor at $2.15. The chart shows a larger proportion of the global poor at this poverty line reside in rural areas, with Sub-Saharan Africa being the largest segment, followed by South Asia and East Asia and Pacific. Panel b: Share of global poor at $6.85. The chart shows a more balanced distribution between rural and urban areas compared to panel a, with South Asia and Sub-Saharan Africa being the dominant regions for both rural and urban poor."
+  }
+ ],
+ "parse_ok": true,
+ "page": 109,
+ "captions": [
+  "FIGURE 1.10"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

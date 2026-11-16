@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.6-flash",
+ "finish_reason": "STOP",
+ "latency_ms": 7279,
+ "total_tokens": 1246,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 3.1\",\n      \"kind\": \"diagram\",\n      \"title\": \"Livable planet dimensions\",\n      \"bbox\": [421, 168, 880, 752],\n      \"content\": \"A circular diagram depicting three interconnected, equal segments forming a continuous circular loop with arrows:\\n1. Climate mitigation and adaptation\\n2. Biodiversity and nature\\n3. Life essentials (air, water, food)\\n\\nSource: Original figure for this publication (World Bank, n.d.).\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 3.1",
+   "kind": "diagram",
+   "title": "Livable planet dimensions",
+   "bbox": [
+    421,
+    168,
+    880,
+    752
+   ],
+   "content": "A circular diagram depicting three interconnected, equal segments forming a continuous circular loop with arrows:\n1. Climate mitigation and adaptation\n2. Biodiversity and nature\n3. Life essentials (air, water, food)\n\nSource: Original figure for this publication (World Bank, n.d.)."
+  }
+ ],
+ "parse_ok": true,
+ "page": 196,
+ "captions": [
+  "FIGURE 3.1"
+ ],
+ "model_requested": "gemini-3.5-flash"
+}

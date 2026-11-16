@@ -1,0 +1,41 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4219,
+ "total_tokens": 1233,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 2.14\",\n      \"kind\": \"chart\",\n      \"title\": \"Most economies experienced a decline in inequality after COVID-19\",\n      \"bbox\": [\n        241,\n        167,\n        600,\n        833\n      ],\n      \"content\": {\n        \"chart_type\": \"scatter plot with trend line\",\n        \"y_axis\": \"Annualized changes in Gini index: before and after COVID-19 (%)\",\n        \"x_axis\": \"Pre-COVID-19 Gini index\",\n        \"legend\": [\n          \"Low-income\",\n          \"Lower-middle-income\",\n          \"Upper-middle-income\",\n          \"High-income\",\n          \"Fitted line\"\n        ],\n        \"data_points\": \"The chart displays 72 data points representing economies, color-coded by income group. The trend line shows a slight negative slope, indicating that countries with higher pre-COVID-19 Gini indices experienced larger declines in inequality. Most points are clustered between 25 and 50 on the x-axis and -4 to 2 on the y-axis.\",\n        \"source\": \"World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\",\n        \"note\": \"Sample consists of 72 economies that reported a survey after 2020 and had comparable data from a pre-COVID-19 round (2019 or earlier). The changes in inequality are calculated by comparing the Gini value from the most recent round of survey conducted in an economy before the COVID-19 pandemic, with its latest available and comparable round after the pandemic. The trend line, reported for all economies, is not weighted by population size.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 2.14",
+   "kind": "chart",
+   "title": "Most economies experienced a decline in inequality after COVID-19",
+   "bbox": [
+    241,
+    167,
+    600,
+    833
+   ],
+   "content": {
+    "chart_type": "scatter plot with trend line",
+    "y_axis": "Annualized changes in Gini index: before and after COVID-19 (%)",
+    "x_axis": "Pre-COVID-19 Gini index",
+    "legend": [
+     "Low-income",
+     "Lower-middle-income",
+     "Upper-middle-income",
+     "High-income",
+     "Fitted line"
+    ],
+    "data_points": "The chart displays 72 data points representing economies, color-coded by income group. The trend line shows a slight negative slope, indicating that countries with higher pre-COVID-19 Gini indices experienced larger declines in inequality. Most points are clustered between 25 and 50 on the x-axis and -4 to 2 on the y-axis.",
+    "source": "World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.",
+    "note": "Sample consists of 72 economies that reported a survey after 2020 and had comparable data from a pre-COVID-19 round (2019 or earlier). The changes in inequality are calculated by comparing the Gini value from the most recent round of survey conducted in an economy before the COVID-19 pandemic, with its latest available and comparable round after the pandemic. The trend line, reported for all economies, is not weighted by population size."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 164,
+ "captions": [
+  "FIGURE 2.14"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

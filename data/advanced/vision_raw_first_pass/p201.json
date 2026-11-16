@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 3224,
+ "total_tokens": 1073,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE B3.1.1\",\n      \"kind\": \"diagram\",\n      \"title\": \"Counting people at high risk from climate-related hazards\",\n      \"bbox\": [\n        443,\n        165,\n        785,\n        835\n      ],\n      \"content\": \"The diagram illustrates the criteria for determining if a person is at risk from climate hazards. The logic is: (Exposed to climate hazards) AND (Vulnerable to experiencing losses). 'Exposed to climate hazards' is defined as experiencing 'Any 1' of: Flood, Drought, Extreme heat, or Cyclone. 'Vulnerable to experiencing losses' is defined as being either 'Physically vulnerable' OR 'Unable to cope'. 'Unable to cope' is defined as experiencing 'Any 1' of: No access to water, No access to electricity, Low access to services and markets, Low income, No access to social protection, No access to financial instrument, or Low education level. Source: World Bank Group Scorecard indicator, https://scorecard.worldbank.org/en/scorecard/home.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE B3.1.1",
+   "kind": "diagram",
+   "title": "Counting people at high risk from climate-related hazards",
+   "bbox": [
+    443,
+    165,
+    785,
+    835
+   ],
+   "content": "The diagram illustrates the criteria for determining if a person is at risk from climate hazards. The logic is: (Exposed to climate hazards) AND (Vulnerable to experiencing losses). 'Exposed to climate hazards' is defined as experiencing 'Any 1' of: Flood, Drought, Extreme heat, or Cyclone. 'Vulnerable to experiencing losses' is defined as being either 'Physically vulnerable' OR 'Unable to cope'. 'Unable to cope' is defined as experiencing 'Any 1' of: No access to water, No access to electricity, Low access to services and markets, Low income, No access to social protection, No access to financial instrument, or Low education level. Source: World Bank Group Scorecard indicator, https://scorecard.worldbank.org/en/scorecard/home."
+  }
+ ],
+ "parse_ok": true,
+ "page": 201,
+ "captions": [
+  "FIGURE B3.1.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

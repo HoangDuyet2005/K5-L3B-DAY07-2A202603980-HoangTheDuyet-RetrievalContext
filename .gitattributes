@@ -1,2 +1,7 @@
 # Keep LF in locked benchmark files so their recorded sha256 is identical on every OS.
 data/benchmark/*.json text eol=lf
+
+# Advanced challenge: keep bytes as written so the sha256 values in LOCK.json and run metadata stay valid
+data/advanced/** -text
+results/advanced/** -text
+src/adv/** -text

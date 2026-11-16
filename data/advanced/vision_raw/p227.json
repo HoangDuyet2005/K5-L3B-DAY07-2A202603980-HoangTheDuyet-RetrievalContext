@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 7002,
+ "total_tokens": 1291,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 3.13\",\n      \"kind\": \"chart\",\n      \"title\": \"Projected movement toward Net Zero 2050 by country income groups shows that high-income and upper-middle-income countries must lead the transition\",\n      \"bbox\": [\n        85,\n        167,\n        645,\n        833\n      ],\n      \"content\": \"The figure consists of four line charts showing GHG emissions per capita (t CO2e) from 2020 to 2050 under two scenarios: 'Current policies' and 'Net Zero 2050'. Panels: a. High-income countries, b. Upper-middle-income countries, c. Lower-middle-income countries, d. Low-income countries. Axis: X-axis represents years (2020-2050), Y-axis represents GHG emissions per capita (t CO2e) ranging from -1 to 11. Trends: In high-income and upper-middle-income countries, 'Net Zero 2050' shows a sharp decline from 2020 levels (approx. 10 and 9 respectively) toward near-zero by 2050, while 'Current policies' shows a much slower decline. In lower-middle-income countries, 'Net Zero 2050' shows a decline from approx. 3 to near-zero, while 'Current policies' shows a slight increase. In low-income countries, 'Net Zero 2050' shows a decline from approx. 1 to near-zero, while 'Current policies' shows a slight increase. Source: NGFS 2023. Note: GHG = greenhouse gas; NGFS = Network for Greening the Financial System; t CO2e = tons of carbon dioxide equivalent. Emissions per capita are shown in tons (t) of CO2e. Emissions from NGFS (2023) are adjusted to match levels in 2020 in figure 3.6. Emissions come from the NGFS Net Zero 2050 scenario.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 3.13",
+   "kind": "chart",
+   "title": "Projected movement toward Net Zero 2050 by country income groups shows that high-income and upper-middle-income countries must lead the transition",
+   "bbox": [
+    85,
+    167,
+    645,
+    833
+   ],
+   "content": "The figure consists of four line charts showing GHG emissions per capita (t CO2e) from 2020 to 2050 under two scenarios: 'Current policies' and 'Net Zero 2050'. Panels: a. High-income countries, b. Upper-middle-income countries, c. Lower-middle-income countries, d. Low-income countries. Axis: X-axis represents years (2020-2050), Y-axis represents GHG emissions per capita (t CO2e) ranging from -1 to 11. Trends: In high-income and upper-middle-income countries, 'Net Zero 2050' shows a sharp decline from 2020 levels (approx. 10 and 9 respectively) toward near-zero by 2050, while 'Current policies' shows a much slower decline. In lower-middle-income countries, 'Net Zero 2050' shows a decline from approx. 3 to near-zero, while 'Current policies' shows a slight increase. In low-income countries, 'Net Zero 2050' shows a decline from approx. 1 to near-zero, while 'Current policies' shows a slight increase. Source: NGFS 2023. Note: GHG = greenhouse gas; NGFS = Network for Greening the Financial System; t CO2e = tons of carbon dioxide equivalent. Emissions per capita are shown in tons (t) of CO2e. Emissions from NGFS (2023) are adjusted to match levels in 2020 in figure 3.6. Emissions come from the NGFS Net Zero 2050 scenario."
+  }
+ ],
+ "parse_ok": true,
+ "page": 227,
+ "captions": [
+  "FIGURE 3.13"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

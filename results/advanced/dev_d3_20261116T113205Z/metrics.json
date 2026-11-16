@@ -1,0 +1,59 @@
+{
+  "run": "dev_d3_20261116T113205Z",
+  "split": "dev",
+  "pass": {
+    "n": 17,
+    "N": 18
+  },
+  "pass_rate_percent": 94.44,
+  "threshold_met_90_percent": true,
+  "by_group": {
+    "table": {
+      "n": 4,
+      "N": 4
+    },
+    "diagram": {
+      "n": 2,
+      "N": 2
+    },
+    "chart": {
+      "n": 3,
+      "N": 3
+    },
+    "text": {
+      "n": 3,
+      "N": 4
+    },
+    "multi-hop": {
+      "n": 2,
+      "N": 2
+    },
+    "unanswerable": {
+      "n": 3,
+      "N": 3
+    }
+  },
+  "system_errors": 0,
+  "failed": [
+    {
+      "query_id": "adv-dev-11",
+      "group": "text",
+      "status": "abstain",
+      "reason": "FAIL: abstained. Retrieval never returned p201/p52 text ('103 economies ... 86 percent'); BM25 ranked passages repeating 'risk/climate/hazards' higher."
+    }
+  ],
+  "total_seconds": 191.7,
+  "median_case_ms": 9901.0,
+  "model_calls": 41,
+  "tokens": {
+    "prompt_tokens": 127626,
+    "output_tokens": 2299,
+    "thought_tokens": 0,
+    "total_tokens": 129925
+  },
+  "cost_usd": 0.0,
+  "cost_note": "Gemini API free tier (no billing account); token counts above",
+  "reviewers": [
+    "Claude draft - student must confirm on the PDF"
+  ]
+}

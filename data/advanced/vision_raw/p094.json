@@ -1,0 +1,80 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4265,
+ "total_tokens": 1360,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 1.4\",\n      \"kind\": \"chart\",\n      \"title\": \"The regional distribution of poverty changes depending on the standard, but overall, most poor people are concentrated in Sub-Saharan Africa and South Asia\",\n      \"bbox\": [\n        87,\n        165,\n        905,\n        835\n      ],\n      \"content\": {\n        \"chart_type\": \"donut chart\",\n        \"panels\": [\n          {\n            \"title\": \"a. Extreme poverty ($2.15 per person per day) is concentrated in Sub-Saharan Africa\",\n            \"legend\": [\n              \"East Asia and Pacific\",\n              \"Europe and Central Asia\",\n              \"Latin America and the Caribbean\",\n              \"Middle East and North Africa\",\n              \"South Asia\",\n              \"Sub-Saharan Africa\",\n              \"Rest of the world\"\n            ],\n            \"data_labels\": [\n              \"Congo, Dem. Rep.\",\n              \"Nigeria\",\n              \"Tanzania\",\n              \"Mozambique\",\n              \"Madagascar\",\n              \"Sudan\",\n              \"Ethiopia\",\n              \"Uganda\",\n              \"India\",\n              \"Yemen, Rep.\"\n            ]\n          },\n          {\n            \"title\": \"b. Poverty at the $3.65 line is concentrated in Sub-Saharan Africa and South Asia\",\n            \"legend\": [\n              \"East Asia and Pacific\",\n              \"Europe and Central Asia\",\n              \"Latin America and the Caribbean\",\n              \"Middle East and North Africa\",\n              \"South Asia\",\n              \"Sub-Saharan Africa\",\n              \"Rest of the world\"\n            ],\n            \"data_labels\": [\n              \"Nigeria\",\n              \"Congo, Dem. Rep.\",\n              \"Ethiopia\",\n              \"Tanzania\",\n              \"Kenya\",\n              \"Sudan\",\n              \"India\",\n              \"Pakistan\",\n              \"Bangladesh\",\n              \"Indonesia\"\n            ]\n          }\n        ],\n        \"description\": \"Two donut charts showing the regional distribution of poverty. Panel (a) shows extreme poverty ($2.15/day) with a large concentration in Sub-Saharan Africa. Panel (b) shows poverty at the $3.65/day line, showing a significant concentration in both Sub-Saharan Africa and South Asia.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 1.4",
+   "kind": "chart",
+   "title": "The regional distribution of poverty changes depending on the standard, but overall, most poor people are concentrated in Sub-Saharan Africa and South Asia",
+   "bbox": [
+    87,
+    165,
+    905,
+    835
+   ],
+   "content": {
+    "chart_type": "donut chart",
+    "panels": [
+     {
+      "title": "a. Extreme poverty ($2.15 per person per day) is concentrated in Sub-Saharan Africa",
+      "legend": [
+       "East Asia and Pacific",
+       "Europe and Central Asia",
+       "Latin America and the Caribbean",
+       "Middle East and North Africa",
+       "South Asia",
+       "Sub-Saharan Africa",
+       "Rest of the world"
+      ],
+      "data_labels": [
+       "Congo, Dem. Rep.",
+       "Nigeria",
+       "Tanzania",
+       "Mozambique",
+       "Madagascar",
+       "Sudan",
+       "Ethiopia",
+       "Uganda",
+       "India",
+       "Yemen, Rep."
+      ]
+     },
+     {
+      "title": "b. Poverty at the $3.65 line is concentrated in Sub-Saharan Africa and South Asia",
+      "legend": [
+       "East Asia and Pacific",
+       "Europe and Central Asia",
+       "Latin America and the Caribbean",
+       "Middle East and North Africa",
+       "South Asia",
+       "Sub-Saharan Africa",
+       "Rest of the world"
+      ],
+      "data_labels": [
+       "Nigeria",
+       "Congo, Dem. Rep.",
+       "Ethiopia",
+       "Tanzania",
+       "Kenya",
+       "Sudan",
+       "India",
+       "Pakistan",
+       "Bangladesh",
+       "Indonesia"
+      ]
+     }
+    ],
+    "description": "Two donut charts showing the regional distribution of poverty. Panel (a) shows extreme poverty ($2.15/day) with a large concentration in Sub-Saharan Africa. Panel (b) shows poverty at the $3.65/day line, showing a significant concentration in both Sub-Saharan Africa and South Asia."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 94,
+ "captions": [
+  "FIGURE 1.4"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

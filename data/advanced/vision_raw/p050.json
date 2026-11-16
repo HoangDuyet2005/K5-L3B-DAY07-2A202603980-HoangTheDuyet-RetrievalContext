@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4244,
+ "total_tokens": 1278,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE O.7\",\n      \"kind\": \"chart\",\n      \"title\": \"Income levels in the world have grown between 1990 and 2024, but many people remain vulnerable to falling back into poverty\",\n      \"bbox\": [\n        84,\n        167,\n        845,\n        833\n      ],\n      \"content\": \"The figure consists of two area charts showing the distribution of the global population by income level (PPP$ per day) in 1990 and 2024. Both charts share the same X-axis (Income or consumption per person (PPP$ per day), 0-24) and Y-axis (Share of global population (%), 0-14). Legend: Low-income, Lower-middle-income, Upper-middle-income, High-income. Panel a (1990): Shows a peak in the lower income range. A vertical line indicates that half of the world lived on less than $2.94 per day. Reference lines at 2.15, 3.65, and 6.85. Panel b (2024): Shows a shift of the distribution to the right. A vertical line indicates that half of the world lives on less than $8.24 per day. Reference lines at 2.15, 3.65, and 6.85. Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org/. Note: PPP$ = purchasing power parity dollars. This figure shows the distribution of the population over income and consumption levels in 1990 and in 2024, cut off at $25 per person per day and expressed in 2017 purchasing power parity dollars (PPP$). More than 86 percent of the global population lived below the $25 per person per day threshold in 1990 and about 80 percent live under the threshold in 2024.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE O.7",
+   "kind": "chart",
+   "title": "Income levels in the world have grown between 1990 and 2024, but many people remain vulnerable to falling back into poverty",
+   "bbox": [
+    84,
+    167,
+    845,
+    833
+   ],
+   "content": "The figure consists of two area charts showing the distribution of the global population by income level (PPP$ per day) in 1990 and 2024. Both charts share the same X-axis (Income or consumption per person (PPP$ per day), 0-24) and Y-axis (Share of global population (%), 0-14). Legend: Low-income, Lower-middle-income, Upper-middle-income, High-income. Panel a (1990): Shows a peak in the lower income range. A vertical line indicates that half of the world lived on less than $2.94 per day. Reference lines at 2.15, 3.65, and 6.85. Panel b (2024): Shows a shift of the distribution to the right. A vertical line indicates that half of the world lives on less than $8.24 per day. Reference lines at 2.15, 3.65, and 6.85. Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org/. Note: PPP$ = purchasing power parity dollars. This figure shows the distribution of the population over income and consumption levels in 1990 and in 2024, cut off at $25 per person per day and expressed in 2017 purchasing power parity dollars (PPP$). More than 86 percent of the global population lived below the $25 per person per day threshold in 1990 and about 80 percent live under the threshold in 2024."
+  }
+ ],
+ "parse_ok": true,
+ "page": 50,
+ "captions": [
+  "FIGURE O.7"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

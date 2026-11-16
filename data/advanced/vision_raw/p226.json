@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 7776,
+ "total_tokens": 1161,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 3.12\",\n      \"kind\": \"chart\",\n      \"title\": \"Positive relationship between income levels and GHG emissions (continued)\",\n      \"bbox\": [\n        84,\n        165,\n        375,\n        775\n      ],\n      \"content\": \"The chart is a stacked area chart showing cumulative CO2 emissions (gt) from 1850 to 2020. The x-axis represents years from 1850 to 2020. The y-axis represents cumulative CO2 emissions in gigatons (gt), ranging from 0 to 2,000. The legend includes: Low-income, Lower-middle-income, Upper-middle-income, and High-income. The chart shows that high-income and upper-middle-income countries are responsible for 90 percent of historical emissions. Sources: Emissions Database for Global Atmospheric Research, Grassi et al. 2023, and World Development Indicators (panels a and b); and PRIMAP-hist data from Gütschow, Pflüger, and Busch 2024 (panel c). Note: CO2e = carbon dioxide equivalent; GHG = greenhouse gas; LULUCF = land use, land use change, and forestry. Panel c: CO2 emissions are cumulative, in gigatons (gt), and do not include emissions from LULUCF. Panels a and c: Country income groups are fixed at 2022 definitions.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 3.12",
+   "kind": "chart",
+   "title": "Positive relationship between income levels and GHG emissions (continued)",
+   "bbox": [
+    84,
+    165,
+    375,
+    775
+   ],
+   "content": "The chart is a stacked area chart showing cumulative CO2 emissions (gt) from 1850 to 2020. The x-axis represents years from 1850 to 2020. The y-axis represents cumulative CO2 emissions in gigatons (gt), ranging from 0 to 2,000. The legend includes: Low-income, Lower-middle-income, Upper-middle-income, and High-income. The chart shows that high-income and upper-middle-income countries are responsible for 90 percent of historical emissions. Sources: Emissions Database for Global Atmospheric Research, Grassi et al. 2023, and World Development Indicators (panels a and b); and PRIMAP-hist data from Gütschow, Pflüger, and Busch 2024 (panel c). Note: CO2e = carbon dioxide equivalent; GHG = greenhouse gas; LULUCF = land use, land use change, and forestry. Panel c: CO2 emissions are cumulative, in gigatons (gt), and do not include emissions from LULUCF. Panels a and c: Country income groups are fixed at 2022 definitions."
+  }
+ ],
+ "parse_ok": true,
+ "page": 226,
+ "captions": [
+  "FIGURE 3.12"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

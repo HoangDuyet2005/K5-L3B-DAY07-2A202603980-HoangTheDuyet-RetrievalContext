@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 3067,
+ "total_tokens": 1240,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 2.8\",\n      \"kind\": \"chart\",\n      \"title\": \"Poorer and conflict-affected economies tend to be more unequal\",\n      \"bbox\": [\n        85,\n        165,\n        405,\n        835\n      ],\n      \"content\": \"The figure consists of two stacked bar charts showing the share of economies (%) by inequality level (Low, Moderate, High). Panel a: Income group (Low, Lower-middle, Upper-middle, High). Panel b: FCS group (FCS, Not FCS). Legend: Low inequality (blue), Moderate inequality (yellow), High inequality (red). Data labels for Panel a: Low (5, 64, 32), Lower-middle (15, 47, 38), Upper-middle (21, 40, 38), High (32, 59, 9). Data labels for Panel b: FCS (17, 46, 37), Not FCS (21, 52, 27). Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org. Note: FCS = fragile and conflict-affected situations. High-inequality economies have a Gini index above 40, moderate-inequality economies are those with a Gini index between 30 and 40, and low-inequality economies are those with a Gini index below 30. The data cover 166 economies, with at least one household survey in the Poverty and Inequality Platform between 2000 and 2022. The Gini index is from the latest survey year. Income group and FCS status are based on fiscal year 2024 lists. The label values may not add to 100 percent due to rounding.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 2.8",
+   "kind": "chart",
+   "title": "Poorer and conflict-affected economies tend to be more unequal",
+   "bbox": [
+    85,
+    165,
+    405,
+    835
+   ],
+   "content": "The figure consists of two stacked bar charts showing the share of economies (%) by inequality level (Low, Moderate, High). Panel a: Income group (Low, Lower-middle, Upper-middle, High). Panel b: FCS group (FCS, Not FCS). Legend: Low inequality (blue), Moderate inequality (yellow), High inequality (red). Data labels for Panel a: Low (5, 64, 32), Lower-middle (15, 47, 38), Upper-middle (21, 40, 38), High (32, 59, 9). Data labels for Panel b: FCS (17, 46, 37), Not FCS (21, 52, 27). Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org. Note: FCS = fragile and conflict-affected situations. High-inequality economies have a Gini index above 40, moderate-inequality economies are those with a Gini index between 30 and 40, and low-inequality economies are those with a Gini index below 30. The data cover 166 economies, with at least one household survey in the Poverty and Inequality Platform between 2000 and 2022. The Gini index is from the latest survey year. Income group and FCS status are based on fiscal year 2024 lists. The label values may not add to 100 percent due to rounding."
+  }
+ ],
+ "parse_ok": true,
+ "page": 158,
+ "captions": [
+  "FIGURE 2.8"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 6850,
+ "total_tokens": 1259,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE B1.1.1\",\n      \"kind\": \"chart\",\n      \"title\": \"The composition of the global population has changed since 1990\",\n      \"bbox\": [\n        298,\n        158,\n        775,\n        835\n      ],\n      \"content\": \"The figure consists of two stacked bar charts showing population in millions. Panel a: Population by income group. Categories: High-income (dark blue), Upper-middle-income (light blue), Lower-middle-income (orange), Low-income (red). 1990 data: Low-income 58%, Lower-middle-income 15%, Upper-middle-income 12%, High-income 15%. 2024 data: Low-income 9%, Lower-middle-income 40%, Upper-middle-income 35%, High-income 15%. Panel b: Population by poverty lines. Categories: More than $6.85 (dark grey), Between $2.15 and $6.85 (light blue), Less than $2.15 (dark red). 1990 data: Less than $2.15 38%, Between $2.15 and $6.85 31%, More than $6.85 31%. 2024 data: Less than $2.15 9%, Between $2.15 and $6.85 35%, More than $6.85 56%. Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org. Note: Panel a uses changing income groups over time. Poverty rates are reported for the $2.15, $3.65, and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars).\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE B1.1.1",
+   "kind": "chart",
+   "title": "The composition of the global population has changed since 1990",
+   "bbox": [
+    298,
+    158,
+    775,
+    835
+   ],
+   "content": "The figure consists of two stacked bar charts showing population in millions. Panel a: Population by income group. Categories: High-income (dark blue), Upper-middle-income (light blue), Lower-middle-income (orange), Low-income (red). 1990 data: Low-income 58%, Lower-middle-income 15%, Upper-middle-income 12%, High-income 15%. 2024 data: Low-income 9%, Lower-middle-income 40%, Upper-middle-income 35%, High-income 15%. Panel b: Population by poverty lines. Categories: More than $6.85 (dark grey), Between $2.15 and $6.85 (light blue), Less than $2.15 (dark red). 1990 data: Less than $2.15 38%, Between $2.15 and $6.85 31%, More than $6.85 31%. 2024 data: Less than $2.15 9%, Between $2.15 and $6.85 35%, More than $6.85 56%. Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org. Note: Panel a uses changing income groups over time. Poverty rates are reported for the $2.15, $3.65, and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars)."
+  }
+ ],
+ "parse_ok": true,
+ "page": 87,
+ "captions": [
+  "FIGURE B1.1.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

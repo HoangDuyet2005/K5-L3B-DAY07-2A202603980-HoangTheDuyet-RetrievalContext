@@ -1,0 +1,171 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5059,
+ "total_tokens": 2028,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 2.9\",\n      \"kind\": \"chart\",\n      \"title\": \"There is a steady decline in the number of economies with high inequality since 2000\",\n      \"bbox\": [\n        85,\n        165,\n        715,\n        835\n      ],\n      \"content\": {\n        \"chart_type\": \"stacked bar chart and bar chart\",\n        \"panels\": [\n          {\n            \"panel_title\": \"a. Count of high-inequality economies, 2000–22\",\n            \"x_axis\": \"Years (2000-2022)\",\n            \"y_axis\": \"Number of economies\",\n            \"legend\": [\n              \"Low inequality\",\n              \"Moderate inequality\",\n              \"High inequality\"\n            ],\n            \"data\": {\n              \"2000\": { \"Low\": 20, \"Moderate\": 72, \"High\": 74 },\n              \"2001\": { \"Low\": 20, \"Moderate\": 73, \"High\": 73 },\n              \"2002\": { \"Low\": 21, \"Moderate\": 72, \"High\": 73 },\n              \"2003\": { \"Low\": 25, \"Moderate\": 67, \"High\": 74 },\n              \"2004\": { \"Low\": 18, \"Moderate\": 73, \"High\": 75 },\n              \"2005\": { \"Low\": 19, \"Moderate\": 75, \"High\": 72 },\n              \"2006\": { \"Low\": 19, \"Moderate\": 75, \"High\": 72 },\n              \"2007\": { \"Low\": 20, \"Moderate\": 77, \"High\": 69 },\n              \"2008\": { \"Low\": 22, \"Moderate\": 74, \"High\": 70 },\n              \"2009\": { \"Low\": 23, \"Moderate\": 76, \"High\": 67 },\n              \"2010\": { \"Low\": 22, \"Moderate\": 76, \"High\": 68 },\n              \"2011\": { \"Low\": 24, \"Moderate\": 75, \"High\": 67 },\n              \"2012\": { \"Low\": 25, \"Moderate\": 75, \"High\": 66 },\n              \"2013\": { \"Low\": 24, \"Moderate\": 81, \"High\": 61 },\n              \"2014\": { \"Low\": 23, \"Moderate\": 81, \"High\": 62 },\n              \"2015\": { \"Low\": 21, \"Moderate\": 84, \"High\": 61 },\n              \"2016\": { \"Low\": 21, \"Moderate\": 86, \"High\": 59 },\n              \"2017\": { \"Low\": 23, \"Moderate\": 84, \"High\": 59 },\n              \"2018\": { \"Low\": 26, \"Moderate\": 86, \"High\": 54 },\n              \"2019\": { \"Low\": 28, \"Moderate\": 85, \"High\": 53 },\n              \"2020\": { \"Low\": 32, \"Moderate\": 83, \"High\": 51 },\n              \"2021\": { \"Low\": 31, \"Moderate\": 86, \"High\": 49 },\n              \"2022\": { \"Low\": 33, \"Moderate\": 84, \"High\": 49 }\n            }\n          },\n          {\n            \"panel_title\": \"b. Change in number of high-inequality economies from prior year\",\n            \"x_axis\": \"Years (2000-2022)\",\n            \"y_axis\": \"Number of economies\",\n            \"legend\": [\n              \"Switched to high\",\n              \"Switched to not-high\",\n              \"Fitted value\"\n            ],\n            \"description\": \"Bar chart showing annual fluctuations in the number of high-inequality economies, with a dashed line representing the fitted trend.\"\n          }\n        ],\n        \"sources\": \"World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org; Haddad et al. 2024.\",\n        \"note\": \"High-inequality economies have a Gini index above 40, moderate are those with a Gini index between 30 and 40, and low are those with a Gini index less than 30. When no survey is available in a given year, data from the most recent survey year are used. The earliest survey is backcasted when the first survey is available only after 2000 to avoid missing values. The graph covers 166 economies with at least one household survey in the Poverty and Inequality Platform between 2000 and 2022.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 2.9",
+   "kind": "chart",
+   "title": "There is a steady decline in the number of economies with high inequality since 2000",
+   "bbox": [
+    85,
+    165,
+    715,
+    835
+   ],
+   "content": {
+    "chart_type": "stacked bar chart and bar chart",
+    "panels": [
+     {
+      "panel_title": "a. Count of high-inequality economies, 2000–22",
+      "x_axis": "Years (2000-2022)",
+      "y_axis": "Number of economies",
+      "legend": [
+       "Low inequality",
+       "Moderate inequality",
+       "High inequality"
+      ],
+      "data": {
+       "2000": {
+        "Low": 20,
+        "Moderate": 72,
+        "High": 74
+       },
+       "2001": {
+        "Low": 20,
+        "Moderate": 73,
+        "High": 73
+       },
+       "2002": {
+        "Low": 21,
+        "Moderate": 72,
+        "High": 73
+       },
+       "2003": {
+        "Low": 25,
+        "Moderate": 67,
+        "High": 74
+       },
+       "2004": {
+        "Low": 18,
+        "Moderate": 73,
+        "High": 75
+       },
+       "2005": {
+        "Low": 19,
+        "Moderate": 75,
+        "High": 72
+       },
+       "2006": {
+        "Low": 19,
+        "Moderate": 75,
+        "High": 72
+       },
+       "2007": {
+        "Low": 20,
+        "Moderate": 77,
+        "High": 69
+       },
+       "2008": {
+        "Low": 22,
+        "Moderate": 74,
+        "High": 70
+       },
+       "2009": {
+        "Low": 23,
+        "Moderate": 76,
+        "High": 67
+       },
+       "2010": {
+        "Low": 22,
+        "Moderate": 76,
+        "High": 68
+       },
+       "2011": {
+        "Low": 24,
+        "Moderate": 75,
+        "High": 67
+       },
+       "2012": {
+        "Low": 25,
+        "Moderate": 75,
+        "High": 66
+       },
+       "2013": {
+        "Low": 24,
+        "Moderate": 81,
+        "High": 61
+       },
+       "2014": {
+        "Low": 23,
+        "Moderate": 81,
+        "High": 62
+       },
+       "2015": {
+        "Low": 21,
+        "Moderate": 84,
+        "High": 61
+       },
+       "2016": {
+        "Low": 21,
+        "Moderate": 86,
+        "High": 59
+       },
+       "2017": {
+        "Low": 23,
+        "Moderate": 84,
+        "High": 59
+       },
+       "2018": {
+        "Low": 26,
+        "Moderate": 86,
+        "High": 54
+       },
+       "2019": {
+        "Low": 28,
+        "Moderate": 85,
+        "High": 53
+       },
+       "2020": {
+        "Low": 32,
+        "Moderate": 83,
+        "High": 51
+       },
+       "2021": {
+        "Low": 31,
+        "Moderate": 86,
+        "High": 49
+       },
+       "2022": {
+        "Low": 33,
+        "Moderate": 84,
+        "High": 49
+       }
+      }
+     },
+     {
+      "panel_title": "b. Change in number of high-inequality economies from prior year",
+      "x_axis": "Years (2000-2022)",
+      "y_axis": "Number of economies",
+      "legend": [
+       "Switched to high",
+       "Switched to not-high",
+       "Fitted value"
+      ],
+      "description": "Bar chart showing annual fluctuations in the number of high-inequality economies, with a dashed line representing the fitted trend."
+     }
+    ],
+    "sources": "World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org; Haddad et al. 2024.",
+    "note": "High-inequality economies have a Gini index above 40, moderate are those with a Gini index between 30 and 40, and low are those with a Gini index less than 30. When no survey is available in a given year, data from the most recent survey year are used. The earliest survey is backcasted when the first survey is available only after 2000 to avoid missing values. The graph covers 166 economies with at least one household survey in the Poverty and Inequality Platform between 2000 and 2022."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 159,
+ "captions": [
+  "FIGURE 2.9"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

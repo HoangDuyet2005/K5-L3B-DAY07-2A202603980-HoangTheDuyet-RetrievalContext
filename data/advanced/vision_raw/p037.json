@@ -1,0 +1,53 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 3930,
+ "total_tokens": 1562,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE O.1\",\n      \"kind\": \"chart\",\n      \"title\": \"Progress has stagnated for the poor\",\n      \"bbox\": [\n        84,\n        167,\n        745,\n        822\n      ],\n      \"content\": {\n        \"description\": \"A two-panel chart showing poverty trends from 1990 to 2030.\",\n        \"panel_a\": {\n          \"title\": \"a. Progress in reducing extreme poverty rate has resumed but at a slower pace than before 2020\",\n          \"y_axis\": \"Poverty rate (%)\",\n          \"x_axis\": \"Years\",\n          \"legend\": [\n            \"Poverty rate at $2.15\",\n            \"Poverty rate at $3.65\",\n            \"Poverty rate at $6.85\"\n          ],\n          \"trends\": \"All three poverty rates show a downward trend from 1990 to 2030. A black horizontal dotted line is drawn at 3 percent, indicating the World Bank's target of ending extreme poverty by 2030.\"\n        },\n        \"panel_b\": {\n          \"title\": \"b. The number of people living on less than $6.85 has remained unchanged over the past 30 years\",\n          \"y_axis\": \"Number of poor (millions)\",\n          \"x_axis\": \"Years\",\n          \"legend\": [\n            \"Millions of poor at $2.15\",\n            \"Millions of poor at $3.65\",\n            \"Millions of poor at $6.85\"\n          ],\n          \"trends\": \"The number of poor at $2.15 and $3.65 shows a downward trend, while the number of poor at $6.85 remains relatively flat over the 30-year period. A black horizontal dotted line is drawn at 256 million, representing 3 percent of the global population projected for 2030.\"\n        },\n        \"source\": \"World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org/.\",\n        \"note\": \"Poverty rates are reported for the $2.15, $3.65, and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). Between 2022 and 2029 poverty is projected based on per capita gross domestic product growth projections in Global Economic Prospects, June 2024 (World Bank 2024c) complemented by the Macro Poverty Outlook, Spring Meetings 2024 (World Bank 2024e) and the World Economic Outlook (IMF 2024); for 2030, average annual historic per capita growth rates (2010–19) are used. See annex 1A for more details on the projection methods. In panel a, the black horizontal dotted line is drawn at 3 percent and indicates the World Bank’s target of ending extreme poverty by 2030. In panel b, it is drawn at 256 million, which represents 3 percent of the global population projected for 2030.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE O.1",
+   "kind": "chart",
+   "title": "Progress has stagnated for the poor",
+   "bbox": [
+    84,
+    167,
+    745,
+    822
+   ],
+   "content": {
+    "description": "A two-panel chart showing poverty trends from 1990 to 2030.",
+    "panel_a": {
+     "title": "a. Progress in reducing extreme poverty rate has resumed but at a slower pace than before 2020",
+     "y_axis": "Poverty rate (%)",
+     "x_axis": "Years",
+     "legend": [
+      "Poverty rate at $2.15",
+      "Poverty rate at $3.65",
+      "Poverty rate at $6.85"
+     ],
+     "trends": "All three poverty rates show a downward trend from 1990 to 2030. A black horizontal dotted line is drawn at 3 percent, indicating the World Bank's target of ending extreme poverty by 2030."
+    },
+    "panel_b": {
+     "title": "b. The number of people living on less than $6.85 has remained unchanged over the past 30 years",
+     "y_axis": "Number of poor (millions)",
+     "x_axis": "Years",
+     "legend": [
+      "Millions of poor at $2.15",
+      "Millions of poor at $3.65",
+      "Millions of poor at $6.85"
+     ],
+     "trends": "The number of poor at $2.15 and $3.65 shows a downward trend, while the number of poor at $6.85 remains relatively flat over the 30-year period. A black horizontal dotted line is drawn at 256 million, representing 3 percent of the global population projected for 2030."
+    },
+    "source": "World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org/.",
+    "note": "Poverty rates are reported for the $2.15, $3.65, and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). Between 2022 and 2029 poverty is projected based on per capita gross domestic product growth projections in Global Economic Prospects, June 2024 (World Bank 2024c) complemented by the Macro Poverty Outlook, Spring Meetings 2024 (World Bank 2024e) and the World Economic Outlook (IMF 2024); for 2030, average annual historic per capita growth rates (2010–19) are used. See annex 1A for more details on the projection methods. In panel a, the black horizontal dotted line is drawn at 3 percent and indicates the World Bank’s target of ending extreme poverty by 2030. In panel b, it is drawn at 256 million, which represents 3 percent of the global population projected for 2030."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 37,
+ "captions": [
+  "FIGURE O.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

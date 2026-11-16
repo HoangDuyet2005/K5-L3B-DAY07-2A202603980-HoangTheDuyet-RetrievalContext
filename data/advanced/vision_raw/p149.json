@@ -1,0 +1,64 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 6602,
+ "total_tokens": 1511,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 2.4\",\n      \"kind\": \"chart\",\n      \"title\": \"The East Asia and Pacific region has driven the reduction of the Global Prosperity Gap\",\n      \"bbox\": [\n        215,\n        167,\n        785,\n        785\n      ],\n      \"content\": {\n        \"panels\": [\n          {\n            \"title\": \"a. Regional Prosperity Gap trends\",\n            \"type\": \"line chart\",\n            \"y_axis\": \"Prosperity Gap\",\n            \"x_axis\": \"Year (1990-2024)\",\n            \"legend\": [\n              \"East Asia and Pacific\",\n              \"Europe and Central Asia\",\n              \"Latin America and the Caribbean\",\n              \"Middle East and North Africa\",\n              \"South Asia\",\n              \"Sub-Saharan Africa\",\n              \"Rest of the world\"\n            ],\n            \"trends\": \"The Sub-Saharan Africa line shows a significant upward trend, reaching approx. 12-13 by 2024. The East Asia and Pacific line shows a significant downward trend, dropping from approx. 18 in 1990 to below 4 by 2024. Other regions show relatively stable or slightly declining trends.\"\n          },\n          {\n            \"title\": \"b. Regional contributions to Global Prosperity Gap\",\n            \"type\": \"stacked area chart\",\n            \"y_axis\": \"Contribution to Global Prosperity Gap (%)\",\n            \"x_axis\": \"Year (1990-2024)\",\n            \"legend\": [\n              \"East Asia and Pacific\",\n              \"Europe and Central Asia\",\n              \"Latin America and the Caribbean\",\n              \"Middle East and North Africa\",\n              \"South Asia\",\n              \"Sub-Saharan Africa\",\n              \"Rest of the world\"\n            ],\n            \"trends\": \"The Sub-Saharan Africa contribution (dark red) increases significantly over time, reaching 39 percent in 2024. The East Asia and Pacific contribution (red) decreases significantly over the same period.\"\n          }\n        ],\n        \"source\": \"Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\",\n        \"note\": \"Note: Regional Prosperity Gaps are reported in panel a, while the regions’ population-weighted contributions (percent) to the Global Prosperity Gap are reported in panel b. Estimates for all regions are projected after 2022, while estimates for the Middle East and North Africa are projected as of 2019 and those for Sub-Saharan Africa are projected as of 2020. Population coverage is less than 50 percent of the regions’ population for the year 2002 in the Middle East and North Africa and for the years 1997–2001 in South Asia. To obtain the aggregate share of the Global Prosperity Gap, panel b includes all regional estimates whether or not there is data coverage. Regions follow the definitions in the Poverty and Inequality Platform.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 2.4",
+   "kind": "chart",
+   "title": "The East Asia and Pacific region has driven the reduction of the Global Prosperity Gap",
+   "bbox": [
+    215,
+    167,
+    785,
+    785
+   ],
+   "content": {
+    "panels": [
+     {
+      "title": "a. Regional Prosperity Gap trends",
+      "type": "line chart",
+      "y_axis": "Prosperity Gap",
+      "x_axis": "Year (1990-2024)",
+      "legend": [
+       "East Asia and Pacific",
+       "Europe and Central Asia",
+       "Latin America and the Caribbean",
+       "Middle East and North Africa",
+       "South Asia",
+       "Sub-Saharan Africa",
+       "Rest of the world"
+      ],
+      "trends": "The Sub-Saharan Africa line shows a significant upward trend, reaching approx. 12-13 by 2024. The East Asia and Pacific line shows a significant downward trend, dropping from approx. 18 in 1990 to below 4 by 2024. Other regions show relatively stable or slightly declining trends."
+     },
+     {
+      "title": "b. Regional contributions to Global Prosperity Gap",
+      "type": "stacked area chart",
+      "y_axis": "Contribution to Global Prosperity Gap (%)",
+      "x_axis": "Year (1990-2024)",
+      "legend": [
+       "East Asia and Pacific",
+       "Europe and Central Asia",
+       "Latin America and the Caribbean",
+       "Middle East and North Africa",
+       "South Asia",
+       "Sub-Saharan Africa",
+       "Rest of the world"
+      ],
+      "trends": "The Sub-Saharan Africa contribution (dark red) increases significantly over time, reaching 39 percent in 2024. The East Asia and Pacific contribution (red) decreases significantly over the same period."
+     }
+    ],
+    "source": "Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.",
+    "note": "Note: Regional Prosperity Gaps are reported in panel a, while the regions’ population-weighted contributions (percent) to the Global Prosperity Gap are reported in panel b. Estimates for all regions are projected after 2022, while estimates for the Middle East and North Africa are projected as of 2019 and those for Sub-Saharan Africa are projected as of 2020. Population coverage is less than 50 percent of the regions’ population for the year 2002 in the Middle East and North Africa and for the years 1997–2001 in South Asia. To obtain the aggregate share of the Global Prosperity Gap, panel b includes all regional estimates whether or not there is data coverage. Regions follow the definitions in the Poverty and Inequality Platform."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 149,
+ "captions": [
+  "FIGURE 2.4"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

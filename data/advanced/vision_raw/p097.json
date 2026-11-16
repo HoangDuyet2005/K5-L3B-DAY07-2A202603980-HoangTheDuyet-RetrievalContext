@@ -1,0 +1,54 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5680,
+ "total_tokens": 1432,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 1.6\",\n      \"kind\": \"chart\",\n      \"title\": \"Increased concentration of extreme poverty in Sub-Saharan Africa and fragile and conflict-affected situations\",\n      \"bbox\": [\n        175,\n        165,\n        465,\n        835\n      ],\n      \"content\": {\n        \"chart_type\": \"stacked area chart\",\n        \"panels\": [\n          {\n            \"title\": \"a. Share of poor at $2.15\",\n            \"y_axis\": \"Share of global poor at $2.15 (%)\",\n            \"x_axis\": \"Year (2000-2030)\",\n            \"legend\": [\n              \"Non-FCS in SSA\",\n              \"FCS in SSA\",\n              \"FCS outside SSA\",\n              \"Rest of the world\"\n            ]\n          },\n          {\n            \"title\": \"b. Share of poor at $6.85\",\n            \"y_axis\": \"Share of global poor at $6.85 (%)\",\n            \"x_axis\": \"Year (2000-2030)\",\n            \"legend\": [\n              \"Non-FCS in SSA\",\n              \"FCS in SSA\",\n              \"FCS outside SSA\",\n              \"Rest of the world\"\n            ]\n          }\n        ],\n        \"notes\": \"Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org. Note: FCS = fragile and conflict-affected situations; SSA = Sub-Saharan Africa. Poverty rates are reported for the $2.15 and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). Countries in FCS are defined following the World Bank classification of fragile and conflict-affected situations for each year until 2022, and keeping the definition fixed in 2022 for the years after. Between 2022 and 2029 poverty is projected based on per capita gross domestic product growth projections in Global Economic Prospects, June 2024 (World Bank 2024d), complemented by the Macro Poverty Outlook, Spring Meetings 2024 (World Bank 2024e) and World Economic Outlook (IMF 2024); for 2030, average annual historic per capita growth rates are used. See annex 1A for more details on the projections. Surveys cover less than 50 percent of the population for Sub-Saharan Africa after 2019, and for countries in FCS in 2000 and after 2017.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 1.6",
+   "kind": "chart",
+   "title": "Increased concentration of extreme poverty in Sub-Saharan Africa and fragile and conflict-affected situations",
+   "bbox": [
+    175,
+    165,
+    465,
+    835
+   ],
+   "content": {
+    "chart_type": "stacked area chart",
+    "panels": [
+     {
+      "title": "a. Share of poor at $2.15",
+      "y_axis": "Share of global poor at $2.15 (%)",
+      "x_axis": "Year (2000-2030)",
+      "legend": [
+       "Non-FCS in SSA",
+       "FCS in SSA",
+       "FCS outside SSA",
+       "Rest of the world"
+      ]
+     },
+     {
+      "title": "b. Share of poor at $6.85",
+      "y_axis": "Share of global poor at $6.85 (%)",
+      "x_axis": "Year (2000-2030)",
+      "legend": [
+       "Non-FCS in SSA",
+       "FCS in SSA",
+       "FCS outside SSA",
+       "Rest of the world"
+      ]
+     }
+    ],
+    "notes": "Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org. Note: FCS = fragile and conflict-affected situations; SSA = Sub-Saharan Africa. Poverty rates are reported for the $2.15 and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). Countries in FCS are defined following the World Bank classification of fragile and conflict-affected situations for each year until 2022, and keeping the definition fixed in 2022 for the years after. Between 2022 and 2029 poverty is projected based on per capita gross domestic product growth projections in Global Economic Prospects, June 2024 (World Bank 2024d), complemented by the Macro Poverty Outlook, Spring Meetings 2024 (World Bank 2024e) and World Economic Outlook (IMF 2024); for 2030, average annual historic per capita growth rates are used. See annex 1A for more details on the projections. Surveys cover less than 50 percent of the population for Sub-Saharan Africa after 2019, and for countries in FCS in 2000 and after 2017."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 97,
+ "captions": [
+  "FIGURE 1.6"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

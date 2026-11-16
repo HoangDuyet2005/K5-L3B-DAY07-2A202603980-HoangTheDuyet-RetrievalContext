@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5223,
+ "total_tokens": 1010,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 2.16\",\n      \"kind\": \"diagram\",\n      \"title\": \"Effectively addressing inequality requires a comprehensive approach that tackles all phases of inequality\",\n      \"bbox\": [\n        83,\n        167,\n        415,\n        832\n      ],\n      \"content\": \"The diagram illustrates three phases of inequality and a cross-cutting strategy. 1. Inequality in building productive capacity: Invest in early life opportunities and human capital formation. 2. Inequality in utilizing productive capacity: Reduce market and institutional distortions that restrict access to markets and earning opportunities. 3. Inequality in taxes and transfers: Enhance fiscal redistribution that delivers long-term inclusive growth. A horizontal arrow spanning all three categories indicates the goal to 'Improve the productive capacity of the poor'. Source: World Bank.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 2.16",
+   "kind": "diagram",
+   "title": "Effectively addressing inequality requires a comprehensive approach that tackles all phases of inequality",
+   "bbox": [
+    83,
+    167,
+    415,
+    832
+   ],
+   "content": "The diagram illustrates three phases of inequality and a cross-cutting strategy. 1. Inequality in building productive capacity: Invest in early life opportunities and human capital formation. 2. Inequality in utilizing productive capacity: Reduce market and institutional distortions that restrict access to markets and earning opportunities. 3. Inequality in taxes and transfers: Enhance fiscal redistribution that delivers long-term inclusive growth. A horizontal arrow spanning all three categories indicates the goal to 'Improve the productive capacity of the poor'. Source: World Bank."
+  }
+ ],
+ "parse_ok": true,
+ "page": 170,
+ "captions": [
+  "FIGURE 2.16"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

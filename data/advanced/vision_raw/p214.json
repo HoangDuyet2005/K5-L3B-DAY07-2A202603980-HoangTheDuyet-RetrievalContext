@@ -1,0 +1,29 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4623,
+ "total_tokens": 1174,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 3.7\",\n      \"kind\": \"chart\",\n      \"title\": \"A large share of the population in Sub-Saharan Africa exposed to extreme weather events does not have access to social protection or a financial account\",\n      \"bbox\": [\n        [498, 165, 825, 835]\n      ],\n      \"content\": \"The chart is a grouped bar chart showing the percentage of the population exposed to climate-related hazards who lack social protection (blue bars) and those who lack a financial account (orange bars) across seven regions. The y-axis represents Population (%). Regions: East Asia and Pacific, Europe and Central Asia, Latin America and the Caribbean, Middle East and North Africa, North America, South Asia, and Sub-Saharan Africa. Trends: Sub-Saharan Africa has the highest values, with approx. 71% lacking social protection and approx. 37% lacking a financial account. North America shows zero for both categories. Source: World Bank Group Scorecard indicator: the percentage of people at high risk of climate-related hazards globally, https://scorecard.worldbank.org/en/scorecard/home. Note: The figure shows the share of population exposed to any hazard who neither receives social protection benefits nor contributes to social insurance and the share of population exposed to any hazard who does not have a financial account (including mobile money). For North America, the share of population exposed to any climate-related hazard and without social protection or access to a financial account is zero. See annex 3B in chapter 3 for more details.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 3.7",
+   "kind": "chart",
+   "title": "A large share of the population in Sub-Saharan Africa exposed to extreme weather events does not have access to social protection or a financial account",
+   "bbox": [
+    [
+     498,
+     165,
+     825,
+     835
+    ]
+   ],
+   "content": "The chart is a grouped bar chart showing the percentage of the population exposed to climate-related hazards who lack social protection (blue bars) and those who lack a financial account (orange bars) across seven regions. The y-axis represents Population (%). Regions: East Asia and Pacific, Europe and Central Asia, Latin America and the Caribbean, Middle East and North Africa, North America, South Asia, and Sub-Saharan Africa. Trends: Sub-Saharan Africa has the highest values, with approx. 71% lacking social protection and approx. 37% lacking a financial account. North America shows zero for both categories. Source: World Bank Group Scorecard indicator: the percentage of people at high risk of climate-related hazards globally, https://scorecard.worldbank.org/en/scorecard/home. Note: The figure shows the share of population exposed to any hazard who neither receives social protection benefits nor contributes to social insurance and the share of population exposed to any hazard who does not have a financial account (including mobile money). For North America, the share of population exposed to any climate-related hazard and without social protection or access to a financial account is zero. See annex 3B in chapter 3 for more details."
+  }
+ ],
+ "parse_ok": true,
+ "page": 214,
+ "captions": [
+  "FIGURE 3.7"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.6-flash",
+ "finish_reason": "STOP",
+ "latency_ms": 24101,
+ "total_tokens": 1699,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE BO.3.1\",\n      \"kind\": \"diagram\",\n      \"title\": \"Measuring the vulnerability of people at high risk from climate-related hazards\",\n      \"bbox\": [542, 168, 915, 832],\n      \"content\": \"Flowchart diagram defining when a \\\"Person is at risk from climate hazards if...\\\":\\n\\n- Risk requires: \\\"Exposed to climate hazards\\\" AND \\\"Vulnerable to experiencing losses\\\"\\n\\n1. Exposed to climate hazards (requires Any 1):\\n   - Flood\\n   - Drought\\n   - Extreme heat\\n   - Cyclone\\n\\n2. Vulnerable to experiencing losses:\\n   - Physically vulnerable (requires Any 1):\\n     - No access to water\\n     - No access to electricity\\n     - Low access to services and markets\\n   - Unable to cope (requires Any 1):\\n     - Low income\\n     - No access to social protection\\n     - No access to financial instrument\\n     - Low education level\\n\\nSource: World Bank Group Scorecard indicator: the percentage of people at high risk of climate-related hazards globally, https://scorecard.worldbank.org/en/scorecard/home.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE BO.3.1",
+   "kind": "diagram",
+   "title": "Measuring the vulnerability of people at high risk from climate-related hazards",
+   "bbox": [
+    542,
+    168,
+    915,
+    832
+   ],
+   "content": "Flowchart diagram defining when a \"Person is at risk from climate hazards if...\":\n\n- Risk requires: \"Exposed to climate hazards\" AND \"Vulnerable to experiencing losses\"\n\n1. Exposed to climate hazards (requires Any 1):\n   - Flood\n   - Drought\n   - Extreme heat\n   - Cyclone\n\n2. Vulnerable to experiencing losses:\n   - Physically vulnerable (requires Any 1):\n     - No access to water\n     - No access to electricity\n     - Low access to services and markets\n   - Unable to cope (requires Any 1):\n     - Low income\n     - No access to social protection\n     - No access to financial instrument\n     - Low education level\n\nSource: World Bank Group Scorecard indicator: the percentage of people at high risk of climate-related hazards globally, https://scorecard.worldbank.org/en/scorecard/home."
+  }
+ ],
+ "parse_ok": true,
+ "page": 52,
+ "captions": [
+  "FIGURE BO.3.1"
+ ],
+ "model_requested": "gemini-3.5-flash"
+}

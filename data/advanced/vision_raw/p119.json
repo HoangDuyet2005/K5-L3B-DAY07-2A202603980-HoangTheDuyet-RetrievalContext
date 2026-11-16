@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 3652,
+ "total_tokens": 1185,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 1.15\",\n      \"kind\": \"chart\",\n      \"title\": \"Higher rates of multidimensional poverty than monetary poverty, especially in Sub-Saharan Africa\",\n      \"bbox\": [\n        257,\n        167,\n        835,\n        785\n      ],\n      \"content\": \"The chart is a scatter plot showing the relationship between Extreme poverty (%) on the x-axis and Multidimensional poverty (%) on the y-axis. A 45-degree line is plotted to show where the two values are equal. Most data points lie above the 45-degree line, indicating higher rates of multidimensional poverty than monetary poverty. Legend entries: East Asia and Pacific (red square), Europe and Central Asia (yellow diamond), Latin America and the Caribbean (light blue diamond), Middle East and North Africa (green diamond), South Asia (blue diamond), Sub-Saharan Africa (dark red diamond), Rest of the world (dark blue diamond). Labeled countries include: Congo, Dem. Rep., Burundi, Malawi, Zambia, Tanzania, Uganda, Zimbabwe, Angola, Guinea, Benin, Mauritania, Mali, Chad, and Niger. Source: World Bank, Global Monitoring Database (GMD) (version September 2024). Note: Each marker represents a country in circa 2021. Extreme poverty is reported using the $2.15 per person per day poverty line (expressed in 2017 purchasing power parity dollars). See table 1.1 and notes to table 1.1. for more details on multidimensional poverty. The solid line is a 45-degree line.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 1.15",
+   "kind": "chart",
+   "title": "Higher rates of multidimensional poverty than monetary poverty, especially in Sub-Saharan Africa",
+   "bbox": [
+    257,
+    167,
+    835,
+    785
+   ],
+   "content": "The chart is a scatter plot showing the relationship between Extreme poverty (%) on the x-axis and Multidimensional poverty (%) on the y-axis. A 45-degree line is plotted to show where the two values are equal. Most data points lie above the 45-degree line, indicating higher rates of multidimensional poverty than monetary poverty. Legend entries: East Asia and Pacific (red square), Europe and Central Asia (yellow diamond), Latin America and the Caribbean (light blue diamond), Middle East and North Africa (green diamond), South Asia (blue diamond), Sub-Saharan Africa (dark red diamond), Rest of the world (dark blue diamond). Labeled countries include: Congo, Dem. Rep., Burundi, Malawi, Zambia, Tanzania, Uganda, Zimbabwe, Angola, Guinea, Benin, Mauritania, Mali, Chad, and Niger. Source: World Bank, Global Monitoring Database (GMD) (version September 2024). Note: Each marker represents a country in circa 2021. Extreme poverty is reported using the $2.15 per person per day poverty line (expressed in 2017 purchasing power parity dollars). See table 1.1 and notes to table 1.1. for more details on multidimensional poverty. The solid line is a 45-degree line."
+  }
+ ],
+ "parse_ok": true,
+ "page": 119,
+ "captions": [
+  "FIGURE 1.15"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

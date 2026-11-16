@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 2345,
+ "total_tokens": 1172,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 3C.1\",\n      \"kind\": \"chart\",\n      \"title\": \"Regional and urban-rural differences in access to water\",\n      \"bbox\": [\n        83,\n        167,\n        825,\n        833\n      ],\n      \"content\": \"The figure consists of two panels: Panel a (Regional differences) and Panel b (Urban-rural differences). Panel a is a horizontal bar chart showing 'Access to basic drinking water (%)' (dark blue) and 'Access to basic sanitation services (%)' (gold) across eight regions/groups: World, Sub-Saharan Africa, South Asia, North America, Middle East and North Africa, Latin America and the Caribbean, Europe and Central Asia, and East Asia and Pacific. Panel b is a scatter/line chart showing 'Population with basic drinking water access (%)' for countries ranked by water access. It uses a legend with 'Rest of the world' (blue line), 'Sub-Saharan Africa' (red line), 'Rural' (red circle), and 'Urban' (blue circle). Source: WHO/UNICEF Joint Monitoring Programme 2024 data, accessed through the World Development Indicators, https://databank.worldbank.org/source/world-development-indicators. Note: Panel a shows the population with access to basic drinking water and basic sanitation services. Panel b shows the share of urban and rural populations with access to basic drinking water by country. Solid red lines indicate that the country is located in Sub-Saharan Africa. Blue lines indicate that the country is outside Sub-Saharan Africa.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 3C.1",
+   "kind": "chart",
+   "title": "Regional and urban-rural differences in access to water",
+   "bbox": [
+    83,
+    167,
+    825,
+    833
+   ],
+   "content": "The figure consists of two panels: Panel a (Regional differences) and Panel b (Urban-rural differences). Panel a is a horizontal bar chart showing 'Access to basic drinking water (%)' (dark blue) and 'Access to basic sanitation services (%)' (gold) across eight regions/groups: World, Sub-Saharan Africa, South Asia, North America, Middle East and North Africa, Latin America and the Caribbean, Europe and Central Asia, and East Asia and Pacific. Panel b is a scatter/line chart showing 'Population with basic drinking water access (%)' for countries ranked by water access. It uses a legend with 'Rest of the world' (blue line), 'Sub-Saharan Africa' (red line), 'Rural' (red circle), and 'Urban' (blue circle). Source: WHO/UNICEF Joint Monitoring Programme 2024 data, accessed through the World Development Indicators, https://databank.worldbank.org/source/world-development-indicators. Note: Panel a shows the population with access to basic drinking water and basic sanitation services. Panel b shows the share of urban and rural populations with access to basic drinking water by country. Solid red lines indicate that the country is located in Sub-Saharan Africa. Blue lines indicate that the country is outside Sub-Saharan Africa."
+  }
+ ],
+ "parse_ok": true,
+ "page": 241,
+ "captions": [
+  "FIGURE 3C.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

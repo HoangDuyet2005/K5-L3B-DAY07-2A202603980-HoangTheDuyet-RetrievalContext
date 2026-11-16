@@ -1,0 +1,62 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 6307,
+ "total_tokens": 1304,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 1.4\",\n      \"kind\": \"chart\",\n      \"title\": \"The regional distribution of poverty changes depending on the standard, but overall, most poor people are concentrated in Sub-Saharan Africa and South Asia (continued)\",\n      \"bbox\": [\n        83,\n        167,\n        525,\n        833\n      ],\n      \"content\": {\n        \"type\": \"sunburst chart\",\n        \"panel_c_title\": \"c. Poverty at the $6.85 line is concentrated in South Asia, followed by Sub-Saharan Africa\",\n        \"inner_ring_regions\": [\n          \"South Asia\",\n          \"Sub-Saharan Africa\",\n          \"East Asia and Pacific\",\n          \"Middle East and North Africa\",\n          \"Latin America and the Caribbean\",\n          \"Europe and Central Asia\",\n          \"Rest of the world\"\n        ],\n        \"outer_ring_countries\": [\n          \"India\",\n          \"Pakistan\",\n          \"Bangladesh\",\n          \"Nigeria\",\n          \"Ethiopia\",\n          \"Congo, Dem. Rep.\",\n          \"China\",\n          \"Indonesia\",\n          \"Philippines\",\n          \"Egypt, Arab Rep.\"\n        ],\n        \"legend\": [\n          \"East Asia and Pacific\",\n          \"Europe and Central Asia\",\n          \"Latin America and the Caribbean\",\n          \"Middle East and North Africa\",\n          \"South Asia\",\n          \"Sub-Saharan Africa\",\n          \"Rest of the world\"\n        ],\n        \"source\": \"World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\",\n        \"note\": \"Figures show the composition of poverty at the $2.15, $3.65, and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). In all figures, the inner ring shows the share of the total number of poor living in a particular region, and the outer ring refers to the shares by country. The 10 countries with the most poor people are labeled.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 1.4",
+   "kind": "chart",
+   "title": "The regional distribution of poverty changes depending on the standard, but overall, most poor people are concentrated in Sub-Saharan Africa and South Asia (continued)",
+   "bbox": [
+    83,
+    167,
+    525,
+    833
+   ],
+   "content": {
+    "type": "sunburst chart",
+    "panel_c_title": "c. Poverty at the $6.85 line is concentrated in South Asia, followed by Sub-Saharan Africa",
+    "inner_ring_regions": [
+     "South Asia",
+     "Sub-Saharan Africa",
+     "East Asia and Pacific",
+     "Middle East and North Africa",
+     "Latin America and the Caribbean",
+     "Europe and Central Asia",
+     "Rest of the world"
+    ],
+    "outer_ring_countries": [
+     "India",
+     "Pakistan",
+     "Bangladesh",
+     "Nigeria",
+     "Ethiopia",
+     "Congo, Dem. Rep.",
+     "China",
+     "Indonesia",
+     "Philippines",
+     "Egypt, Arab Rep."
+    ],
+    "legend": [
+     "East Asia and Pacific",
+     "Europe and Central Asia",
+     "Latin America and the Caribbean",
+     "Middle East and North Africa",
+     "South Asia",
+     "Sub-Saharan Africa",
+     "Rest of the world"
+    ],
+    "source": "World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.",
+    "note": "Figures show the composition of poverty at the $2.15, $3.65, and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). In all figures, the inner ring shows the share of the total number of poor living in a particular region, and the outer ring refers to the shares by country. The 10 countries with the most poor people are labeled."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 95,
+ "captions": [
+  "FIGURE 1.4"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

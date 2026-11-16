@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 7261,
+ "total_tokens": 1037,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE O.4\",\n      \"kind\": \"chart\",\n      \"title\": \"Stalled progress in Global Prosperity Gap reduction\",\n      \"bbox\": [\n        557,\n        163,\n        885,\n        836\n      ],\n      \"content\": \"The chart is a line graph titled 'a. Progress in reducing the Global Prosperity Gap'. The y-axis represents the 'Global Prosperity Gap' ranging from 0 to 12. The x-axis represents years from 1990 to 2024. The trend shows a steady decline in the Global Prosperity Gap from approximately 11 in 1990 to approximately 5 around 2018, after which the progress stalls and remains relatively flat, ending at approximately 5 in 2024. The line from 2022 to 2024 is dashed, indicating a projection or estimate.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE O.4",
+   "kind": "chart",
+   "title": "Stalled progress in Global Prosperity Gap reduction",
+   "bbox": [
+    557,
+    163,
+    885,
+    836
+   ],
+   "content": "The chart is a line graph titled 'a. Progress in reducing the Global Prosperity Gap'. The y-axis represents the 'Global Prosperity Gap' ranging from 0 to 12. The x-axis represents years from 1990 to 2024. The trend shows a steady decline in the Global Prosperity Gap from approximately 11 in 1990 to approximately 5 around 2018, after which the progress stalls and remains relatively flat, ending at approximately 5 in 2024. The line from 2022 to 2024 is dashed, indicating a projection or estimate."
+  }
+ ],
+ "parse_ok": true,
+ "page": 43,
+ "captions": [
+  "FIGURE O.4"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

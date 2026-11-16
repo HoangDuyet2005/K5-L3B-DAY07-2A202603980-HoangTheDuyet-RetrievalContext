@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 7405,
+ "total_tokens": 1084,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"TABLE 2D.1\",\n      \"kind\": \"table\",\n      \"title\": \"Statistics of Gini indexes in the Poverty and Inequality Platform, post-2000\",\n      \"bbox\": [\n        268,\n        166,\n        422,\n        833\n      ],\n      \"content\": \"| Economy count | Survey count | Share of LICs and LMICs | Average Gini |\\n| :--- | :--- | :--- | :--- |\\n| Income-based surveys | 66 | 1,057 | 0.06 | 37.3 |\\n| Consumption-based surveys | 100 | 570 | 0.71 | 36.2 |\\n| Total | 166 | 1,627 | 0.45 | 36.9 |\\n\\nSource: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\\nNote: LICs = lower-income countries; LMICs = lower-middle-income countries.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "TABLE 2D.1",
+   "kind": "table",
+   "title": "Statistics of Gini indexes in the Poverty and Inequality Platform, post-2000",
+   "bbox": [
+    268,
+    166,
+    422,
+    833
+   ],
+   "content": "| Economy count | Survey count | Share of LICs and LMICs | Average Gini |\n| :--- | :--- | :--- | :--- |\n| Income-based surveys | 66 | 1,057 | 0.06 | 37.3 |\n| Consumption-based surveys | 100 | 570 | 0.71 | 36.2 |\n| Total | 166 | 1,627 | 0.45 | 36.9 |\n\nSource: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\nNote: LICs = lower-income countries; LMICs = lower-middle-income countries."
+  }
+ ],
+ "parse_ok": true,
+ "page": 176,
+ "captions": [
+  "TABLE 2D.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

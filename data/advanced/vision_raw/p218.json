@@ -1,0 +1,38 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 11286,
+ "total_tokens": 1166,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 3.10\",\n      \"kind\": \"chart\",\n      \"title\": \"Additional emissions associated with poverty alleviation increase with the level of ambition\",\n      \"bbox\": [\n        327,\n        167,\n        653,\n        833\n      ],\n      \"content\": {\n        \"type\": \"area chart\",\n        \"y_axis\": \"Relative to global 2019 CO2e emissions (%)\",\n        \"x_axis\": \"Year (2022-2050)\",\n        \"legend\": [\n          \"$6.85\",\n          \"$2.15\"\n        ],\n        \"data_trends\": \"The chart shows two stacked areas representing additional emissions. The $2.15 poverty line (bottom, light brown) shows a very slow, minimal increase over time. The $6.85 poverty line (top, dark blue) shows a significant, accelerating increase in additional emissions, reaching approximately 45% relative to 2019 levels by 2050.\",\n        \"source\": \"Wollburg, Hallegatte, and Mahler 2023.\",\n        \"note\": \"CO2e = carbon dioxide equivalent. The figure shows additional emissions relative to 2019 if poverty were to be alleviated at the $2.15 and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars) using historical emission intensities.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 3.10",
+   "kind": "chart",
+   "title": "Additional emissions associated with poverty alleviation increase with the level of ambition",
+   "bbox": [
+    327,
+    167,
+    653,
+    833
+   ],
+   "content": {
+    "type": "area chart",
+    "y_axis": "Relative to global 2019 CO2e emissions (%)",
+    "x_axis": "Year (2022-2050)",
+    "legend": [
+     "$6.85",
+     "$2.15"
+    ],
+    "data_trends": "The chart shows two stacked areas representing additional emissions. The $2.15 poverty line (bottom, light brown) shows a very slow, minimal increase over time. The $6.85 poverty line (top, dark blue) shows a significant, accelerating increase in additional emissions, reaching approximately 45% relative to 2019 levels by 2050.",
+    "source": "Wollburg, Hallegatte, and Mahler 2023.",
+    "note": "CO2e = carbon dioxide equivalent. The figure shows additional emissions relative to 2019 if poverty were to be alleviated at the $2.15 and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars) using historical emission intensities."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 218,
+ "captions": [
+  "FIGURE 3.10"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5410,
+ "total_tokens": 1721,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"TABLE 2F.1\",\n      \"kind\": \"table\",\n      \"title\": \"Gini index in latest available survey, by economy (continued)\",\n      \"bbox\": [\n        82,\n        167,\n        903,\n        832\n      ],\n      \"content\": \"| Economy and group | Region | Survey year | Welfare type | Gini index |\\n| :--- | :--- | :--- | :--- | :--- |\\n| Nicaragua | Latin America and the Caribbean | 2014 | Income | 46.2 |\\n| Panama | Latin America and the Caribbean | 2023 | Income | 48.9 |\\n| Papua New Guinea | East Asia and Pacific | 2009.67 | Consumption | 41.9 |\\n| Paraguay | Latin America and the Caribbean | 2022 | Income | 45.1 |\\n| Peru | Latin America and the Caribbean | 2022 | Income | 40.3 |\\n| Philippines | East Asia and Pacific | 2021 | Income | 40.7 |\\n| Rwanda | Sub-Saharan Africa | 2016.77 | Consumption | 43.7 |\\n| São Tomé and Príncipe | Sub-Saharan Africa | 2017 | Consumption | 40.7 |\\n| South Africa | Sub-Saharan Africa | 2014.83 | Consumption | 63.0 |\\n| South Sudan | Sub-Saharan Africa | 2016.5 | Consumption | 44.1 |\\n| St. Lucia | Latin America and the Caribbean | 2015.78 | Consumption | 43.7 |\\n| Tanzania | Sub-Saharan Africa | 2017.92 | Consumption | 40.5 |\\n| Türkiye | Europe and Central Asia | 2021 | Income | 44.4 |\\n| Uganda | Sub-Saharan Africa | 2019.64 | Consumption | 42.7 |\\n| United States | Rest of the world | 2022 | Income | 41.3 |\\n| Uruguay | Latin America and the Caribbean | 2022 | Income | 40.6 |\\n| Venezuela, RB | Latin America and the Caribbean | 2006 | Income | 44.7 |\\n| Zambia | Sub-Saharan Africa | 2022 | Consumption | 51.5 |\\n| Zimbabwe | Sub-Saharan Africa | 2019 | Consumption | 50.3 |\\n| **Moderate inequality** | | | | |\\n| Australia | Rest of the world | 2018 | Income | 34.3 |\\n| Austria | Rest of the world | 2021 | Income | 30.7 |\\n| Bangladesh | South Asia | 2022 | Consumption | 33.4 |\\n| Benin | Sub-Saharan Africa | 2021.75 | Consumption | 34.4 |\\n| Bosnia and Herzegovina | Europe and Central Asia | 2011 | Consumption | 33.0 |\\n| Bulgaria | Europe and Central Asia | 2021 | Income | 39.0 |\\n| Burkina Faso | Sub-Saharan Africa | 2021.67 | Consumption | 37.4 |\\n| Burundi | Sub-Saharan Africa | 2020.15 | Consumption | 37.5 |\\n| Canada | Rest of the world | 2019 | Income | 31.7 |\\n| Chad | Sub-Saharan Africa | 2022 | Consumption | 37.4 |\\n| China | East Asia and Pacific | 2021 | Consumption | 35.7 |\\n| Côte d’Ivoire | Sub-Saharan Africa | 2021.75 | Consumption | 35.3 |\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "TABLE 2F.1",
+   "kind": "table",
+   "title": "Gini index in latest available survey, by economy (continued)",
+   "bbox": [
+    82,
+    167,
+    903,
+    832
+   ],
+   "content": "| Economy and group | Region | Survey year | Welfare type | Gini index |\n| :--- | :--- | :--- | :--- | :--- |\n| Nicaragua | Latin America and the Caribbean | 2014 | Income | 46.2 |\n| Panama | Latin America and the Caribbean | 2023 | Income | 48.9 |\n| Papua New Guinea | East Asia and Pacific | 2009.67 | Consumption | 41.9 |\n| Paraguay | Latin America and the Caribbean | 2022 | Income | 45.1 |\n| Peru | Latin America and the Caribbean | 2022 | Income | 40.3 |\n| Philippines | East Asia and Pacific | 2021 | Income | 40.7 |\n| Rwanda | Sub-Saharan Africa | 2016.77 | Consumption | 43.7 |\n| São Tomé and Príncipe | Sub-Saharan Africa | 2017 | Consumption | 40.7 |\n| South Africa | Sub-Saharan Africa | 2014.83 | Consumption | 63.0 |\n| South Sudan | Sub-Saharan Africa | 2016.5 | Consumption | 44.1 |\n| St. Lucia | Latin America and the Caribbean | 2015.78 | Consumption | 43.7 |\n| Tanzania | Sub-Saharan Africa | 2017.92 | Consumption | 40.5 |\n| Türkiye | Europe and Central Asia | 2021 | Income | 44.4 |\n| Uganda | Sub-Saharan Africa | 2019.64 | Consumption | 42.7 |\n| United States | Rest of the world | 2022 | Income | 41.3 |\n| Uruguay | Latin America and the Caribbean | 2022 | Income | 40.6 |\n| Venezuela, RB | Latin America and the Caribbean | 2006 | Income | 44.7 |\n| Zambia | Sub-Saharan Africa | 2022 | Consumption | 51.5 |\n| Zimbabwe | Sub-Saharan Africa | 2019 | Consumption | 50.3 |\n| **Moderate inequality** | | | | |\n| Australia | Rest of the world | 2018 | Income | 34.3 |\n| Austria | Rest of the world | 2021 | Income | 30.7 |\n| Bangladesh | South Asia | 2022 | Consumption | 33.4 |\n| Benin | Sub-Saharan Africa | 2021.75 | Consumption | 34.4 |\n| Bosnia and Herzegovina | Europe and Central Asia | 2011 | Consumption | 33.0 |\n| Bulgaria | Europe and Central Asia | 2021 | Income | 39.0 |\n| Burkina Faso | Sub-Saharan Africa | 2021.67 | Consumption | 37.4 |\n| Burundi | Sub-Saharan Africa | 2020.15 | Consumption | 37.5 |\n| Canada | Rest of the world | 2019 | Income | 31.7 |\n| Chad | Sub-Saharan Africa | 2022 | Consumption | 37.4 |\n| China | East Asia and Pacific | 2021 | Consumption | 35.7 |\n| Côte d’Ivoire | Sub-Saharan Africa | 2021.75 | Consumption | 35.3 |"
+  }
+ ],
+ "parse_ok": true,
+ "page": 182,
+ "captions": [
+  "TABLE 2F.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,97 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 3196,
+ "total_tokens": 1548,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 4.5\",\n      \"kind\": \"chart\",\n      \"title\": \"Comparison of inequality estimates derived from household surveys and other methods\",\n      \"bbox\": [\n        83,\n        103,\n        835,\n        900\n      ],\n      \"content\": {\n        \"panel_a\": {\n          \"title\": \"a. Comparison of Gini indexes\",\n          \"type\": \"slope chart\",\n          \"axes\": {\n            \"left\": \"Gini index, PIP\",\n            \"right\": \"Gini index, WID\"\n          },\n          \"data_points\": [\n            \"Austria\",\n            \"Belgium\",\n            \"Bulgaria\",\n            \"Cyprus\",\n            \"Czechia\",\n            \"Denmark\",\n            \"Spain\",\n            \"Estonia\",\n            \"Finland\",\n            \"United Kingdom\",\n            \"Greece\",\n            \"Croatia\",\n            \"Hungary\",\n            \"Ireland\",\n            \"Italy\",\n            \"Lithuania\",\n            \"Luxembourg\",\n            \"Latvia\",\n            \"Montenegro\",\n            \"Netherlands\",\n            \"Poland\",\n            \"Portugal\",\n            \"Romania\",\n            \"Serbia\",\n            \"Slovak Republic\",\n            \"Slovenia\",\n            \"Sweden\"\n          ]\n        },\n        \"panel_b\": {\n          \"title\": \"b. Trends in top income shares, selected countries\",\n          \"type\": \"line chart\",\n          \"legend\": [\n            \"PIP top 10% share\",\n            \"WID top 10% share\"\n          ],\n          \"sub_charts\": [\n            {\n              \"location\": \"Bulgaria\",\n              \"x_axis\": \"1990-2020\",\n              \"y_axis\": \"Share (%)\"\n            },\n            {\n              \"location\": \"Latvia\",\n              \"x_axis\": \"1990-2020\",\n              \"y_axis\": \"Share (%)\"\n            },\n            {\n              \"location\": \"Romania\",\n              \"x_axis\": \"1990-2020\",\n              \"y_axis\": \"Share (%)\"\n            },\n            {\n              \"location\": \"Slovak Republic\",\n              \"x_axis\": \"1990-2020\",\n              \"y_axis\": \"Share (%)\"\n            }\n          ]\n        },\n        \"sources\": \"World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org; World Inequality Database.\",\n        \"notes\": \"PIP = Poverty and Inequality Platform; WID = World Inequality Database. Panel a compares Gini indexes between PIP and WID for 2021, which is the latest year with comparable sets for countries in both databases. Panel b compares income shares of the top 10 percent earners for select countries in Europe and Central Asia. The income concept used in PIP is per capita household income, and that used in WID is equal-split adult post-tax disposable income. See also Atkinson and Piketty (2007) for rich countries.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 4.5",
+   "kind": "chart",
+   "title": "Comparison of inequality estimates derived from household surveys and other methods",
+   "bbox": [
+    83,
+    103,
+    835,
+    900
+   ],
+   "content": {
+    "panel_a": {
+     "title": "a. Comparison of Gini indexes",
+     "type": "slope chart",
+     "axes": {
+      "left": "Gini index, PIP",
+      "right": "Gini index, WID"
+     },
+     "data_points": [
+      "Austria",
+      "Belgium",
+      "Bulgaria",
+      "Cyprus",
+      "Czechia",
+      "Denmark",
+      "Spain",
+      "Estonia",
+      "Finland",
+      "United Kingdom",
+      "Greece",
+      "Croatia",
+      "Hungary",
+      "Ireland",
+      "Italy",
+      "Lithuania",
+      "Luxembourg",
+      "Latvia",
+      "Montenegro",
+      "Netherlands",
+      "Poland",
+      "Portugal",
+      "Romania",
+      "Serbia",
+      "Slovak Republic",
+      "Slovenia",
+      "Sweden"
+     ]
+    },
+    "panel_b": {
+     "title": "b. Trends in top income shares, selected countries",
+     "type": "line chart",
+     "legend": [
+      "PIP top 10% share",
+      "WID top 10% share"
+     ],
+     "sub_charts": [
+      {
+       "location": "Bulgaria",
+       "x_axis": "1990-2020",
+       "y_axis": "Share (%)"
+      },
+      {
+       "location": "Latvia",
+       "x_axis": "1990-2020",
+       "y_axis": "Share (%)"
+      },
+      {
+       "location": "Romania",
+       "x_axis": "1990-2020",
+       "y_axis": "Share (%)"
+      },
+      {
+       "location": "Slovak Republic",
+       "x_axis": "1990-2020",
+       "y_axis": "Share (%)"
+      }
+     ]
+    },
+    "sources": "World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org; World Inequality Database.",
+    "notes": "PIP = Poverty and Inequality Platform; WID = World Inequality Database. Panel a compares Gini indexes between PIP and WID for 2021, which is the latest year with comparable sets for countries in both databases. Panel b compares income shares of the top 10 percent earners for select countries in Europe and Central Asia. The income concept used in PIP is per capita household income, and that used in WID is equal-split adult post-tax disposable income. See also Atkinson and Piketty (2007) for rich countries."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 269,
+ "captions": [
+  "FIGURE 4.5"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

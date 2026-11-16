@@ -1,0 +1,84 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4631,
+ "total_tokens": 1494,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 2.7\",\n      \"kind\": \"chart\",\n      \"title\": \"Inequality delays prosperity\",\n      \"bbox\": [\n        85,\n        167,\n        465,\n        753\n      ],\n      \"content\": {\n        \"type\": \"horizontal bar chart\",\n        \"axis_x\": \"Number of years required to reach $25 on average\",\n        \"axis_y\": \"Countries (ranked from poorest to richest)\",\n        \"legend\": [\n          \"2% annual per capita growth\",\n          \"4% annual per capita growth or 2% growth with half inequality\"\n        ],\n        \"data\": [\n          {\n            \"country\": \"Colombia\",\n            \"2%_growth\": 185,\n            \"4%_growth\": 92\n          },\n          {\n            \"country\": \"Paraguay\",\n            \"2%_growth\": 85,\n            \"4%_growth\": 43\n          },\n          {\n            \"country\": \"Serbia\",\n            \"2%_growth\": 69,\n            \"4%_growth\": 34\n          },\n          {\n            \"country\": \"Brazil\",\n            \"2%_growth\": 113,\n            \"4%_growth\": 57\n          },\n          {\n            \"country\": \"Argentina\",\n            \"2%_growth\": 53,\n            \"4%_growth\": 27\n          },\n          {\n            \"country\": \"Costa Rica\",\n            \"2%_growth\": 55,\n            \"4%_growth\": 27\n          },\n          {\n            \"country\": \"Türkiye\",\n            \"2%_growth\": 37,\n            \"4%_growth\": 19\n          },\n          {\n            \"country\": \"Bulgaria\",\n            \"2%_growth\": 27,\n            \"4%_growth\": 13\n          },\n          {\n            \"country\": \"Malaysia\",\n            \"2%_growth\": 14,\n            \"4%_growth\": 7\n          }\n        ],\n        \"source\": \"World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\",\n        \"note\": \"Only results for select upper-middle-income countries using the latest survey are reported. Countries are ranked from the poorest (top) to the richest (bottom) by average household per capita income. Each country is assumed to grow at 2 percent per capita annually (dark blue bars) or 4 percent per capita annually (yellow bars) with the current level of inequality. The number of years required to reach $25 per person on average is equivalent if countries grow at 2 percent per capita annually with a level of inequality that is half the current level or grow annually at 4 percent with the current level of inequality.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 2.7",
+   "kind": "chart",
+   "title": "Inequality delays prosperity",
+   "bbox": [
+    85,
+    167,
+    465,
+    753
+   ],
+   "content": {
+    "type": "horizontal bar chart",
+    "axis_x": "Number of years required to reach $25 on average",
+    "axis_y": "Countries (ranked from poorest to richest)",
+    "legend": [
+     "2% annual per capita growth",
+     "4% annual per capita growth or 2% growth with half inequality"
+    ],
+    "data": [
+     {
+      "country": "Colombia",
+      "2%_growth": 185,
+      "4%_growth": 92
+     },
+     {
+      "country": "Paraguay",
+      "2%_growth": 85,
+      "4%_growth": 43
+     },
+     {
+      "country": "Serbia",
+      "2%_growth": 69,
+      "4%_growth": 34
+     },
+     {
+      "country": "Brazil",
+      "2%_growth": 113,
+      "4%_growth": 57
+     },
+     {
+      "country": "Argentina",
+      "2%_growth": 53,
+      "4%_growth": 27
+     },
+     {
+      "country": "Costa Rica",
+      "2%_growth": 55,
+      "4%_growth": 27
+     },
+     {
+      "country": "Türkiye",
+      "2%_growth": 37,
+      "4%_growth": 19
+     },
+     {
+      "country": "Bulgaria",
+      "2%_growth": 27,
+      "4%_growth": 13
+     },
+     {
+      "country": "Malaysia",
+      "2%_growth": 14,
+      "4%_growth": 7
+     }
+    ],
+    "source": "World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.",
+    "note": "Only results for select upper-middle-income countries using the latest survey are reported. Countries are ranked from the poorest (top) to the richest (bottom) by average household per capita income. Each country is assumed to grow at 2 percent per capita annually (dark blue bars) or 4 percent per capita annually (yellow bars) with the current level of inequality. The number of years required to reach $25 per person on average is equivalent if countries grow at 2 percent per capita annually with a level of inequality that is half the current level or grow annually at 4 percent with the current level of inequality."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 154,
+ "captions": [
+  "FIGURE 2.7"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

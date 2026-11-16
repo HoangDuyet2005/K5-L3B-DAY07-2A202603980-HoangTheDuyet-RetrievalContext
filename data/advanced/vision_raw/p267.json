@@ -1,0 +1,108 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4211,
+ "total_tokens": 1756,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 4.4\",\n      \"kind\": \"chart\",\n      \"title\": \"Using income and consumption does not change rankings and trends dramatically for countries where both measures exist\",\n      \"bbox\": [\n        261,\n        163,\n        615,\n        836\n      ],\n      \"content\": {\n        \"panel_a\": {\n          \"title\": \"Comparing consumption and income\",\n          \"subtitle\": \"Gini indexes, latest available survey\",\n          \"y_axis_left\": \"Gini index of consumption\",\n          \"y_axis_right\": \"Gini index of income\",\n          \"data_points\": [\n            {\n              \"country\": \"St. Lucia\",\n              \"consumption_gini\": \"approx. 44\",\n              \"income_gini\": \"approx. 49\"\n            },\n            {\n              \"country\": \"Türkiye\",\n              \"consumption_gini\": \"approx. 42\",\n              \"income_gini\": \"approx. 42\"\n            },\n            {\n              \"country\": \"Philippines\",\n              \"consumption_gini\": \"approx. 38\",\n              \"income_gini\": \"approx. 40\"\n            },\n            {\n              \"country\": \"Russian Federation\",\n              \"consumption_gini\": \"approx. 37\",\n              \"income_gini\": \"approx. 37\"\n            },\n            {\n              \"country\": \"Albania\",\n              \"consumption_gini\": \"approx. 33\",\n              \"income_gini\": \"approx. 33\"\n            },\n            {\n              \"country\": \"Poland\",\n              \"consumption_gini\": \"approx. 30\",\n              \"income_gini\": \"approx. 30\"\n            },\n            {\n              \"country\": \"Serbia\",\n              \"consumption_gini\": \"approx. 29\",\n              \"income_gini\": \"approx. 35\"\n            },\n            {\n              \"country\": \"Romania\",\n              \"consumption_gini\": \"approx. 28\",\n              \"income_gini\": \"approx. 34\"\n            }\n          ]\n        },\n        \"panel_b\": {\n          \"title\": \"Comparing trends in consumption and income Gini indexes, circa 2008–18\",\n          \"x_axis\": \"Annual change (%)\",\n          \"legend\": [\n            \"Change in consumption-based Gini\",\n            \"Change in income-based Gini\"\n          ],\n          \"data\": [\n            {\n              \"country\": \"Montenegro\",\n              \"consumption_change\": \"approx. -0.5\",\n              \"income_change\": \"approx. -0.8\"\n            },\n            {\n              \"country\": \"Philippines\",\n              \"consumption_change\": \"approx. -1.2\",\n              \"income_change\": \"approx. -1.5\"\n            },\n            {\n              \"country\": \"Poland\",\n              \"consumption_change\": \"approx. -1.0\",\n              \"income_change\": \"approx. -1.3\"\n            },\n            {\n              \"country\": \"Romania\",\n              \"consumption_change\": \"approx. -0.2\",\n              \"income_change\": \"approx. -0.8\"\n            }\n          ]\n        },\n        \"source\": \"World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\",\n        \"note\": \"Panel a shows the Gini indexes of consumption and income for all countries using the latest available survey between 2015 and 2022. Panel b shows the annual percent change in the Gini index between circa 2008 (±4 years) and circa 2018 (±4 years) for countries that have both types of surveys that are comparable. See also figures B4.4.1 and B4.4.2 in Poverty and Shared Prosperity 2016: Taking on Inequality (World Bank 2016).\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 4.4",
+   "kind": "chart",
+   "title": "Using income and consumption does not change rankings and trends dramatically for countries where both measures exist",
+   "bbox": [
+    261,
+    163,
+    615,
+    836
+   ],
+   "content": {
+    "panel_a": {
+     "title": "Comparing consumption and income",
+     "subtitle": "Gini indexes, latest available survey",
+     "y_axis_left": "Gini index of consumption",
+     "y_axis_right": "Gini index of income",
+     "data_points": [
+      {
+       "country": "St. Lucia",
+       "consumption_gini": "approx. 44",
+       "income_gini": "approx. 49"
+      },
+      {
+       "country": "Türkiye",
+       "consumption_gini": "approx. 42",
+       "income_gini": "approx. 42"
+      },
+      {
+       "country": "Philippines",
+       "consumption_gini": "approx. 38",
+       "income_gini": "approx. 40"
+      },
+      {
+       "country": "Russian Federation",
+       "consumption_gini": "approx. 37",
+       "income_gini": "approx. 37"
+      },
+      {
+       "country": "Albania",
+       "consumption_gini": "approx. 33",
+       "income_gini": "approx. 33"
+      },
+      {
+       "country": "Poland",
+       "consumption_gini": "approx. 30",
+       "income_gini": "approx. 30"
+      },
+      {
+       "country": "Serbia",
+       "consumption_gini": "approx. 29",
+       "income_gini": "approx. 35"
+      },
+      {
+       "country": "Romania",
+       "consumption_gini": "approx. 28",
+       "income_gini": "approx. 34"
+      }
+     ]
+    },
+    "panel_b": {
+     "title": "Comparing trends in consumption and income Gini indexes, circa 2008–18",
+     "x_axis": "Annual change (%)",
+     "legend": [
+      "Change in consumption-based Gini",
+      "Change in income-based Gini"
+     ],
+     "data": [
+      {
+       "country": "Montenegro",
+       "consumption_change": "approx. -0.5",
+       "income_change": "approx. -0.8"
+      },
+      {
+       "country": "Philippines",
+       "consumption_change": "approx. -1.2",
+       "income_change": "approx. -1.5"
+      },
+      {
+       "country": "Poland",
+       "consumption_change": "approx. -1.0",
+       "income_change": "approx. -1.3"
+      },
+      {
+       "country": "Romania",
+       "consumption_change": "approx. -0.2",
+       "income_change": "approx. -0.8"
+      }
+     ]
+    },
+    "source": "World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.",
+    "note": "Panel a shows the Gini indexes of consumption and income for all countries using the latest available survey between 2015 and 2022. Panel b shows the annual percent change in the Gini index between circa 2008 (±4 years) and circa 2018 (±4 years) for countries that have both types of surveys that are comparable. See also figures B4.4.1 and B4.4.2 in Poverty and Shared Prosperity 2016: Taking on Inequality (World Bank 2016)."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 267,
+ "captions": [
+  "FIGURE 4.4"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

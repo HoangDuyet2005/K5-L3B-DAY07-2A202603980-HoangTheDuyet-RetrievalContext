@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4451,
+ "total_tokens": 1446,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE O.9\",\n      \"kind\": \"chart\",\n      \"title\": \"Projections of emissions and temperatures to 2050\",\n      \"bbox\": [\n        358,\n        155,\n        665,\n        835\n      ],\n      \"content\": \"The figure consists of two panels: a. Emission scenarios and b. Temperature scenarios. Panel a shows Relative GHG emissions (2022 = 1) from 2000 to 2050. Panel b shows Global mean temperature increase (degrees Celsius) from 2000 to 2050. Both panels share a legend: Current policies (blue), NDCs (yellow), Net Zero 2050 (red), and Historical (gray). Panel a shows historical emissions rising to 1.0 in 2022, then diverging into three scenarios: Current policies (rising to approx. 1.1 by 2050), NDCs (declining to approx. 0.6 by 2050), and Net Zero 2050 (declining sharply to approx. 0.1 by 2050). Panel b shows historical temperature increase rising to approx. 1.2°C by 2022, then diverging: Current policies (rising to approx. 1.9°C by 2050), NDCs (rising to approx. 1.7°C by 2050), and Net Zero 2050 (rising to approx. 1.6°C by 2050). Sources: Panel a: Network for Greening the Financial System (NGFS) 2023, harmonized to historical 2022 emissions estimations from EDGAR data. Panel b: World Bank calculations using projections from NGFS 2023, harmonized to historical 2020 temperature estimations from IPCC 2021. Note: EDGAR = Emissions Database for Global Atmospheric Research; GHG = greenhouse gas; IPCC = Intergovernmental Panel on Climate Change; NDCs = Nationally Determined Contributions. Ranges for each policy scenario are based on four different projection models: GCAM 6.0, MESSAGEix-GLOBIOM 1.1-M-R12, REMIND-MAgPIE 3.2-4.6 Integrated Physical Damages [95th-high], and REMIND-MAgPIE 3.2-4.6 Integrated Physical Damages (median). In panel b, temperature increases are relative to the average global surface temperature of the period 1850–1900 (pre-industrial) (IPCC 2021). Temperature projections refer to the AR6 Surface Temperature increase (50th percentile) from the MAGICC 7.5.3 model.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE O.9",
+   "kind": "chart",
+   "title": "Projections of emissions and temperatures to 2050",
+   "bbox": [
+    358,
+    155,
+    665,
+    835
+   ],
+   "content": "The figure consists of two panels: a. Emission scenarios and b. Temperature scenarios. Panel a shows Relative GHG emissions (2022 = 1) from 2000 to 2050. Panel b shows Global mean temperature increase (degrees Celsius) from 2000 to 2050. Both panels share a legend: Current policies (blue), NDCs (yellow), Net Zero 2050 (red), and Historical (gray). Panel a shows historical emissions rising to 1.0 in 2022, then diverging into three scenarios: Current policies (rising to approx. 1.1 by 2050), NDCs (declining to approx. 0.6 by 2050), and Net Zero 2050 (declining sharply to approx. 0.1 by 2050). Panel b shows historical temperature increase rising to approx. 1.2°C by 2022, then diverging: Current policies (rising to approx. 1.9°C by 2050), NDCs (rising to approx. 1.7°C by 2050), and Net Zero 2050 (rising to approx. 1.6°C by 2050). Sources: Panel a: Network for Greening the Financial System (NGFS) 2023, harmonized to historical 2022 emissions estimations from EDGAR data. Panel b: World Bank calculations using projections from NGFS 2023, harmonized to historical 2020 temperature estimations from IPCC 2021. Note: EDGAR = Emissions Database for Global Atmospheric Research; GHG = greenhouse gas; IPCC = Intergovernmental Panel on Climate Change; NDCs = Nationally Determined Contributions. Ranges for each policy scenario are based on four different projection models: GCAM 6.0, MESSAGEix-GLOBIOM 1.1-M-R12, REMIND-MAgPIE 3.2-4.6 Integrated Physical Damages [95th-high], and REMIND-MAgPIE 3.2-4.6 Integrated Physical Damages (median). In panel b, temperature increases are relative to the average global surface temperature of the period 1850–1900 (pre-industrial) (IPCC 2021). Temperature projections refer to the AR6 Surface Temperature increase (50th percentile) from the MAGICC 7.5.3 model."
+  }
+ ],
+ "parse_ok": true,
+ "page": 58,
+ "captions": [
+  "FIGURE O.9"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

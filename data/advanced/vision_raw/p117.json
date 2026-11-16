@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5339,
+ "total_tokens": 1683,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"TABLE 1.1\",\n      \"kind\": \"table\",\n      \"title\": \"Deprivations in educational attainment and access to basic infrastructure lift multidimensional poverty above the extreme poverty rate, 2021\",\n      \"bbox\": [\n        163,\n        105,\n        653,\n        908\n      ],\n      \"content\": \"| Region | Monetary | Educational attainment | Educational enrollment | Electricity | Sanitation | Drinking water | Multidimensional poverty rate | Number of economies | Coverage (%) |\\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\\n| East Asia and Pacific | 2 | 5 | 2 | 1 | 9 | 4 | 2.7 | 12 | 26 |\\n| Europe and Central Asia | 0 | 1 | 1 | 2 | 8 | 4 | 2.1 | 24 | 78 |\\n| Latin America and the Caribbean | 3 | 8 | 2 | 1 | 17 | 3 | 3.6 | 18 | 86 |\\n| Middle East and North Africa | 1 | 7 | 2 | 0 | 2 | 1 | 1.5 | 3 | 24 |\\n| South Asia | 4 | 15 | 18 | 6 | 23 | 5 | 11.2 | 6 | 11 |\\n| Sub-Saharan Africa | 39 | 29 | 18 | 46 | 59 | 29 | 52.6 | 24 | 31 |\\n| Rest of the world | 0 | 1 | 2 | 0 | 0 | 0 | 1.0 | 23 | 69 |\\n| World | 9 | 10 | 8 | 10 | 21 | 9 | 13.4 | 110 | 37 |\\n| IDA countries | 25 | 23 | 17 | 29 | 44 | 19 | 35.6 | 38 | 34 |\\n| Countries in FCS | 38 | 27 | 18 | 45 | 55 | 28 | 50.4 | 13 | 27 |\\n\\nSource: World Bank, Global Monitoring Database (GMD) (version September 2024).\\nNote: FCS = fragile and conflict-affected situations; IDA = International Development Association. The table presents the multidimensional poverty rate and share of population deprived in each indicator by region and rest of the world for circa 2021. “Multidimensional poverty rate” is the share of the population in each region defined as multidimensionally poor. “Number of economies” is the number of economies in each region for which information is available in the window between 2018 and 2024, three years within the circa 2021 reporting year. The monetary poverty rate is based on the international poverty line of $2.15 per person per day (in 2017 purchasing power parity dollars). Regional and total estimates are population-weighted averages of survey year estimates for 110 economies and are not comparable with those presented in the previous section because of differences in country coverage. “Coverage” refers to the share of the population that is covered by a recent survey (in 2020 or later). Groupings with less than 50 percent coverage are shaded. The coverage rule applied to the estimates is identical to that used in the rest of the chapter. The absence of data for China and India reduces coverage for the East Asia and Pacific and South Asia regions, as well as the world.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "TABLE 1.1",
+   "kind": "table",
+   "title": "Deprivations in educational attainment and access to basic infrastructure lift multidimensional poverty above the extreme poverty rate, 2021",
+   "bbox": [
+    163,
+    105,
+    653,
+    908
+   ],
+   "content": "| Region | Monetary | Educational attainment | Educational enrollment | Electricity | Sanitation | Drinking water | Multidimensional poverty rate | Number of economies | Coverage (%) |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| East Asia and Pacific | 2 | 5 | 2 | 1 | 9 | 4 | 2.7 | 12 | 26 |\n| Europe and Central Asia | 0 | 1 | 1 | 2 | 8 | 4 | 2.1 | 24 | 78 |\n| Latin America and the Caribbean | 3 | 8 | 2 | 1 | 17 | 3 | 3.6 | 18 | 86 |\n| Middle East and North Africa | 1 | 7 | 2 | 0 | 2 | 1 | 1.5 | 3 | 24 |\n| South Asia | 4 | 15 | 18 | 6 | 23 | 5 | 11.2 | 6 | 11 |\n| Sub-Saharan Africa | 39 | 29 | 18 | 46 | 59 | 29 | 52.6 | 24 | 31 |\n| Rest of the world | 0 | 1 | 2 | 0 | 0 | 0 | 1.0 | 23 | 69 |\n| World | 9 | 10 | 8 | 10 | 21 | 9 | 13.4 | 110 | 37 |\n| IDA countries | 25 | 23 | 17 | 29 | 44 | 19 | 35.6 | 38 | 34 |\n| Countries in FCS | 38 | 27 | 18 | 45 | 55 | 28 | 50.4 | 13 | 27 |\n\nSource: World Bank, Global Monitoring Database (GMD) (version September 2024).\nNote: FCS = fragile and conflict-affected situations; IDA = International Development Association. The table presents the multidimensional poverty rate and share of population deprived in each indicator by region and rest of the world for circa 2021. “Multidimensional poverty rate” is the share of the population in each region defined as multidimensionally poor. “Number of economies” is the number of economies in each region for which information is available in the window between 2018 and 2024, three years within the circa 2021 reporting year. The monetary poverty rate is based on the international poverty line of $2.15 per person per day (in 2017 purchasing power parity dollars). Regional and total estimates are population-weighted averages of survey year estimates for 110 economies and are not comparable with those presented in the previous section because of differences in country coverage. “Coverage” refers to the share of the population that is covered by a recent survey (in 2020 or later). Groupings with less than 50 percent coverage are shaded. The coverage rule applied to the estimates is identical to that used in the rest of the chapter. The absence of data for China and India reduces coverage for the East Asia and Pacific and South Asia regions, as well as the world."
+  }
+ ],
+ "parse_ok": true,
+ "page": 117,
+ "captions": [
+  "TABLE 1.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

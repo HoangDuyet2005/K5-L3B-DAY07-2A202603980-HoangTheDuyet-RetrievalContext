@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5780,
+ "total_tokens": 1380,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 0.2\",\n      \"kind\": \"chart\",\n      \"title\": \"Projections of poverty until 2050 under different scenarios\",\n      \"bbox\": [\n        85,\n        165,\n        455,\n        835\n      ],\n      \"content\": \"The figure consists of two line charts showing poverty rate projections. Panel a: Poverty rate at $2.15 (%). Panel b: Poverty rate at $6.85 (%). Legend: Observed (solid grey), Current forecast + historical growth (solid dark red), 2% growth (dotted red), 2% growth + Gini reduction 1% (solid blue), 2% growth + Gini reduction 2% (dashed blue), 4% growth (solid gold). X-axis for both: Years from 2010 to 2050. Y-axis for a: 0 to 16. Y-axis for b: 0 to 60. Trends: In both charts, poverty rates decline from 2010 to 2022 (observed). Post-2022, the '4% growth' scenario shows the steepest decline, while 'Current forecast + historical growth' shows the slowest decline. A horizontal dotted line at 3% is present in panel a. Sources: World Bank calculations using data from World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org/; World Bank 2024c; IMF 2024; and World Bank 2024e. Note: Poverty rates are reported for the $2.15 and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). Poverty rates are projected after 2022 based on country-level growth in gross domestic product per capita. “Current forecast + historical growth” is based on growth projections in the Global Economic Prospects, June 2024 (World Bank 2024c) complemented by the Macro Poverty Outlook (World Bank 2024e) and the World Economic Outlook (IMF 2024) until 2029 and average annual per capita historical growth rates (2010–19) thereafter (see annex 1A for further details). Inequality reduction scenarios refer to a reduction in the country-level Gini index by 1 percent or 2 percent annually. The horizontal dotted line indicates a poverty rate of 3 percent.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 0.2",
+   "kind": "chart",
+   "title": "Projections of poverty until 2050 under different scenarios",
+   "bbox": [
+    85,
+    165,
+    455,
+    835
+   ],
+   "content": "The figure consists of two line charts showing poverty rate projections. Panel a: Poverty rate at $2.15 (%). Panel b: Poverty rate at $6.85 (%). Legend: Observed (solid grey), Current forecast + historical growth (solid dark red), 2% growth (dotted red), 2% growth + Gini reduction 1% (solid blue), 2% growth + Gini reduction 2% (dashed blue), 4% growth (solid gold). X-axis for both: Years from 2010 to 2050. Y-axis for a: 0 to 16. Y-axis for b: 0 to 60. Trends: In both charts, poverty rates decline from 2010 to 2022 (observed). Post-2022, the '4% growth' scenario shows the steepest decline, while 'Current forecast + historical growth' shows the slowest decline. A horizontal dotted line at 3% is present in panel a. Sources: World Bank calculations using data from World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org/; World Bank 2024c; IMF 2024; and World Bank 2024e. Note: Poverty rates are reported for the $2.15 and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). Poverty rates are projected after 2022 based on country-level growth in gross domestic product per capita. “Current forecast + historical growth” is based on growth projections in the Global Economic Prospects, June 2024 (World Bank 2024c) complemented by the Macro Poverty Outlook (World Bank 2024e) and the World Economic Outlook (IMF 2024) until 2029 and average annual per capita historical growth rates (2010–19) thereafter (see annex 1A for further details). Inequality reduction scenarios refer to a reduction in the country-level Gini index by 1 percent or 2 percent annually. The horizontal dotted line indicates a poverty rate of 3 percent."
+  }
+ ],
+ "parse_ok": true,
+ "page": 38,
+ "captions": [
+  "FIGURE O.2"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

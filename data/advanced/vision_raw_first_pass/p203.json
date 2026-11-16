@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 8629,
+ "total_tokens": 1172,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"MAP 3.1\",\n      \"kind\": \"map\",\n      \"title\": \"Large populations are exposed to extreme weather events in South Asia and East Asia and Pacific, and vulnerability is high in Sub-Saharan Africa\",\n      \"bbox\": [\n        347,\n        167,\n        665,\n        833\n      ],\n      \"content\": \"The map displays regional population data using three overlapping circles: gray (sample population), blue (population exposed to any type of hazard), and red (population exposed to any type of hazard and vulnerable along at least one dimension). Regions shown include North America, Europe and Central Asia, South Asia, East Asia and Pacific, Latin America and the Caribbean, Sub-Saharan Africa, and Middle East and North Africa. Key observations: South Asia has the largest total population at high risk (594 million people). The blue circle for Sub-Saharan Africa is barely visible, indicating that almost everyone exposed is also vulnerable. Source: World Bank Group Scorecard indicator: the percentage of people at high risk of climate-related hazards globally, https://scorecard.worldbank.org/en/scorecard/home. Note: Gray circles depict the overall population in the sample in the data, blue circles show the population exposed to any type of hazard, and red circles indicate the population exposed to any type of hazard and vulnerable along at least one dimension. The placement of circles is for illustrative purposes only and reflects populations for the respective region as a whole. For the Middle East and North Africa region, the indicator covers less than 50 percent of the population.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "MAP 3.1",
+   "kind": "map",
+   "title": "Large populations are exposed to extreme weather events in South Asia and East Asia and Pacific, and vulnerability is high in Sub-Saharan Africa",
+   "bbox": [
+    347,
+    167,
+    665,
+    833
+   ],
+   "content": "The map displays regional population data using three overlapping circles: gray (sample population), blue (population exposed to any type of hazard), and red (population exposed to any type of hazard and vulnerable along at least one dimension). Regions shown include North America, Europe and Central Asia, South Asia, East Asia and Pacific, Latin America and the Caribbean, Sub-Saharan Africa, and Middle East and North Africa. Key observations: South Asia has the largest total population at high risk (594 million people). The blue circle for Sub-Saharan Africa is barely visible, indicating that almost everyone exposed is also vulnerable. Source: World Bank Group Scorecard indicator: the percentage of people at high risk of climate-related hazards globally, https://scorecard.worldbank.org/en/scorecard/home. Note: Gray circles depict the overall population in the sample in the data, blue circles show the population exposed to any type of hazard, and red circles indicate the population exposed to any type of hazard and vulnerable along at least one dimension. The placement of circles is for illustrative purposes only and reflects populations for the respective region as a whole. For the Middle East and North Africa region, the indicator covers less than 50 percent of the population."
+  }
+ ],
+ "parse_ok": true,
+ "page": 203,
+ "captions": [
+  "MAP 3.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

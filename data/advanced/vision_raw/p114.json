@@ -1,0 +1,57 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4477,
+ "total_tokens": 1338,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 1.12\",\n      \"kind\": \"chart\",\n      \"title\": \"Percent of population living in poverty by educational attainment, 2022\",\n      \"bbox\": [\n        84,\n        167,\n        735,\n        833\n      ],\n      \"content\": {\n        \"chart_type\": \"grouped bar chart\",\n        \"panels\": [\n          {\n            \"title\": \"a. $2.15\",\n            \"y_axis\": \"Poverty rate (%)\",\n            \"x_axis\": \"Regions\",\n            \"legend\": [\n              \"No schooling\",\n              \"Primary\",\n              \"Secondary\",\n              \"Tertiary\"\n            ],\n            \"data_trends\": \"Poverty rates are highest in Sub-Saharan Africa across all education levels. In most regions, poverty rates decrease as educational attainment increases.\"\n          },\n          {\n            \"title\": \"b. $6.85\",\n            \"y_axis\": \"Poverty rate (%)\",\n            \"x_axis\": \"Regions\",\n            \"legend\": [\n              \"No schooling\",\n              \"Primary\",\n              \"Secondary\",\n              \"Tertiary\"\n            ],\n            \"data_trends\": \"Poverty rates are significantly higher at the $6.85 line compared to the $2.15 line. Sub-Saharan Africa and South Asia show the highest poverty rates for those with no schooling.\"\n          }\n        ],\n        \"source\": \"World Bank, Global Monitoring Database (GMD) (version September 2024).\",\n        \"notes\": \"Poverty rates are reported for the $2.15 and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). Estimates are based on population age 15 or above. Estimates are not reported for the rest of the world, where poverty rates are low and there might be few observations for some population subgroups. The extreme poverty rate in South Asia is driven by India, where less than 1 percent of the population age 15 or above have no formal education. * For the Middle East and North Africa and Sub-Saharan Africa, the recent survey data do not cover at least 50 percent of the population.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 1.12",
+   "kind": "chart",
+   "title": "Percent of population living in poverty by educational attainment, 2022",
+   "bbox": [
+    84,
+    167,
+    735,
+    833
+   ],
+   "content": {
+    "chart_type": "grouped bar chart",
+    "panels": [
+     {
+      "title": "a. $2.15",
+      "y_axis": "Poverty rate (%)",
+      "x_axis": "Regions",
+      "legend": [
+       "No schooling",
+       "Primary",
+       "Secondary",
+       "Tertiary"
+      ],
+      "data_trends": "Poverty rates are highest in Sub-Saharan Africa across all education levels. In most regions, poverty rates decrease as educational attainment increases."
+     },
+     {
+      "title": "b. $6.85",
+      "y_axis": "Poverty rate (%)",
+      "x_axis": "Regions",
+      "legend": [
+       "No schooling",
+       "Primary",
+       "Secondary",
+       "Tertiary"
+      ],
+      "data_trends": "Poverty rates are significantly higher at the $6.85 line compared to the $2.15 line. Sub-Saharan Africa and South Asia show the highest poverty rates for those with no schooling."
+     }
+    ],
+    "source": "World Bank, Global Monitoring Database (GMD) (version September 2024).",
+    "notes": "Poverty rates are reported for the $2.15 and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). Estimates are based on population age 15 or above. Estimates are not reported for the rest of the world, where poverty rates are low and there might be few observations for some population subgroups. The extreme poverty rate in South Asia is driven by India, where less than 1 percent of the population age 15 or above have no formal education. * For the Middle East and North Africa and Sub-Saharan Africa, the recent survey data do not cover at least 50 percent of the population."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 114,
+ "captions": [
+  "FIGURE 1.12"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

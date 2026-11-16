@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 3611,
+ "total_tokens": 1678,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"TABLE 2F.1\",\n      \"kind\": \"table\",\n      \"title\": \"Gini index in latest available survey, by economy (continued)\",\n      \"bbox\": [\n        82,\n        163,\n        875,\n        836\n      ],\n      \"content\": \"| Economy and group | Region | Survey year | Welfare type | Gini index |\\n| :--- | :--- | :--- | :--- | :--- |\\n| Togo | Sub-Saharan Africa | 2021.63 | Consumption | 37.9 |\\n| Tunisia | Middle East and North Africa | 2021.23 | Consumption | 33.7 |\\n| Tuvalu | East Asia and Pacific | 2010 | Consumption | 39.1 |\\n| United Kingdom | Rest of the world | 2021 | Income | 32.4 |\\n| Uzbekistan | Europe and Central Asia | 2022 | Consumption | 31.2 |\\n| Vanuatu | East Asia and Pacific | 2019.21 | Consumption | 32.3 |\\n| Viet Nam | East Asia and Pacific | 2022 | Consumption | 36.1 |\\n| West Bank and Gaza | Middle East and North Africa | 2016.75 | Consumption | 33.7 |\\n| Yemen, Rep. | Middle East and North Africa | 2014 | Consumption | 36.7 |\\n| **Low inequality** | | | | |\\n| Albania | Europe and Central Asia | 2020 | Consumption | 29.4 |\\n| Algeria | Middle East and North Africa | 2011.17 | Consumption | 27.6 |\\n| Armenia | Europe and Central Asia | 2022 | Consumption | 27.9 |\\n| Azerbaijan | Europe and Central Asia | 2005 | Consumption | 26.6 |\\n| Belarus | Europe and Central Asia | 2020 | Consumption | 24.4 |\\n| Belgium | Rest of the world | 2021 | Income | 26.6 |\\n| Bhutan | South Asia | 2022 | Consumption | 28.5 |\\n| Croatia | Europe and Central Asia | 2021 | Income | 28.9 |\\n| Czechia | Europe and Central Asia | 2021 | Income | 26.2 |\\n| Denmark | Rest of the world | 2021 | Income | 28.3 |\\n| Finland | Rest of the world | 2021 | Income | 27.7 |\\n| Guinea | Sub-Saharan Africa | 2018.5 | Consumption | 29.6 |\\n| Hungary | Europe and Central Asia | 2021 | Income | 29.2 |\\n| Iceland | Rest of the world | 2017 | Income | 26.1 |\\n| Iraq | Middle East and North Africa | 2012 | Consumption | 29.5 |\\n| Kazakhstan | Europe and Central Asia | 2021 | Consumption | 29.2 |\\n| Kiribati | East Asia and Pacific | 2019.27 | Consumption | 27.8 |\\n| Kosovo | Europe and Central Asia | 2017 | Consumption | 29.0 |\\n| Kyrgyz Republic | Europe and Central Asia | 2022 | Consumption | 26.4 |\\n| Maldives | South Asia | 2019.6 | Consumption | 29.3 |\\n| Moldova | Europe and Central Asia | 2021 | Consumption | 25.7 |\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "TABLE 2F.1",
+   "kind": "table",
+   "title": "Gini index in latest available survey, by economy (continued)",
+   "bbox": [
+    82,
+    163,
+    875,
+    836
+   ],
+   "content": "| Economy and group | Region | Survey year | Welfare type | Gini index |\n| :--- | :--- | :--- | :--- | :--- |\n| Togo | Sub-Saharan Africa | 2021.63 | Consumption | 37.9 |\n| Tunisia | Middle East and North Africa | 2021.23 | Consumption | 33.7 |\n| Tuvalu | East Asia and Pacific | 2010 | Consumption | 39.1 |\n| United Kingdom | Rest of the world | 2021 | Income | 32.4 |\n| Uzbekistan | Europe and Central Asia | 2022 | Consumption | 31.2 |\n| Vanuatu | East Asia and Pacific | 2019.21 | Consumption | 32.3 |\n| Viet Nam | East Asia and Pacific | 2022 | Consumption | 36.1 |\n| West Bank and Gaza | Middle East and North Africa | 2016.75 | Consumption | 33.7 |\n| Yemen, Rep. | Middle East and North Africa | 2014 | Consumption | 36.7 |\n| **Low inequality** | | | | |\n| Albania | Europe and Central Asia | 2020 | Consumption | 29.4 |\n| Algeria | Middle East and North Africa | 2011.17 | Consumption | 27.6 |\n| Armenia | Europe and Central Asia | 2022 | Consumption | 27.9 |\n| Azerbaijan | Europe and Central Asia | 2005 | Consumption | 26.6 |\n| Belarus | Europe and Central Asia | 2020 | Consumption | 24.4 |\n| Belgium | Rest of the world | 2021 | Income | 26.6 |\n| Bhutan | South Asia | 2022 | Consumption | 28.5 |\n| Croatia | Europe and Central Asia | 2021 | Income | 28.9 |\n| Czechia | Europe and Central Asia | 2021 | Income | 26.2 |\n| Denmark | Rest of the world | 2021 | Income | 28.3 |\n| Finland | Rest of the world | 2021 | Income | 27.7 |\n| Guinea | Sub-Saharan Africa | 2018.5 | Consumption | 29.6 |\n| Hungary | Europe and Central Asia | 2021 | Income | 29.2 |\n| Iceland | Rest of the world | 2017 | Income | 26.1 |\n| Iraq | Middle East and North Africa | 2012 | Consumption | 29.5 |\n| Kazakhstan | Europe and Central Asia | 2021 | Consumption | 29.2 |\n| Kiribati | East Asia and Pacific | 2019.27 | Consumption | 27.8 |\n| Kosovo | Europe and Central Asia | 2017 | Consumption | 29.0 |\n| Kyrgyz Republic | Europe and Central Asia | 2022 | Consumption | 26.4 |\n| Maldives | South Asia | 2019.6 | Consumption | 29.3 |\n| Moldova | Europe and Central Asia | 2021 | Consumption | 25.7 |"
+  }
+ ],
+ "parse_ok": true,
+ "page": 185,
+ "captions": [
+  "TABLE 2F.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

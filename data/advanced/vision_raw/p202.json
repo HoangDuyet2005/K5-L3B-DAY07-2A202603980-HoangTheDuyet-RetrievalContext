@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4546,
+ "total_tokens": 1554,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 3.3\",\n      \"kind\": \"chart\",\n      \"title\": \"South Asia and lower-middle-income countries have the highest exposure rates to extreme weather hazards\",\n      \"bbox\": [\n        85,\n        165,\n        825,\n        835\n      ],\n      \"content\": \"The figure consists of 12 bar charts (a-l) showing the 'Share of population exposed (%)' to five categories of extreme weather hazards: Any, Flood, Drought, Heat, and Cyclone. Data labels for each category are provided. a. World: Any 0.58, Flood 0.10, Drought 0.18, Heat 0.42, Cyclone 0.07. b. East Asia and Pacific: Any 0.68, Flood 0.14, Drought 0.14, Heat 0.53, Cyclone 0.14. c. Europe and Central Asia: Any 0.27, Flood 0.07, Drought 0.21, Heat 0.00, Cyclone 0.00. d. Latin America and the Caribbean: Any 0.31, Flood 0.06, Drought 0.15, Heat 0.10, Cyclone 0.04. e. Middle East and North Africa: Any 0.29, Flood 0.16, Drought 0.07, Heat 0.09, Cyclone 0.00. f. North America: Any 0.31, Flood 0.04, Drought 0.16, Heat 0.09, Cyclone 0.08. g. South Asia: Any 0.88, Flood 0.12, Drought 0.17, Heat 0.83, Cyclone 0.07. h. Sub-Saharan Africa: Any 0.39, Flood 0.04, Drought 0.29, Heat 0.12, Cyclone 0.00. i. Low-income: Any 0.41, Flood 0.04, Drought 0.30, Heat 0.14, Cyclone 0.00. j. Lower-middle-income: Any 0.73, Flood 0.11, Drought 0.18, Heat 0.62, Cyclone 0.08. k. Upper-middle-income: Any 0.55, Flood 0.11, Drought 0.15, Heat 0.39, Cyclone 0.07. l. High-income: Any 0.32, Flood 0.06, Drought 0.18, Heat 0.05, Cyclone 0.08. Source: World Bank Group Scorecard indicator: the percentage of people at high risk of climate-related hazards globally, https://scorecard.worldbank.org/en/scorecard/home. Note: See box 3.1 and annex 3B for more details on the calculation of the share of population exposed. For low-income countries and the Middle East and North Africa region, the indicator covers less than 50 percent of the population.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 3.3",
+   "kind": "chart",
+   "title": "South Asia and lower-middle-income countries have the highest exposure rates to extreme weather hazards",
+   "bbox": [
+    85,
+    165,
+    825,
+    835
+   ],
+   "content": "The figure consists of 12 bar charts (a-l) showing the 'Share of population exposed (%)' to five categories of extreme weather hazards: Any, Flood, Drought, Heat, and Cyclone. Data labels for each category are provided. a. World: Any 0.58, Flood 0.10, Drought 0.18, Heat 0.42, Cyclone 0.07. b. East Asia and Pacific: Any 0.68, Flood 0.14, Drought 0.14, Heat 0.53, Cyclone 0.14. c. Europe and Central Asia: Any 0.27, Flood 0.07, Drought 0.21, Heat 0.00, Cyclone 0.00. d. Latin America and the Caribbean: Any 0.31, Flood 0.06, Drought 0.15, Heat 0.10, Cyclone 0.04. e. Middle East and North Africa: Any 0.29, Flood 0.16, Drought 0.07, Heat 0.09, Cyclone 0.00. f. North America: Any 0.31, Flood 0.04, Drought 0.16, Heat 0.09, Cyclone 0.08. g. South Asia: Any 0.88, Flood 0.12, Drought 0.17, Heat 0.83, Cyclone 0.07. h. Sub-Saharan Africa: Any 0.39, Flood 0.04, Drought 0.29, Heat 0.12, Cyclone 0.00. i. Low-income: Any 0.41, Flood 0.04, Drought 0.30, Heat 0.14, Cyclone 0.00. j. Lower-middle-income: Any 0.73, Flood 0.11, Drought 0.18, Heat 0.62, Cyclone 0.08. k. Upper-middle-income: Any 0.55, Flood 0.11, Drought 0.15, Heat 0.39, Cyclone 0.07. l. High-income: Any 0.32, Flood 0.06, Drought 0.18, Heat 0.05, Cyclone 0.08. Source: World Bank Group Scorecard indicator: the percentage of people at high risk of climate-related hazards globally, https://scorecard.worldbank.org/en/scorecard/home. Note: See box 3.1 and annex 3B for more details on the calculation of the share of population exposed. For low-income countries and the Middle East and North Africa region, the indicator covers less than 50 percent of the population."
+  }
+ ],
+ "parse_ok": true,
+ "page": 202,
+ "captions": [
+  "FIGURE 3.3"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

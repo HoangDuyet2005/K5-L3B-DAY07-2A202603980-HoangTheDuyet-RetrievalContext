@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 2524,
+ "total_tokens": 1076,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"TABLE 3B.1\",\n      \"kind\": \"table\",\n      \"title\": \"Hazard thresholds\",\n      \"bbox\": [\n        586,\n        168,\n        755,\n        832\n      ],\n      \"content\": \"| Hazard | Intensity threshold |\\n| :--- | :--- |\\n| Agricultural drought | > 30% cropland or grassland affected by severe drought |\\n| Flood | > 50-cm maximum inundation depth |\\n| Heat wave | > 33°C maximum 5-day average of daily maximum WBGT |\\n| Tropical cyclone | > 37.6-m/s 10-minute average sustained wind speed or equivalent ≥ Category 2 on the Saffir-Simpson scale |\\n\\nSource: World Bank Group Scorecard indicator: the percentage of people at high risk of climate-related hazards globally, https://scorecard.worldbank.org/en/scorecard/home.\\nNote: C = Celsius; cm = centimeter; m/s = meters per second; WBGT = wet bulb globe temperature.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "TABLE 3B.1",
+   "kind": "table",
+   "title": "Hazard thresholds",
+   "bbox": [
+    586,
+    168,
+    755,
+    832
+   ],
+   "content": "| Hazard | Intensity threshold |\n| :--- | :--- |\n| Agricultural drought | > 30% cropland or grassland affected by severe drought |\n| Flood | > 50-cm maximum inundation depth |\n| Heat wave | > 33°C maximum 5-day average of daily maximum WBGT |\n| Tropical cyclone | > 37.6-m/s 10-minute average sustained wind speed or equivalent ≥ Category 2 on the Saffir-Simpson scale |\n\nSource: World Bank Group Scorecard indicator: the percentage of people at high risk of climate-related hazards globally, https://scorecard.worldbank.org/en/scorecard/home.\nNote: C = Celsius; cm = centimeter; m/s = meters per second; WBGT = wet bulb globe temperature."
+  }
+ ],
+ "parse_ok": true,
+ "page": 237,
+ "captions": [
+  "TABLE 3B.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

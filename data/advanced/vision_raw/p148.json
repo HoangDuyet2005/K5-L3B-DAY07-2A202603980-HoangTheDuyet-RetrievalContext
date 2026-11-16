@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4290,
+ "total_tokens": 1149,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 2.3\",\n      \"kind\": \"chart\",\n      \"title\": \"There has been considerable progress in reducing the Global Prosperity Gap since 1990\",\n      \"bbox\": [\n        296,\n        168,\n        585,\n        825\n      ],\n      \"content\": \"The chart is a line chart showing the Global Prosperity Gap from 1990 to 2024. The y-axis represents the Global Prosperity Gap, ranging from 0 to 12. The x-axis represents years from 1990 to 2024. The trend shows a steady decline in the gap over time, starting at approximately 10.9 in 1990 and reaching approximately 5.0 in 2024. There are two visible increases: one between 1997 and 1998 (Asian financial crisis) and one between 2019 and 2020 (COVID-19 pandemic). The line from 2023 to 2024 is dashed, indicating projections. Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org. Note: The estimates in 2023 and 2024 are projected. The prosperity threshold is set at $25 per person per day in 2017 purchasing power parity dollars.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 2.3",
+   "kind": "chart",
+   "title": "There has been considerable progress in reducing the Global Prosperity Gap since 1990",
+   "bbox": [
+    296,
+    168,
+    585,
+    825
+   ],
+   "content": "The chart is a line chart showing the Global Prosperity Gap from 1990 to 2024. The y-axis represents the Global Prosperity Gap, ranging from 0 to 12. The x-axis represents years from 1990 to 2024. The trend shows a steady decline in the gap over time, starting at approximately 10.9 in 1990 and reaching approximately 5.0 in 2024. There are two visible increases: one between 1997 and 1998 (Asian financial crisis) and one between 2019 and 2020 (COVID-19 pandemic). The line from 2023 to 2024 is dashed, indicating projections. Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org. Note: The estimates in 2023 and 2024 are projected. The prosperity threshold is set at $25 per person per day in 2017 purchasing power parity dollars."
+  }
+ ],
+ "parse_ok": true,
+ "page": 148,
+ "captions": [
+  "FIGURE 2.3"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

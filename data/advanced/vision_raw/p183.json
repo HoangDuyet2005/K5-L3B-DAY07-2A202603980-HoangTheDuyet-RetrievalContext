@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 3390,
+ "total_tokens": 1736,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"TABLE 2F.1\",\n      \"kind\": \"table\",\n      \"title\": \"Gini index in latest available survey, by economy (continued)\",\n      \"bbox\": [\n        82,\n        168,\n        903,\n        832\n      ],\n      \"content\": \"| Economy and group | Region | Survey year | Welfare type | Gini index |\\n| :--- | :--- | :--- | :--- | :--- |\\n| Cyprus | Rest of the world | 2021 | Income | 31.3 |\\n| Dominican Republic | Latin America and the Caribbean | 2022 | Income | 37.0 |\\n| Egypt, Arab Rep. | Middle East and North Africa | 2019.43 | Consumption | 31.9 |\\n| El Salvador | Latin America and the Caribbean | 2022 | Income | 38.8 |\\n| Estonia | Europe and Central Asia | 2021 | Income | 31.8 |\\n| Ethiopia | Sub-Saharan Africa | 2015.5 | Consumption | 35.0 |\\n| Fiji | East Asia and Pacific | 2019.15 | Consumption | 30.7 |\\n| France | Rest of the world | 2021 | Income | 31.5 |\\n| Gabon | Sub-Saharan Africa | 2017 | Consumption | 38.0 |\\n| Gambia, The | Sub-Saharan Africa | 2020.08 | Consumption | 38.8 |\\n| Georgia | Europe and Central Asia | 2022 | Consumption | 33.5 |\\n| Germany | Rest of the world | 2020 | Income | 32.4 |\\n| Greece | Rest of the world | 2021 | Income | 32.9 |\\n| Guinea-Bissau | Sub-Saharan Africa | 2021.75 | Consumption | 33.4 |\\n| India | South Asia | 2021.25 | Consumption | 32.8 |\\n| Indonesia | East Asia and Pacific | 2023 | Consumption | 36.1 |\\n| Iran, Islamic Rep. | Middle East and North Africa | 2022.23 | Consumption | 34.8 |\\n| Ireland | Rest of the world | 2021 | Income | 30.1 |\\n| Israel | Rest of the world | 2021 | Income | 37.9 |\\n| Italy | Rest of the world | 2021 | Income | 34.8 |\\n| Japan | Rest of the world | 2013 | Income | 32.9 |\\n| Jordan | Middle East and North Africa | 2010.24 | Consumption | 33.7 |\\n| Kenya | Sub-Saharan Africa | 2021 | Consumption | 38.7 |\\n| Korea, Rep. | Rest of the world | 2021 | Income | 32.9 |\\n| Lao PDR | East Asia and Pacific | 2018.42 | Consumption | 38.8 |\\n| Latvia | Europe and Central Asia | 2021 | Income | 34.3 |\\n| Lebanon | Middle East and North Africa | 2011.77 | Consumption | 31.8 |\\n| Liberia | Sub-Saharan Africa | 2016 | Consumption | 35.3 |\\n| Lithuania | Europe and Central Asia | 2021 | Income | 36.7 |\\n| Luxembourg | Rest of the world | 2021 | Income | 32.7 |\\n| Malawi | Sub-Saharan Africa | 2019.31 | Consumption | 38.5 |\\n| Mali | Sub-Saharan Africa | 2021.57 | Consumption | 35.7 |\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "TABLE 2F.1",
+   "kind": "table",
+   "title": "Gini index in latest available survey, by economy (continued)",
+   "bbox": [
+    82,
+    168,
+    903,
+    832
+   ],
+   "content": "| Economy and group | Region | Survey year | Welfare type | Gini index |\n| :--- | :--- | :--- | :--- | :--- |\n| Cyprus | Rest of the world | 2021 | Income | 31.3 |\n| Dominican Republic | Latin America and the Caribbean | 2022 | Income | 37.0 |\n| Egypt, Arab Rep. | Middle East and North Africa | 2019.43 | Consumption | 31.9 |\n| El Salvador | Latin America and the Caribbean | 2022 | Income | 38.8 |\n| Estonia | Europe and Central Asia | 2021 | Income | 31.8 |\n| Ethiopia | Sub-Saharan Africa | 2015.5 | Consumption | 35.0 |\n| Fiji | East Asia and Pacific | 2019.15 | Consumption | 30.7 |\n| France | Rest of the world | 2021 | Income | 31.5 |\n| Gabon | Sub-Saharan Africa | 2017 | Consumption | 38.0 |\n| Gambia, The | Sub-Saharan Africa | 2020.08 | Consumption | 38.8 |\n| Georgia | Europe and Central Asia | 2022 | Consumption | 33.5 |\n| Germany | Rest of the world | 2020 | Income | 32.4 |\n| Greece | Rest of the world | 2021 | Income | 32.9 |\n| Guinea-Bissau | Sub-Saharan Africa | 2021.75 | Consumption | 33.4 |\n| India | South Asia | 2021.25 | Consumption | 32.8 |\n| Indonesia | East Asia and Pacific | 2023 | Consumption | 36.1 |\n| Iran, Islamic Rep. | Middle East and North Africa | 2022.23 | Consumption | 34.8 |\n| Ireland | Rest of the world | 2021 | Income | 30.1 |\n| Israel | Rest of the world | 2021 | Income | 37.9 |\n| Italy | Rest of the world | 2021 | Income | 34.8 |\n| Japan | Rest of the world | 2013 | Income | 32.9 |\n| Jordan | Middle East and North Africa | 2010.24 | Consumption | 33.7 |\n| Kenya | Sub-Saharan Africa | 2021 | Consumption | 38.7 |\n| Korea, Rep. | Rest of the world | 2021 | Income | 32.9 |\n| Lao PDR | East Asia and Pacific | 2018.42 | Consumption | 38.8 |\n| Latvia | Europe and Central Asia | 2021 | Income | 34.3 |\n| Lebanon | Middle East and North Africa | 2011.77 | Consumption | 31.8 |\n| Liberia | Sub-Saharan Africa | 2016 | Consumption | 35.3 |\n| Lithuania | Europe and Central Asia | 2021 | Income | 36.7 |\n| Luxembourg | Rest of the world | 2021 | Income | 32.7 |\n| Malawi | Sub-Saharan Africa | 2019.31 | Consumption | 38.5 |\n| Mali | Sub-Saharan Africa | 2021.57 | Consumption | 35.7 |"
+  }
+ ],
+ "parse_ok": true,
+ "page": 183,
+ "captions": [
+  "TABLE 2F.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

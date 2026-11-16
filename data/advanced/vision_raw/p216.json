@@ -1,0 +1,92 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5696,
+ "total_tokens": 1769,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 3.8\",\n      \"kind\": \"chart\",\n      \"title\": \"Projections of emissions and temperatures to 2050 show that with current policies, temperatures would increase close to 2°C\",\n      \"bbox\": [\n        85,\n        165,\n        415,\n        835\n      ],\n      \"content\": {\n        \"panels\": [\n          {\n            \"title\": \"a. Emission scenarios\",\n            \"y_axis\": \"Relative GHG emissions (2022 = 1)\",\n            \"x_axis\": \"Year (2000-2050)\",\n            \"legend\": [\n              \"Current policies\",\n              \"NDCs\",\n              \"Net Zero 2050\",\n              \"Historical\"\n            ],\n            \"description\": \"Line chart showing historical emissions up to 2022, followed by three projected scenarios: Current policies (increasing), NDCs (decreasing range), and Net Zero 2050 (steep decrease).\"\n          },\n          {\n            \"title\": \"b. Temperature scenarios\",\n            \"y_axis\": \"Global mean temperature increase (degrees Celsius)\",\n            \"x_axis\": \"Year (2000-2050)\",\n            \"legend\": [\n              \"Current policies\",\n              \"NDCs\",\n              \"Net Zero 2050\",\n              \"Historical\"\n            ],\n            \"description\": \"Line chart showing historical temperature increase up to 2020, followed by projected increases. Current policies trend toward approx. 2.0°C by 2050.\"\n          }\n        ],\n        \"sources\": \"Panel a: Network for Greening the Financial System (NGFS) 2023, harmonized to historical 2022 emissions estimations from EDGAR data. Panel b: World Bank calculations using projections from NGFS 2023, harmonized to historical 2020 temperature estimations from IPCC 2021.\",\n        \"notes\": \"GHG = greenhouse gas; NDCs = Nationally Determined Contributions. Ranges for each policy scenario are based on four different projection models: GCAM 6.0, MESSAGEix-GLOBIOM 1.1-M-R12, REMIND-MAgPIE 3.2-4.6 Integrated Physical Damages (95th-high), and REMIND-MAgPIE 3.2-4.6 Integrated Physical Damages (median). In panel b, temperature increases are relative to the average global surface temperature of the period 1850–1900 (preindustrial) (IPCC 2021). Temperature projections refer to the AR6 surface temperature increase (50th percentile) from the MAGICC 7.5.3 model.\"\n      }\n    },\n    {\n      \"label\": \"FIGURE 3.9\",\n      \"kind\": \"chart\",\n      \"title\": \"Energy production mix by income group remains largely based on coal and petroleum\",\n      \"bbox\": [\n        600,\n        165,\n        850,\n        835\n      ],\n      \"content\": {\n        \"type\": \"stacked bar chart\",\n        \"panels\": [\n          {\n            \"title\": \"a. 1990\",\n            \"x_axis\": \"Share of total energy production (%)\",\n            \"y_axis\": \"Income groups (Low, Lower-middle, Upper-middle, High)\"\n          },\n          {\n            \"title\": \"b. 2022\",\n            \"x_axis\": \"Share of total energy production (%)\",\n            \"y_axis\": \"Income groups (Low, Lower-middle, Upper-middle, High)\"\n          }\n        ],\n        \"legend\": [\n          \"Coal\",\n          \"Natural gas\",\n          \"Nuclear\",\n          \"Petroleum and other liquids\",\n          \"Renewables\"\n        ],\n        \"source\": \"US Energy Information Administration.\",\n        \"note\": \"Energy is measured in quadrillion (10^15) British thermal units. Income classifications are fixed at 2022 definitions.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 3.8",
+   "kind": "chart",
+   "title": "Projections of emissions and temperatures to 2050 show that with current policies, temperatures would increase close to 2°C",
+   "bbox": [
+    85,
+    165,
+    415,
+    835
+   ],
+   "content": {
+    "panels": [
+     {
+      "title": "a. Emission scenarios",
+      "y_axis": "Relative GHG emissions (2022 = 1)",
+      "x_axis": "Year (2000-2050)",
+      "legend": [
+       "Current policies",
+       "NDCs",
+       "Net Zero 2050",
+       "Historical"
+      ],
+      "description": "Line chart showing historical emissions up to 2022, followed by three projected scenarios: Current policies (increasing), NDCs (decreasing range), and Net Zero 2050 (steep decrease)."
+     },
+     {
+      "title": "b. Temperature scenarios",
+      "y_axis": "Global mean temperature increase (degrees Celsius)",
+      "x_axis": "Year (2000-2050)",
+      "legend": [
+       "Current policies",
+       "NDCs",
+       "Net Zero 2050",
+       "Historical"
+      ],
+      "description": "Line chart showing historical temperature increase up to 2020, followed by projected increases. Current policies trend toward approx. 2.0°C by 2050."
+     }
+    ],
+    "sources": "Panel a: Network for Greening the Financial System (NGFS) 2023, harmonized to historical 2022 emissions estimations from EDGAR data. Panel b: World Bank calculations using projections from NGFS 2023, harmonized to historical 2020 temperature estimations from IPCC 2021.",
+    "notes": "GHG = greenhouse gas; NDCs = Nationally Determined Contributions. Ranges for each policy scenario are based on four different projection models: GCAM 6.0, MESSAGEix-GLOBIOM 1.1-M-R12, REMIND-MAgPIE 3.2-4.6 Integrated Physical Damages (95th-high), and REMIND-MAgPIE 3.2-4.6 Integrated Physical Damages (median). In panel b, temperature increases are relative to the average global surface temperature of the period 1850–1900 (preindustrial) (IPCC 2021). Temperature projections refer to the AR6 surface temperature increase (50th percentile) from the MAGICC 7.5.3 model."
+   }
+  },
+  {
+   "label": "FIGURE 3.9",
+   "kind": "chart",
+   "title": "Energy production mix by income group remains largely based on coal and petroleum",
+   "bbox": [
+    600,
+    165,
+    850,
+    835
+   ],
+   "content": {
+    "type": "stacked bar chart",
+    "panels": [
+     {
+      "title": "a. 1990",
+      "x_axis": "Share of total energy production (%)",
+      "y_axis": "Income groups (Low, Lower-middle, Upper-middle, High)"
+     },
+     {
+      "title": "b. 2022",
+      "x_axis": "Share of total energy production (%)",
+      "y_axis": "Income groups (Low, Lower-middle, Upper-middle, High)"
+     }
+    ],
+    "legend": [
+     "Coal",
+     "Natural gas",
+     "Nuclear",
+     "Petroleum and other liquids",
+     "Renewables"
+    ],
+    "source": "US Energy Information Administration.",
+    "note": "Energy is measured in quadrillion (10^15) British thermal units. Income classifications are fixed at 2022 definitions."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 216,
+ "captions": [
+  "FIGURE 3.8",
+  "FIGURE 3.9"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

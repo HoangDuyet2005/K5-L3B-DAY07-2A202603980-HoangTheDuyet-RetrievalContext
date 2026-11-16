@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 3055,
+ "total_tokens": 1215,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 3.15\",\n      \"kind\": \"chart\",\n      \"title\": \"Amounts of primary energy and generation of electricity from fossil sources need to decline massively to reach net zero by 2050 (continued)\",\n      \"bbox\": [\n        84,\n        165,\n        645,\n        835\n      ],\n      \"content\": \"The figure displays four stacked area charts representing electricity generation (in exajoules) for different income groups: High-income, Upper-middle-income, Lower-middle-income, and Low-income. Each chart shows the transition from 2020 to 2050. Legend: Fossil (blue), Nuclear (orange), Renewables (red). Trends: In all income groups, the fossil fuel component (blue) declines significantly by 2050, while the renewable component (red) increases to become the dominant source of electricity generation. High-income: Fossil starts at approx. 25 exajoules in 2020 and drops to near zero by 2050. Upper-middle-income: Fossil starts at approx. 40 exajoules in 2020 and drops to near zero by 2050. Lower-middle-income: Fossil starts at approx. 15 exajoules in 2020 and drops to near zero by 2050. Low-income: Fossil is a very small component, declining to near zero by 2050. Source: NGFS 2023. Note: NGFS = Network for Greening the Financial System. Primary energy and the generating of electricity (in exajoules) are plotted and come from the NGFS Net Zero 2050 scenario.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 3.15",
+   "kind": "chart",
+   "title": "Amounts of primary energy and generation of electricity from fossil sources need to decline massively to reach net zero by 2050 (continued)",
+   "bbox": [
+    84,
+    165,
+    645,
+    835
+   ],
+   "content": "The figure displays four stacked area charts representing electricity generation (in exajoules) for different income groups: High-income, Upper-middle-income, Lower-middle-income, and Low-income. Each chart shows the transition from 2020 to 2050. Legend: Fossil (blue), Nuclear (orange), Renewables (red). Trends: In all income groups, the fossil fuel component (blue) declines significantly by 2050, while the renewable component (red) increases to become the dominant source of electricity generation. High-income: Fossil starts at approx. 25 exajoules in 2020 and drops to near zero by 2050. Upper-middle-income: Fossil starts at approx. 40 exajoules in 2020 and drops to near zero by 2050. Lower-middle-income: Fossil starts at approx. 15 exajoules in 2020 and drops to near zero by 2050. Low-income: Fossil is a very small component, declining to near zero by 2050. Source: NGFS 2023. Note: NGFS = Network for Greening the Financial System. Primary energy and the generating of electricity (in exajoules) are plotted and come from the NGFS Net Zero 2050 scenario."
+  }
+ ],
+ "parse_ok": true,
+ "page": 232,
+ "captions": [
+  "FIGURE 3.15"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

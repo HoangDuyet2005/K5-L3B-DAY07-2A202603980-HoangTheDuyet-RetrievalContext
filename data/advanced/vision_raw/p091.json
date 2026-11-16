@@ -1,0 +1,55 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5009,
+ "total_tokens": 1554,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 1.2\",\n      \"kind\": \"chart\",\n      \"title\": \"Extreme poverty is still above prepandemic levels in low-income countries\",\n      \"bbox\": [\n        383,\n        167,\n        725,\n        833\n      ],\n      \"content\": {\n        \"chart_type\": \"line chart\",\n        \"panels\": [\n          {\n            \"title\": \"a. Poverty at $2.15 relative to 2019 levels\",\n            \"y_axis\": \"Change in extreme poverty rates (2019 = 1)\",\n            \"x_axis\": \"Year\",\n            \"legend\": [\n              \"Low-income\",\n              \"Lower-middle-income\",\n              \"Upper-middle-income\"\n            ],\n            \"trends\": \"Low-income (dotted line) stays above 1.0 from 2020-2024. Lower-middle-income peaks at approx 1.15 in 2020 then declines to approx 0.85 by 2024. Upper-middle-income stays near 1.0 until 2021 then declines to approx 0.8 by 2024.\"\n          },\n          {\n            \"title\": \"b. Poverty at $6.85 relative to 2019 levels\",\n            \"y_axis\": \"Change in poverty rates at $6.85 (2019 = 1)\",\n            \"x_axis\": \"Year\",\n            \"legend\": [\n              \"Low-income\",\n              \"Lower-middle-income\",\n              \"Upper-middle-income\"\n            ],\n            \"trends\": \"Low-income stays near 1.0. Lower-middle-income peaks at approx 1.02 in 2020 then declines to approx 0.75 by 2024. Upper-middle-income stays near 1.0 until 2021 then declines to approx 0.98 by 2024.\"\n          }\n        ],\n        \"source\": \"World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\",\n        \"note\": \"Poverty rates are shown relative to 2019 levels for the $2.15 and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). The line for low-income countries is dotted because the surveys covered less than 50 percent of the group’s population between 2019 and 2022. Poverty rates for 2022–24 are projected based on per capita gross domestic product growth projections in Global Economic Prospects (World Bank 2024d). High-income countries are omitted because poverty rates at both lines are small. Poverty rates at the $6.85 poverty line did not increase in high-income countries between 2019 and 2024, and changes at the $2.15 poverty line were marginal (less than 0.05 percentage points). Income group is kept fixed using the fiscal year 2024 classification.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 1.2",
+   "kind": "chart",
+   "title": "Extreme poverty is still above prepandemic levels in low-income countries",
+   "bbox": [
+    383,
+    167,
+    725,
+    833
+   ],
+   "content": {
+    "chart_type": "line chart",
+    "panels": [
+     {
+      "title": "a. Poverty at $2.15 relative to 2019 levels",
+      "y_axis": "Change in extreme poverty rates (2019 = 1)",
+      "x_axis": "Year",
+      "legend": [
+       "Low-income",
+       "Lower-middle-income",
+       "Upper-middle-income"
+      ],
+      "trends": "Low-income (dotted line) stays above 1.0 from 2020-2024. Lower-middle-income peaks at approx 1.15 in 2020 then declines to approx 0.85 by 2024. Upper-middle-income stays near 1.0 until 2021 then declines to approx 0.8 by 2024."
+     },
+     {
+      "title": "b. Poverty at $6.85 relative to 2019 levels",
+      "y_axis": "Change in poverty rates at $6.85 (2019 = 1)",
+      "x_axis": "Year",
+      "legend": [
+       "Low-income",
+       "Lower-middle-income",
+       "Upper-middle-income"
+      ],
+      "trends": "Low-income stays near 1.0. Lower-middle-income peaks at approx 1.02 in 2020 then declines to approx 0.75 by 2024. Upper-middle-income stays near 1.0 until 2021 then declines to approx 0.98 by 2024."
+     }
+    ],
+    "source": "World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.",
+    "note": "Poverty rates are shown relative to 2019 levels for the $2.15 and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). The line for low-income countries is dotted because the surveys covered less than 50 percent of the group’s population between 2019 and 2022. Poverty rates for 2022–24 are projected based on per capita gross domestic product growth projections in Global Economic Prospects (World Bank 2024d). High-income countries are omitted because poverty rates at both lines are small. Poverty rates at the $6.85 poverty line did not increase in high-income countries between 2019 and 2024, and changes at the $2.15 poverty line were marginal (less than 0.05 percentage points). Income group is kept fixed using the fiscal year 2024 classification."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 91,
+ "captions": [
+  "FIGURE 1.2"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

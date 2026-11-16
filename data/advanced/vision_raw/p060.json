@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4861,
+ "total_tokens": 1167,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE O.11\",\n      \"kind\": \"chart\",\n      \"title\": \"Lower emissions from poverty alleviation projected with energy efficiency and decarbonization\",\n      \"bbox\": [\n        425,\n        165,\n        775,\n        835\n      ],\n      \"content\": \"The figure consists of two line charts showing projected CO2e emissions relative to 2019 levels under three scenarios: Baseline (blue), Energy efficient (yellow), and Decarbonizing (red). Panel a shows projections for poverty at $2.15, and panel b shows projections for poverty at $6.85. Both charts have the x-axis representing years from 2022 to 2050 and the y-axis representing 'Relative to global 2019 CO2e emissions (%)' ranging from 0 to 50. In both panels, the Baseline scenario shows the highest emissions, followed by Energy efficient, with Decarbonizing showing the lowest emissions. Source: Wollburg, Hallegatte, and Mahler 2023. Note: CO2e = carbon dioxide equivalent. The figure shows additional emissions relative to 2019 if poverty were to be alleviated at the $2.15 and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). The baseline scenario uses historical emission intensities. Energy-efficient and decarbonizing scenarios assume that all countries achieve the top 10 percent historical performance in energy efficiency and decarbonization.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE O.11",
+   "kind": "chart",
+   "title": "Lower emissions from poverty alleviation projected with energy efficiency and decarbonization",
+   "bbox": [
+    425,
+    165,
+    775,
+    835
+   ],
+   "content": "The figure consists of two line charts showing projected CO2e emissions relative to 2019 levels under three scenarios: Baseline (blue), Energy efficient (yellow), and Decarbonizing (red). Panel a shows projections for poverty at $2.15, and panel b shows projections for poverty at $6.85. Both charts have the x-axis representing years from 2022 to 2050 and the y-axis representing 'Relative to global 2019 CO2e emissions (%)' ranging from 0 to 50. In both panels, the Baseline scenario shows the highest emissions, followed by Energy efficient, with Decarbonizing showing the lowest emissions. Source: Wollburg, Hallegatte, and Mahler 2023. Note: CO2e = carbon dioxide equivalent. The figure shows additional emissions relative to 2019 if poverty were to be alleviated at the $2.15 and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). The baseline scenario uses historical emission intensities. Energy-efficient and decarbonizing scenarios assume that all countries achieve the top 10 percent historical performance in energy efficiency and decarbonization."
+  }
+ ],
+ "parse_ok": true,
+ "page": 60,
+ "captions": [
+  "FIGURE O.11"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

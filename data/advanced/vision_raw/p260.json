@@ -1,0 +1,101 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 3542,
+ "total_tokens": 1748,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 4.2\",\n      \"kind\": \"chart\",\n      \"title\": \"Less than one-half of the countries in the world have data available for global monitoring of poverty in 2020 or later\",\n      \"bbox\": [\n        382,\n        167,\n        785,\n        820\n      ],\n      \"content\": {\n        \"chart_type\": \"horizontal bar chart\",\n        \"axes\": {\n          \"x_axis\": \"Availability of survey data (%)\",\n          \"y_axis\": \"Regions and country groups\"\n        },\n        \"legend\": [\n          \"Share of countries\",\n          \"Share of population\"\n        ],\n        \"data\": {\n          \"East Asia and Pacific\": {\n            \"Share of countries\": \"approx. 35%\",\n            \"Share of population\": \"approx. 95%\"\n          },\n          \"Europe and Central Asia\": {\n            \"Share of countries\": \"approx. 65%\",\n            \"Share of population\": \"approx. 95%\"\n          },\n          \"Latin America and the Caribbean\": {\n            \"Share of countries\": \"approx. 60%\",\n            \"Share of population\": \"approx. 85%\"\n          },\n          \"Middle East and North Africa\": {\n            \"Share of countries\": \"approx. 25%\",\n            \"Share of population\": \"approx. 30%\"\n          },\n          \"South Asia\": {\n            \"Share of countries\": \"approx. 50%\",\n            \"Share of population\": \"approx. 85%\"\n          },\n          \"Sub-Saharan Africa\": {\n            \"Share of countries\": \"approx. 40%\",\n            \"Share of population\": \"approx. 40%\"\n          },\n          \"Rest of the world\": {\n            \"Share of countries\": \"approx. 40%\",\n            \"Share of population\": \"approx. 75%\"\n          },\n          \"World\": {\n            \"Share of countries\": \"approx. 45%\",\n            \"Share of population\": \"approx. 75%\"\n          },\n          \"Low-income\": {\n            \"Share of countries\": \"approx. 45%\",\n            \"Share of population\": \"approx. 45%\"\n          },\n          \"Lower-middle-income\": {\n            \"Share of countries\": \"approx. 45%\",\n            \"Share of population\": \"approx. 70%\"\n          },\n          \"Upper-middle-income\": {\n            \"Share of countries\": \"approx. 45%\",\n            \"Share of population\": \"approx. 95%\"\n          },\n          \"High-income\": {\n            \"Share of countries\": \"approx. 40%\",\n            \"Share of population\": \"approx. 75%\"\n          },\n          \"FCS\": {\n            \"Share of countries\": \"approx. 30%\",\n            \"Share of population\": \"approx. 30%\"\n          },\n          \"IDA\": {\n            \"Share of countries\": \"approx. 40%\",\n            \"Share of population\": \"approx. 40%\"\n          },\n          \"Small States\": {\n            \"Share of countries\": \"approx. 25%\",\n            \"Share of population\": \"approx. 30%\"\n          }\n        },\n        \"source\": \"World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\",\n        \"note\": \"FCS = fragile and conflict-affected situations; IDA = International Development Association. The figure shows the share of countries and share of population that is covered by a survey for 2020 or later. The classification of countries by FCS, by inclusion in the World Bank’s IDA, and by income status is based on the data for 2022. IDA countries are those eligible for grants and concessionary loans from the IDA, which provides support to the poorest countries in the world (consisting of low-income countries and some countries in other income groups).\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 4.2",
+   "kind": "chart",
+   "title": "Less than one-half of the countries in the world have data available for global monitoring of poverty in 2020 or later",
+   "bbox": [
+    382,
+    167,
+    785,
+    820
+   ],
+   "content": {
+    "chart_type": "horizontal bar chart",
+    "axes": {
+     "x_axis": "Availability of survey data (%)",
+     "y_axis": "Regions and country groups"
+    },
+    "legend": [
+     "Share of countries",
+     "Share of population"
+    ],
+    "data": {
+     "East Asia and Pacific": {
+      "Share of countries": "approx. 35%",
+      "Share of population": "approx. 95%"
+     },
+     "Europe and Central Asia": {
+      "Share of countries": "approx. 65%",
+      "Share of population": "approx. 95%"
+     },
+     "Latin America and the Caribbean": {
+      "Share of countries": "approx. 60%",
+      "Share of population": "approx. 85%"
+     },
+     "Middle East and North Africa": {
+      "Share of countries": "approx. 25%",
+      "Share of population": "approx. 30%"
+     },
+     "South Asia": {
+      "Share of countries": "approx. 50%",
+      "Share of population": "approx. 85%"
+     },
+     "Sub-Saharan Africa": {
+      "Share of countries": "approx. 40%",
+      "Share of population": "approx. 40%"
+     },
+     "Rest of the world": {
+      "Share of countries": "approx. 40%",
+      "Share of population": "approx. 75%"
+     },
+     "World": {
+      "Share of countries": "approx. 45%",
+      "Share of population": "approx. 75%"
+     },
+     "Low-income": {
+      "Share of countries": "approx. 45%",
+      "Share of population": "approx. 45%"
+     },
+     "Lower-middle-income": {
+      "Share of countries": "approx. 45%",
+      "Share of population": "approx. 70%"
+     },
+     "Upper-middle-income": {
+      "Share of countries": "approx. 45%",
+      "Share of population": "approx. 95%"
+     },
+     "High-income": {
+      "Share of countries": "approx. 40%",
+      "Share of population": "approx. 75%"
+     },
+     "FCS": {
+      "Share of countries": "approx. 30%",
+      "Share of population": "approx. 30%"
+     },
+     "IDA": {
+      "Share of countries": "approx. 40%",
+      "Share of population": "approx. 40%"
+     },
+     "Small States": {
+      "Share of countries": "approx. 25%",
+      "Share of population": "approx. 30%"
+     }
+    },
+    "source": "World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.",
+    "note": "FCS = fragile and conflict-affected situations; IDA = International Development Association. The figure shows the share of countries and share of population that is covered by a survey for 2020 or later. The classification of countries by FCS, by inclusion in the World Bank’s IDA, and by income status is based on the data for 2022. IDA countries are those eligible for grants and concessionary loans from the IDA, which provides support to the poorest countries in the world (consisting of low-income countries and some countries in other income groups)."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 260,
+ "captions": [
+  "FIGURE 4.2"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

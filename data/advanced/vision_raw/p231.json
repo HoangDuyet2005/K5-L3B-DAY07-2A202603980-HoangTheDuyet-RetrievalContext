@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 3592,
+ "total_tokens": 1211,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 3.15\",\n      \"kind\": \"chart\",\n      \"title\": \"Amounts of primary energy and generation of electricity from fossil sources need to decline massively to reach net zero by 2050\",\n      \"bbox\": [\n        305,\n        155,\n        875,\n        845\n      ],\n      \"content\": \"The figure shows four stacked area charts representing 'a. Primary energy sources' for different income groups: High-income, Upper-middle-income, Lower-middle-income, and Low-income. Each chart plots Exajoules (y-axis) against time from 2020 to 2050 (x-axis). Legend: Fossil (dark blue), Nuclear (yellow), Renewables (red). Trends: In all income groups, the Fossil component (dark blue) shows a massive decline from 2020 to 2050, while the Renewables component (red) shows a significant increase to reach net zero targets. High-income: Fossil starts at approx. 200 Exajoules in 2020 and drops to approx. 25 Exajoules by 2050. Upper-middle-income: Fossil starts at approx. 250 Exajoules in 2020 and drops to approx. 50 Exajoules by 2050. Lower-middle-income: Fossil starts at approx. 100 Exajoules in 2020 and drops to approx. 25 Exajoules by 2050. Low-income: Fossil starts at approx. 3 Exajoules in 2020 and remains low, while Renewables grow significantly.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 3.15",
+   "kind": "chart",
+   "title": "Amounts of primary energy and generation of electricity from fossil sources need to decline massively to reach net zero by 2050",
+   "bbox": [
+    305,
+    155,
+    875,
+    845
+   ],
+   "content": "The figure shows four stacked area charts representing 'a. Primary energy sources' for different income groups: High-income, Upper-middle-income, Lower-middle-income, and Low-income. Each chart plots Exajoules (y-axis) against time from 2020 to 2050 (x-axis). Legend: Fossil (dark blue), Nuclear (yellow), Renewables (red). Trends: In all income groups, the Fossil component (dark blue) shows a massive decline from 2020 to 2050, while the Renewables component (red) shows a significant increase to reach net zero targets. High-income: Fossil starts at approx. 200 Exajoules in 2020 and drops to approx. 25 Exajoules by 2050. Upper-middle-income: Fossil starts at approx. 250 Exajoules in 2020 and drops to approx. 50 Exajoules by 2050. Lower-middle-income: Fossil starts at approx. 100 Exajoules in 2020 and drops to approx. 25 Exajoules by 2050. Low-income: Fossil starts at approx. 3 Exajoules in 2020 and remains low, while Renewables grow significantly."
+  }
+ ],
+ "parse_ok": true,
+ "page": 231,
+ "captions": [
+  "FIGURE 3.15"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

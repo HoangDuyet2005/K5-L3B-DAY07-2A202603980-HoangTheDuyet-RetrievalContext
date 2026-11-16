@@ -1,0 +1,179 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 8308,
+ "total_tokens": 2188,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 2.10\",\n      \"kind\": \"chart\",\n      \"title\": \"The decline in the number of economies with high inequality is not driven by small changes around the threshold\",\n      \"bbox\": [\n        268,\n        167,\n        655,\n        833\n      ],\n      \"content\": {\n        \"chart_type\": \"stacked bar chart\",\n        \"x_axis\": \"Years (2000-2022)\",\n        \"y_axis\": \"Share (%)\",\n        \"legend\": [\n          \"Economies with Gini higher than 42 (dark red)\",\n          \"Economies with Gini between 40 to 42 (yellow)\",\n          \"Economies with Gini between 38 to 40 (light blue)\",\n          \"Economies with Gini less than 38 (dark blue)\"\n        ],\n        \"data_points\": {\n          \"2000\": {\"dark_red\": 35, \"yellow\": 10, \"light_blue\": 10, \"dark_blue\": 46},\n          \"2001\": {\"dark_red\": 35, \"yellow\": 9, \"light_blue\": 10, \"dark_blue\": 46},\n          \"2002\": {\"dark_red\": 34, \"yellow\": 10, \"light_blue\": 9, \"dark_blue\": 47},\n          \"2003\": {\"dark_red\": 34, \"yellow\": 10, \"light_blue\": 8, \"dark_blue\": 47},\n          \"2004\": {\"dark_red\": 35, \"yellow\": 10, \"light_blue\": 8, \"dark_blue\": 47},\n          \"2005\": {\"dark_red\": 35, \"yellow\": 8, \"light_blue\": 8, \"dark_blue\": 47},\n          \"2006\": {\"dark_red\": 34, \"yellow\": 10, \"light_blue\": 10, \"dark_blue\": 48},\n          \"2007\": {\"dark_red\": 33, \"yellow\": 9, \"light_blue\": 9, \"dark_blue\": 48},\n          \"2008\": {\"dark_red\": 34, \"yellow\": 8, \"light_blue\": 10, \"dark_blue\": 49},\n          \"2009\": {\"dark_red\": 34, \"yellow\": 6, \"light_blue\": 9, \"dark_blue\": 50},\n          \"2010\": {\"dark_red\": 35, \"yellow\": 6, \"light_blue\": 10, \"dark_blue\": 50},\n          \"2011\": {\"dark_red\": 35, \"yellow\": 5, \"light_blue\": 9, \"dark_blue\": 50},\n          \"2012\": {\"dark_red\": 33, \"yellow\": 7, \"light_blue\": 7, \"dark_blue\": 52},\n          \"2013\": {\"dark_red\": 31, \"yellow\": 6, \"light_blue\": 8, \"dark_blue\": 52},\n          \"2014\": {\"dark_red\": 30, \"yellow\": 7, \"light_blue\": 10, \"dark_blue\": 53},\n          \"2015\": {\"dark_red\": 28, \"yellow\": 8, \"light_blue\": 8, \"dark_blue\": 54},\n          \"2016\": {\"dark_red\": 30, \"yellow\": 6, \"light_blue\": 9, \"dark_blue\": 54},\n          \"2017\": {\"dark_red\": 28, \"yellow\": 8, \"light_blue\": 10, \"dark_blue\": 55},\n          \"2018\": {\"dark_red\": 25, \"yellow\": 7, \"light_blue\": 7, \"dark_blue\": 58},\n          \"2019\": {\"dark_red\": 23, \"yellow\": 8, \"light_blue\": 8, \"dark_blue\": 60},\n          \"2020\": {\"dark_red\": 25, \"yellow\": 7, \"light_blue\": 8, \"dark_blue\": 60},\n          \"2021\": {\"dark_red\": 22, \"yellow\": 8, \"light_blue\": 7, \"dark_blue\": 62},\n          \"2022\": {\"dark_red\": 21, \"yellow\": 8, \"light_blue\": 7, \"dark_blue\": 64}\n        },\n        \"source\": \"World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\",\n        \"note\": \"This figure shows the share of economies with a Gini index below 38 (dark blue), between 38 and 40 (light blue), between 40 and 42 (yellow), and over 42 (dark red). The values of 38 and 42 are ± 5 percent from 40. When no survey is available for a given year, data from the most recent survey year are used. The earliest survey is backcasted when the first survey is available only after 2000 to avoid missing values. The graph covers 166 economies with at least one household survey in the Poverty and Inequality Platform between 2000 and 2022. The label values may not add to 100 percent due to rounding.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 2.10",
+   "kind": "chart",
+   "title": "The decline in the number of economies with high inequality is not driven by small changes around the threshold",
+   "bbox": [
+    268,
+    167,
+    655,
+    833
+   ],
+   "content": {
+    "chart_type": "stacked bar chart",
+    "x_axis": "Years (2000-2022)",
+    "y_axis": "Share (%)",
+    "legend": [
+     "Economies with Gini higher than 42 (dark red)",
+     "Economies with Gini between 40 to 42 (yellow)",
+     "Economies with Gini between 38 to 40 (light blue)",
+     "Economies with Gini less than 38 (dark blue)"
+    ],
+    "data_points": {
+     "2000": {
+      "dark_red": 35,
+      "yellow": 10,
+      "light_blue": 10,
+      "dark_blue": 46
+     },
+     "2001": {
+      "dark_red": 35,
+      "yellow": 9,
+      "light_blue": 10,
+      "dark_blue": 46
+     },
+     "2002": {
+      "dark_red": 34,
+      "yellow": 10,
+      "light_blue": 9,
+      "dark_blue": 47
+     },
+     "2003": {
+      "dark_red": 34,
+      "yellow": 10,
+      "light_blue": 8,
+      "dark_blue": 47
+     },
+     "2004": {
+      "dark_red": 35,
+      "yellow": 10,
+      "light_blue": 8,
+      "dark_blue": 47
+     },
+     "2005": {
+      "dark_red": 35,
+      "yellow": 8,
+      "light_blue": 8,
+      "dark_blue": 47
+     },
+     "2006": {
+      "dark_red": 34,
+      "yellow": 10,
+      "light_blue": 10,
+      "dark_blue": 48
+     },
+     "2007": {
+      "dark_red": 33,
+      "yellow": 9,
+      "light_blue": 9,
+      "dark_blue": 48
+     },
+     "2008": {
+      "dark_red": 34,
+      "yellow": 8,
+      "light_blue": 10,
+      "dark_blue": 49
+     },
+     "2009": {
+      "dark_red": 34,
+      "yellow": 6,
+      "light_blue": 9,
+      "dark_blue": 50
+     },
+     "2010": {
+      "dark_red": 35,
+      "yellow": 6,
+      "light_blue": 10,
+      "dark_blue": 50
+     },
+     "2011": {
+      "dark_red": 35,
+      "yellow": 5,
+      "light_blue": 9,
+      "dark_blue": 50
+     },
+     "2012": {
+      "dark_red": 33,
+      "yellow": 7,
+      "light_blue": 7,
+      "dark_blue": 52
+     },
+     "2013": {
+      "dark_red": 31,
+      "yellow": 6,
+      "light_blue": 8,
+      "dark_blue": 52
+     },
+     "2014": {
+      "dark_red": 30,
+      "yellow": 7,
+      "light_blue": 10,
+      "dark_blue": 53
+     },
+     "2015": {
+      "dark_red": 28,
+      "yellow": 8,
+      "light_blue": 8,
+      "dark_blue": 54
+     },
+     "2016": {
+      "dark_red": 30,
+      "yellow": 6,
+      "light_blue": 9,
+      "dark_blue": 54
+     },
+     "2017": {
+      "dark_red": 28,
+      "yellow": 8,
+      "light_blue": 10,
+      "dark_blue": 55
+     },
+     "2018": {
+      "dark_red": 25,
+      "yellow": 7,
+      "light_blue": 7,
+      "dark_blue": 58
+     },
+     "2019": {
+      "dark_red": 23,
+      "yellow": 8,
+      "light_blue": 8,
+      "dark_blue": 60
+     },
+     "2020": {
+      "dark_red": 25,
+      "yellow": 7,
+      "light_blue": 8,
+      "dark_blue": 60
+     },
+     "2021": {
+      "dark_red": 22,
+      "yellow": 8,
+      "light_blue": 7,
+      "dark_blue": 62
+     },
+     "2022": {
+      "dark_red": 21,
+      "yellow": 8,
+      "light_blue": 7,
+      "dark_blue": 64
+     }
+    },
+    "source": "World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.",
+    "note": "This figure shows the share of economies with a Gini index below 38 (dark blue), between 38 and 40 (light blue), between 40 and 42 (yellow), and over 42 (dark red). The values of 38 and 42 are ± 5 percent from 40. When no survey is available for a given year, data from the most recent survey year are used. The earliest survey is backcasted when the first survey is available only after 2000 to avoid missing values. The graph covers 166 economies with at least one household survey in the Poverty and Inequality Platform between 2000 and 2022. The label values may not add to 100 percent due to rounding."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 160,
+ "captions": [
+  "FIGURE 2.10"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,43 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 2442,
+ "total_tokens": 1232,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 4.7\",\n      \"kind\": \"chart\",\n      \"title\": \"Projections of GDP per capita vary significantly between Shared Socioeconomic Pathways\",\n      \"bbox\": [\n        362,\n        167,\n        675,\n        816\n      ],\n      \"content\": {\n        \"chart_type\": \"line chart with shaded area\",\n        \"y_axis_title\": \"GDP per capita (constant 2017 US$)\",\n        \"x_axis_title\": \"Year\",\n        \"y_axis_range\": [12000, 132000],\n        \"x_axis_range\": [2025, 2100],\n        \"legend\": \"Projections under various Shared Socioeconomic Pathways\",\n        \"description\": \"The chart displays multiple lines representing GDP per capita projections from five different Shared Socioeconomic Pathways (SSPs) using either the IIASA or OECD models. The shaded area represents the range between the lowest and highest projections. The trend shows a general increase in GDP per capita across all scenarios from 2025 to 2100, with the gap between the highest and lowest projections widening significantly over time.\",\n        \"source\": \"Shared Socioeconomic Pathways (SSPs projection data, accessed through the IIASA SSP Scenario Explorer 3.0.1).\",\n        \"note\": \"GDP = gross domestic product; IIASA = International Institute of Applied Systems Analysis; OECD = Organisation for Economic Co-operation and Development; SSPs = Shared Socioeconomic Pathways. Each line represents GDP per capita projection from one of the five SSPs from either the IIASA model (Crespo Cuaresma 2017) or the OECD model (Dellink et al. 2017).\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 4.7",
+   "kind": "chart",
+   "title": "Projections of GDP per capita vary significantly between Shared Socioeconomic Pathways",
+   "bbox": [
+    362,
+    167,
+    675,
+    816
+   ],
+   "content": {
+    "chart_type": "line chart with shaded area",
+    "y_axis_title": "GDP per capita (constant 2017 US$)",
+    "x_axis_title": "Year",
+    "y_axis_range": [
+     12000,
+     132000
+    ],
+    "x_axis_range": [
+     2025,
+     2100
+    ],
+    "legend": "Projections under various Shared Socioeconomic Pathways",
+    "description": "The chart displays multiple lines representing GDP per capita projections from five different Shared Socioeconomic Pathways (SSPs) using either the IIASA or OECD models. The shaded area represents the range between the lowest and highest projections. The trend shows a general increase in GDP per capita across all scenarios from 2025 to 2100, with the gap between the highest and lowest projections widening significantly over time.",
+    "source": "Shared Socioeconomic Pathways (SSPs projection data, accessed through the IIASA SSP Scenario Explorer 3.0.1).",
+    "note": "GDP = gross domestic product; IIASA = International Institute of Applied Systems Analysis; OECD = Organisation for Economic Co-operation and Development; SSPs = Shared Socioeconomic Pathways. Each line represents GDP per capita projection from one of the five SSPs from either the IIASA model (Crespo Cuaresma 2017) or the OECD model (Dellink et al. 2017)."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 278,
+ "captions": [
+  "FIGURE 4.7"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

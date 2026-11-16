@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 7366,
+ "total_tokens": 1194,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"TABLE 2.1\",\n      \"kind\": \"table\",\n      \"title\": \"An inequality penalty is built into the Prosperity Gap index\",\n      \"bbox\": [\n        645,\n        168,\n        787,\n        832\n      ],\n      \"content\": \"| | Benin | Cameroon | Peru | Colombia |\\n| :--- | :--- | :--- | :--- | :--- |\\n| | 2021 | 2021 | 2022 | 2022 |\\n| Prosperity Gap | 7.20 | 8.32 | 3.60 | 4.69 |\\n| Mean income | 5.02 | 5.37 | 12.4 | 17.3 |\\n| Inequality | 1.44 | 1.79 | 1.79 | 3.25 |\\n\\nSource: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\\nNote: The Prosperity Gap is calculated using the global prosperity standard of $25 per person per day in 2017 purchasing power parity dollars (PPP$). The table also shows the decomposition of the Prosperity Gap into the product of (25/mean income) and inequality. Inequality is measured using the inequality measure related to the Prosperity Gap—the average income multiple needed to reach the mean income (see annex 2B for details). Mean income is expressed in 2017 PPP$ per person per day. Estimates for each country are reported using the most recent survey data.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "TABLE 2.1",
+   "kind": "table",
+   "title": "An inequality penalty is built into the Prosperity Gap index",
+   "bbox": [
+    645,
+    168,
+    787,
+    832
+   ],
+   "content": "| | Benin | Cameroon | Peru | Colombia |\n| :--- | :--- | :--- | :--- | :--- |\n| | 2021 | 2021 | 2022 | 2022 |\n| Prosperity Gap | 7.20 | 8.32 | 3.60 | 4.69 |\n| Mean income | 5.02 | 5.37 | 12.4 | 17.3 |\n| Inequality | 1.44 | 1.79 | 1.79 | 3.25 |\n\nSource: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\nNote: The Prosperity Gap is calculated using the global prosperity standard of $25 per person per day in 2017 purchasing power parity dollars (PPP$). The table also shows the decomposition of the Prosperity Gap into the product of (25/mean income) and inequality. Inequality is measured using the inequality measure related to the Prosperity Gap—the average income multiple needed to reach the mean income (see annex 2B for details). Mean income is expressed in 2017 PPP$ per person per day. Estimates for each country are reported using the most recent survey data."
+  }
+ ],
+ "parse_ok": true,
+ "page": 151,
+ "captions": [
+  "TABLE 2.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

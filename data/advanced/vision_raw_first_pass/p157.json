@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5256,
+ "total_tokens": 1146,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"MAP 2.1\",\n      \"kind\": \"map\",\n      \"title\": \"The 49 economies with high inequality are concentrated in Sub-Saharan Africa and Latin America and the Caribbean\",\n      \"bbox\": [\n        338,\n        175,\n        685,\n        825\n      ],\n      \"content\": \"The map displays global inequality levels based on the Gini index using a color-coded scale: Red represents high inequality (>40), yellow represents moderate inequality (30–40), blue represents low inequality (<30), and grey represents no data. High inequality is concentrated in Sub-Saharan Africa and Latin America and the Caribbean. Sources: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org; Haddad et al. 2024. Note: The map presents the Gini index from the latest available survey (after 2000), which measures the inequality of income or consumption, depending on the economy. High-inequality economies have a Gini index above 40, moderate-inequality economies are those with a Gini index between 30 and 40, and low-inequality economies are those with a Gini index below 30. See annex table 2F.1 for the economy classifications, Gini indexes, year of survey, and the type of welfare—income, or consumption—used.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "MAP 2.1",
+   "kind": "map",
+   "title": "The 49 economies with high inequality are concentrated in Sub-Saharan Africa and Latin America and the Caribbean",
+   "bbox": [
+    338,
+    175,
+    685,
+    825
+   ],
+   "content": "The map displays global inequality levels based on the Gini index using a color-coded scale: Red represents high inequality (>40), yellow represents moderate inequality (30–40), blue represents low inequality (<30), and grey represents no data. High inequality is concentrated in Sub-Saharan Africa and Latin America and the Caribbean. Sources: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org; Haddad et al. 2024. Note: The map presents the Gini index from the latest available survey (after 2000), which measures the inequality of income or consumption, depending on the economy. High-inequality economies have a Gini index above 40, moderate-inequality economies are those with a Gini index between 30 and 40, and low-inequality economies are those with a Gini index below 30. See annex table 2F.1 for the economy classifications, Gini indexes, year of survey, and the type of welfare—income, or consumption—used."
+  }
+ ],
+ "parse_ok": true,
+ "page": 157,
+ "captions": [
+  "MAP 2.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

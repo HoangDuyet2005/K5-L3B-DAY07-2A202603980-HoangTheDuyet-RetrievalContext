@@ -1,0 +1,47 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 6966,
+ "total_tokens": 1609,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 2.13\",\n      \"kind\": \"chart\",\n      \"title\": \"Average within-country inequality has been falling in the past 20 years\",\n      \"bbox\": [\n        408,\n        167,\n        785,\n        823\n      ],\n      \"content\": {\n        \"chart_type\": \"line chart\",\n        \"axes\": {\n          \"x_axis\": \"Time periods (2000–04, 2005–09, 2010–14, 2015–19, 2020–22)\",\n          \"y_axis\": \"Average within-country Gini index (range 30 to 42)\"\n        },\n        \"legend\": [\n          \"Consumption\",\n          \"Consumption, balanced\",\n          \"Income\",\n          \"Income, balanced\"\n        ],\n        \"data_trends\": {\n          \"Consumption\": \"Starts at approx. 40 (2000-04), decreases to approx. 39.5 (2005-09), decreases to approx. 37.5 (2010-14), increases to approx. 37.8 (2015-19), decreases to approx. 34.5 (2020-22).\",\n          \"Consumption, balanced\": \"Starts at approx. 36.5 (2000-04), decreases to approx. 35.8 (2005-09), decreases to approx. 35 (2010-14), decreases to approx. 34.5 (2015-19), decreases to approx. 32.5 (2020-22).\",\n          \"Income\": \"Starts at approx. 40 (2000-04), decreases to approx. 38.5 (2005-09), decreases to approx. 37.5 (2010-14), decreases to approx. 36 (2015-19), stays at approx. 36 (2020-22).\",\n          \"Income, balanced\": \"Starts at approx. 40 (2000-04), decreases to approx. 38.5 (2005-09), decreases to approx. 37.5 (2010-14), decreases to approx. 36.5 (2015-19), stays at approx. 36 (2020-22).\"\n        },\n        \"source\": \"World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\",\n        \"note\": \"The sample comprises 121 economies in 2000–04, 131 in 2005–09, 137 in 2010–14, 133 in 2015–19, and 93 economies in 2020–22. The balanced sample comprises 63 economies, 43 of which are income-based surveys. In cases where economies conducted several survey rounds within a half-decade period, the figure uses the median Gini value for the economy across surveys within that interval. Simple averages are used, unweighted by population.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 2.13",
+   "kind": "chart",
+   "title": "Average within-country inequality has been falling in the past 20 years",
+   "bbox": [
+    408,
+    167,
+    785,
+    823
+   ],
+   "content": {
+    "chart_type": "line chart",
+    "axes": {
+     "x_axis": "Time periods (2000–04, 2005–09, 2010–14, 2015–19, 2020–22)",
+     "y_axis": "Average within-country Gini index (range 30 to 42)"
+    },
+    "legend": [
+     "Consumption",
+     "Consumption, balanced",
+     "Income",
+     "Income, balanced"
+    ],
+    "data_trends": {
+     "Consumption": "Starts at approx. 40 (2000-04), decreases to approx. 39.5 (2005-09), decreases to approx. 37.5 (2010-14), increases to approx. 37.8 (2015-19), decreases to approx. 34.5 (2020-22).",
+     "Consumption, balanced": "Starts at approx. 36.5 (2000-04), decreases to approx. 35.8 (2005-09), decreases to approx. 35 (2010-14), decreases to approx. 34.5 (2015-19), decreases to approx. 32.5 (2020-22).",
+     "Income": "Starts at approx. 40 (2000-04), decreases to approx. 38.5 (2005-09), decreases to approx. 37.5 (2010-14), decreases to approx. 36 (2015-19), stays at approx. 36 (2020-22).",
+     "Income, balanced": "Starts at approx. 40 (2000-04), decreases to approx. 38.5 (2005-09), decreases to approx. 37.5 (2010-14), decreases to approx. 36.5 (2015-19), stays at approx. 36 (2020-22)."
+    },
+    "source": "World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.",
+    "note": "The sample comprises 121 economies in 2000–04, 131 in 2005–09, 137 in 2010–14, 133 in 2015–19, and 93 economies in 2020–22. The balanced sample comprises 63 economies, 43 of which are income-based surveys. In cases where economies conducted several survey rounds within a half-decade period, the figure uses the median Gini value for the economy across surveys within that interval. Simple averages are used, unweighted by population."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 163,
+ "captions": [
+  "FIGURE 2.13"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

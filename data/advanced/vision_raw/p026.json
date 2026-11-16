@@ -1,0 +1,40 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 6510,
+ "total_tokens": 1704,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 1\",\n      \"kind\": \"chart\",\n      \"title\": \"Global extreme poverty reduction has slowed to a near standstill, with 2020–30 set to be a lost decade\",\n      \"bbox\": [\n        85,\n        165,\n        345,\n        835\n      ],\n      \"content\": \"The figure contains two panels. Panel a: 'Progress in reducing extreme poverty has come to a halt'. This is a line chart showing Poverty rate (%) on the y-axis (0 to 80) against years on the x-axis (1990 to 2030). Legend: Poverty rate at $2.15, $3.65, and $6.85. A black horizontal dotted line is at 3 percent. Panel b: 'Number of people living on less than $6.85 per day has remained unchanged since 1990'. This is a line chart showing Number of poor (millions) on the y-axis (0 to 6,000) against years on the x-axis (1990 to 2030). Legend: Millions of poor at $2.15, $3.65, and $6.85. A black horizontal dotted line is at 256 million. Sources: Original figures for this publication based on World Bank calculations. Note: All $ values are expressed in per person per day in 2017 purchasing power parity dollars. 2022–30 are projections and are shown in dots at the ends of lines. In panel a, the black horizontal dotted line is drawn at 3 percent and indicates the World Bank’s target of ending extreme poverty by 2030. In panel b, it is drawn at 256 million, which represents 3 percent of the global population projected for 2030.\"\n    },\n    {\n      \"label\": \"FIGURE 2\",\n      \"kind\": \"chart\",\n      \"title\": \"Progress on boosting shared prosperity around the world has slowed down\",\n      \"bbox\": [\n        465,\n        165,\n        735,\n        835\n      ],\n      \"content\": \"The figure contains two panels. Panel a: 'Recent progress on the Global Prosperity Gap was hindered by increasing inequality between countries due to divergent growth'. This is a stacked bar chart showing Annual growth (%) on the y-axis (-4 to 1) against time periods (1990–2000, 2000–2010, 2010–2019, 2019–2024 projected). Legend: Contribution of mean growth, Contribution of between-country inequality, Contribution of within-country inequality, Global Prosperity Gap growth rate. Panel b: 'Latin America and the Caribbean and Sub-Saharan Africa have a large share of high-inequality economies'. This is a stacked bar chart showing Share of economies (%) on the y-axis (0 to 100) against regions (EAP, ECA, LAC, MNA, SAR, SSA, ROW, WLD). Legend: Low inequality, Moderate inequality, High inequality. Sources: Original figures for this publication based on World Bank calculations. Note: EAP = East Asia and Pacific; ECA = Europe and Central Asia; LAC = Latin America and the Caribbean; MNA = Middle East and North Africa; SAR = South Asia; SSA = Sub-Saharan Africa; ROW = rest of the world; WLD = world. Panel a. Change in the Global Prosperity Gap decomposed into (negative of) the growth in mean incomes, between-country inequality, and within-country inequality. The Global Prosperity Gap for 2024 is projected. Panel b. Share of economies in 2022 with Gini less than 30 (low), between 30 and 40 (moderate), and greater than 40 (high). Regional classifications follow the Poverty and Inequality Platform.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 1",
+   "kind": "chart",
+   "title": "Global extreme poverty reduction has slowed to a near standstill, with 2020–30 set to be a lost decade",
+   "bbox": [
+    85,
+    165,
+    345,
+    835
+   ],
+   "content": "The figure contains two panels. Panel a: 'Progress in reducing extreme poverty has come to a halt'. This is a line chart showing Poverty rate (%) on the y-axis (0 to 80) against years on the x-axis (1990 to 2030). Legend: Poverty rate at $2.15, $3.65, and $6.85. A black horizontal dotted line is at 3 percent. Panel b: 'Number of people living on less than $6.85 per day has remained unchanged since 1990'. This is a line chart showing Number of poor (millions) on the y-axis (0 to 6,000) against years on the x-axis (1990 to 2030). Legend: Millions of poor at $2.15, $3.65, and $6.85. A black horizontal dotted line is at 256 million. Sources: Original figures for this publication based on World Bank calculations. Note: All $ values are expressed in per person per day in 2017 purchasing power parity dollars. 2022–30 are projections and are shown in dots at the ends of lines. In panel a, the black horizontal dotted line is drawn at 3 percent and indicates the World Bank’s target of ending extreme poverty by 2030. In panel b, it is drawn at 256 million, which represents 3 percent of the global population projected for 2030."
+  },
+  {
+   "label": "FIGURE 2",
+   "kind": "chart",
+   "title": "Progress on boosting shared prosperity around the world has slowed down",
+   "bbox": [
+    465,
+    165,
+    735,
+    835
+   ],
+   "content": "The figure contains two panels. Panel a: 'Recent progress on the Global Prosperity Gap was hindered by increasing inequality between countries due to divergent growth'. This is a stacked bar chart showing Annual growth (%) on the y-axis (-4 to 1) against time periods (1990–2000, 2000–2010, 2010–2019, 2019–2024 projected). Legend: Contribution of mean growth, Contribution of between-country inequality, Contribution of within-country inequality, Global Prosperity Gap growth rate. Panel b: 'Latin America and the Caribbean and Sub-Saharan Africa have a large share of high-inequality economies'. This is a stacked bar chart showing Share of economies (%) on the y-axis (0 to 100) against regions (EAP, ECA, LAC, MNA, SAR, SSA, ROW, WLD). Legend: Low inequality, Moderate inequality, High inequality. Sources: Original figures for this publication based on World Bank calculations. Note: EAP = East Asia and Pacific; ECA = Europe and Central Asia; LAC = Latin America and the Caribbean; MNA = Middle East and North Africa; SAR = South Asia; SSA = Sub-Saharan Africa; ROW = rest of the world; WLD = world. Panel a. Change in the Global Prosperity Gap decomposed into (negative of) the growth in mean incomes, between-country inequality, and within-country inequality. The Global Prosperity Gap for 2024 is projected. Panel b. Share of economies in 2022 with Gini less than 30 (low), between 30 and 40 (moderate), and greater than 40 (high). Regional classifications follow the Poverty and Inequality Platform."
+  }
+ ],
+ "parse_ok": true,
+ "page": 26,
+ "captions": [
+  "FIGURE 1",
+  "FIGURE 2"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

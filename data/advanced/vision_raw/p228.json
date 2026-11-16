@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4418,
+ "total_tokens": 1269,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 3.14\",\n      \"kind\": \"chart\",\n      \"title\": \"Priorities to advance on the interlinked goals\",\n      \"bbox\": [\n        87,\n        155,\n        515,\n        845\n      ],\n      \"content\": \"The chart is a scatter plot showing Emissions per capita (t CO2e) on the y-axis (range -5 to 25) versus GDP per capita (2015 US$) on the x-axis (logarithmic scale, 100 to 100,000). The legend categories are: Low-income (red), Lower-middle-income (yellow), Upper-middle-income (light blue), and High-income (dark blue). The size of the bubbles represents total GHG emissions. Labeled countries include: Burundi, Congo, Dem. Rep., Madagascar, Chad, India, Indonesia, Brazil, China, Japan, Germany, United States, and Saudi Arabia. The chart is divided into three strategic zones: 1) 'Prioritize poverty eradication by fostering investment in human, physical, and financial capital' (bottom-left area), 2) 'Prioritize income growth that reduces vulnerability and pursue synergies (such as, cutting air pollution)' (middle area), and 3) 'Prioritize mitigation while managing transition costs' (top-right area). Source: Emissions Database for Global Atmospheric Research, Grassi et al. 2023, and World Development Indicators. Note: GDP = gross domestic product; GHG = greenhouse gas; t CO2e = tons of carbon dioxide equivalent. The sizes of the bubbles indicate total GHG emissions. Negative emissions occur when ecosystems absorb more carbon than the country emits. A few small countries with very high per capita emissions (Bahrain, Guyana, Iceland, Kuwait, Oman, Palau, Qatar, Trinidad and Tobago, and the United Arab Emirates) and countries with very low per capita emissions (the Central African Republic and Vanuatu) are omitted for visual purposes. The horizontal axis uses a logarithmic scale.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 3.14",
+   "kind": "chart",
+   "title": "Priorities to advance on the interlinked goals",
+   "bbox": [
+    87,
+    155,
+    515,
+    845
+   ],
+   "content": "The chart is a scatter plot showing Emissions per capita (t CO2e) on the y-axis (range -5 to 25) versus GDP per capita (2015 US$) on the x-axis (logarithmic scale, 100 to 100,000). The legend categories are: Low-income (red), Lower-middle-income (yellow), Upper-middle-income (light blue), and High-income (dark blue). The size of the bubbles represents total GHG emissions. Labeled countries include: Burundi, Congo, Dem. Rep., Madagascar, Chad, India, Indonesia, Brazil, China, Japan, Germany, United States, and Saudi Arabia. The chart is divided into three strategic zones: 1) 'Prioritize poverty eradication by fostering investment in human, physical, and financial capital' (bottom-left area), 2) 'Prioritize income growth that reduces vulnerability and pursue synergies (such as, cutting air pollution)' (middle area), and 3) 'Prioritize mitigation while managing transition costs' (top-right area). Source: Emissions Database for Global Atmospheric Research, Grassi et al. 2023, and World Development Indicators. Note: GDP = gross domestic product; GHG = greenhouse gas; t CO2e = tons of carbon dioxide equivalent. The sizes of the bubbles indicate total GHG emissions. Negative emissions occur when ecosystems absorb more carbon than the country emits. A few small countries with very high per capita emissions (Bahrain, Guyana, Iceland, Kuwait, Oman, Palau, Qatar, Trinidad and Tobago, and the United Arab Emirates) and countries with very low per capita emissions (the Central African Republic and Vanuatu) are omitted for visual purposes. The horizontal axis uses a logarithmic scale."
+  }
+ ],
+ "parse_ok": true,
+ "page": 228,
+ "captions": [
+  "FIGURE 3.14"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 3004,
+ "total_tokens": 1086,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 3.2\",\n      \"kind\": \"diagram\",\n      \"title\": \"Risks depend on hazard, exposure, and vulnerability\",\n      \"bbox\": [\n        83,\n        163,\n        425,\n        836\n      ],\n      \"content\": \"A Venn diagram showing the intersection of three circles: Hazard, Exposure, and Vulnerability. The central intersection is labeled 'Risk (Impacts)'. Hazard is defined as: 'The potential occurrence of a natural or human-induced physical event or trend that may cause loss of life, injury, or other health impacts, as well as damage and loss to property, infrastructure, livelihoods, service provision, ecosystems, and environmental resources.' Exposure is defined as: 'The presence of people; livelihoods; species or ecosystems; environmental functions, services, and resources; infrastructure; or economic, social, or cultural assets in places and settings that could be adversely affected.' Vulnerability is defined as: 'The propensity or predisposition to be adversely affected. Vulnerability encompasses a variety of concepts and elements, including sensitivity or susceptibility to harm and lack of capacity to cope and adapt.' Source: IPCC 2023a.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 3.2",
+   "kind": "diagram",
+   "title": "Risks depend on hazard, exposure, and vulnerability",
+   "bbox": [
+    83,
+    163,
+    425,
+    836
+   ],
+   "content": "A Venn diagram showing the intersection of three circles: Hazard, Exposure, and Vulnerability. The central intersection is labeled 'Risk (Impacts)'. Hazard is defined as: 'The potential occurrence of a natural or human-induced physical event or trend that may cause loss of life, injury, or other health impacts, as well as damage and loss to property, infrastructure, livelihoods, service provision, ecosystems, and environmental resources.' Exposure is defined as: 'The presence of people; livelihoods; species or ecosystems; environmental functions, services, and resources; infrastructure; or economic, social, or cultural assets in places and settings that could be adversely affected.' Vulnerability is defined as: 'The propensity or predisposition to be adversely affected. Vulnerability encompasses a variety of concepts and elements, including sensitivity or susceptibility to harm and lack of capacity to cope and adapt.' Source: IPCC 2023a."
+  }
+ ],
+ "parse_ok": true,
+ "page": 199,
+ "captions": [
+  "FIGURE 3.2"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

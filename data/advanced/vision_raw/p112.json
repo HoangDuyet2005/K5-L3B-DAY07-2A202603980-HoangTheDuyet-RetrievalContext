@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5697,
+ "total_tokens": 1239,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 1.11\",\n      \"kind\": \"chart\",\n      \"title\": \"Distribution of subnational extreme poverty rates by income group, 2021\",\n      \"bbox\": [\n        86,\n        167,\n        412,\n        777\n      ],\n      \"content\": \"The chart is a dot plot showing the distribution of subnational extreme poverty rates (%) for four income groups: High-income, Upper-middle-income, Lower-middle-income, and Low-income. The x-axis represents Extreme poverty (%). Each dot represents a subnational area. Boxes represent the interquartile range, with a vertical line for the median. Lower whisker is the 10th percentile, upper whisker is the 90th percentile. High-income group shows very low poverty rates (mostly near 0). Upper-middle-income shows a wider spread, mostly below 40%. Lower-middle-income shows a broad distribution, with the interquartile range roughly between 5% and 45%. Low-income shows the highest poverty rates, with the interquartile range roughly between 25% and 65%, and many data points extending beyond 80%. Sources: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org; Global Subnational Atlas of Poverty (database). Note: The extreme poverty rate reported for the $2.15 per person per day poverty line (expressed in 2017 purchasing power parity dollars). Each dot refers to one subnational area, which is assigned to income groups based on the country it is in. The boxes depict the interquartile range and the vertical line in each box depicts the respective median values. The lower whisker represents the 10th percentile, while the upper whisker represents the 90th percentile.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 1.11",
+   "kind": "chart",
+   "title": "Distribution of subnational extreme poverty rates by income group, 2021",
+   "bbox": [
+    86,
+    167,
+    412,
+    777
+   ],
+   "content": "The chart is a dot plot showing the distribution of subnational extreme poverty rates (%) for four income groups: High-income, Upper-middle-income, Lower-middle-income, and Low-income. The x-axis represents Extreme poverty (%). Each dot represents a subnational area. Boxes represent the interquartile range, with a vertical line for the median. Lower whisker is the 10th percentile, upper whisker is the 90th percentile. High-income group shows very low poverty rates (mostly near 0). Upper-middle-income shows a wider spread, mostly below 40%. Lower-middle-income shows a broad distribution, with the interquartile range roughly between 5% and 45%. Low-income shows the highest poverty rates, with the interquartile range roughly between 25% and 65%, and many data points extending beyond 80%. Sources: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org; Global Subnational Atlas of Poverty (database). Note: The extreme poverty rate reported for the $2.15 per person per day poverty line (expressed in 2017 purchasing power parity dollars). Each dot refers to one subnational area, which is assigned to income groups based on the country it is in. The boxes depict the interquartile range and the vertical line in each box depicts the respective median values. The lower whisker represents the 10th percentile, while the upper whisker represents the 90th percentile."
+  }
+ ],
+ "parse_ok": true,
+ "page": 112,
+ "captions": [
+  "FIGURE 1.11"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

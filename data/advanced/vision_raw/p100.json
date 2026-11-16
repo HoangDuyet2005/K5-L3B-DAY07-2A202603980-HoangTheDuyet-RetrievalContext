@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5258,
+ "total_tokens": 1443,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 1.7\",\n      \"kind\": \"chart\",\n      \"title\": \"Regional disparities in poverty reduction\",\n      \"bbox\": [\n        83,\n        165,\n        645,\n        825\n      ],\n      \"content\": \"The figure consists of four panels showing poverty trends from 1990 to 2024. Panel a: Poverty rate at $2.15 (%). Y-axis: 0-80. X-axis: Years 1990-2024. Legend: Europe and Central Asia, East Asia and Pacific, Middle East and North Africa, South Asia, Sub-Saharan Africa, Rest of the world. Panel b: Poverty rate at $6.85 (%). Y-axis: 0-100. X-axis: Years 1990-2024. Legend: Same as panel a. Panel c: Millions of poor at $2.15. Y-axis: 0-2,000 (millions). X-axis: Years 1990-2024. Legend: Sub-Saharan Africa, India, China, East Asia and Pacific excluding China, South Asia excluding India, Latin America and the Caribbean, Europe and Central Asia, Middle East and North Africa, Rest of the world. Panel d: Millions of poor at $6.85. Y-axis: 0-4,500 (millions). X-axis: Years 1990-2024. Legend: Same as panel c. Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org. Note: Poverty rates are reported for the $2.15 and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). In panels c and d, millions of poor from South Asia and East Asia and Pacific do not include numbers from India and China, respectively, which are shown separately. Poverty rates for 2022–24 are projected based on per capita gross domestic product growth projections in Global Economic Prospects (IMF 2024). See annex 1A for more details on the projections. Discontinuity in the series in panels a and b indicates years with insufficient data coverage (that is, survey data do not cover at least 50 percent of the population). More recent estimates for Sub-Saharan Africa and the Middle East and North Africa are projections shown with dotted lines, as survey data do not cover at least 50 percent of the population after 2019 and 2018, respectively. To obtain the global count of millions of poor, panels c and d include all regional estimates of the millions of poor, whether or not there is data coverage.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 1.7",
+   "kind": "chart",
+   "title": "Regional disparities in poverty reduction",
+   "bbox": [
+    83,
+    165,
+    645,
+    825
+   ],
+   "content": "The figure consists of four panels showing poverty trends from 1990 to 2024. Panel a: Poverty rate at $2.15 (%). Y-axis: 0-80. X-axis: Years 1990-2024. Legend: Europe and Central Asia, East Asia and Pacific, Middle East and North Africa, South Asia, Sub-Saharan Africa, Rest of the world. Panel b: Poverty rate at $6.85 (%). Y-axis: 0-100. X-axis: Years 1990-2024. Legend: Same as panel a. Panel c: Millions of poor at $2.15. Y-axis: 0-2,000 (millions). X-axis: Years 1990-2024. Legend: Sub-Saharan Africa, India, China, East Asia and Pacific excluding China, South Asia excluding India, Latin America and the Caribbean, Europe and Central Asia, Middle East and North Africa, Rest of the world. Panel d: Millions of poor at $6.85. Y-axis: 0-4,500 (millions). X-axis: Years 1990-2024. Legend: Same as panel c. Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org. Note: Poverty rates are reported for the $2.15 and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). In panels c and d, millions of poor from South Asia and East Asia and Pacific do not include numbers from India and China, respectively, which are shown separately. Poverty rates for 2022–24 are projected based on per capita gross domestic product growth projections in Global Economic Prospects (IMF 2024). See annex 1A for more details on the projections. Discontinuity in the series in panels a and b indicates years with insufficient data coverage (that is, survey data do not cover at least 50 percent of the population). More recent estimates for Sub-Saharan Africa and the Middle East and North Africa are projections shown with dotted lines, as survey data do not cover at least 50 percent of the population after 2019 and 2018, respectively. To obtain the global count of millions of poor, panels c and d include all regional estimates of the millions of poor, whether or not there is data coverage."
+  }
+ ],
+ "parse_ok": true,
+ "page": 100,
+ "captions": [
+  "FIGURE 1.7"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

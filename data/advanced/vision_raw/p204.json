@@ -1,0 +1,40 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 3819,
+ "total_tokens": 1217,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 3.4\",\n      \"kind\": \"chart\",\n      \"title\": \"For similar levels of exposure, risks vary\",\n      \"bbox\": [\n        245,\n        167,\n        685,\n        825\n      ],\n      \"content\": {\n        \"chart_type\": \"bubble chart\",\n        \"x_axis\": \"Share of population exposed to any climate-related hazard (%)\",\n        \"y_axis\": \"Share of population at high risk from climate-related hazards (%)\",\n        \"legend\": [\n          \"Low-income\",\n          \"Lower-middle-income\",\n          \"Upper-middle-income\",\n          \"High-income\"\n        ],\n        \"description\": \"The chart plots the share of population at high risk against the share of population exposed to climate-related hazards. A 45-degree reference line indicates where exposure equals risk. Low-income and some lower-middle-income countries cluster near the 45-degree line, while higher-income economies generally show lower risk levels for similar exposure levels. Bubble size represents population.\",\n        \"sources\": \"World Bank Group Scorecard indicator: the percentage of people at high risk of climate-related hazards globally, https://scorecard.worldbank.org/en/scorecard/home, and World Development Indicators, https://databank.worldbank.org/source/world-development-indicators.\",\n        \"note\": \"Bubble size indicates population. Exposure refers to the population exposed to floods, droughts, cyclones, or heat waves. Risk refers to the population exposed and vulnerable along at least one of the seven dimensions of vulnerability (see box 3.1 and annex 3B for more details on the construction of the indicators).\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 3.4",
+   "kind": "chart",
+   "title": "For similar levels of exposure, risks vary",
+   "bbox": [
+    245,
+    167,
+    685,
+    825
+   ],
+   "content": {
+    "chart_type": "bubble chart",
+    "x_axis": "Share of population exposed to any climate-related hazard (%)",
+    "y_axis": "Share of population at high risk from climate-related hazards (%)",
+    "legend": [
+     "Low-income",
+     "Lower-middle-income",
+     "Upper-middle-income",
+     "High-income"
+    ],
+    "description": "The chart plots the share of population at high risk against the share of population exposed to climate-related hazards. A 45-degree reference line indicates where exposure equals risk. Low-income and some lower-middle-income countries cluster near the 45-degree line, while higher-income economies generally show lower risk levels for similar exposure levels. Bubble size represents population.",
+    "sources": "World Bank Group Scorecard indicator: the percentage of people at high risk of climate-related hazards globally, https://scorecard.worldbank.org/en/scorecard/home, and World Development Indicators, https://databank.worldbank.org/source/world-development-indicators.",
+    "note": "Bubble size indicates population. Exposure refers to the population exposed to floods, droughts, cyclones, or heat waves. Risk refers to the population exposed and vulnerable along at least one of the seven dimensions of vulnerability (see box 3.1 and annex 3B for more details on the construction of the indicators)."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 204,
+ "captions": [
+  "FIGURE 3.4"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

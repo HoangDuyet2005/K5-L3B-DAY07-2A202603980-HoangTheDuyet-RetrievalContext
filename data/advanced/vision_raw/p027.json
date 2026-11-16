@@ -1,0 +1,59 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 6058,
+ "total_tokens": 1353,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 3\",\n      \"kind\": \"chart\",\n      \"title\": \"Risks from extreme weather events are high and may increase without action\",\n      \"bbox\": [\n        [485, 165, 715, 835]\n      ],\n      \"content\": {\n        \"panel_a\": {\n          \"title\": \"a. Climate risks are high\",\n          \"type\": \"bar chart\",\n          \"y_axis\": \"Population (%)\",\n          \"x_axis\": \"Regions (EAP, ECA, LAC, MNA, NAC, SAR, SSA)\",\n          \"legend\": [\n            \"Population exposed to extreme weather event\",\n            \"Population exposed and vulnerable\"\n          ],\n          \"data_description\": \"Shows population percentages exposed to extreme weather events versus those exposed and vulnerable. SSA shows the highest proportion of exposed population being vulnerable (bars are nearly equal). SAR shows the highest total population at high risk (approx. 32%).\"\n        },\n        \"panel_b\": {\n          \"title\": \"b. Greenhouse gas emissions reached record levels in 2022\",\n          \"type\": \"stacked area chart\",\n          \"y_axis\": \"GHG emissions (gt CO2e)\",\n          \"x_axis\": \"Year (2000-2022)\",\n          \"legend\": [\n            \"SSA\",\n            \"SAR\",\n            \"NAC\",\n            \"MNA\",\n            \"LAC\",\n            \"ECA\",\n            \"EAP\"\n          ],\n          \"data_description\": \"Shows a steady increase in total global GHG emissions from 2000 to 2022, reaching a peak in 2022.\"\n        },\n        \"sources\": \"Original figures for this publication based on World Bank calculations.\",\n        \"notes\": \"GHG = greenhouse gas; gt CO2e = gigatons carbon dioxide equivalent; EAP = East Asia and Pacific; ECA = Europe and Central Asia; LAC = Latin America and the Caribbean; MNA = Middle East and North Africa; NAC = North America; SAR = South Asia; SSA = Sub-Saharan Africa. Panel a. Population exposed to extreme weather events, and the population at high risk from extreme weather events (exposed and vulnerable). Panel b. Total GHG emissions in gt CO2e.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 3",
+   "kind": "chart",
+   "title": "Risks from extreme weather events are high and may increase without action",
+   "bbox": [
+    [
+     485,
+     165,
+     715,
+     835
+    ]
+   ],
+   "content": {
+    "panel_a": {
+     "title": "a. Climate risks are high",
+     "type": "bar chart",
+     "y_axis": "Population (%)",
+     "x_axis": "Regions (EAP, ECA, LAC, MNA, NAC, SAR, SSA)",
+     "legend": [
+      "Population exposed to extreme weather event",
+      "Population exposed and vulnerable"
+     ],
+     "data_description": "Shows population percentages exposed to extreme weather events versus those exposed and vulnerable. SSA shows the highest proportion of exposed population being vulnerable (bars are nearly equal). SAR shows the highest total population at high risk (approx. 32%)."
+    },
+    "panel_b": {
+     "title": "b. Greenhouse gas emissions reached record levels in 2022",
+     "type": "stacked area chart",
+     "y_axis": "GHG emissions (gt CO2e)",
+     "x_axis": "Year (2000-2022)",
+     "legend": [
+      "SSA",
+      "SAR",
+      "NAC",
+      "MNA",
+      "LAC",
+      "ECA",
+      "EAP"
+     ],
+     "data_description": "Shows a steady increase in total global GHG emissions from 2000 to 2022, reaching a peak in 2022."
+    },
+    "sources": "Original figures for this publication based on World Bank calculations.",
+    "notes": "GHG = greenhouse gas; gt CO2e = gigatons carbon dioxide equivalent; EAP = East Asia and Pacific; ECA = Europe and Central Asia; LAC = Latin America and the Caribbean; MNA = Middle East and North Africa; NAC = North America; SAR = South Asia; SSA = Sub-Saharan Africa. Panel a. Population exposed to extreme weather events, and the population at high risk from extreme weather events (exposed and vulnerable). Panel b. Total GHG emissions in gt CO2e."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 27,
+ "captions": [
+  "FIGURE 3"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

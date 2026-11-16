@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 8940,
+ "total_tokens": 1312,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 3.6\",\n      \"kind\": \"chart\",\n      \"title\": \"Growth of total GHG emissions has continued but economic activity has become less emissions intensive over the past two decades\",\n      \"bbox\": [\n        78,\n        115,\n        725,\n        885\n      ],\n      \"content\": \"The figure consists of four panels (a, b, c, d) showing GHG emissions trends. Panel a: Stacked area chart of GHG emissions (gt CO2e) by region from 2000 to 2022. Regions include East Asia and Pacific, Europe and Central Asia, Latin America and the Caribbean, Middle East and North Africa, North America, South Asia, and Sub-Saharan Africa. Panel b: Stacked area chart of GHG emissions (gt CO2e) by income group from 2000 to 2022. Income groups include Low-income, Lower-middle-income, Upper-middle-income, and High-income. Panel c: Line chart of GHG emissions per capita (gt CO2e) by region and World from 2000 to 2022. Panel d: Line chart of GHG emissions per unit of GDP (kt CO2e per output in millions of 2015 US$) by region and World from 2000 to 2022. Sources: Emissions Database for Global Atmospheric Research, Grassi et al. 2023, and World Development Indicators. Note: CO2e = carbon dioxide equivalent; GDP = gross domestic product; GHG = greenhouse gases. CO2e values are indicated in gigatons (gt), tons (t), or kilotons (kt) and millions of 2015 US dollars. In panel b, fixed income group classifications from 2022 are used. Increases in GHG emission intensities between 2002 and 2004 in Latin America and the Caribbean are driven by Brazil. The drop in emissions in Sub-Saharan Africa (panels c and d) in 2015 comes from the Democratic Republic of Congo, where land use, land use change, and forestry emissions declined substantially after 2014.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 3.6",
+   "kind": "chart",
+   "title": "Growth of total GHG emissions has continued but economic activity has become less emissions intensive over the past two decades",
+   "bbox": [
+    78,
+    115,
+    725,
+    885
+   ],
+   "content": "The figure consists of four panels (a, b, c, d) showing GHG emissions trends. Panel a: Stacked area chart of GHG emissions (gt CO2e) by region from 2000 to 2022. Regions include East Asia and Pacific, Europe and Central Asia, Latin America and the Caribbean, Middle East and North Africa, North America, South Asia, and Sub-Saharan Africa. Panel b: Stacked area chart of GHG emissions (gt CO2e) by income group from 2000 to 2022. Income groups include Low-income, Lower-middle-income, Upper-middle-income, and High-income. Panel c: Line chart of GHG emissions per capita (gt CO2e) by region and World from 2000 to 2022. Panel d: Line chart of GHG emissions per unit of GDP (kt CO2e per output in millions of 2015 US$) by region and World from 2000 to 2022. Sources: Emissions Database for Global Atmospheric Research, Grassi et al. 2023, and World Development Indicators. Note: CO2e = carbon dioxide equivalent; GDP = gross domestic product; GHG = greenhouse gases. CO2e values are indicated in gigatons (gt), tons (t), or kilotons (kt) and millions of 2015 US dollars. In panel b, fixed income group classifications from 2022 are used. Increases in GHG emission intensities between 2002 and 2004 in Latin America and the Caribbean are driven by Brazil. The drop in emissions in Sub-Saharan Africa (panels c and d) in 2015 comes from the Democratic Republic of Congo, where land use, land use change, and forestry emissions declined substantially after 2014."
+  }
+ ],
+ "parse_ok": true,
+ "page": 210,
+ "captions": [
+  "FIGURE 3.6"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

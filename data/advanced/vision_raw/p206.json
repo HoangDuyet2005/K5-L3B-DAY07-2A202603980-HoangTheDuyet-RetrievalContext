@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 7882,
+ "total_tokens": 1355,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE B3.2.1\",\n      \"kind\": \"chart\",\n      \"title\": \"Risks from extreme weather in IDA countries are high and reductions in vulnerability have been limited\",\n      \"bbox\": [\n        315,\n        155,\n        705,\n        805\n      ],\n      \"content\": \"The figure consists of two panels: a. Exposure and risk in IDA countries (circa 2021) and b. Change in exposure and risk. Panel a is a horizontal bar chart showing deprivation rates (%) for various categories: Exposed to any hazard (~45%), Vulnerable along any dimension (~35%), Low income (~15%), Low education level (~10%), No access to electricity (~15%), No access to water (~10%), No access to social protection (~25%), No access to financial instrument (~20%), Low access to services and markets (~10%). Panel b is a vertical bar chart showing the change in population between 2010 and 2019 (%) for IDA and Non-IDA countries, split by 'Exposed' and 'At risk'. For IDA countries, 'Exposed' is approx. 20% and 'At risk' is approx. 17%. For Non-IDA countries, 'Exposed' is approx. 10% and 'At risk' is approx. -12%. Sources: World Bank Group Scorecard indicator: the percentage of people at high risk of climate-related hazards globally, https://scorecard.worldbank.org/en/scorecard/home, in panel a and data from Doan et al. 2023 in panel b. Note: IDA = International Development Association. Exposure refers to the population exposed to floods, droughts, cyclones, or heat waves. Risk refers to the population exposed and vulnerable in at least one of seven aspects (see box 3.1 and annex 3B for more details on the construction of the indicators). In panel b, the sample consists of 45 countries that have data for both 2010 and 2019. These countries represent 52 percent of the population in IDA countries and 63 percent of the population in non-IDA countries. The variables used to compute the risk indicator for 2010 and 2019 differ slightly from the risk indicator for the year 2021 used in other parts of the report.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE B3.2.1",
+   "kind": "chart",
+   "title": "Risks from extreme weather in IDA countries are high and reductions in vulnerability have been limited",
+   "bbox": [
+    315,
+    155,
+    705,
+    805
+   ],
+   "content": "The figure consists of two panels: a. Exposure and risk in IDA countries (circa 2021) and b. Change in exposure and risk. Panel a is a horizontal bar chart showing deprivation rates (%) for various categories: Exposed to any hazard (~45%), Vulnerable along any dimension (~35%), Low income (~15%), Low education level (~10%), No access to electricity (~15%), No access to water (~10%), No access to social protection (~25%), No access to financial instrument (~20%), Low access to services and markets (~10%). Panel b is a vertical bar chart showing the change in population between 2010 and 2019 (%) for IDA and Non-IDA countries, split by 'Exposed' and 'At risk'. For IDA countries, 'Exposed' is approx. 20% and 'At risk' is approx. 17%. For Non-IDA countries, 'Exposed' is approx. 10% and 'At risk' is approx. -12%. Sources: World Bank Group Scorecard indicator: the percentage of people at high risk of climate-related hazards globally, https://scorecard.worldbank.org/en/scorecard/home, in panel a and data from Doan et al. 2023 in panel b. Note: IDA = International Development Association. Exposure refers to the population exposed to floods, droughts, cyclones, or heat waves. Risk refers to the population exposed and vulnerable in at least one of seven aspects (see box 3.1 and annex 3B for more details on the construction of the indicators). In panel b, the sample consists of 45 countries that have data for both 2010 and 2019. These countries represent 52 percent of the population in IDA countries and 63 percent of the population in non-IDA countries. The variables used to compute the risk indicator for 2010 and 2019 differ slightly from the risk indicator for the year 2021 used in other parts of the report."
+  }
+ ],
+ "parse_ok": true,
+ "page": 206,
+ "captions": [
+  "FIGURE B3.2.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

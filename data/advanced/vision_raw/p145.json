@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.6-flash",
+ "finish_reason": "STOP",
+ "latency_ms": 28653,
+ "total_tokens": 2588,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE B2.2.1\",\n      \"kind\": \"chart\",\n      \"title\": \"The Prosperity Gap captures how far societies are from $25 per person per day\",\n      \"bbox\": [\n        160,\n        168,\n        846,\n        834\n      ],\n      \"content\": \"Type: Line chart / illustrative diagram.\\nAxes:\\n- Y-axis: Prosperity Gap (values: 0, 5, 10, 15)\\n- X-axis: Income (arrow pointing right)\\n\\nData Points & Profiles:\\n1. Tanzania:\\n   - Profile: A typical person in Tanzania, $2.50 daily income\\n   - Calculation: 25 / 2.50 = 10\\n   - Note: \\\"This person needs 10 times their income to reach $25. Prosperity Gap: 25/2.50 = 10\\\"\\n   - Contribution note: \\\"This person contributes 10x more to the Prosperity Gap than the person in Bulgaria.\\\"\\n2. Lao PDR:\\n   - Profile: A typical person in Lao PDR, $5.00 daily income\\n   - Calculation: 25 / 5.00 = 5\\n   - Note: \\\"This person needs 5 times their income to reach $25. Prosperity Gap: 25/5.00 = 5\\\"\\n   - Contribution note: \\\"This person contributes 5x more to the Prosperity Gap than the person in Bulgaria.\\\"\\n3. Uzbekistan:\\n   - Profile: A typical person in Uzbekistan, $12.50 daily income\\n   - Calculation: 25 / 12.50 = 2\\n   - Note: \\\"This person needs 2 times their income to reach $25. Prosperity Gap: 25/12.50 = 2\\\"\\n   - Contribution note: \\\"This person contributes 2x more to the Prosperity Gap than the person in Bulgaria.\\\"\\n4. Bulgaria:\\n   - Profile: A typical person in Bulgaria, $25.00 daily income\\n   - Calculation: 25 / 25.00 = 1\\n   - Note: \\\"This person is already at $25, so their multiple is 1, meaning no additional income is needed. Prosperity Gap: 25/25.00 = 1\\\"\\n5. France:\\n   - Profile: A typical person in France, $50.00 daily income\\n   - Calculation: 25 / 50.00 = 0.5\\n   - Note: \\\"This person lives above the $25 standard. Prosperity Gap: 25/50.00 = 0.5\\\"\\n\\nCalculation Example:\\nTo find the Prosperity Gap in this example, these numbers are averaged:\\nProsperity Gap = (10 + 5 + 2 + 1 + 0.5)/5 = 18.5/5 = 3.7\\n\\nSource: World Bank.\\nNote: All $ values are in 2017 purchasing power parity dollars.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE B2.2.1",
+   "kind": "chart",
+   "title": "The Prosperity Gap captures how far societies are from $25 per person per day",
+   "bbox": [
+    160,
+    168,
+    846,
+    834
+   ],
+   "content": "Type: Line chart / illustrative diagram.\nAxes:\n- Y-axis: Prosperity Gap (values: 0, 5, 10, 15)\n- X-axis: Income (arrow pointing right)\n\nData Points & Profiles:\n1. Tanzania:\n   - Profile: A typical person in Tanzania, $2.50 daily income\n   - Calculation: 25 / 2.50 = 10\n   - Note: \"This person needs 10 times their income to reach $25. Prosperity Gap: 25/2.50 = 10\"\n   - Contribution note: \"This person contributes 10x more to the Prosperity Gap than the person in Bulgaria.\"\n2. Lao PDR:\n   - Profile: A typical person in Lao PDR, $5.00 daily income\n   - Calculation: 25 / 5.00 = 5\n   - Note: \"This person needs 5 times their income to reach $25. Prosperity Gap: 25/5.00 = 5\"\n   - Contribution note: \"This person contributes 5x more to the Prosperity Gap than the person in Bulgaria.\"\n3. Uzbekistan:\n   - Profile: A typical person in Uzbekistan, $12.50 daily income\n   - Calculation: 25 / 12.50 = 2\n   - Note: \"This person needs 2 times their income to reach $25. Prosperity Gap: 25/12.50 = 2\"\n   - Contribution note: \"This person contributes 2x more to the Prosperity Gap than the person in Bulgaria.\"\n4. Bulgaria:\n   - Profile: A typical person in Bulgaria, $25.00 daily income\n   - Calculation: 25 / 25.00 = 1\n   - Note: \"This person is already at $25, so their multiple is 1, meaning no additional income is needed. Prosperity Gap: 25/25.00 = 1\"\n5. France:\n   - Profile: A typical person in France, $50.00 daily income\n   - Calculation: 25 / 50.00 = 0.5\n   - Note: \"This person lives above the $25 standard. Prosperity Gap: 25/50.00 = 0.5\"\n\nCalculation Example:\nTo find the Prosperity Gap in this example, these numbers are averaged:\nProsperity Gap = (10 + 5 + 2 + 1 + 0.5)/5 = 18.5/5 = 3.7\n\nSource: World Bank.\nNote: All $ values are in 2017 purchasing power parity dollars."
+  }
+ ],
+ "parse_ok": true,
+ "page": 145,
+ "captions": [
+  "FIGURE B2.2.1"
+ ],
+ "model_requested": "gemini-3.5-flash"
+}

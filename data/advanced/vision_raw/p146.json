@@ -1,0 +1,78 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5169,
+ "total_tokens": 1551,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 2.1\",\n      \"kind\": \"chart\",\n      \"title\": \"Sub-Saharan Africa has the highest Prosperity Gap and contributes the most to the Global Prosperity Gap, followed by South Asia\",\n      \"bbox\": [\n        463,\n        165,\n        815,\n        835\n      ],\n      \"content\": {\n        \"panel_a\": {\n          \"title\": \"a. Prosperity Gap in 2024 by region\",\n          \"type\": \"bar chart\",\n          \"y_axis\": \"Prosperity Gap\",\n          \"x_axis\": \"Regions\",\n          \"data\": {\n            \"Europe and Central Asia\": 1.7,\n            \"East Asia and Pacific\": 2.2,\n            \"Latin America and the Caribbean\": 3.5,\n            \"Middle East and North Africa\": 4.5,\n            \"South Asia\": 6.2,\n            \"Sub-Saharan Africa\": 12.2\n          }\n        },\n        \"panel_b\": {\n          \"title\": \"b. Regional contribution to the Global Prosperity Gap and global population in 2024, percent\",\n          \"type\": \"stacked bar chart\",\n          \"y_axis\": \"Percent\",\n          \"legend\": [\n            \"East Asia and Pacific\",\n            \"Europe and Central Asia\",\n            \"Latin America and the Caribbean\",\n            \"Middle East and North Africa\",\n            \"South Asia\",\n            \"Sub-Saharan Africa\",\n            \"Rest of the world\"\n          ],\n          \"data\": {\n            \"Prosperity Gap share\": {\n              \"Sub-Saharan Africa\": 39,\n              \"South Asia\": 30,\n              \"East Asia and Pacific\": 15,\n              \"Middle East and North Africa\": 5,\n              \"Latin America and the Caribbean\": 5,\n              \"Europe and Central Asia\": 2,\n              \"Rest of the world\": 3\n            },\n            \"Population share\": {\n              \"East Asia and Pacific\": 26,\n              \"South Asia\": 24,\n              \"Sub-Saharan Africa\": 16,\n              \"Latin America and the Caribbean\": 8,\n              \"Middle East and North Africa\": 5,\n              \"Europe and Central Asia\": 14,\n              \"Rest of the world\": 6\n            }\n          }\n        },\n        \"source\": \"World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\",\n        \"note\": \"Regional Prosperity Gaps are reported in panel a, while the region’s population-weighted contributions (percent) to the Global Prosperity Gap and the region’s population share (percent) are shown in panel b. Regions follow the definition in the Poverty and Inequality Platform. The estimates for 2024 are projected starting in 2019 for the Middle East and North Africa, starting in 2020 for Sub-Saharan Africa, and starting in 2023 for all other regions. See annex 1A for further details on projection. The label values may not add to 100 percent due to rounding.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 2.1",
+   "kind": "chart",
+   "title": "Sub-Saharan Africa has the highest Prosperity Gap and contributes the most to the Global Prosperity Gap, followed by South Asia",
+   "bbox": [
+    463,
+    165,
+    815,
+    835
+   ],
+   "content": {
+    "panel_a": {
+     "title": "a. Prosperity Gap in 2024 by region",
+     "type": "bar chart",
+     "y_axis": "Prosperity Gap",
+     "x_axis": "Regions",
+     "data": {
+      "Europe and Central Asia": 1.7,
+      "East Asia and Pacific": 2.2,
+      "Latin America and the Caribbean": 3.5,
+      "Middle East and North Africa": 4.5,
+      "South Asia": 6.2,
+      "Sub-Saharan Africa": 12.2
+     }
+    },
+    "panel_b": {
+     "title": "b. Regional contribution to the Global Prosperity Gap and global population in 2024, percent",
+     "type": "stacked bar chart",
+     "y_axis": "Percent",
+     "legend": [
+      "East Asia and Pacific",
+      "Europe and Central Asia",
+      "Latin America and the Caribbean",
+      "Middle East and North Africa",
+      "South Asia",
+      "Sub-Saharan Africa",
+      "Rest of the world"
+     ],
+     "data": {
+      "Prosperity Gap share": {
+       "Sub-Saharan Africa": 39,
+       "South Asia": 30,
+       "East Asia and Pacific": 15,
+       "Middle East and North Africa": 5,
+       "Latin America and the Caribbean": 5,
+       "Europe and Central Asia": 2,
+       "Rest of the world": 3
+      },
+      "Population share": {
+       "East Asia and Pacific": 26,
+       "South Asia": 24,
+       "Sub-Saharan Africa": 16,
+       "Latin America and the Caribbean": 8,
+       "Middle East and North Africa": 5,
+       "Europe and Central Asia": 14,
+       "Rest of the world": 6
+      }
+     }
+    },
+    "source": "World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.",
+    "note": "Regional Prosperity Gaps are reported in panel a, while the region’s population-weighted contributions (percent) to the Global Prosperity Gap and the region’s population share (percent) are shown in panel b. Regions follow the definition in the Poverty and Inequality Platform. The estimates for 2024 are projected starting in 2019 for the Middle East and North Africa, starting in 2020 for Sub-Saharan Africa, and starting in 2023 for all other regions. See annex 1A for further details on projection. The label values may not add to 100 percent due to rounding."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 146,
+ "captions": [
+  "FIGURE 2.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

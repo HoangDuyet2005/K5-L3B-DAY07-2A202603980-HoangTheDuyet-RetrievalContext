@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 3298,
+ "total_tokens": 1211,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"TABLE 3B.2\",\n      \"kind\": \"table\",\n      \"title\": \"Extreme vulnerability definitions and sources\",\n      \"bbox\": [\n        433,\n        168,\n        787,\n        831\n      ],\n      \"content\": \"| Vulnerability dimension | | Extreme vulnerability cutoff | Source |\\n| :--- | :--- | :--- | :--- |\\n| Inability to cope with losses | Income | People who live below $2.15/day | World Bank GSAP (2024) |\\n| | Education | No adults in the households have completed primary education | World Bank GMD |\\n| | Social protection | Household neither receives social transfers nor contributes to social insurance | World Bank ASPIRE |\\n| | Financial inclusion | Household does not have an account (bank, other financial institution, mobile money) | World Bank Global Findex |\\n| Physical propensity to experience severe loss | Water | Do not have access to improved water | World Bank GMD with JMP |\\n| | Energy | Do not have access to electricity | World Bank GMD with GED |\\n| | Transport | Do not live within 2 km of an all-season road (if in a rural area) | RAI—UN Sustainable Development Center indicator |\\n\\nSource: World Bank Group Scorecard indicator: the percentage of people at high risk of climate-related hazards globally, https://scorecard.worldbank.org/en/scorecard/home.\\nNote: ASPIRE = Atlas of Social Protection Indicators of Resilience and Equity; GED = Global Electrification Database; GMD = Global Monitoring Database; GSAP = Global Subnational Atlas of Poverty; km = kilometers; JMP = Joint Monitoring Programme; RAI = Rural Access Index.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "TABLE 3B.2",
+   "kind": "table",
+   "title": "Extreme vulnerability definitions and sources",
+   "bbox": [
+    433,
+    168,
+    787,
+    831
+   ],
+   "content": "| Vulnerability dimension | | Extreme vulnerability cutoff | Source |\n| :--- | :--- | :--- | :--- |\n| Inability to cope with losses | Income | People who live below $2.15/day | World Bank GSAP (2024) |\n| | Education | No adults in the households have completed primary education | World Bank GMD |\n| | Social protection | Household neither receives social transfers nor contributes to social insurance | World Bank ASPIRE |\n| | Financial inclusion | Household does not have an account (bank, other financial institution, mobile money) | World Bank Global Findex |\n| Physical propensity to experience severe loss | Water | Do not have access to improved water | World Bank GMD with JMP |\n| | Energy | Do not have access to electricity | World Bank GMD with GED |\n| | Transport | Do not live within 2 km of an all-season road (if in a rural area) | RAI—UN Sustainable Development Center indicator |\n\nSource: World Bank Group Scorecard indicator: the percentage of people at high risk of climate-related hazards globally, https://scorecard.worldbank.org/en/scorecard/home.\nNote: ASPIRE = Atlas of Social Protection Indicators of Resilience and Equity; GED = Global Electrification Database; GMD = Global Monitoring Database; GSAP = Global Subnational Atlas of Poverty; km = kilometers; JMP = Joint Monitoring Programme; RAI = Rural Access Index."
+  }
+ ],
+ "parse_ok": true,
+ "page": 238,
+ "captions": [
+  "TABLE 3B.2"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

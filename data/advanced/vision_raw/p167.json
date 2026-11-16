@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4298,
+ "total_tokens": 1260,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 2.15\",\n      \"kind\": \"chart\",\n      \"title\": \"Market versus disposable income\",\n      \"bbox\": [\n        312,\n        255,\n        805,\n        750\n      ],\n      \"content\": \"The chart is a scatter plot showing the relationship between Market income Gini index (x-axis, range 10-80) and Disposable income Gini index (y-axis, range 10-80). A 45-degree line represents the point where market income inequality equals disposable income inequality. Points below the line indicate redistribution. Legend categories: Low-income (red), Lower-middle-income (orange), Upper-middle-income (light blue), High-income (dark blue). Specific countries labeled: South Africa (upper-middle-income, near 60/60), Ireland (high-income, approx. 47/29), Germany (high-income, approx. 42/22), Korea, Rep. (high-income, approx. 33/33), Gambia, The (low-income, approx. 36/36). An arrow labeled 'More redistribution' points downward away from the 45-degree line. Sources: Adapted from Wai-Poi, Sosa, and Bachas (forthcoming) and Lustig 2023. Note: The data are from the Commitment to Equity (CEQ) Institute, the Organisation for Economic Co-operation and Development (OECD), and World Bank databases, which collectively cover 96 economies over the past decade across all income groups and regions. The analysis includes the latest data point available for each country from the CEQ database and the OECD, which might differ from the latest year in the Poverty and Inequality Platform that has been used in the rest of the report. See also annex 2D and chapter 4 for discussion of the differences in inequality when income and consumption are used as the welfare aggregate.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 2.15",
+   "kind": "chart",
+   "title": "Market versus disposable income",
+   "bbox": [
+    312,
+    255,
+    805,
+    750
+   ],
+   "content": "The chart is a scatter plot showing the relationship between Market income Gini index (x-axis, range 10-80) and Disposable income Gini index (y-axis, range 10-80). A 45-degree line represents the point where market income inequality equals disposable income inequality. Points below the line indicate redistribution. Legend categories: Low-income (red), Lower-middle-income (orange), Upper-middle-income (light blue), High-income (dark blue). Specific countries labeled: South Africa (upper-middle-income, near 60/60), Ireland (high-income, approx. 47/29), Germany (high-income, approx. 42/22), Korea, Rep. (high-income, approx. 33/33), Gambia, The (low-income, approx. 36/36). An arrow labeled 'More redistribution' points downward away from the 45-degree line. Sources: Adapted from Wai-Poi, Sosa, and Bachas (forthcoming) and Lustig 2023. Note: The data are from the Commitment to Equity (CEQ) Institute, the Organisation for Economic Co-operation and Development (OECD), and World Bank databases, which collectively cover 96 economies over the past decade across all income groups and regions. The analysis includes the latest data point available for each country from the CEQ database and the OECD, which might differ from the latest year in the Poverty and Inequality Platform that has been used in the rest of the report. See also annex 2D and chapter 4 for discussion of the differences in inequality when income and consumption are used as the welfare aggregate."
+  }
+ ],
+ "parse_ok": true,
+ "page": 167,
+ "captions": [
+  "FIGURE 2.15"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

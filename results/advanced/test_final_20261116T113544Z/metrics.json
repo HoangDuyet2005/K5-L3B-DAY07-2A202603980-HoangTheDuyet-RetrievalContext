@@ -1,0 +1,52 @@
+{
+  "run": "test_final_20261116T113544Z",
+  "split": "test",
+  "pass": {
+    "n": 30,
+    "N": 30
+  },
+  "pass_rate_percent": 100.0,
+  "threshold_met_90_percent": true,
+  "by_group": {
+    "table": {
+      "n": 6,
+      "N": 6
+    },
+    "diagram": {
+      "n": 5,
+      "N": 5
+    },
+    "chart": {
+      "n": 5,
+      "N": 5
+    },
+    "multi-hop": {
+      "n": 4,
+      "N": 4
+    },
+    "text": {
+      "n": 4,
+      "N": 4
+    },
+    "unanswerable": {
+      "n": 6,
+      "N": 6
+    }
+  },
+  "system_errors": 0,
+  "failed": [],
+  "total_seconds": 367.0,
+  "median_case_ms": 9733.5,
+  "model_calls": 69,
+  "tokens": {
+    "prompt_tokens": 222065,
+    "output_tokens": 4053,
+    "thought_tokens": 0,
+    "total_tokens": 226118
+  },
+  "cost_usd": 0.0,
+  "cost_note": "Gemini API free tier (no billing account); token counts above",
+  "reviewers": [
+    "Claude draft - student must confirm on the PDF"
+  ]
+}

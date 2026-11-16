@@ -1,0 +1,66 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 8693,
+ "total_tokens": 1298,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 3.12\",\n      \"kind\": \"chart\",\n      \"title\": \"Positive relationship between income levels and GHG emissions\",\n      \"bbox\": [\n        246,\n        167,\n        855,\n        833\n      ],\n      \"content\": {\n        \"panel_a\": {\n          \"title\": \"Emissions per capita are converging between high- and upper-middle-income economies\",\n          \"type\": \"line chart\",\n          \"y_axis\": \"GHG emissions per capita (t CO2e)\",\n          \"x_axis\": \"Years 2000-2022\",\n          \"legend\": [\n            \"Low-income\",\n            \"Lower-middle-income\",\n            \"Upper-middle-income\",\n            \"High-income\"\n          ],\n          \"trends\": \"High-income countries show a gradual decline from approx. 15 t CO2e in 2000 to approx. 12 t CO2e in 2022. Upper-middle-income countries show a gradual increase from approx. 5 t CO2e in 2000 to approx. 8 t CO2e in 2022. Low-income and lower-middle-income countries remain relatively flat and low, below 4 t CO2e.\"\n        },\n        \"panel_b\": {\n          \"title\": \"Ten economies produce two-thirds of global GHG emissions\",\n          \"type\": \"donut chart\",\n          \"segments\": [\n            {\n              \"label\": \"66% of global emissions\",\n              \"countries\": [\n                \"CHN\",\n                \"US\",\n                \"IND\",\n                \"IDN\",\n                \"RUS\",\n                \"BRA\",\n                \"JPN\",\n                \"IRN\",\n                \"SAU\",\n                \"DEU\"\n              ]\n            },\n            {\n              \"label\": \"34% of global emissions\",\n              \"description\": \"Remaining economies\"\n            }\n          ]\n        }\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 3.12",
+   "kind": "chart",
+   "title": "Positive relationship between income levels and GHG emissions",
+   "bbox": [
+    246,
+    167,
+    855,
+    833
+   ],
+   "content": {
+    "panel_a": {
+     "title": "Emissions per capita are converging between high- and upper-middle-income economies",
+     "type": "line chart",
+     "y_axis": "GHG emissions per capita (t CO2e)",
+     "x_axis": "Years 2000-2022",
+     "legend": [
+      "Low-income",
+      "Lower-middle-income",
+      "Upper-middle-income",
+      "High-income"
+     ],
+     "trends": "High-income countries show a gradual decline from approx. 15 t CO2e in 2000 to approx. 12 t CO2e in 2022. Upper-middle-income countries show a gradual increase from approx. 5 t CO2e in 2000 to approx. 8 t CO2e in 2022. Low-income and lower-middle-income countries remain relatively flat and low, below 4 t CO2e."
+    },
+    "panel_b": {
+     "title": "Ten economies produce two-thirds of global GHG emissions",
+     "type": "donut chart",
+     "segments": [
+      {
+       "label": "66% of global emissions",
+       "countries": [
+        "CHN",
+        "US",
+        "IND",
+        "IDN",
+        "RUS",
+        "BRA",
+        "JPN",
+        "IRN",
+        "SAU",
+        "DEU"
+       ]
+      },
+      {
+       "label": "34% of global emissions",
+       "description": "Remaining economies"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 225,
+ "captions": [
+  "FIGURE 3.12"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

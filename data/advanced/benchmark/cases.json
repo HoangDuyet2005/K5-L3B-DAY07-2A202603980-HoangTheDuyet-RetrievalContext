@@ -1,0 +1,338 @@
+[
+ {
+  "id": "adv-dev-01",
+  "split": "dev",
+  "group": "table",
+  "question": "According to Table 1D.3, what share of the global extreme poor (at $2.15 per day) lived in Sub-Saharan Africa in 1990 and in 2024?",
+  "answerable": true
+ },
+ {
+  "id": "adv-dev-02",
+  "split": "dev",
+  "group": "table",
+  "question": "In Table 3B.2, what is the extreme vulnerability cutoff for the financial inclusion dimension, and which data source is used for it?",
+  "answerable": true
+ },
+ {
+  "id": "adv-dev-03",
+  "split": "dev",
+  "group": "table",
+  "question": "According to Table 4.1, which two Vision indicators does the World Bank track under the Prosperity chapter?",
+  "answerable": true
+ },
+ {
+  "id": "adv-dev-04",
+  "split": "dev",
+  "group": "diagram",
+  "question": "Which three dimensions of a livable planet are shown in Figure 3.1?",
+  "answerable": true
+ },
+ {
+  "id": "adv-dev-05",
+  "split": "dev",
+  "group": "diagram",
+  "question": "In Figure B3.1.1 (counting people at high risk from climate-related hazards), which conditions are listed under being physically vulnerable?",
+  "answerable": true
+ },
+ {
+  "id": "adv-dev-06",
+  "split": "dev",
+  "group": "chart",
+  "question": "According to Figure 3.3, what share of the population of South Asia is exposed to any extreme weather hazard, and what share is exposed to heat?",
+  "answerable": true
+ },
+ {
+  "id": "adv-dev-07",
+  "split": "dev",
+  "group": "chart",
+  "question": "In Figure 2.1 panel b, what share of the Global Prosperity Gap does Sub-Saharan Africa account for in 2024, and what is its share of the global population?",
+  "answerable": true
+ },
+ {
+  "id": "adv-dev-08",
+  "split": "dev",
+  "group": "chart",
+  "question": "In Figure 1.1, what do the black horizontal dotted lines in panel a and panel b indicate?",
+  "answerable": true
+ },
+ {
+  "id": "adv-dev-09",
+  "split": "dev",
+  "group": "text",
+  "question": "What are the global extreme poverty rates for children, youth and adults?",
+  "answerable": true
+ },
+ {
+  "id": "adv-dev-10",
+  "split": "dev",
+  "group": "text",
+  "question": "Which high-income economies have elevated (high) levels of inequality according to the report?",
+  "answerable": true
+ },
+ {
+  "id": "adv-dev-11",
+  "split": "dev",
+  "group": "text",
+  "question": "How many economies does the indicator of people at high risk from climate-related hazards cover, and what share of the world population do they span?",
+  "answerable": true
+ },
+ {
+  "id": "adv-dev-12",
+  "split": "dev",
+  "group": "multi-hop",
+  "question": "What is Cameroon's Prosperity Gap in Table 2.1, and what is its Gini index in the latest available survey listed in Table 2F.1?",
+  "answerable": true
+ },
+ {
+  "id": "adv-dev-13",
+  "split": "dev",
+  "group": "multi-hop",
+  "question": "What flood intensity threshold defines exposure in Table 3B.1, and what share of residential assets is estimated to be lost at roughly that flood depth?",
+  "answerable": true
+ },
+ {
+  "id": "adv-dev-14",
+  "split": "dev",
+  "group": "text",
+  "question": "By how many Gini points did Ireland and The Gambia reduce inequality through direct taxes and transfers?",
+  "answerable": true
+ },
+ {
+  "id": "adv-dev-15",
+  "split": "dev",
+  "group": "table",
+  "question": "According to Table 1.1, what share of the population in Sub-Saharan Africa is deprived in electricity and in sanitation?",
+  "answerable": true
+ },
+ {
+  "id": "adv-dev-u1",
+  "split": "dev",
+  "group": "unanswerable",
+  "question": "What was Namibia's Gini index in 2022?",
+  "answerable": false
+ },
+ {
+  "id": "adv-dev-u2",
+  "split": "dev",
+  "group": "unanswerable",
+  "question": "What is Japan's Prosperity Gap according to the report?",
+  "answerable": false
+ },
+ {
+  "id": "adv-dev-u3",
+  "split": "dev",
+  "group": "unanswerable",
+  "question": "What percentage of its GDP does the Maldives spend on climate adaptation each year?",
+  "answerable": false
+ },
+ {
+  "id": "adv-test-01",
+  "split": "test",
+  "group": "table",
+  "question": "According to Table 1.1, what are the monetary deprivation rate and the multidimensional poverty rate for South Asia?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-02",
+  "split": "test",
+  "group": "table",
+  "question": "Using Table 1D.1, by how many percentage points did the extreme poverty rate ($2.15 per day) in the Middle East and North Africa change between 2010 and 2024?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-03",
+  "split": "test",
+  "group": "table",
+  "question": "In Table 2.1, which country has the lower Prosperity Gap, Peru or Colombia, and what are the two values and their mean incomes?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-04",
+  "split": "test",
+  "group": "table",
+  "question": "According to Table 2D.1, how many economies and how many surveys are income-based versus consumption-based in the Poverty and Inequality Platform (post-2000)?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-05",
+  "split": "test",
+  "group": "table",
+  "question": "According to Table 2E.1, what was the Prosperity Gap of East Asia and Pacific in 1990 and in 2024?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-06",
+  "split": "test",
+  "group": "table",
+  "question": "What intensity threshold does Table 3B.1 set for tropical cyclones?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-07",
+  "split": "test",
+  "group": "diagram",
+  "question": "In Figure 2.16, what action is paired with 'inequality in utilizing productive capacity'?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-08",
+  "split": "test",
+  "group": "diagram",
+  "question": "According to the diagram in Figure 3.2, which three components determine risk?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-09",
+  "split": "test",
+  "group": "diagram",
+  "question": "In Figure B3.1.1, which conditions are grouped under being 'unable to cope'?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-10",
+  "split": "test",
+  "group": "diagram",
+  "question": "On Map 3.1, what do the gray, blue and red circles represent?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-11",
+  "split": "test",
+  "group": "diagram",
+  "question": "Which Gini index ranges define the high, moderate and low inequality categories in the legend of Map 2.1?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-12",
+  "split": "test",
+  "group": "chart",
+  "question": "According to Figure 2.9 panel a, how many economies had high inequality in 2000 and in 2022?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-13",
+  "split": "test",
+  "group": "chart",
+  "question": "According to Figure 3.3 panel a (World), what share of the world population is exposed to any extreme weather hazard, and which single hazard has the highest exposure share?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-14",
+  "split": "test",
+  "group": "chart",
+  "question": "In Figure 1.14, which deprivation dimension shows the highest rate for Sub-Saharan Africa, and approximately what is that rate?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-15",
+  "split": "test",
+  "group": "chart",
+  "question": "Which countries are labelled by name in the scatter plot of Figure 2.15 (market versus disposable income Gini index)?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-16",
+  "split": "test",
+  "group": "chart",
+  "question": "In Figure 3.14, which priority is annotated for the countries with the highest GDP per capita and emissions, and which countries are labelled in that part of the chart?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-17",
+  "split": "test",
+  "group": "multi-hop",
+  "question": "What is Colombia's Prosperity Gap in Table 2.1, and what is its Gini index in the latest available survey listed in Table 2F.1?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-18",
+  "split": "test",
+  "group": "multi-hop",
+  "question": "For Sub-Saharan Africa in 2024, what are the extreme poverty rate at $2.15 per day (Table 1D.1) and the Prosperity Gap (Table 2E.1)?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-19",
+  "split": "test",
+  "group": "multi-hop",
+  "question": "What heat wave intensity threshold does the report use to define exposure, and what does that temperature correspond to according to the international standard cited?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-20",
+  "split": "test",
+  "group": "multi-hop",
+  "question": "In Sub-Saharan Africa, what share of the total population is at high risk from extreme weather events, and what is the region's multidimensional poverty rate in Table 1.1?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-21",
+  "split": "test",
+  "group": "text",
+  "question": "At the $6.85 poverty line, how does the likelihood of living in poverty change with primary and with secondary education?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-22",
+  "split": "test",
+  "group": "text",
+  "question": "How much potential lifetime earnings does the generation of students affected by the pandemic risk losing, and what share of global GDP is that?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-23",
+  "split": "test",
+  "group": "text",
+  "question": "By how much could sea levels rise in the Maldives by 2100, and what share of its land mass lies less than 1 meter above mean sea level?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-24",
+  "split": "test",
+  "group": "text",
+  "question": "Among countries that have both income- and consumption-based surveys for the same year, how much lower is the average consumption-based Gini index than the income-based one?",
+  "answerable": true
+ },
+ {
+  "id": "adv-test-u1",
+  "split": "test",
+  "group": "unanswerable",
+  "question": "What was the extreme poverty rate in Sub-Saharan Africa in 1985?",
+  "answerable": false
+ },
+ {
+  "id": "adv-test-u2",
+  "split": "test",
+  "group": "unanswerable",
+  "question": "What is the multidimensional poverty rate of China in Table 1.1?",
+  "answerable": false
+ },
+ {
+  "id": "adv-test-u3",
+  "split": "test",
+  "group": "unanswerable",
+  "question": "What intensity threshold does Table 3B.1 define for wildfires?",
+  "answerable": false
+ },
+ {
+  "id": "adv-test-u4",
+  "split": "test",
+  "group": "unanswerable",
+  "question": "How many economies had high inequality in 1995 according to Figure 2.9?",
+  "answerable": false
+ },
+ {
+  "id": "adv-test-u5",
+  "split": "test",
+  "group": "unanswerable",
+  "question": "What was Ireland's disposable income Gini index in 2023?",
+  "answerable": false
+ },
+ {
+  "id": "adv-test-u6",
+  "split": "test",
+  "group": "unanswerable",
+  "question": "What Prosperity Gap does Table 2E.1 report for Viet Nam in 2024?",
+  "answerable": false
+ }
+]

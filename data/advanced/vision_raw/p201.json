@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.6-flash",
+ "finish_reason": "STOP",
+ "latency_ms": 23342,
+ "total_tokens": 1912,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE B3.1.1\",\n      \"kind\": \"diagram\",\n      \"title\": \"Counting people at high risk from climate-related hazards\",\n      \"bbox\": [\n        440,\n        165,\n        868,\n        835\n      ],\n      \"content\": \"Flowchart / conceptual framework diagram determining if a person is at risk from climate hazards:\\n- Core rule: \\\"Person is at risk from climate hazards if...\\\" [Exposed to climate hazards] AND [Vulnerable to experiencing losses].\\n- Exposed to climate hazards: Satisfied if exposed to \\\"Any 1\\\" of the following hazards:\\n  - Flood\\n  - Drought\\n  - Extreme heat\\n  - Cyclone\\n- Vulnerable to experiencing losses: Consists of [Physically vulnerable] and [Unable to cope], which require \\\"Any 1\\\" of the following 7 vulnerability dimensions:\\n  - No access to water\\n  - No access to electricity\\n  - Low access to services and markets\\n  - Low income\\n  - No access to social protection\\n  - No access to financial instrument\\n  - Low education level\\n\\nSource: World Bank Group Scorecard indicator, https://scorecard.worldbank.org/en/scorecard/home.\\nNote: a. The coverage by region is 89 percent for East Asia and Pacific, 95 percent for Europe and Central Asia, 87 percent for Latin America and the Caribbean, 45 percent for the Middle East and North Africa, 100 percent for North America, 98 percent for South Asia, and 65 percent for Sub-Saharan Africa.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE B3.1.1",
+   "kind": "diagram",
+   "title": "Counting people at high risk from climate-related hazards",
+   "bbox": [
+    440,
+    165,
+    868,
+    835
+   ],
+   "content": "Flowchart / conceptual framework diagram determining if a person is at risk from climate hazards:\n- Core rule: \"Person is at risk from climate hazards if...\" [Exposed to climate hazards] AND [Vulnerable to experiencing losses].\n- Exposed to climate hazards: Satisfied if exposed to \"Any 1\" of the following hazards:\n  - Flood\n  - Drought\n  - Extreme heat\n  - Cyclone\n- Vulnerable to experiencing losses: Consists of [Physically vulnerable] and [Unable to cope], which require \"Any 1\" of the following 7 vulnerability dimensions:\n  - No access to water\n  - No access to electricity\n  - Low access to services and markets\n  - Low income\n  - No access to social protection\n  - No access to financial instrument\n  - Low education level\n\nSource: World Bank Group Scorecard indicator, https://scorecard.worldbank.org/en/scorecard/home.\nNote: a. The coverage by region is 89 percent for East Asia and Pacific, 95 percent for Europe and Central Asia, 87 percent for Latin America and the Caribbean, 45 percent for the Middle East and North Africa, 100 percent for North America, 98 percent for South Asia, and 65 percent for Sub-Saharan Africa."
+  }
+ ],
+ "parse_ok": true,
+ "page": 201,
+ "captions": [
+  "FIGURE B3.1.1"
+ ],
+ "model_requested": "gemini-3.5-flash"
+}

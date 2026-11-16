@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5094,
+ "total_tokens": 1197,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 3.5\",\n      \"kind\": \"chart\",\n      \"title\": \"Extreme weather events are occurring more frequently since 1970\",\n      \"bbox\": [\n        461,\n        166,\n        836,\n        834\n      ],\n      \"content\": \"The chart is a grouped bar chart showing the average yearly number of disasters from 1970 to 2023, categorized by Drought, Extreme temperature, Flood, and Storm. The y-axis represents the 'Average yearly number of disasters' ranging from 0 to 200. The x-axis shows time periods: 1970–74, 1975–79, 1980–84, 1985–89, 1990–94, 1995–99, 2000–04, 2005–09, 2010–14, 2015–19, and 2020–23. Legend: Drought (dark blue), Extreme temperature (orange), Flood (red), Storm (light blue). Trends: There is a clear upward trend in the frequency of all disaster types over the decades, with floods (red bars) showing the most significant increase, reaching approx. 190 in the 2005–09 and 2020–23 periods. Storms (light blue) also show a consistent increase, reaching approx. 120-130 in recent periods. Source: International Disasters Database 2023.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 3.5",
+   "kind": "chart",
+   "title": "Extreme weather events are occurring more frequently since 1970",
+   "bbox": [
+    461,
+    166,
+    836,
+    834
+   ],
+   "content": "The chart is a grouped bar chart showing the average yearly number of disasters from 1970 to 2023, categorized by Drought, Extreme temperature, Flood, and Storm. The y-axis represents the 'Average yearly number of disasters' ranging from 0 to 200. The x-axis shows time periods: 1970–74, 1975–79, 1980–84, 1985–89, 1990–94, 1995–99, 2000–04, 2005–09, 2010–14, 2015–19, and 2020–23. Legend: Drought (dark blue), Extreme temperature (orange), Flood (red), Storm (light blue). Trends: There is a clear upward trend in the frequency of all disaster types over the decades, with floods (red bars) showing the most significant increase, reaching approx. 190 in the 2005–09 and 2020–23 periods. Storms (light blue) also show a consistent increase, reaching approx. 120-130 in recent periods. Source: International Disasters Database 2023."
+  }
+ ],
+ "parse_ok": true,
+ "page": 209,
+ "captions": [
+  "FIGURE 3.5"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

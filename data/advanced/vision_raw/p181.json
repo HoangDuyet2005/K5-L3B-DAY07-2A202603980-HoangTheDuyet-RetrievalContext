@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5001,
+ "total_tokens": 1702,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"TABLE 2F.1\",\n      \"kind\": \"table\",\n      \"title\": \"Gini index in latest available survey, by economy\",\n      \"bbox\": [\n        83,\n        168,\n        878,\n        832\n      ],\n      \"content\": \"| Economy and group | Region | Survey year | Welfare type | Gini index |\\n| :--- | :--- | :--- | :--- | :--- |\\n| Angola | Sub-Saharan Africa | 2018.17 | Consumption | 51.3 |\\n| Argentina | Latin America and the Caribbean | 2022 | Income | 40.7 |\\n| Bolivia | Latin America and the Caribbean | 2021 | Income | 40.9 |\\n| Botswana | Sub-Saharan Africa | 2015.85 | Consumption | 53.3 |\\n| Brazil | Latin America and the Caribbean | 2022 | Income | 52.0 |\\n| Cabo Verde | Sub-Saharan Africa | 2015 | Consumption | 42.4 |\\n| Cameroon | Sub-Saharan Africa | 2021.67 | Consumption | 42.2 |\\n| Central African Republic | Sub-Saharan Africa | 2021 | Consumption | 43.0 |\\n| Chile | Latin America and the Caribbean | 2022 | Income | 43.0 |\\n| Colombia | Latin America and the Caribbean | 2022 | Income | 54.8 |\\n| Comoros | Sub-Saharan Africa | 2014 | Consumption | 45.3 |\\n| Congo, Dem. Rep. | Sub-Saharan Africa | 2020 | Consumption | 44.7 |\\n| Congo, Rep. | Sub-Saharan Africa | 2011.67 | Consumption | 48.9 |\\n| Costa Rica | Latin America and the Caribbean | 2023 | Income | 46.7 |\\n| Djibouti | Middle East and North Africa | 2017 | Consumption | 41.6 |\\n| Ecuador | Latin America and the Caribbean | 2023 | Income | 44.6 |\\n| Eswatini | Sub-Saharan Africa | 2016.17 | Consumption | 54.6 |\\n| Ghana | Sub-Saharan Africa | 2016.75 | Consumption | 43.5 |\\n| Grenada | Latin America and the Caribbean | 2018.36 | Consumption | 43.8 |\\n| Guatemala | Latin America and the Caribbean | 2014 | Income | 48.3 |\\n| Haiti | Latin America and the Caribbean | 2012 | Consumption | 41.1 |\\n| Honduras | Latin America and the Caribbean | 2019 | Income | 48.2 |\\n| Jamaica | Latin America and the Caribbean | 2021 | Consumption | 40.2 |\\n| Lesotho | Sub-Saharan Africa | 2017.14 | Consumption | 44.9 |\\n| Madagascar | Sub-Saharan Africa | 2012.73 | Consumption | 42.6 |\\n| Malaysia | East Asia and Pacific | 2021.46 | Income | 40.7 |\\n| Mexico | Latin America and the Caribbean | 2022 | Income | 43.5 |\\n| Micronesia, Fed. Sts. | East Asia and Pacific | 2013 | Consumption | 40.1 |\\n| Mozambique | Sub-Saharan Africa | 2019.92 | Consumption | 50.3 |\\n| Namibia | Sub-Saharan Africa | 2015.27 | Consumption | 59.1 |\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "TABLE 2F.1",
+   "kind": "table",
+   "title": "Gini index in latest available survey, by economy",
+   "bbox": [
+    83,
+    168,
+    878,
+    832
+   ],
+   "content": "| Economy and group | Region | Survey year | Welfare type | Gini index |\n| :--- | :--- | :--- | :--- | :--- |\n| Angola | Sub-Saharan Africa | 2018.17 | Consumption | 51.3 |\n| Argentina | Latin America and the Caribbean | 2022 | Income | 40.7 |\n| Bolivia | Latin America and the Caribbean | 2021 | Income | 40.9 |\n| Botswana | Sub-Saharan Africa | 2015.85 | Consumption | 53.3 |\n| Brazil | Latin America and the Caribbean | 2022 | Income | 52.0 |\n| Cabo Verde | Sub-Saharan Africa | 2015 | Consumption | 42.4 |\n| Cameroon | Sub-Saharan Africa | 2021.67 | Consumption | 42.2 |\n| Central African Republic | Sub-Saharan Africa | 2021 | Consumption | 43.0 |\n| Chile | Latin America and the Caribbean | 2022 | Income | 43.0 |\n| Colombia | Latin America and the Caribbean | 2022 | Income | 54.8 |\n| Comoros | Sub-Saharan Africa | 2014 | Consumption | 45.3 |\n| Congo, Dem. Rep. | Sub-Saharan Africa | 2020 | Consumption | 44.7 |\n| Congo, Rep. | Sub-Saharan Africa | 2011.67 | Consumption | 48.9 |\n| Costa Rica | Latin America and the Caribbean | 2023 | Income | 46.7 |\n| Djibouti | Middle East and North Africa | 2017 | Consumption | 41.6 |\n| Ecuador | Latin America and the Caribbean | 2023 | Income | 44.6 |\n| Eswatini | Sub-Saharan Africa | 2016.17 | Consumption | 54.6 |\n| Ghana | Sub-Saharan Africa | 2016.75 | Consumption | 43.5 |\n| Grenada | Latin America and the Caribbean | 2018.36 | Consumption | 43.8 |\n| Guatemala | Latin America and the Caribbean | 2014 | Income | 48.3 |\n| Haiti | Latin America and the Caribbean | 2012 | Consumption | 41.1 |\n| Honduras | Latin America and the Caribbean | 2019 | Income | 48.2 |\n| Jamaica | Latin America and the Caribbean | 2021 | Consumption | 40.2 |\n| Lesotho | Sub-Saharan Africa | 2017.14 | Consumption | 44.9 |\n| Madagascar | Sub-Saharan Africa | 2012.73 | Consumption | 42.6 |\n| Malaysia | East Asia and Pacific | 2021.46 | Income | 40.7 |\n| Mexico | Latin America and the Caribbean | 2022 | Income | 43.5 |\n| Micronesia, Fed. Sts. | East Asia and Pacific | 2013 | Consumption | 40.1 |\n| Mozambique | Sub-Saharan Africa | 2019.92 | Consumption | 50.3 |\n| Namibia | Sub-Saharan Africa | 2015.27 | Consumption | 59.1 |"
+  }
+ ],
+ "parse_ok": true,
+ "page": 181,
+ "captions": [
+  "TABLE 2F.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

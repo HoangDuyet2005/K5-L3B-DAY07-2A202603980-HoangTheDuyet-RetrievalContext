@@ -1,0 +1,38 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 3229,
+ "total_tokens": 1071,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 2D.1\",\n      \"kind\": \"chart\",\n      \"title\": \"Relationship between income and consumption Ginis for countries with both\",\n      \"bbox\": [\n        82,\n        167,\n        655,\n        765\n      ],\n      \"content\": {\n        \"chart_type\": \"scatter plot with trend line\",\n        \"x_axis\": \"Consumption Gini index\",\n        \"y_axis\": \"Income Gini index\",\n        \"legend\": [\n          \"Linear fit\",\n          \"45° line\"\n        ],\n        \"data_points\": \"Multiple data points plotted as orange circles showing a positive correlation between consumption and income Gini indexes, with most points lying above the 45° line.\",\n        \"source\": \"World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\",\n        \"note\": \"Estimated relationship between income and consumption Gini indexes for countries that have surveys reporting both welfare aggregates in a given year.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 2D.1",
+   "kind": "chart",
+   "title": "Relationship between income and consumption Ginis for countries with both",
+   "bbox": [
+    82,
+    167,
+    655,
+    765
+   ],
+   "content": {
+    "chart_type": "scatter plot with trend line",
+    "x_axis": "Consumption Gini index",
+    "y_axis": "Income Gini index",
+    "legend": [
+     "Linear fit",
+     "45° line"
+    ],
+    "data_points": "Multiple data points plotted as orange circles showing a positive correlation between consumption and income Gini indexes, with most points lying above the 45° line.",
+    "source": "World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.",
+    "note": "Estimated relationship between income and consumption Gini indexes for countries that have surveys reporting both welfare aggregates in a given year."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 177,
+ "captions": [
+  "FIGURE 2D.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

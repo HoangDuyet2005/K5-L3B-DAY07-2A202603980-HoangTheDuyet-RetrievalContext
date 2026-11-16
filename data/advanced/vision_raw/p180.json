@@ -1,0 +1,157 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 6632,
+ "total_tokens": 1902,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 2F.1\",\n      \"kind\": \"chart\",\n      \"title\": \"Whereas the share of economies with high inequality has declined, the share of population living in economies with high inequality has barely changed in the past decade\",\n      \"bbox\": [\n        167,\n        155,\n        525,\n        825\n      ],\n      \"content\": {\n        \"chart_type\": \"stacked bar chart\",\n        \"panels\": [\n          {\n            \"title\": \"a. Share of economies\",\n            \"y_axis\": \"Share (%)\",\n            \"x_axis\": \"Year (2013-2022)\",\n            \"legend\": [\n              \"Low inequality\",\n              \"Moderate inequality\",\n              \"High inequality\"\n            ],\n            \"data\": {\n              \"2013\": { \"Low\": 14, \"Moderate\": 49, \"High\": 37 },\n              \"2014\": { \"Low\": 14, \"Moderate\": 49, \"High\": 37 },\n              \"2015\": { \"Low\": 13, \"Moderate\": 51, \"High\": 37 },\n              \"2016\": { \"Low\": 13, \"Moderate\": 52, \"High\": 36 },\n              \"2017\": { \"Low\": 14, \"Moderate\": 51, \"High\": 36 },\n              \"2018\": { \"Low\": 16, \"Moderate\": 52, \"High\": 33 },\n              \"2019\": { \"Low\": 17, \"Moderate\": 51, \"High\": 32 },\n              \"2020\": { \"Low\": 19, \"Moderate\": 50, \"High\": 31 },\n              \"2021\": { \"Low\": 19, \"Moderate\": 52, \"High\": 30 },\n              \"2022\": { \"Low\": 20, \"Moderate\": 51, \"High\": 30 }\n            }\n          },\n          {\n            \"title\": \"b. Share of population\",\n            \"y_axis\": \"Share (%)\",\n            \"x_axis\": \"Year (2013-2022)\",\n            \"legend\": [\n              \"Low inequality\",\n              \"Moderate inequality\",\n              \"High inequality\"\n            ],\n            \"data\": {\n              \"2013\": { \"Low\": 8, \"Moderate\": 69, \"High\": 23 },\n              \"2014\": { \"Low\": 8, \"Moderate\": 69, \"High\": 23 },\n              \"2015\": { \"Low\": 3, \"Moderate\": 73, \"High\": 23 },\n              \"2016\": { \"Low\": 3, \"Moderate\": 73, \"High\": 23 },\n              \"2017\": { \"Low\": 4, \"Moderate\": 73, \"High\": 23 },\n              \"2018\": { \"Low\": 7, \"Moderate\": 70, \"High\": 23 },\n              \"2019\": { \"Low\": 7, \"Moderate\": 69, \"High\": 23 },\n              \"2020\": { \"Low\": 8, \"Moderate\": 74, \"High\": 18 },\n              \"2021\": { \"Low\": 7, \"Moderate\": 75, \"High\": 18 },\n              \"2022\": { \"Low\": 8, \"Moderate\": 70, \"High\": 22 }\n            }\n          }\n        ],\n        \"sources\": \"World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org; Haddad et al. 2024.\",\n        \"notes\": \"High-inequality economies are those with a Gini index above 40, moderate-inequality economies are those with a Gini index between 30 and 40, and low-inequality economies are those with a Gini index less than 30. When no survey is available in a given year, data from the most recent survey year are used. The earliest survey is backcasted when the first survey is only available after 2000 to avoid missing values. The graph covers 166 economies with at least one household survey in the Poverty and Inequality Platform. The label values may not add to 100 percent due to rounding. See also figure 2.9.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 2F.1",
+   "kind": "chart",
+   "title": "Whereas the share of economies with high inequality has declined, the share of population living in economies with high inequality has barely changed in the past decade",
+   "bbox": [
+    167,
+    155,
+    525,
+    825
+   ],
+   "content": {
+    "chart_type": "stacked bar chart",
+    "panels": [
+     {
+      "title": "a. Share of economies",
+      "y_axis": "Share (%)",
+      "x_axis": "Year (2013-2022)",
+      "legend": [
+       "Low inequality",
+       "Moderate inequality",
+       "High inequality"
+      ],
+      "data": {
+       "2013": {
+        "Low": 14,
+        "Moderate": 49,
+        "High": 37
+       },
+       "2014": {
+        "Low": 14,
+        "Moderate": 49,
+        "High": 37
+       },
+       "2015": {
+        "Low": 13,
+        "Moderate": 51,
+        "High": 37
+       },
+       "2016": {
+        "Low": 13,
+        "Moderate": 52,
+        "High": 36
+       },
+       "2017": {
+        "Low": 14,
+        "Moderate": 51,
+        "High": 36
+       },
+       "2018": {
+        "Low": 16,
+        "Moderate": 52,
+        "High": 33
+       },
+       "2019": {
+        "Low": 17,
+        "Moderate": 51,
+        "High": 32
+       },
+       "2020": {
+        "Low": 19,
+        "Moderate": 50,
+        "High": 31
+       },
+       "2021": {
+        "Low": 19,
+        "Moderate": 52,
+        "High": 30
+       },
+       "2022": {
+        "Low": 20,
+        "Moderate": 51,
+        "High": 30
+       }
+      }
+     },
+     {
+      "title": "b. Share of population",
+      "y_axis": "Share (%)",
+      "x_axis": "Year (2013-2022)",
+      "legend": [
+       "Low inequality",
+       "Moderate inequality",
+       "High inequality"
+      ],
+      "data": {
+       "2013": {
+        "Low": 8,
+        "Moderate": 69,
+        "High": 23
+       },
+       "2014": {
+        "Low": 8,
+        "Moderate": 69,
+        "High": 23
+       },
+       "2015": {
+        "Low": 3,
+        "Moderate": 73,
+        "High": 23
+       },
+       "2016": {
+        "Low": 3,
+        "Moderate": 73,
+        "High": 23
+       },
+       "2017": {
+        "Low": 4,
+        "Moderate": 73,
+        "High": 23
+       },
+       "2018": {
+        "Low": 7,
+        "Moderate": 70,
+        "High": 23
+       },
+       "2019": {
+        "Low": 7,
+        "Moderate": 69,
+        "High": 23
+       },
+       "2020": {
+        "Low": 8,
+        "Moderate": 74,
+        "High": 18
+       },
+       "2021": {
+        "Low": 7,
+        "Moderate": 75,
+        "High": 18
+       },
+       "2022": {
+        "Low": 8,
+        "Moderate": 70,
+        "High": 22
+       }
+      }
+     }
+    ],
+    "sources": "World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org; Haddad et al. 2024.",
+    "notes": "High-inequality economies are those with a Gini index above 40, moderate-inequality economies are those with a Gini index between 30 and 40, and low-inequality economies are those with a Gini index less than 30. When no survey is available in a given year, data from the most recent survey year are used. The earliest survey is backcasted when the first survey is only available after 2000 to avoid missing values. The graph covers 166 economies with at least one household survey in the Poverty and Inequality Platform. The label values may not add to 100 percent due to rounding. See also figure 2.9."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 180,
+ "captions": [
+  "FIGURE 2F.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

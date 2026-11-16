@@ -1,0 +1,40 @@
+{
+ "model_version": "gemini-3.6-flash",
+ "finish_reason": "STOP",
+ "latency_ms": 28532,
+ "total_tokens": 2936,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"MAP 0.1\",\n      \"kind\": \"map\",\n      \"title\": \"Income and consumption inequality among economies\",\n      \"bbox\": [82, 165, 496, 835],\n      \"content\": \"Legend categories:\\n- High inequality (>40) (Red)\\n- Moderate inequality (30–40) (Yellow)\\n- Low inequality (<30) (Cyan)\\n- No data (Gray)\\n\\nMap type: World choropleth map illustrating income/consumption inequality levels (Gini index) by country/economy.\\nMap metadata: IBRD 48303 | AUGUST 2024\\n\\nSources: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org/; Haddad et al. 2024.\\nNote: The map presents Gini indexes for the latest available survey (after 2000), which measures the inequality of income or consumption, depending on the economy. High-inequality economies have a Gini index above 40, moderate-inequality economies are those with a Gini index between 30 and 40, and low-inequality economies are those with a Gini index below 30. See annex table 2F.1 for the economy classifications, Gini indexes, year of survey, and the type of welfare—income, or consumption—used.\"\n    },\n    {\n      \"label\": \"FIGURE 0.6\",\n      \"kind\": \"chart\",\n      \"title\": \"Poorer and conflict-affected economies tend to be more unequal\",\n      \"bbox\": [511, 165, 925, 835],\n      \"content\": \"Chart type: 100% Stacked Bar Chart (2 panels)\\n\\nLegend:\\n- Low inequality (Cyan)\\n- Moderate inequality (Yellow)\\n- High inequality (Red)\\n\\nPanel a. Income group:\\n- Y-axis: Share of economies (%), values from 0 to 100 in increments of 20\\n- X-axis categories & stacked values (from bottom to top):\\n  - Low: Low inequality = 5%, Moderate inequality = 64%, High inequality = 32%\\n  - Lower-middle: Low inequality = 15%, Moderate inequality = 47%, High inequality = 38%\\n  - Upper-middle: Low inequality = 21%, Moderate inequality = 40%, High inequality = 38%\\n  - High: Low inequality = 32%, Moderate inequality = 59%, High inequality = 9%\\n\\nPanel b. FCS group:\\n- Y-axis: Share of economies (%), values from 0 to 100 in increments of 20\\n- X-axis categories & stacked values (from bottom to top):\\n  - FCS: Low inequality = 17%, Moderate inequality = 46%, High inequality = 37%\\n  - Not FCS: Low inequality = 21%, Moderate inequality = 52%, High inequality = 27%\\n\\nMain trends/comparisons: Low-income and FCS economies have higher proportions of high inequality compared to high-income and non-FCS economies.\\n\\nSource: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org/.\\nNote: FCS = fragile and conflict-affected situations. High-inequality economies have a Gini index above 40, moderate-inequality economies are those with a Gini index between 30 and 40, and low-inequality economies are those with a Gini index below 30. The data cover 166 economies with at least one household survey in the Poverty and Inequality Platform between 2000 and 2022. Gini is calculated from the latest survey year. Income group and FCS status are based on World Bank fiscal year 2024 lists. The label values may not add to 100 percent due to rounding.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "MAP 0.1",
+   "kind": "map",
+   "title": "Income and consumption inequality among economies",
+   "bbox": [
+    82,
+    165,
+    496,
+    835
+   ],
+   "content": "Legend categories:\n- High inequality (>40) (Red)\n- Moderate inequality (30–40) (Yellow)\n- Low inequality (<30) (Cyan)\n- No data (Gray)\n\nMap type: World choropleth map illustrating income/consumption inequality levels (Gini index) by country/economy.\nMap metadata: IBRD 48303 | AUGUST 2024\n\nSources: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org/; Haddad et al. 2024.\nNote: The map presents Gini indexes for the latest available survey (after 2000), which measures the inequality of income or consumption, depending on the economy. High-inequality economies have a Gini index above 40, moderate-inequality economies are those with a Gini index between 30 and 40, and low-inequality economies are those with a Gini index below 30. See annex table 2F.1 for the economy classifications, Gini indexes, year of survey, and the type of welfare—income, or consumption—used."
+  },
+  {
+   "label": "FIGURE 0.6",
+   "kind": "chart",
+   "title": "Poorer and conflict-affected economies tend to be more unequal",
+   "bbox": [
+    511,
+    165,
+    925,
+    835
+   ],
+   "content": "Chart type: 100% Stacked Bar Chart (2 panels)\n\nLegend:\n- Low inequality (Cyan)\n- Moderate inequality (Yellow)\n- High inequality (Red)\n\nPanel a. Income group:\n- Y-axis: Share of economies (%), values from 0 to 100 in increments of 20\n- X-axis categories & stacked values (from bottom to top):\n  - Low: Low inequality = 5%, Moderate inequality = 64%, High inequality = 32%\n  - Lower-middle: Low inequality = 15%, Moderate inequality = 47%, High inequality = 38%\n  - Upper-middle: Low inequality = 21%, Moderate inequality = 40%, High inequality = 38%\n  - High: Low inequality = 32%, Moderate inequality = 59%, High inequality = 9%\n\nPanel b. FCS group:\n- Y-axis: Share of economies (%), values from 0 to 100 in increments of 20\n- X-axis categories & stacked values (from bottom to top):\n  - FCS: Low inequality = 17%, Moderate inequality = 46%, High inequality = 37%\n  - Not FCS: Low inequality = 21%, Moderate inequality = 52%, High inequality = 27%\n\nMain trends/comparisons: Low-income and FCS economies have higher proportions of high inequality compared to high-income and non-FCS economies.\n\nSource: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org/.\nNote: FCS = fragile and conflict-affected situations. High-inequality economies have a Gini index above 40, moderate-inequality economies are those with a Gini index between 30 and 40, and low-inequality economies are those with a Gini index below 30. The data cover 166 economies with at least one household survey in the Poverty and Inequality Platform between 2000 and 2022. Gini is calculated from the latest survey year. Income group and FCS status are based on World Bank fiscal year 2024 lists. The label values may not add to 100 percent due to rounding."
+  }
+ ],
+ "parse_ok": true,
+ "page": 48,
+ "captions": [
+  "MAP O.1",
+  "FIGURE O.6"
+ ],
+ "model_requested": "gemini-3.5-flash"
+}

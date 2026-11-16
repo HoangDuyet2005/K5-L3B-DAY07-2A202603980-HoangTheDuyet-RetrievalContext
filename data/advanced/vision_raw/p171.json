@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4150,
+ "total_tokens": 1264,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 2A.1\",\n      \"kind\": \"chart\",\n      \"title\": \"Old and new measures of shared prosperity track each other well\",\n      \"bbox\": [\n        86,\n        167,\n        445,\n        832\n      ],\n      \"content\": \"The figure consists of two scatter plot panels showing the relationship between shared prosperity measures. Panel a: 'Growth in the bottom 40 versus growth in the Global Prosperity Gap'. X-axis: 'Annual growth Prosperity Gap (%)' ranging from -20 to 20. Y-axis: 'Annual growth of bottom 40 mean (%)' ranging from -20 to 20. Includes a 45° reference line. Data points show a strong positive correlation. Specific labeled points include 'Romania' and 'Slovakia'. Panel b: 'Shared prosperity premium versus Gini index'. X-axis: 'Annual change in Gini (%)' ranging from -6 to 6. Y-axis: 'Shared prosperity premium (annual percentage points)' ranging from -6 to 6. Includes a 45° reference line. Data points show a strong negative correlation. Sources: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org; Global Database of Shared Prosperity (13th edition). Note: The figure plots those economies with comparable data between the years spanning circa 2016 to 2021 as reported in the Global Database of Shared Prosperity, 13th edition (https://pip.worldbank.org/shared-prosperity). The estimates of Prosperity Gap, Gini index, and growth in the mean income of the bottom 40 percent are calculated using the latest available data in PIP (Poverty and Inequality Platform). The shared prosperity premium is defined as the difference between the growth in the bottom 40 mean and growth in the overall mean. A positive premium means that the mean of the bottom 40 grows faster than the overall mean.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 2A.1",
+   "kind": "chart",
+   "title": "Old and new measures of shared prosperity track each other well",
+   "bbox": [
+    86,
+    167,
+    445,
+    832
+   ],
+   "content": "The figure consists of two scatter plot panels showing the relationship between shared prosperity measures. Panel a: 'Growth in the bottom 40 versus growth in the Global Prosperity Gap'. X-axis: 'Annual growth Prosperity Gap (%)' ranging from -20 to 20. Y-axis: 'Annual growth of bottom 40 mean (%)' ranging from -20 to 20. Includes a 45° reference line. Data points show a strong positive correlation. Specific labeled points include 'Romania' and 'Slovakia'. Panel b: 'Shared prosperity premium versus Gini index'. X-axis: 'Annual change in Gini (%)' ranging from -6 to 6. Y-axis: 'Shared prosperity premium (annual percentage points)' ranging from -6 to 6. Includes a 45° reference line. Data points show a strong negative correlation. Sources: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org; Global Database of Shared Prosperity (13th edition). Note: The figure plots those economies with comparable data between the years spanning circa 2016 to 2021 as reported in the Global Database of Shared Prosperity, 13th edition (https://pip.worldbank.org/shared-prosperity). The estimates of Prosperity Gap, Gini index, and growth in the mean income of the bottom 40 percent are calculated using the latest available data in PIP (Poverty and Inequality Platform). The shared prosperity premium is defined as the difference between the growth in the bottom 40 mean and growth in the overall mean. A positive premium means that the mean of the bottom 40 grows faster than the overall mean."
+  }
+ ],
+ "parse_ok": true,
+ "page": 171,
+ "captions": [
+  "FIGURE 2A.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

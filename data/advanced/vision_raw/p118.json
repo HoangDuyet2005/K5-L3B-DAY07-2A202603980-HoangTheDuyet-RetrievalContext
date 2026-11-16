@@ -1,0 +1,84 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 6194,
+ "total_tokens": 1560,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 1.14\",\n      \"kind\": \"chart\",\n      \"title\": \"The poorest countries lag behind in many dimensions of multidimensional poverty in 2021\",\n      \"bbox\": [\n        241,\n        168,\n        523,\n        832\n      ],\n      \"content\": {\n        \"chart_type\": \"grouped bar chart\",\n        \"y_axis_title\": \"Deprivation rate (%)\",\n        \"x_axis_categories\": [\n          \"Monetary\",\n          \"Educational attainment\",\n          \"Educational enrollment\",\n          \"Electricity\",\n          \"Sanitation\",\n          \"Drinking water\"\n        ],\n        \"legend\": [\n          \"IDA*\",\n          \"FCS*\",\n          \"Sub-Saharan Africa*\",\n          \"World*\"\n        ],\n        \"data_points\": {\n          \"Monetary\": {\n            \"IDA*\": \"approx. 25\",\n            \"FCS*\": \"approx. 38\",\n            \"Sub-Saharan Africa*\": \"approx. 39\",\n            \"World*\": \"approx. 9\"\n          },\n          \"Educational attainment\": {\n            \"IDA*\": \"approx. 23\",\n            \"FCS*\": \"approx. 27\",\n            \"Sub-Saharan Africa*\": \"approx. 32\",\n            \"World*\": \"approx. 11\"\n          },\n          \"Educational enrollment\": {\n            \"IDA*\": \"approx. 18\",\n            \"FCS*\": \"approx. 19\",\n            \"Sub-Saharan Africa*\": \"approx. 20\",\n            \"World*\": \"approx. 9\"\n          },\n          \"Electricity\": {\n            \"IDA*\": \"approx. 29\",\n            \"FCS*\": \"approx. 45\",\n            \"Sub-Saharan Africa*\": \"approx. 46\",\n            \"World*\": \"approx. 12\"\n          },\n          \"Sanitation\": {\n            \"IDA*\": \"approx. 44\",\n            \"FCS*\": \"approx. 55\",\n            \"Sub-Saharan Africa*\": \"approx. 60\",\n            \"World*\": \"approx. 21\"\n          },\n          \"Drinking water\": {\n            \"IDA*\": \"approx. 18\",\n            \"FCS*\": \"approx. 27\",\n            \"Sub-Saharan Africa*\": \"approx. 28\",\n            \"World*\": \"approx. 9\"\n          }\n        },\n        \"source\": \"World Bank, Global Monitoring Database (GMD) (version September 2024).\",\n        \"note\": \"FCS = fragile and conflict-affected situations; IDA = International Development Association. The figure presents the multidimensional poverty rate and share of population deprived for selected groupings and the world circa 2021, using the same data as in table 1.1. See table 1.1 and notes to table 1.1 for more details. * Less than 50 percent of the population is covered with a recent survey (conducted in 2020 or later).\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 1.14",
+   "kind": "chart",
+   "title": "The poorest countries lag behind in many dimensions of multidimensional poverty in 2021",
+   "bbox": [
+    241,
+    168,
+    523,
+    832
+   ],
+   "content": {
+    "chart_type": "grouped bar chart",
+    "y_axis_title": "Deprivation rate (%)",
+    "x_axis_categories": [
+     "Monetary",
+     "Educational attainment",
+     "Educational enrollment",
+     "Electricity",
+     "Sanitation",
+     "Drinking water"
+    ],
+    "legend": [
+     "IDA*",
+     "FCS*",
+     "Sub-Saharan Africa*",
+     "World*"
+    ],
+    "data_points": {
+     "Monetary": {
+      "IDA*": "approx. 25",
+      "FCS*": "approx. 38",
+      "Sub-Saharan Africa*": "approx. 39",
+      "World*": "approx. 9"
+     },
+     "Educational attainment": {
+      "IDA*": "approx. 23",
+      "FCS*": "approx. 27",
+      "Sub-Saharan Africa*": "approx. 32",
+      "World*": "approx. 11"
+     },
+     "Educational enrollment": {
+      "IDA*": "approx. 18",
+      "FCS*": "approx. 19",
+      "Sub-Saharan Africa*": "approx. 20",
+      "World*": "approx. 9"
+     },
+     "Electricity": {
+      "IDA*": "approx. 29",
+      "FCS*": "approx. 45",
+      "Sub-Saharan Africa*": "approx. 46",
+      "World*": "approx. 12"
+     },
+     "Sanitation": {
+      "IDA*": "approx. 44",
+      "FCS*": "approx. 55",
+      "Sub-Saharan Africa*": "approx. 60",
+      "World*": "approx. 21"
+     },
+     "Drinking water": {
+      "IDA*": "approx. 18",
+      "FCS*": "approx. 27",
+      "Sub-Saharan Africa*": "approx. 28",
+      "World*": "approx. 9"
+     }
+    },
+    "source": "World Bank, Global Monitoring Database (GMD) (version September 2024).",
+    "note": "FCS = fragile and conflict-affected situations; IDA = International Development Association. The figure presents the multidimensional poverty rate and share of population deprived for selected groupings and the world circa 2021, using the same data as in table 1.1. See table 1.1 and notes to table 1.1 for more details. * Less than 50 percent of the population is covered with a recent survey (conducted in 2020 or later)."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 118,
+ "captions": [
+  "FIGURE 1.14"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

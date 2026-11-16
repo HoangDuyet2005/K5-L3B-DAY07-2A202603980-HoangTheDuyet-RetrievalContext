@@ -1,0 +1,28 @@
+{
+  "locked_at": "2026-11-16T11:35:43.925377+00:00",
+  "selected_on": "dev run d3 (results/advanced/dev_d3_*), before any test run",
+  "config": {
+    "retriever": "bm25+label",
+    "top_k": 8,
+    "context_budget_chars": 24000,
+    "max_searches": 3,
+    "prompt": "v2",
+    "loop": "adv (fallback search + missing-information guard)",
+    "agent_model": "gemini-3.1-flash-lite",
+    "temperature": 0
+  },
+  "index": {
+    "chunks_sha256": "ab1971b2021520b6683cd9cdff3e97b32e5598c428361ac2625aa099ecdb4f95",
+    "vision": "first pass gemini-3.1-flash-lite on 114 pages; second pass gemini-3.5-flash on 11 diagram/map pages"
+  },
+  "benchmark": {
+    "questions_sha256": "61d57860652091c1a7cdaf501c7798667f79f5998875299903fc5af97cf89568",
+    "cases_sha256": "350fddc319bed37dacf530a419e49760c55eae6e88ad92dfd5a56765c35ffdf0"
+  },
+  "files_sha256": {
+    "src/adv/run.py": "6f7e3e569f6625eeb6ae0394e81692b80dd8815018d2a2fb44249aa4210e5f69",
+    "src/adv/loop.py": "15008eaf3ffae6f634b28a22571a3129d981a1e7b7d61b3a4987ce0be707bc96",
+    "src/adv/retrieval.py": "3bd6fd9adca1db2bb337c54a4e21bd283a81050b8bf1ff91c3a8aeaa5277e58b",
+    "src/adv/ingest.py": "7969213bfe6e42d8026248ed535f1635ab818fd9f6c7016570f24510b3f4b9ad"
+  }
+}

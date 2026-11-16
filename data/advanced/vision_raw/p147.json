@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 3637,
+ "total_tokens": 1234,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 2.2\",\n      \"kind\": \"chart\",\n      \"title\": \"There has been minimal progress in reducing the Prosperity Gap since the COVID-19 pandemic\",\n      \"bbox\": [\n        238,\n        167,\n        532,\n        783\n      ],\n      \"content\": \"The chart is a line chart showing the Prosperity Gap from 2019 to 2024. The Y-axis represents the Prosperity Gap (0 to 14). The X-axis represents the years (2019 to 2024). Legend entries: East Asia and Pacific, Europe and Central Asia, Latin America and the Caribbean, Middle East and North Africa, South Asia, Sub-Saharan Africa, Rest of the world, World. Trends: Sub-Saharan Africa has the highest gap (approx. 12-13). World gap is approx. 5.1 in 2019, 5.3 in 2020, 5.1 in 2022, and 4.9 in 2024. Other regions show smaller gaps ranging between 1 and 8. Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org. Note: The estimates for 2023 and 2024 are projected for all regions. For the Middle East and North Africa, the latest available year with enough population coverage to report the region’s estimate is 2018. Estimates for all years after 2018 for the region are projected. Likewise, for Sub-Saharan Africa, estimates are projected starting in 2020. See chapter 1 for further details on population coverage. See annex table 2E.1 in annex 2E for these estimates.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 2.2",
+   "kind": "chart",
+   "title": "There has been minimal progress in reducing the Prosperity Gap since the COVID-19 pandemic",
+   "bbox": [
+    238,
+    167,
+    532,
+    783
+   ],
+   "content": "The chart is a line chart showing the Prosperity Gap from 2019 to 2024. The Y-axis represents the Prosperity Gap (0 to 14). The X-axis represents the years (2019 to 2024). Legend entries: East Asia and Pacific, Europe and Central Asia, Latin America and the Caribbean, Middle East and North Africa, South Asia, Sub-Saharan Africa, Rest of the world, World. Trends: Sub-Saharan Africa has the highest gap (approx. 12-13). World gap is approx. 5.1 in 2019, 5.3 in 2020, 5.1 in 2022, and 4.9 in 2024. Other regions show smaller gaps ranging between 1 and 8. Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org. Note: The estimates for 2023 and 2024 are projected for all regions. For the Middle East and North Africa, the latest available year with enough population coverage to report the region’s estimate is 2018. Estimates for all years after 2018 for the region are projected. Likewise, for Sub-Saharan Africa, estimates are projected starting in 2020. See chapter 1 for further details on population coverage. See annex table 2E.1 in annex 2E for these estimates."
+  }
+ ],
+ "parse_ok": true,
+ "page": 147,
+ "captions": [
+  "FIGURE 2.2"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

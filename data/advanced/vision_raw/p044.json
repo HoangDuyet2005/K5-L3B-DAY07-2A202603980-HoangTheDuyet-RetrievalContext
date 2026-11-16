@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 2622,
+ "total_tokens": 1218,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE O.4\",\n      \"kind\": \"chart\",\n      \"title\": \"Stalled progress in Global Prosperity Gap reduction (continued)\",\n      \"bbox\": [\n        84,\n        163,\n        405,\n        836\n      ],\n      \"content\": \"The chart is a stacked bar chart comparing 'Prosperity Gap share' and 'Population share' for 2024. The y-axis is 'Percent' (0-100). Legend entries: East Asia and Pacific, Europe and Central Asia, Latin America and the Caribbean, Middle East and North Africa, South Asia, Sub-Saharan Africa, Rest of the world. Prosperity Gap share data: Sub-Saharan Africa (39), South Asia (30), East Asia and Pacific (15), Latin America and the Caribbean (5), Middle East and North Africa (5), Europe and Central Asia (3), Rest of the world (2). Population share data: East Asia and Pacific (26), South Asia (24), Sub-Saharan Africa (16), Latin America and the Caribbean (14), Middle East and North Africa (8), Europe and Central Asia (6), Rest of the world (5). Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org/. Note: The estimates after 2022 are nowcasts (see annex 1A for further details on nowcasts and forecasts). See box O.1 for a calculation of the Global Prosperity Gap. Regional contribution (percent) of the Global Prosperity Gap in 2024 is shown in panel b, compared with the regional population shares (see chapter 2 for further details). The label values may not add to 100 percent due to rounding.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE O.4",
+   "kind": "chart",
+   "title": "Stalled progress in Global Prosperity Gap reduction (continued)",
+   "bbox": [
+    84,
+    163,
+    405,
+    836
+   ],
+   "content": "The chart is a stacked bar chart comparing 'Prosperity Gap share' and 'Population share' for 2024. The y-axis is 'Percent' (0-100). Legend entries: East Asia and Pacific, Europe and Central Asia, Latin America and the Caribbean, Middle East and North Africa, South Asia, Sub-Saharan Africa, Rest of the world. Prosperity Gap share data: Sub-Saharan Africa (39), South Asia (30), East Asia and Pacific (15), Latin America and the Caribbean (5), Middle East and North Africa (5), Europe and Central Asia (3), Rest of the world (2). Population share data: East Asia and Pacific (26), South Asia (24), Sub-Saharan Africa (16), Latin America and the Caribbean (14), Middle East and North Africa (8), Europe and Central Asia (6), Rest of the world (5). Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org/. Note: The estimates after 2022 are nowcasts (see annex 1A for further details on nowcasts and forecasts). See box O.1 for a calculation of the Global Prosperity Gap. Regional contribution (percent) of the Global Prosperity Gap in 2024 is shown in panel b, compared with the regional population shares (see chapter 2 for further details). The label values may not add to 100 percent due to rounding."
+  }
+ ],
+ "parse_ok": true,
+ "page": 44,
+ "captions": [
+  "FIGURE O.4"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

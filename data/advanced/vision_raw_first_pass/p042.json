@@ -1,0 +1,39 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5115,
+ "total_tokens": 1323,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"BOX 0.1\",\n      \"kind\": \"diagram\",\n      \"title\": \"How is the Prosperity Gap calculated?\",\n      \"bbox\": [\n        93,\n        143,\n        255,\n        813\n      ],\n      \"content\": \"The Prosperity Gap captures how far a society is from $25 per person per day, which is close to the average per capita household income when countries reach high-income status. The society’s shortfall is the average shortfall among all individuals living in that society but giving poorer people a greater weight. The Prosperity Gap is defined as the average income multiple needed to reach that $25 standard for every member of that society (Kraay et al. 2023). Note that the typical person in Tanzania, the Lao People’s Democratic Republic, and Uzbekistan has less than $25 per day so they contribute with a factor greater than 1, and the typical person in Bulgaria has $25 per day so they contribute.\"\n    },\n    {\n      \"label\": \"FIGURE BO.1.1\",\n      \"kind\": \"chart\",\n      \"title\": \"The Prosperity Gap captures how far societies are from $25 per person per day\",\n      \"bbox\": [\n        335,\n        143,\n        865,\n        813\n      ],\n      \"content\": \"Chart type: Bar/Line hybrid chart showing Prosperity Gap values for five individuals. X-axis: Income levels (Tanzania $2.50, Lao PDR $5.00, Uzbekistan $12.50, Bulgaria $25.00, France $50.00). Y-axis: Prosperity Gap (0 to 15). Data points: Tanzania (10), Lao PDR (5), Uzbekistan (2), Bulgaria (1), France (0.5). Annotations: Tanzania needs 10x income to reach $25; Lao PDR needs 5x; Uzbekistan needs 2x; Bulgaria is at 1; France is at 0.5. Comparisons: Tanzania contributes 10x more to the Prosperity Gap than Bulgaria; Lao PDR contributes 5x more than Bulgaria; Uzbekistan contributes 2x more than Bulgaria.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "BOX 0.1",
+   "kind": "diagram",
+   "title": "How is the Prosperity Gap calculated?",
+   "bbox": [
+    93,
+    143,
+    255,
+    813
+   ],
+   "content": "The Prosperity Gap captures how far a society is from $25 per person per day, which is close to the average per capita household income when countries reach high-income status. The society’s shortfall is the average shortfall among all individuals living in that society but giving poorer people a greater weight. The Prosperity Gap is defined as the average income multiple needed to reach that $25 standard for every member of that society (Kraay et al. 2023). Note that the typical person in Tanzania, the Lao People’s Democratic Republic, and Uzbekistan has less than $25 per day so they contribute with a factor greater than 1, and the typical person in Bulgaria has $25 per day so they contribute."
+  },
+  {
+   "label": "FIGURE BO.1.1",
+   "kind": "chart",
+   "title": "The Prosperity Gap captures how far societies are from $25 per person per day",
+   "bbox": [
+    335,
+    143,
+    865,
+    813
+   ],
+   "content": "Chart type: Bar/Line hybrid chart showing Prosperity Gap values for five individuals. X-axis: Income levels (Tanzania $2.50, Lao PDR $5.00, Uzbekistan $12.50, Bulgaria $25.00, France $50.00). Y-axis: Prosperity Gap (0 to 15). Data points: Tanzania (10), Lao PDR (5), Uzbekistan (2), Bulgaria (1), France (0.5). Annotations: Tanzania needs 10x income to reach $25; Lao PDR needs 5x; Uzbekistan needs 2x; Bulgaria is at 1; France is at 0.5. Comparisons: Tanzania contributes 10x more to the Prosperity Gap than Bulgaria; Lao PDR contributes 5x more than Bulgaria; Uzbekistan contributes 2x more than Bulgaria."
+  }
+ ],
+ "parse_ok": true,
+ "page": 42,
+ "captions": [
+  "FIGURE BO.1.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

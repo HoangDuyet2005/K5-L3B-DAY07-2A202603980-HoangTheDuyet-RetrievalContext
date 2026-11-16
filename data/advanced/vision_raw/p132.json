@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 55151,
+ "total_tokens": 1502,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"TABLE 1D.3\",\n      \"kind\": \"table\",\n      \"title\": \"Share of global poor (percent) (continued)\",\n      \"bbox\": [\n        87,\n        82,\n        235,\n        917\n      ],\n      \"content\": \"| Region and poverty line | 1990 | 1995 | 2000 | 2005 | 2010 | 2015 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 |\\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\\n| Rest of the world | 0.5 | 0.5 | 0.4 | 0.4 | 0.4 | 0.5 | 0.4 | 0.3 | 0.3 | 0.4 | 0.4 | 0.4 |\\n| FCS | -- | 11.8 | -- | 13.4 | 15.3 | 18.2 | 20.8 | 21.1 | 22.3 | 23.0 | 23.7 | 24.4 |\\n| IDA | 22.0 | 22.9 | 24.3 | 27.2 | 30.9 | 35.5 | 39.7 | 39.8 | 41.5 | 42.5 | 43.6 | 44.6 |\\n\\nSource: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\\nNote: FCS = fragile and conflict-affected settings; IDA = International Development Association. The shares of the global poor for regions and other groupings are reported for the poverty lines of $2.15, $3.65, and $6.85 per person per day (expressed in 2017 purchasing power parity dollars). The definition of IDA and FCS is kept fixed using the World Bank fiscal year 2024 classification. Poverty estimates are not reported for years with insufficient data coverage (that is, less than 50 percent of the regional population). These missing observations are marked (--). However, poverty estimates are presented for the recent years (2019–22) using nowcasting methods, even if there is insufficient data coverage, and are thus grayed out (for example, Middle East and North Africa, Sub-Saharan Africa, and FCS). Estimates presented for all regions and country groups for 2023 and 2024 are based on poverty nowcasts and are also grayed out. See chapter 1, annex 1A, for details about coverage rules and the methodology for projecting or nowcasting poverty.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "TABLE 1D.3",
+   "kind": "table",
+   "title": "Share of global poor (percent) (continued)",
+   "bbox": [
+    87,
+    82,
+    235,
+    917
+   ],
+   "content": "| Region and poverty line | 1990 | 1995 | 2000 | 2005 | 2010 | 2015 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| Rest of the world | 0.5 | 0.5 | 0.4 | 0.4 | 0.4 | 0.5 | 0.4 | 0.3 | 0.3 | 0.4 | 0.4 | 0.4 |\n| FCS | -- | 11.8 | -- | 13.4 | 15.3 | 18.2 | 20.8 | 21.1 | 22.3 | 23.0 | 23.7 | 24.4 |\n| IDA | 22.0 | 22.9 | 24.3 | 27.2 | 30.9 | 35.5 | 39.7 | 39.8 | 41.5 | 42.5 | 43.6 | 44.6 |\n\nSource: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\nNote: FCS = fragile and conflict-affected settings; IDA = International Development Association. The shares of the global poor for regions and other groupings are reported for the poverty lines of $2.15, $3.65, and $6.85 per person per day (expressed in 2017 purchasing power parity dollars). The definition of IDA and FCS is kept fixed using the World Bank fiscal year 2024 classification. Poverty estimates are not reported for years with insufficient data coverage (that is, less than 50 percent of the regional population). These missing observations are marked (--). However, poverty estimates are presented for the recent years (2019–22) using nowcasting methods, even if there is insufficient data coverage, and are thus grayed out (for example, Middle East and North Africa, Sub-Saharan Africa, and FCS). Estimates presented for all regions and country groups for 2023 and 2024 are based on poverty nowcasts and are also grayed out. See chapter 1, annex 1A, for details about coverage rules and the methodology for projecting or nowcasting poverty."
+  }
+ ],
+ "parse_ok": true,
+ "page": 132,
+ "captions": [
+  "TABLE 1D.3"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

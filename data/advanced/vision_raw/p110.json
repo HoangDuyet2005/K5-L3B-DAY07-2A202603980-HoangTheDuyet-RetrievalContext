@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4529,
+ "total_tokens": 1392,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 1.10\",\n      \"kind\": \"chart\",\n      \"title\": \"Comparison of rural and urban poverty rates, 2022 (continued)\",\n      \"bbox\": [\n        82,\n        167,\n        755,\n        833\n      ],\n      \"content\": \"The figure consists of two panels showing poverty rates by region for rural, urban, and total populations. Panel c shows poverty rates at $2.15 per day, and panel d shows poverty rates at $6.85 per day. Legend: Blue circle = Total, Red diamond = Rural, Yellow diamond = Urban. Panel c (Poverty rate at $2.15): East Asia and Pacific (Total ~2%, Rural ~3%, Urban ~1%), Europe and Central Asia (Total ~1%, Rural ~1%, Urban ~1%), Latin America and the Caribbean (Total ~4%, Rural ~8%, Urban ~3%), Middle East and North Africa (Total ~4%, Rural ~7%, Urban ~3%), South Asia (Total ~7%, Rural ~9%, Urban ~5%), Sub-Saharan Africa (Total ~36%, Rural ~45%, Urban ~20%), World (Total ~6%, Rural ~12%, Urban ~5%). Panel d (Poverty rate at $6.85): East Asia and Pacific (Total ~33%, Rural ~48%, Urban ~24%), Europe and Central Asia (Total ~6%, Rural ~12%, Urban ~4%), Latin America and the Caribbean (Total ~26%, Rural ~45%, Urban ~20%), Middle East and North Africa (Total ~43%, Rural ~65%, Urban ~30%), South Asia (Total ~78%, Rural ~84%, Urban ~67%), Sub-Saharan Africa (Total ~88%, Rural ~95%, Urban ~74%), World (Total ~52%, Rural ~69%, Urban ~36%). Source: World Bank, Global Monitoring Database (GMD) (version September 2024). Note: Poverty rates are reported for the $2.15 and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). In panels a and b, selected regions are labeled. In panels c and d, estimates are not reported for the rest of the world, where poverty rates are low and there may be only a few observations for population subgroups. * For the Middle East and North Africa and Sub-Saharan Africa, the recent survey data do not cover at least 50 percent of the population.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 1.10",
+   "kind": "chart",
+   "title": "Comparison of rural and urban poverty rates, 2022 (continued)",
+   "bbox": [
+    82,
+    167,
+    755,
+    833
+   ],
+   "content": "The figure consists of two panels showing poverty rates by region for rural, urban, and total populations. Panel c shows poverty rates at $2.15 per day, and panel d shows poverty rates at $6.85 per day. Legend: Blue circle = Total, Red diamond = Rural, Yellow diamond = Urban. Panel c (Poverty rate at $2.15): East Asia and Pacific (Total ~2%, Rural ~3%, Urban ~1%), Europe and Central Asia (Total ~1%, Rural ~1%, Urban ~1%), Latin America and the Caribbean (Total ~4%, Rural ~8%, Urban ~3%), Middle East and North Africa (Total ~4%, Rural ~7%, Urban ~3%), South Asia (Total ~7%, Rural ~9%, Urban ~5%), Sub-Saharan Africa (Total ~36%, Rural ~45%, Urban ~20%), World (Total ~6%, Rural ~12%, Urban ~5%). Panel d (Poverty rate at $6.85): East Asia and Pacific (Total ~33%, Rural ~48%, Urban ~24%), Europe and Central Asia (Total ~6%, Rural ~12%, Urban ~4%), Latin America and the Caribbean (Total ~26%, Rural ~45%, Urban ~20%), Middle East and North Africa (Total ~43%, Rural ~65%, Urban ~30%), South Asia (Total ~78%, Rural ~84%, Urban ~67%), Sub-Saharan Africa (Total ~88%, Rural ~95%, Urban ~74%), World (Total ~52%, Rural ~69%, Urban ~36%). Source: World Bank, Global Monitoring Database (GMD) (version September 2024). Note: Poverty rates are reported for the $2.15 and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). In panels a and b, selected regions are labeled. In panels c and d, estimates are not reported for the rest of the world, where poverty rates are low and there may be only a few observations for population subgroups. * For the Middle East and North Africa and Sub-Saharan Africa, the recent survey data do not cover at least 50 percent of the population."
+  }
+ ],
+ "parse_ok": true,
+ "page": 110,
+ "captions": [
+  "FIGURE 1.10"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

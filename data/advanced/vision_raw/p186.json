@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4771,
+ "total_tokens": 1391,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"TABLE 2F.1\",\n      \"kind\": \"table\",\n      \"title\": \"Gini index in latest available survey, by economy (continued)\",\n      \"bbox\": [\n        83,\n        168,\n        445,\n        832\n      ],\n      \"content\": \"| Economy and group | Region | Survey year | Welfare type | Gini index |\\n| :--- | :--- | :--- | :--- | :--- |\\n| Netherlands | Rest of the world | 2021 | Income | 25.7 |\\n| Norway | Rest of the world | 2019 | Income | 27.7 |\\n| Pakistan | South Asia | 2018.5 | Consumption | 29.6 |\\n| Poland | Europe and Central Asia | 2021 | Income | 28.5 |\\n| Slovak Republic | Europe and Central Asia | 2021 | Income | 24.1 |\\n| Slovenia | Europe and Central Asia | 2021 | Income | 24.3 |\\n| Sweden | Rest of the world | 2021 | Income | 29.8 |\\n| Syrian Arab Republic | Middle East and North Africa | 2022 | Consumption | 26.6 |\\n| Timor-Leste | East Asia and Pacific | 2014 | Consumption | 28.7 |\\n| Tonga | East Asia and Pacific | 2021 | Consumption | 27.1 |\\n| Ukraine | Europe and Central Asia | 2020 | Consumption | 25.6 |\\n| United Arab Emirates | Rest of the world | 2018 | Income | 26.4 |\\n\\nSource: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\\nNotes: Data include latest consumption or income surveys in the Poverty and Inequality Platform. High-inequality economies are those with a Gini index above 40, medium-inequality economies are those with a Gini index between 30 and 40, and low-inequality economies are those with a Gini index below 30. Economies are sorted by inequality group (high, moderate, or low) and alphabetically within each group. Decimal years indicate that the survey was conducted over two calendar years. The number before the decimal indicates the first year of the survey and the numbers after the decimal indicate the proportion of the survey occurring in the second year.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "TABLE 2F.1",
+   "kind": "table",
+   "title": "Gini index in latest available survey, by economy (continued)",
+   "bbox": [
+    83,
+    168,
+    445,
+    832
+   ],
+   "content": "| Economy and group | Region | Survey year | Welfare type | Gini index |\n| :--- | :--- | :--- | :--- | :--- |\n| Netherlands | Rest of the world | 2021 | Income | 25.7 |\n| Norway | Rest of the world | 2019 | Income | 27.7 |\n| Pakistan | South Asia | 2018.5 | Consumption | 29.6 |\n| Poland | Europe and Central Asia | 2021 | Income | 28.5 |\n| Slovak Republic | Europe and Central Asia | 2021 | Income | 24.1 |\n| Slovenia | Europe and Central Asia | 2021 | Income | 24.3 |\n| Sweden | Rest of the world | 2021 | Income | 29.8 |\n| Syrian Arab Republic | Middle East and North Africa | 2022 | Consumption | 26.6 |\n| Timor-Leste | East Asia and Pacific | 2014 | Consumption | 28.7 |\n| Tonga | East Asia and Pacific | 2021 | Consumption | 27.1 |\n| Ukraine | Europe and Central Asia | 2020 | Consumption | 25.6 |\n| United Arab Emirates | Rest of the world | 2018 | Income | 26.4 |\n\nSource: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\nNotes: Data include latest consumption or income surveys in the Poverty and Inequality Platform. High-inequality economies are those with a Gini index above 40, medium-inequality economies are those with a Gini index between 30 and 40, and low-inequality economies are those with a Gini index below 30. Economies are sorted by inequality group (high, moderate, or low) and alphabetically within each group. Decimal years indicate that the survey was conducted over two calendar years. The number before the decimal indicates the first year of the survey and the numbers after the decimal indicate the proportion of the survey occurring in the second year."
+  }
+ ],
+ "parse_ok": true,
+ "page": 186,
+ "captions": [
+  "TABLE 2F.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

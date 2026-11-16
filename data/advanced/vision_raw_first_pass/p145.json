@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 3892,
+ "total_tokens": 1110,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE B2.2.1\",\n      \"kind\": \"diagram\",\n      \"title\": \"The Prosperity Gap captures how far societies are from $25 per person per day\",\n      \"bbox\": [\n        123,\n        145,\n        715,\n        815\n      ],\n      \"content\": \"The diagram illustrates the calculation of the Prosperity Gap using five individuals with different daily incomes: Tanzania ($2.50), Lao PDR ($5.00), Uzbekistan ($12.50), Bulgaria ($25.00), and France ($50.00). A curve shows the Prosperity Gap values for each: Tanzania (10), Lao PDR (5), Uzbekistan (2), Bulgaria (1), and France (0.5). The diagram highlights that the person in Tanzania contributes 10x more to the gap than the person in Bulgaria, Lao PDR 5x more, and Uzbekistan 2x more. The final calculation is shown as: Prosperity Gap = (10 + 5 + 2 + 1 + 0.5)/5 = 18.5/5 = 3.7. Source: World Bank. Note: All $ values are in 2017 purchasing power parity dollars.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE B2.2.1",
+   "kind": "diagram",
+   "title": "The Prosperity Gap captures how far societies are from $25 per person per day",
+   "bbox": [
+    123,
+    145,
+    715,
+    815
+   ],
+   "content": "The diagram illustrates the calculation of the Prosperity Gap using five individuals with different daily incomes: Tanzania ($2.50), Lao PDR ($5.00), Uzbekistan ($12.50), Bulgaria ($25.00), and France ($50.00). A curve shows the Prosperity Gap values for each: Tanzania (10), Lao PDR (5), Uzbekistan (2), Bulgaria (1), and France (0.5). The diagram highlights that the person in Tanzania contributes 10x more to the gap than the person in Bulgaria, Lao PDR 5x more, and Uzbekistan 2x more. The final calculation is shown as: Prosperity Gap = (10 + 5 + 2 + 1 + 0.5)/5 = 18.5/5 = 3.7. Source: World Bank. Note: All $ values are in 2017 purchasing power parity dollars."
+  }
+ ],
+ "parse_ok": true,
+ "page": 145,
+ "captions": [
+  "FIGURE B2.2.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

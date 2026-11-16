@@ -1,0 +1,52 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4927,
+ "total_tokens": 1250,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 2.12\",\n      \"kind\": \"chart\",\n      \"title\": \"The reduction in inequality has been faster for economies with high levels of initial inequality\",\n      \"bbox\": [\n        83,\n        163,\n        500,\n        825\n      ],\n      \"content\": {\n        \"chart_type\": \"scatter plot\",\n        \"x_axis\": {\n          \"title\": \"Initial Gini index\",\n          \"range\": [20, 70]\n        },\n        \"y_axis\": {\n          \"title\": \"Annualized change in Gini index 2000–22 (%)\",\n          \"range\": [-2.0, 1.5]\n        },\n        \"legend\": [\n          \"Economies using consumption data\",\n          \"Economies using income data\",\n          \"Fitted line, consumption\",\n          \"Fitted line, income\"\n        ],\n        \"description\": \"The chart shows a negative correlation between the initial Gini index and the annualized change in the Gini index. Economies with higher initial Gini indices tend to have a more negative annualized change (faster reduction in inequality). The fitted lines for both consumption and income data show a downward trend.\",\n        \"sources\": \"World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org; Haddad et al. 2024 (updated).\",\n        \"notes\": \"Initial Gini index for each economy is for the earliest available year, starting with 2000. The vertical axis shows the (annualized) percent change between the initial Gini and its final value, obtained from the latest survey round. The sample consists of 155 economies with at least two surveys. There might be breaks in comparability over such a long period, which are not controlled for.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 2.12",
+   "kind": "chart",
+   "title": "The reduction in inequality has been faster for economies with high levels of initial inequality",
+   "bbox": [
+    83,
+    163,
+    500,
+    825
+   ],
+   "content": {
+    "chart_type": "scatter plot",
+    "x_axis": {
+     "title": "Initial Gini index",
+     "range": [
+      20,
+      70
+     ]
+    },
+    "y_axis": {
+     "title": "Annualized change in Gini index 2000–22 (%)",
+     "range": [
+      -2.0,
+      1.5
+     ]
+    },
+    "legend": [
+     "Economies using consumption data",
+     "Economies using income data",
+     "Fitted line, consumption",
+     "Fitted line, income"
+    ],
+    "description": "The chart shows a negative correlation between the initial Gini index and the annualized change in the Gini index. Economies with higher initial Gini indices tend to have a more negative annualized change (faster reduction in inequality). The fitted lines for both consumption and income data show a downward trend.",
+    "sources": "World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org; Haddad et al. 2024 (updated).",
+    "notes": "Initial Gini index for each economy is for the earliest available year, starting with 2000. The vertical axis shows the (annualized) percent change between the initial Gini and its final value, obtained from the latest survey round. The sample consists of 155 economies with at least two surveys. There might be breaks in comparability over such a long period, which are not controlled for."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 162,
+ "captions": [
+  "FIGURE 2.12"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

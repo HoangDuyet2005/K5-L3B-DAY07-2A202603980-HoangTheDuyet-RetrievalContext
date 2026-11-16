@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.6-flash",
+ "finish_reason": "STOP",
+ "latency_ms": 24009,
+ "total_tokens": 2245,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE BO.1.1\",\n      \"kind\": \"diagram\",\n      \"title\": \"The Prosperity Gap captures how far societies are from $25 per person per day\",\n      \"bbox\": [\n        357,\n        165,\n        848,\n        805\n      ],\n      \"content\": \"Diagram/chart explaining how the Prosperity Gap multiple is calculated for five individuals with different daily incomes:\\n\\n- Subtitle: \\\"Let’s say there are five people with the following levels of daily income:\\\"\\n- Y-axis: \\\"Prosperity Gap\\\" (values 0, 5, 10, 15)\\n- X-axis: \\\"Income\\\"\\n\\nData points / Profiles:\\n1. A typical person in Tanzania ($2.50/day):\\n   - Needs 10 times their income to reach $25.\\n   - Prosperity Gap: 25 / 2.50 = 10\\n   - Contributes 10x more to the Prosperity Gap than the person in Bulgaria.\\n2. A typical person in Lao PDR ($5.00/day):\\n   - Needs 5 times their income to reach $25.\\n   - Prosperity Gap: 25 / 5.00 = 5\\n   - Contributes 5x more to the Prosperity Gap than the person in Bulgaria.\\n3. A typical person in Uzbekistan ($12.50/day):\\n   - Needs 2 times their income to reach $25.\\n   - Prosperity Gap: 25 / 12.50 = 2\\n   - Contributes 2x more to the Prosperity Gap than the person in Bulgaria.\\n4. A typical person in Bulgaria ($25.00/day):\\n   - Already at $25, so multiple is 1 (no additional income needed).\\n   - Prosperity Gap: 25 / 25.00 = 1\\n5. A typical person in France ($50.00/day):\\n   - Lives above the $25 standard.\\n   - Prosperity Gap: 25 / 50.00 = 0.5\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE BO.1.1",
+   "kind": "diagram",
+   "title": "The Prosperity Gap captures how far societies are from $25 per person per day",
+   "bbox": [
+    357,
+    165,
+    848,
+    805
+   ],
+   "content": "Diagram/chart explaining how the Prosperity Gap multiple is calculated for five individuals with different daily incomes:\n\n- Subtitle: \"Let’s say there are five people with the following levels of daily income:\"\n- Y-axis: \"Prosperity Gap\" (values 0, 5, 10, 15)\n- X-axis: \"Income\"\n\nData points / Profiles:\n1. A typical person in Tanzania ($2.50/day):\n   - Needs 10 times their income to reach $25.\n   - Prosperity Gap: 25 / 2.50 = 10\n   - Contributes 10x more to the Prosperity Gap than the person in Bulgaria.\n2. A typical person in Lao PDR ($5.00/day):\n   - Needs 5 times their income to reach $25.\n   - Prosperity Gap: 25 / 5.00 = 5\n   - Contributes 5x more to the Prosperity Gap than the person in Bulgaria.\n3. A typical person in Uzbekistan ($12.50/day):\n   - Needs 2 times their income to reach $25.\n   - Prosperity Gap: 25 / 12.50 = 2\n   - Contributes 2x more to the Prosperity Gap than the person in Bulgaria.\n4. A typical person in Bulgaria ($25.00/day):\n   - Already at $25, so multiple is 1 (no additional income needed).\n   - Prosperity Gap: 25 / 25.00 = 1\n5. A typical person in France ($50.00/day):\n   - Lives above the $25 standard.\n   - Prosperity Gap: 25 / 50.00 = 0.5"
+  }
+ ],
+ "parse_ok": true,
+ "page": 42,
+ "captions": [
+  "FIGURE BO.1.1"
+ ],
+ "model_requested": "gemini-3.5-flash"
+}

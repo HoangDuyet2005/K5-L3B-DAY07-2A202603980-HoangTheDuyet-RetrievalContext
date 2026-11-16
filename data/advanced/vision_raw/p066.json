@@ -1,0 +1,40 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5549,
+ "total_tokens": 1399,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE O.13\",\n      \"kind\": \"chart\",\n      \"title\": \"Increased concentration of extreme poverty in Sub-Saharan Africa and FCS\",\n      \"bbox\": [\n        355,\n        167,\n        715,\n        775\n      ],\n      \"content\": {\n        \"type\": \"stacked area chart\",\n        \"y_axis\": \"Share of global poor at $2.15 (%)\",\n        \"x_axis\": \"Year (2000-2030)\",\n        \"legend\": [\n          \"Non-FCS in SSA\",\n          \"FCS in SSA\",\n          \"FCS outside SSA\",\n          \"Rest of the world\"\n        ],\n        \"trends\": \"The chart shows a significant shift in the concentration of global extreme poverty. The 'Rest of the world' category (top section) decreases significantly from 2000 to 2030. The 'FCS outside SSA' (red) and 'FCS in SSA' (yellow) and 'Non-FCS in SSA' (light blue) categories show a combined upward trend, indicating that by 2030, the majority of the global extreme poor will be concentrated in Sub-Saharan Africa and FCS countries.\",\n        \"source\": \"World Bank calculations using data from the Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org/.\",\n        \"note\": \"FCS = fragile and conflict-affected situations; GDP = gross domestic product; SSA = Sub-Saharan Africa. The extreme poverty rate is calculated at $2.15 per person per day (expressed in 2017 purchasing power parity dollars). Countries in FCS are defined following the World Bank classification of fragility and conflict-affected situations for each year until 2022, and keeping the definition fixed in 2022 for the years after. Between 2022 and 2029, poverty is projected based on per capita GDP projections in Global Economic Prospects, June 2024 (World Bank 2024c) complemented by the Macro Poverty Outlook, Spring Meetings 2024 (World Bank 2024e) and the World Economic Outlook (IMF 2024), and for 2030, average annual historic growth rates (2010–19) are used. Population coverage is below 50 percent for Sub-Saharan Africa after 2019, and for countries in FCS in 2000 and after 2017.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE O.13",
+   "kind": "chart",
+   "title": "Increased concentration of extreme poverty in Sub-Saharan Africa and FCS",
+   "bbox": [
+    355,
+    167,
+    715,
+    775
+   ],
+   "content": {
+    "type": "stacked area chart",
+    "y_axis": "Share of global poor at $2.15 (%)",
+    "x_axis": "Year (2000-2030)",
+    "legend": [
+     "Non-FCS in SSA",
+     "FCS in SSA",
+     "FCS outside SSA",
+     "Rest of the world"
+    ],
+    "trends": "The chart shows a significant shift in the concentration of global extreme poverty. The 'Rest of the world' category (top section) decreases significantly from 2000 to 2030. The 'FCS outside SSA' (red) and 'FCS in SSA' (yellow) and 'Non-FCS in SSA' (light blue) categories show a combined upward trend, indicating that by 2030, the majority of the global extreme poor will be concentrated in Sub-Saharan Africa and FCS countries.",
+    "source": "World Bank calculations using data from the Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org/.",
+    "note": "FCS = fragile and conflict-affected situations; GDP = gross domestic product; SSA = Sub-Saharan Africa. The extreme poverty rate is calculated at $2.15 per person per day (expressed in 2017 purchasing power parity dollars). Countries in FCS are defined following the World Bank classification of fragility and conflict-affected situations for each year until 2022, and keeping the definition fixed in 2022 for the years after. Between 2022 and 2029, poverty is projected based on per capita GDP projections in Global Economic Prospects, June 2024 (World Bank 2024c) complemented by the Macro Poverty Outlook, Spring Meetings 2024 (World Bank 2024e) and the World Economic Outlook (IMF 2024), and for 2030, average annual historic growth rates (2010–19) are used. Population coverage is below 50 percent for Sub-Saharan Africa after 2019, and for countries in FCS in 2000 and after 2017."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 66,
+ "captions": [
+  "FIGURE O.13"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

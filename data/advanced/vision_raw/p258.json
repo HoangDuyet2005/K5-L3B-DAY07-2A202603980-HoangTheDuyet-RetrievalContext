@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 2552,
+ "total_tokens": 1102,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"TABLE 4.1\",\n      \"kind\": \"table\",\n      \"title\": \"World Bank’s Vision indicators\",\n      \"bbox\": [\n        241,\n        167,\n        542,\n        832\n      ],\n      \"content\": \"| Chapter | Vision indicators |\\n| :--- | :--- |\\n| 1. Poverty | Percentage of global population living in poverty (measured at two poverty lines: less than $2.15 per day and less than $6.85 per day) |\\n| 2. Prosperity | Global average income shortfall from a prosperity standard of $25 per day |\\n| | Number of economies with high inequality |\\n| 3. Livable Planet | Global greenhouse gas emissions (gigatons of carbon dioxide equivalent [CO2e]) |\\n| | Percentage of people at high risk from climate-related hazards globally |\\n| | Millions of hectares of key ecosystems globally |\\n| | Percentage of people facing food and nutrition insecurity globally |\\n| | Percentage of people with access to basic drinking water, sanitation services, or hygiene globally |\\n\\nSource: World Bank, n.d.\\nNote: $ = 2017 purchasing power parity dollars.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "TABLE 4.1",
+   "kind": "table",
+   "title": "World Bank’s Vision indicators",
+   "bbox": [
+    241,
+    167,
+    542,
+    832
+   ],
+   "content": "| Chapter | Vision indicators |\n| :--- | :--- |\n| 1. Poverty | Percentage of global population living in poverty (measured at two poverty lines: less than $2.15 per day and less than $6.85 per day) |\n| 2. Prosperity | Global average income shortfall from a prosperity standard of $25 per day |\n| | Number of economies with high inequality |\n| 3. Livable Planet | Global greenhouse gas emissions (gigatons of carbon dioxide equivalent [CO2e]) |\n| | Percentage of people at high risk from climate-related hazards globally |\n| | Millions of hectares of key ecosystems globally |\n| | Percentage of people facing food and nutrition insecurity globally |\n| | Percentage of people with access to basic drinking water, sanitation services, or hygiene globally |\n\nSource: World Bank, n.d.\nNote: $ = 2017 purchasing power parity dollars."
+  }
+ ],
+ "parse_ok": true,
+ "page": 258,
+ "captions": [
+  "TABLE 4.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

@@ -1,0 +1,29 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4937,
+ "total_tokens": 1249,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 4.1\",\n      \"kind\": \"chart\",\n      \"title\": \"The number of household budget surveys has increased in all regions, 1998–2022\",\n      \"bbox\": [\n        [458, 167, 800, 833]\n      ],\n      \"content\": \"The chart is a line chart showing the cumulative number of household budget surveys from 1998 to 2022. The y-axis represents the 'Cumulative number of surveys' ranging from 0 to 15. The x-axis represents years from 1998 to 2022. Legend entries include: Low-income, Lower-middle-income, Upper-middle-income, High-income, FCS, IDA, Small States, and World. Trends show a general upward trajectory for all categories. The 'High-income' and 'Upper-middle-income' lines are at the top, reaching approximately 12-13 by 2022. The 'World' line is in the middle, reaching approximately 10 by 2022. The 'Low-income', 'FCS', 'IDA', 'Small States', and 'Lower-middle-income' lines are clustered at the bottom, ranging between approximately 4 and 6 by 2022. Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org. Note: FCS = fragile and conflict-affected situations; IDA = International Development Association. The classification of countries by FCS, by inclusion in the World Bank’s IDA, and by income status is based on the data for 2022. IDA countries are those eligible for grants and concessionary loans from the IDA, which provides support to the poorest countries in the world (consisting of low-income countries and some countries in other income groups).\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 4.1",
+   "kind": "chart",
+   "title": "The number of household budget surveys has increased in all regions, 1998–2022",
+   "bbox": [
+    [
+     458,
+     167,
+     800,
+     833
+    ]
+   ],
+   "content": "The chart is a line chart showing the cumulative number of household budget surveys from 1998 to 2022. The y-axis represents the 'Cumulative number of surveys' ranging from 0 to 15. The x-axis represents years from 1998 to 2022. Legend entries include: Low-income, Lower-middle-income, Upper-middle-income, High-income, FCS, IDA, Small States, and World. Trends show a general upward trajectory for all categories. The 'High-income' and 'Upper-middle-income' lines are at the top, reaching approximately 12-13 by 2022. The 'World' line is in the middle, reaching approximately 10 by 2022. The 'Low-income', 'FCS', 'IDA', 'Small States', and 'Lower-middle-income' lines are clustered at the bottom, ranging between approximately 4 and 6 by 2022. Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org. Note: FCS = fragile and conflict-affected situations; IDA = International Development Association. The classification of countries by FCS, by inclusion in the World Bank’s IDA, and by income status is based on the data for 2022. IDA countries are those eligible for grants and concessionary loans from the IDA, which provides support to the poorest countries in the world (consisting of low-income countries and some countries in other income groups)."
+  }
+ ],
+ "parse_ok": true,
+ "page": 259,
+ "captions": [
+  "FIGURE 4.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

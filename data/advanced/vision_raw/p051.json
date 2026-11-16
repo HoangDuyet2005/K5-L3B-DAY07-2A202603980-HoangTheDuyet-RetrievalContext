@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.6-flash",
+ "finish_reason": "STOP",
+ "latency_ms": 24970,
+ "total_tokens": 1848,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"MAP 0.2\",\n      \"kind\": \"map\",\n      \"title\": \"Large populations are exposed to extreme weather events in South Asia and East Asia and Pacific, and vulnerability is high in Sub-Saharan Africa\",\n      \"bbox\": [85, 168, 540, 835],\n      \"content\": \"Map showing regional circles representing population sizes, exposure, and vulnerability to climate-related hazards.\\n\\nRegions labeled:\\n- North America\\n- Europe and Central Asia\\n- Middle East and North Africa\\n- Latin America and the Caribbean\\n- Sub-Saharan Africa\\n- South Asia\\n- East Asia and Pacific\\n\\nLegend:\\n- Gray circle: Sample population\\n- Blue circle: Population exposed\\n- Red circle: Population exposed and vulnerable\\n\\nSource: World Bank calculations using data from the World Bank Group Scorecard indicator: the percentage of people at high risk of climate-related hazards globally, https://scorecard.worldbank.org/en/scorecard/home.\\n\\nNote: Gray circles depict the overall population in the region, blue circles depict the population exposed to any type of hazard, and red circles depict the population exposed to any type of climate-related hazard and vulnerable along at least one dimension. There is a blue circle in Sub-Saharan Africa, but it is barely visible in the figure because almost everyone in Sub-Saharan Africa who is exposed is also vulnerable. The circles represent regions; their placement on the map does not have any meaning. See annex 3B for more details.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "MAP 0.2",
+   "kind": "map",
+   "title": "Large populations are exposed to extreme weather events in South Asia and East Asia and Pacific, and vulnerability is high in Sub-Saharan Africa",
+   "bbox": [
+    85,
+    168,
+    540,
+    835
+   ],
+   "content": "Map showing regional circles representing population sizes, exposure, and vulnerability to climate-related hazards.\n\nRegions labeled:\n- North America\n- Europe and Central Asia\n- Middle East and North Africa\n- Latin America and the Caribbean\n- Sub-Saharan Africa\n- South Asia\n- East Asia and Pacific\n\nLegend:\n- Gray circle: Sample population\n- Blue circle: Population exposed\n- Red circle: Population exposed and vulnerable\n\nSource: World Bank calculations using data from the World Bank Group Scorecard indicator: the percentage of people at high risk of climate-related hazards globally, https://scorecard.worldbank.org/en/scorecard/home.\n\nNote: Gray circles depict the overall population in the region, blue circles depict the population exposed to any type of hazard, and red circles depict the population exposed to any type of climate-related hazard and vulnerable along at least one dimension. There is a blue circle in Sub-Saharan Africa, but it is barely visible in the figure because almost everyone in Sub-Saharan Africa who is exposed is also vulnerable. The circles represent regions; their placement on the map does not have any meaning. See annex 3B for more details."
+  }
+ ],
+ "parse_ok": true,
+ "page": 51,
+ "captions": [
+  "MAP O.2"
+ ],
+ "model_requested": "gemini-3.5-flash"
+}

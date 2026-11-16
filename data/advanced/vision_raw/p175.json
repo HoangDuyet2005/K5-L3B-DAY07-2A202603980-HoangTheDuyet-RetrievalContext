@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5330,
+ "total_tokens": 1174,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 2C.1\",\n      \"kind\": \"chart\",\n      \"title\": \"The rank-rank correlation of the Prosperity Gap between bottom coding at $0.25/day and not bottom coding\",\n      \"bbox\": [\n        81,\n        167,\n        655,\n        786\n      ],\n      \"content\": \"The chart is a scatter plot showing the rank-rank correlation of the Prosperity Gap. The horizontal axis represents the 'Prosperity Gap rank, not bottom coded' (0 to 150, increasing from less prosperous to more prosperous). The vertical axis represents the 'Prosperity Gap rank, bottom coded at $0.25' (0 to 150, increasing from less prosperous to more prosperous). A 45-degree line is plotted for reference. Most data points (triangles) cluster tightly along the 45-degree line, indicating a strong positive correlation. Specific countries labeled include 'Norway' (high rank on both axes), 'Spain' (high rank on both axes), and 'Egypt, Arab Rep.' (mid-range rank). Source: Yonzan et al., forthcoming. Note: Each observation is from the latest (post-2000) country survey ranked from the least prosperous (rank of 1) to the most prosperous. On the vertical axis, countries are ranked after bottom coding the distribution at $0.25/day in 2017 purchasing power parity dollars. Observations with zero values are not included in either sample since they are dropped in the case with no bottom code.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 2C.1",
+   "kind": "chart",
+   "title": "The rank-rank correlation of the Prosperity Gap between bottom coding at $0.25/day and not bottom coding",
+   "bbox": [
+    81,
+    167,
+    655,
+    786
+   ],
+   "content": "The chart is a scatter plot showing the rank-rank correlation of the Prosperity Gap. The horizontal axis represents the 'Prosperity Gap rank, not bottom coded' (0 to 150, increasing from less prosperous to more prosperous). The vertical axis represents the 'Prosperity Gap rank, bottom coded at $0.25' (0 to 150, increasing from less prosperous to more prosperous). A 45-degree line is plotted for reference. Most data points (triangles) cluster tightly along the 45-degree line, indicating a strong positive correlation. Specific countries labeled include 'Norway' (high rank on both axes), 'Spain' (high rank on both axes), and 'Egypt, Arab Rep.' (mid-range rank). Source: Yonzan et al., forthcoming. Note: Each observation is from the latest (post-2000) country survey ranked from the least prosperous (rank of 1) to the most prosperous. On the vertical axis, countries are ranked after bottom coding the distribution at $0.25/day in 2017 purchasing power parity dollars. Observations with zero values are not included in either sample since they are dropped in the case with no bottom code."
+  }
+ ],
+ "parse_ok": true,
+ "page": 175,
+ "captions": [
+  "FIGURE 2C.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

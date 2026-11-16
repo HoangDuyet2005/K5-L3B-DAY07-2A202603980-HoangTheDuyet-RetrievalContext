@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.6-flash",
+ "finish_reason": "STOP",
+ "latency_ms": 25165,
+ "total_tokens": 1760,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 2.16\",\n      \"kind\": \"diagram\",\n      \"title\": \"Effectively addressing inequality requires a comprehensive approach that tackles all phases of inequality\",\n      \"bbox\": [81, 168, 437, 832],\n      \"content\": \"A conceptual framework diagram consisting of three vertical columns overlaid by an overarching horizontal arrow banner at the bottom:\\n\\n1. Column 1 (Icon: Group of four people):\\n   - Heading: \\\"Inequality in building productive capacity\\\"\\n   - Description: \\\"Invest in early life opportunities and human capital formation.\\\"\\n\\n2. Column 2 (Icon: Person wearing a hard hat):\\n   - Heading: \\\"Inequality in utilizing productive capacity\\\"\\n   - Description: \\\"Reduce market and institutional distortions that restrict access to markets and earning opportunities.\\\"\\n\\n3. Column 3 (Icon: Money bag with percentage symbol):\\n   - Heading: \\\"Inequality in taxes and transfers\\\"\\n   - Description: \\\"Enhance fiscal redistribution that delivers long-term inclusive growth.\\\"\\n\\nOverarching Banner at Bottom (Double-ended horizontal arrow across all three columns):\\n   - Text: \\\"Improve the productive capacity of the poor\\\"\\n\\nSource: World Bank.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 2.16",
+   "kind": "diagram",
+   "title": "Effectively addressing inequality requires a comprehensive approach that tackles all phases of inequality",
+   "bbox": [
+    81,
+    168,
+    437,
+    832
+   ],
+   "content": "A conceptual framework diagram consisting of three vertical columns overlaid by an overarching horizontal arrow banner at the bottom:\n\n1. Column 1 (Icon: Group of four people):\n   - Heading: \"Inequality in building productive capacity\"\n   - Description: \"Invest in early life opportunities and human capital formation.\"\n\n2. Column 2 (Icon: Person wearing a hard hat):\n   - Heading: \"Inequality in utilizing productive capacity\"\n   - Description: \"Reduce market and institutional distortions that restrict access to markets and earning opportunities.\"\n\n3. Column 3 (Icon: Money bag with percentage symbol):\n   - Heading: \"Inequality in taxes and transfers\"\n   - Description: \"Enhance fiscal redistribution that delivers long-term inclusive growth.\"\n\nOverarching Banner at Bottom (Double-ended horizontal arrow across all three columns):\n   - Text: \"Improve the productive capacity of the poor\"\n\nSource: World Bank."
+  }
+ ],
+ "parse_ok": true,
+ "page": 170,
+ "captions": [
+  "FIGURE 2.16"
+ ],
+ "model_requested": "gemini-3.5-flash"
+}

@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 2748,
+ "total_tokens": 1228,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 4.3\",\n      \"kind\": \"chart\",\n      \"title\": \"Data accessibility scores for countries by income categories\",\n      \"bbox\": [\n        380,\n        265,\n        815,\n        830\n      ],\n      \"content\": \"The figure consists of two horizontal bar charts (panels a and b) showing median ODIN scores (0-100) by income category. Panel a: Overall ODIN scores by category. Legend: Poverty and income, All categories. High-income: Poverty and income approx. 65, All categories approx. 65. Upper-middle-income: Poverty and income approx. 50, All categories approx. 52. Lower-middle-income: Poverty and income approx. 42, All categories approx. 45. Low-income: Poverty and income approx. 38, All categories approx. 40. Panel b: ODIN openness and coverage scores. Legend: Openness score, Coverage score. High-income: Openness score approx. 72, Coverage score approx. 55. Upper-middle-income: Openness score approx. 55, Coverage score approx. 50. Lower-middle-income: Openness score approx. 40, Coverage score approx. 45. Low-income: Openness score approx. 38, Coverage score approx. 40. Source: Open Data Watch 2023. Note: ODIN = Open Data Inventory. Panel a shows the median ODIN overall scores for all categories and the poverty and income categories. Panel b shows the median ODIN openness and coverage scores for all categories. ODIN score goes from 0 to 100. Fixed income group classifications from 2022 are used.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 4.3",
+   "kind": "chart",
+   "title": "Data accessibility scores for countries by income categories",
+   "bbox": [
+    380,
+    265,
+    815,
+    830
+   ],
+   "content": "The figure consists of two horizontal bar charts (panels a and b) showing median ODIN scores (0-100) by income category. Panel a: Overall ODIN scores by category. Legend: Poverty and income, All categories. High-income: Poverty and income approx. 65, All categories approx. 65. Upper-middle-income: Poverty and income approx. 50, All categories approx. 52. Lower-middle-income: Poverty and income approx. 42, All categories approx. 45. Low-income: Poverty and income approx. 38, All categories approx. 40. Panel b: ODIN openness and coverage scores. Legend: Openness score, Coverage score. High-income: Openness score approx. 72, Coverage score approx. 55. Upper-middle-income: Openness score approx. 55, Coverage score approx. 50. Lower-middle-income: Openness score approx. 40, Coverage score approx. 45. Low-income: Openness score approx. 38, Coverage score approx. 40. Source: Open Data Watch 2023. Note: ODIN = Open Data Inventory. Panel a shows the median ODIN overall scores for all categories and the poverty and income categories. Panel b shows the median ODIN openness and coverage scores for all categories. ODIN score goes from 0 to 100. Fixed income group classifications from 2022 are used."
+  }
+ ],
+ "parse_ok": true,
+ "page": 263,
+ "captions": [
+  "FIGURE 4.3"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

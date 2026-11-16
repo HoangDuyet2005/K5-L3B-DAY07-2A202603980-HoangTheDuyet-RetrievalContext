@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 3500,
+ "total_tokens": 1179,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE B1.4.1\",\n      \"kind\": \"chart\",\n      \"title\": \"Societal poverty line\",\n      \"bbox\": [\n        120,\n        150,\n        700,\n        760\n      ],\n      \"content\": \"The figure contains two panels: a. Global poverty trends and b. Share of global poor by region, 2022. Panel a is a line chart showing poverty rate (%) on the y-axis from 0 to 80, and years on the x-axis from 1990 to 2020. It plots four lines: $2.15 (red), $3.65 (yellow), $6.85 (black), and Societal poverty line (green). All lines show a downward trend over time. Panel b is a stacked horizontal bar chart showing the share of global poor (%) by region for four poverty lines: $2.15, $3.65, $6.85, and SPL. The regions are East Asia and Pacific, Europe and Central Asia, Latin America and the Caribbean, Middle East and North Africa, South Asia, Sub-Saharan Africa, and Rest of the world. Source: World Bank, Poverty and Inequality Platform (PIP, version September 2024), https://pip.worldbank.org. Note: SPL = societal poverty line. The poverty lines of $2.15, $3.65, $6.85, and the SPL are per person per day (expressed in 2017 purchasing power parity dollars).\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE B1.4.1",
+   "kind": "chart",
+   "title": "Societal poverty line",
+   "bbox": [
+    120,
+    150,
+    700,
+    760
+   ],
+   "content": "The figure contains two panels: a. Global poverty trends and b. Share of global poor by region, 2022. Panel a is a line chart showing poverty rate (%) on the y-axis from 0 to 80, and years on the x-axis from 1990 to 2020. It plots four lines: $2.15 (red), $3.65 (yellow), $6.85 (black), and Societal poverty line (green). All lines show a downward trend over time. Panel b is a stacked horizontal bar chart showing the share of global poor (%) by region for four poverty lines: $2.15, $3.65, $6.85, and SPL. The regions are East Asia and Pacific, Europe and Central Asia, Latin America and the Caribbean, Middle East and North Africa, South Asia, Sub-Saharan Africa, and Rest of the world. Source: World Bank, Poverty and Inequality Platform (PIP, version September 2024), https://pip.worldbank.org. Note: SPL = societal poverty line. The poverty lines of $2.15, $3.65, $6.85, and the SPL are per person per day (expressed in 2017 purchasing power parity dollars)."
+  }
+ ],
+ "parse_ok": true,
+ "page": 103,
+ "captions": [
+  "FIGURE B1.4.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

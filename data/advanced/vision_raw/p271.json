@@ -1,0 +1,68 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 3137,
+ "total_tokens": 1450,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 4.6\",\n      \"kind\": \"chart\",\n      \"title\": \"Differences in trends of the Gini index between PIP and WID\",\n      \"bbox\": [\n        87,\n        165,\n        652,\n        832\n      ],\n      \"content\": {\n        \"chart_type\": \"dot plot with confidence intervals\",\n        \"x_axis\": \"PIP - WID difference of the average year-over-year changes\",\n        \"y_axis\": \"Countries (Austria to United Kingdom)\",\n        \"data_points\": {\n          \"Austria\": 0.0,\n          \"Belgium\": 0.0,\n          \"Bulgaria\": 0.0,\n          \"Croatia\": -0.5,\n          \"Cyprus\": 0.2,\n          \"Czechia\": 0.0,\n          \"Denmark\": -0.5,\n          \"Estonia\": 0.0,\n          \"Finland\": 0.0,\n          \"Germany\": 0.0,\n          \"Greece\": 0.0,\n          \"Hungary\": 0.2,\n          \"Iceland\": 0.3,\n          \"Ireland\": -0.2,\n          \"Italy\": 0.0,\n          \"Latvia\": 0.2,\n          \"Lithuania\": -1.5,\n          \"Luxembourg\": 0.0,\n          \"Malta\": 0.0,\n          \"Montenegro\": -0.8,\n          \"Netherlands\": -0.5,\n          \"North Macedonia\": 0.0,\n          \"Norway\": 0.0,\n          \"Poland\": -0.5,\n          \"Portugal\": 0.1,\n          \"Romania\": -0.8,\n          \"Serbia\": -0.8,\n          \"Slovak Republic\": 0.2,\n          \"Slovenia\": 0.2,\n          \"Spain\": 0.0,\n          \"Sweden\": 0.0,\n          \"Switzerland\": 0.0,\n          \"United Kingdom\": 0.8\n        },\n        \"notes\": \"PIP = Poverty and Inequality Platform; WID = World Inequality Database. This figure illustrates the percentage points difference between the average year-over-year percent change in the Gini index in PIP and WID. The average differences (dots) and the 95 percent confidence intervals (bars) are shown. The income concept used in PIP is per capita household income, and that in WID is equal-split adult post-tax disposable income.\",\n        \"sources\": \"World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org; World Inequality Database.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 4.6",
+   "kind": "chart",
+   "title": "Differences in trends of the Gini index between PIP and WID",
+   "bbox": [
+    87,
+    165,
+    652,
+    832
+   ],
+   "content": {
+    "chart_type": "dot plot with confidence intervals",
+    "x_axis": "PIP - WID difference of the average year-over-year changes",
+    "y_axis": "Countries (Austria to United Kingdom)",
+    "data_points": {
+     "Austria": 0.0,
+     "Belgium": 0.0,
+     "Bulgaria": 0.0,
+     "Croatia": -0.5,
+     "Cyprus": 0.2,
+     "Czechia": 0.0,
+     "Denmark": -0.5,
+     "Estonia": 0.0,
+     "Finland": 0.0,
+     "Germany": 0.0,
+     "Greece": 0.0,
+     "Hungary": 0.2,
+     "Iceland": 0.3,
+     "Ireland": -0.2,
+     "Italy": 0.0,
+     "Latvia": 0.2,
+     "Lithuania": -1.5,
+     "Luxembourg": 0.0,
+     "Malta": 0.0,
+     "Montenegro": -0.8,
+     "Netherlands": -0.5,
+     "North Macedonia": 0.0,
+     "Norway": 0.0,
+     "Poland": -0.5,
+     "Portugal": 0.1,
+     "Romania": -0.8,
+     "Serbia": -0.8,
+     "Slovak Republic": 0.2,
+     "Slovenia": 0.2,
+     "Spain": 0.0,
+     "Sweden": 0.0,
+     "Switzerland": 0.0,
+     "United Kingdom": 0.8
+    },
+    "notes": "PIP = Poverty and Inequality Platform; WID = World Inequality Database. This figure illustrates the percentage points difference between the average year-over-year percent change in the Gini index in PIP and WID. The average differences (dots) and the 95 percent confidence intervals (bars) are shown. The income concept used in PIP is per capita household income, and that in WID is equal-split adult post-tax disposable income.",
+    "sources": "World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org; World Inequality Database."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 271,
+ "captions": [
+  "FIGURE 4.6"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

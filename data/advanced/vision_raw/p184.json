@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5261,
+ "total_tokens": 1692,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"TABLE 2F.1\",\n      \"kind\": \"table\",\n      \"title\": \"Gini index in latest available survey, by economy (continued)\",\n      \"bbox\": [\n        82,\n        168,\n        876,\n        832\n      ],\n      \"content\": \"| Economy and group | Region | Survey year | Welfare type | Gini index |\\n| :--- | :--- | :--- | :--- | :--- |\\n| Malta | Rest of the world | 2020 | Income | 31.4 |\\n| Marshall Islands | East Asia and Pacific | 2019.5 | Consumption | 35.5 |\\n| Mauritania | Sub-Saharan Africa | 2019.6 | Consumption | 32.0 |\\n| Mauritius | Sub-Saharan Africa | 2017 | Consumption | 36.8 |\\n| Mongolia | East Asia and Pacific | 2022 | Consumption | 31.4 |\\n| Montenegro | Europe and Central Asia | 2021 | Income | 34.3 |\\n| Morocco | Middle East and North Africa | 2013.5 | Consumption | 39.5 |\\n| Myanmar | East Asia and Pacific | 2017 | Consumption | 30.7 |\\n| Nauru | East Asia and Pacific | 2012.69 | Consumption | 32.4 |\\n| Nepal | South Asia | 2022.5 | Consumption | 30.0 |\\n| Niger | Sub-Saharan Africa | 2021.5 | Consumption | 32.9 |\\n| Nigeria | Sub-Saharan Africa | 2018.75 | Consumption | 35.1 |\\n| North Macedonia | Europe and Central Asia | 2019 | Income | 33.5 |\\n| Portugal | Rest of the world | 2021 | Income | 34.6 |\\n| Qatar | Rest of the world | 2017.5 | Income | 35.1 |\\n| Romania | Europe and Central Asia | 2021 | Income | 33.9 |\\n| Russian Federation | Europe and Central Asia | 2021 | Income | 35.1 |\\n| Samoa | East Asia and Pacific | 2013.25 | Consumption | 38.7 |\\n| Senegal | Sub-Saharan Africa | 2021.71 | Consumption | 36.2 |\\n| Serbia | Europe and Central Asia | 2021 | Income | 33.1 |\\n| Seychelles | Sub-Saharan Africa | 2018.08 | Income | 32.1 |\\n| Sierra Leone | Sub-Saharan Africa | 2018 | Consumption | 35.7 |\\n| Solomon Islands | East Asia and Pacific | 2012.79 | Consumption | 37.1 |\\n| Spain | Rest of the world | 2021 | Income | 33.9 |\\n| Sri Lanka | South Asia | 2019 | Consumption | 37.7 |\\n| Sudan | Sub-Saharan Africa | 2014 | Consumption | 34.2 |\\n| Suriname | Latin America and the Caribbean | 2022 | Consumption | 39.2 |\\n| Switzerland | Rest of the world | 2020 | Income | 33.7 |\\n| Taiwan, China | Rest of the world | 2021 | Income | 31.6 |\\n| Tajikistan | Europe and Central Asia | 2015 | Consumption | 34.0 |\\n| Thailand | East Asia and Pacific | 2021 | Consumption | 34.9 |\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "TABLE 2F.1",
+   "kind": "table",
+   "title": "Gini index in latest available survey, by economy (continued)",
+   "bbox": [
+    82,
+    168,
+    876,
+    832
+   ],
+   "content": "| Economy and group | Region | Survey year | Welfare type | Gini index |\n| :--- | :--- | :--- | :--- | :--- |\n| Malta | Rest of the world | 2020 | Income | 31.4 |\n| Marshall Islands | East Asia and Pacific | 2019.5 | Consumption | 35.5 |\n| Mauritania | Sub-Saharan Africa | 2019.6 | Consumption | 32.0 |\n| Mauritius | Sub-Saharan Africa | 2017 | Consumption | 36.8 |\n| Mongolia | East Asia and Pacific | 2022 | Consumption | 31.4 |\n| Montenegro | Europe and Central Asia | 2021 | Income | 34.3 |\n| Morocco | Middle East and North Africa | 2013.5 | Consumption | 39.5 |\n| Myanmar | East Asia and Pacific | 2017 | Consumption | 30.7 |\n| Nauru | East Asia and Pacific | 2012.69 | Consumption | 32.4 |\n| Nepal | South Asia | 2022.5 | Consumption | 30.0 |\n| Niger | Sub-Saharan Africa | 2021.5 | Consumption | 32.9 |\n| Nigeria | Sub-Saharan Africa | 2018.75 | Consumption | 35.1 |\n| North Macedonia | Europe and Central Asia | 2019 | Income | 33.5 |\n| Portugal | Rest of the world | 2021 | Income | 34.6 |\n| Qatar | Rest of the world | 2017.5 | Income | 35.1 |\n| Romania | Europe and Central Asia | 2021 | Income | 33.9 |\n| Russian Federation | Europe and Central Asia | 2021 | Income | 35.1 |\n| Samoa | East Asia and Pacific | 2013.25 | Consumption | 38.7 |\n| Senegal | Sub-Saharan Africa | 2021.71 | Consumption | 36.2 |\n| Serbia | Europe and Central Asia | 2021 | Income | 33.1 |\n| Seychelles | Sub-Saharan Africa | 2018.08 | Income | 32.1 |\n| Sierra Leone | Sub-Saharan Africa | 2018 | Consumption | 35.7 |\n| Solomon Islands | East Asia and Pacific | 2012.79 | Consumption | 37.1 |\n| Spain | Rest of the world | 2021 | Income | 33.9 |\n| Sri Lanka | South Asia | 2019 | Consumption | 37.7 |\n| Sudan | Sub-Saharan Africa | 2014 | Consumption | 34.2 |\n| Suriname | Latin America and the Caribbean | 2022 | Consumption | 39.2 |\n| Switzerland | Rest of the world | 2020 | Income | 33.7 |\n| Taiwan, China | Rest of the world | 2021 | Income | 31.6 |\n| Tajikistan | Europe and Central Asia | 2015 | Consumption | 34.0 |\n| Thailand | East Asia and Pacific | 2021 | Consumption | 34.9 |"
+  }
+ ],
+ "parse_ok": true,
+ "page": 184,
+ "captions": [
+  "TABLE 2F.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

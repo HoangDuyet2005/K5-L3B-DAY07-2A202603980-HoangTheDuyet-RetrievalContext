@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 4334,
+ "total_tokens": 1300,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 2.5\",\n      \"kind\": \"chart\",\n      \"title\": \"The COVID-19 pandemic abruptly slowed the gains in the Global Prosperity Gap\",\n      \"bbox\": [\n        498,\n        263,\n        793,\n        785\n      ],\n      \"content\": \"The chart is a stacked bar chart showing the annual growth (%) of the Global Prosperity Gap across four periods: 1990–2000, 2000–2010, 2010–2019, and 2019–2024 (projected). The y-axis represents annual growth (%), ranging from -4 to 1. The x-axis represents the time periods. Legend entries: Contribution of mean growth (dark blue), Contribution of within-country inequality (red), Contribution of between-country inequality (yellow), and Global Prosperity Gap growth rate (blue circle). Data points (approximate values for Global Prosperity Gap growth rate): 1990–2000: -1.5%; 2000–2010: -3.5%; 2010–2019: -2.8%; 2019–2024: -0.8%. Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org. Note: A decrease in the Prosperity Gap is an improvement in welfare. Growth is calculated as the log difference. Change in the Prosperity Gap is the sum of the (negative) growth in the mean income and the decline in total inequality. Positive growth in the mean decreases (improves) the Prosperity Gap and thus, in the figure, the contribution of the mean growth is shown as the negative of mean growth. That is, for all the periods in the graph, there was positive growth in the global mean, which is displayed as a negative contribution. Inequality is measured using the inequality measure related to the Prosperity Gap. Change in total inequality is the sum of changes in between-country and within-country inequality. See annex 2B for further details.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 2.5",
+   "kind": "chart",
+   "title": "The COVID-19 pandemic abruptly slowed the gains in the Global Prosperity Gap",
+   "bbox": [
+    498,
+    263,
+    793,
+    785
+   ],
+   "content": "The chart is a stacked bar chart showing the annual growth (%) of the Global Prosperity Gap across four periods: 1990–2000, 2000–2010, 2010–2019, and 2019–2024 (projected). The y-axis represents annual growth (%), ranging from -4 to 1. The x-axis represents the time periods. Legend entries: Contribution of mean growth (dark blue), Contribution of within-country inequality (red), Contribution of between-country inequality (yellow), and Global Prosperity Gap growth rate (blue circle). Data points (approximate values for Global Prosperity Gap growth rate): 1990–2000: -1.5%; 2000–2010: -3.5%; 2010–2019: -2.8%; 2019–2024: -0.8%. Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org. Note: A decrease in the Prosperity Gap is an improvement in welfare. Growth is calculated as the log difference. Change in the Prosperity Gap is the sum of the (negative) growth in the mean income and the decline in total inequality. Positive growth in the mean decreases (improves) the Prosperity Gap and thus, in the figure, the contribution of the mean growth is shown as the negative of mean growth. That is, for all the periods in the graph, there was positive growth in the global mean, which is displayed as a negative contribution. Inequality is measured using the inequality measure related to the Prosperity Gap. Change in total inequality is the sum of changes in between-country and within-country inequality. See annex 2B for further details."
+  }
+ ],
+ "parse_ok": true,
+ "page": 150,
+ "captions": [
+  "FIGURE 2.5"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

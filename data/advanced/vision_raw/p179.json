@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 6858,
+ "total_tokens": 1908,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"TABLE 2E.1\",\n      \"kind\": \"table\",\n      \"title\": \"Prosperity Gap estimates, by region\",\n      \"bbox\": [\n        408,\n        167,\n        685,\n        833\n      ],\n      \"content\": \"| Region | 1990 | 1995 | 2000 | 2005 | 2010 | 2015 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 |\\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\\n| East Asia and Pacific | 16.5 | 13.0 | 11.5 | 8.06 | 6.26 | 4.06 | 3.25 | 3.28 | 3.04 | 3.00 | 2.92 | 2.83 |\\n| Europe and Central Asia | 3.83 | 5.18 | 5.54 | 3.83 | 2.63 | 2.36 | 2.06 | 2.01 | 1.81 | 1.74 | 1.70 | 1.67 |\\n| Latin America and the Caribbean | 8.01 | 7.52 | 7.64 | 6.15 | 4.40 | 3.60 | 3.57 | 3.61 | 3.67 | 3.36 | 3.28 | 3.25 |\\n| Middle East and North Africa | 5.40 | 5.25 | 4.59 | 4.35 | 4.00 | 4.16 | 4.38 | 4.62 | 4.67 | 4.61 | 4.65 | 4.69 |\\n| South Asia | 12.7 | 11.7 | -- | 10.4 | 9.19 | 8.05 | 6.88 | 7.22 | 6.97 | 6.64 | 6.43 | 6.21 |\\n| Sub-Saharan Africa | 17.9 | 19.2 | 18.5 | 15.8 | 13.3 | 12.4 | 12.3 | 12.7 | 12.6 | 12.4 | 12.3 | 12.2 |\\n| Eastern and Southern Africa | 17.0 | 18.7 | 19.0 | 17.0 | 14.4 | 13.5 | -- | 14.7 | 14.5 | 14.3 | 14.2 | 14.1 |\\n| Western and Central Africa | 19.2 | 19.9 | -- | 14.2 | 11.8 | 10.8 | 9.54 | 9.74 | 9.66 | 9.56 | 9.51 | 9.42 |\\n| Rest of the world | 1.15 | 1.15 | 1.09 | 1.10 | 1.07 | 1.11 | 0.98 | 0.83 | 0.80 | 1.01 | 0.98 | 0.98 |\\n| World | 10.9 | 9.96 | 9.43 | 7.81 | 6.55 | 5.58 | 5.12 | 5.28 | 5.16 | 5.07 | 5.00 | 4.93 |\\n\\nSource: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\\nNote: The estimates for Middle East and North Africa and Eastern and Southern Africa are projected starting in 2019. Western and Central Africa and Sub-Saharan Africa are projected starting in 2020. All other regions are projected in 2023 and 2024. For further details on projection, see annex 1A of chapter 1. Gray shading = projected estimate.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "TABLE 2E.1",
+   "kind": "table",
+   "title": "Prosperity Gap estimates, by region",
+   "bbox": [
+    408,
+    167,
+    685,
+    833
+   ],
+   "content": "| Region | 1990 | 1995 | 2000 | 2005 | 2010 | 2015 | 2019 | 2020 | 2021 | 2022 | 2023 | 2024 |\n| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |\n| East Asia and Pacific | 16.5 | 13.0 | 11.5 | 8.06 | 6.26 | 4.06 | 3.25 | 3.28 | 3.04 | 3.00 | 2.92 | 2.83 |\n| Europe and Central Asia | 3.83 | 5.18 | 5.54 | 3.83 | 2.63 | 2.36 | 2.06 | 2.01 | 1.81 | 1.74 | 1.70 | 1.67 |\n| Latin America and the Caribbean | 8.01 | 7.52 | 7.64 | 6.15 | 4.40 | 3.60 | 3.57 | 3.61 | 3.67 | 3.36 | 3.28 | 3.25 |\n| Middle East and North Africa | 5.40 | 5.25 | 4.59 | 4.35 | 4.00 | 4.16 | 4.38 | 4.62 | 4.67 | 4.61 | 4.65 | 4.69 |\n| South Asia | 12.7 | 11.7 | -- | 10.4 | 9.19 | 8.05 | 6.88 | 7.22 | 6.97 | 6.64 | 6.43 | 6.21 |\n| Sub-Saharan Africa | 17.9 | 19.2 | 18.5 | 15.8 | 13.3 | 12.4 | 12.3 | 12.7 | 12.6 | 12.4 | 12.3 | 12.2 |\n| Eastern and Southern Africa | 17.0 | 18.7 | 19.0 | 17.0 | 14.4 | 13.5 | -- | 14.7 | 14.5 | 14.3 | 14.2 | 14.1 |\n| Western and Central Africa | 19.2 | 19.9 | -- | 14.2 | 11.8 | 10.8 | 9.54 | 9.74 | 9.66 | 9.56 | 9.51 | 9.42 |\n| Rest of the world | 1.15 | 1.15 | 1.09 | 1.10 | 1.07 | 1.11 | 0.98 | 0.83 | 0.80 | 1.01 | 0.98 | 0.98 |\n| World | 10.9 | 9.96 | 9.43 | 7.81 | 6.55 | 5.58 | 5.12 | 5.28 | 5.16 | 5.07 | 5.00 | 4.93 |\n\nSource: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\nNote: The estimates for Middle East and North Africa and Eastern and Southern Africa are projected starting in 2019. Western and Central Africa and Sub-Saharan Africa are projected starting in 2020. All other regions are projected in 2023 and 2024. For further details on projection, see annex 1A of chapter 1. Gray shading = projected estimate."
+  }
+ ],
+ "parse_ok": true,
+ "page": 179,
+ "captions": [
+  "TABLE 2E.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

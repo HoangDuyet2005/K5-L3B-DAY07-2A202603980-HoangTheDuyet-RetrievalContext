@@ -1,0 +1,52 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5517,
+ "total_tokens": 1337,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 1.8\",\n      \"kind\": \"chart\",\n      \"title\": \"Economic growth has been an important driver of extreme poverty reduction\",\n      \"bbox\": [\n        337,\n        167,\n        685,\n        825\n      ],\n      \"content\": {\n        \"chart_type\": \"bubble chart\",\n        \"x_axis\": {\n          \"title\": \"Change in extreme poverty (%)\",\n          \"range\": [-20, 10]\n        },\n        \"y_axis\": {\n          \"title\": \"Growth in per capita consumption (%)\",\n          \"range\": [-5, 15]\n        },\n        \"legend\": [\n          \"East Asia and Pacific\",\n          \"Latin America and the Caribbean\",\n          \"South Asia\",\n          \"Sub-Saharan Africa\"\n        ],\n        \"description\": \"The chart plots the annualized growth rate in per capita consumption against the annualized change in extreme poverty for countries designated as low-income in 1990. Marker size is proportional to population size in the second survey year. The data shows a general trend where higher economic growth is linked to a more rapid reduction in extreme poverty. Countries in East Asia and Pacific and South Asia generally show higher growth and poverty reduction compared to Sub-Saharan Africa.\",\n        \"sources\": \"World Bank, Poverty and Inequality Platform (PIP) (version September 2024), https://pip.worldbank.org; World Development Indicators database.\",\n        \"notes\": \"This chart plots the annualized growth rate in per capita consumption (or income) against the annualized change in extreme poverty (living on less than $2.15 per person per day expressed in 2017 purchasing power parity dollars) using the longest comparable spell for each country in the PIP. The first and last survey years in the longest comparable spell vary by country. The countries represented here were designated as low-income countries in 1990 (and have survey data in PIP). The Arab Republic of Egypt and Myanmar are outliers and are not included for presentational purposes. The size of the marker is proportional to population size in the second survey year. For details on survey comparability, see https://datanalytics.worldbank.org/PIP-Methodology/welfareaggregate.html#comparability.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 1.8",
+   "kind": "chart",
+   "title": "Economic growth has been an important driver of extreme poverty reduction",
+   "bbox": [
+    337,
+    167,
+    685,
+    825
+   ],
+   "content": {
+    "chart_type": "bubble chart",
+    "x_axis": {
+     "title": "Change in extreme poverty (%)",
+     "range": [
+      -20,
+      10
+     ]
+    },
+    "y_axis": {
+     "title": "Growth in per capita consumption (%)",
+     "range": [
+      -5,
+      15
+     ]
+    },
+    "legend": [
+     "East Asia and Pacific",
+     "Latin America and the Caribbean",
+     "South Asia",
+     "Sub-Saharan Africa"
+    ],
+    "description": "The chart plots the annualized growth rate in per capita consumption against the annualized change in extreme poverty for countries designated as low-income in 1990. Marker size is proportional to population size in the second survey year. The data shows a general trend where higher economic growth is linked to a more rapid reduction in extreme poverty. Countries in East Asia and Pacific and South Asia generally show higher growth and poverty reduction compared to Sub-Saharan Africa.",
+    "sources": "World Bank, Poverty and Inequality Platform (PIP) (version September 2024), https://pip.worldbank.org; World Development Indicators database.",
+    "notes": "This chart plots the annualized growth rate in per capita consumption (or income) against the annualized change in extreme poverty (living on less than $2.15 per person per day expressed in 2017 purchasing power parity dollars) using the longest comparable spell for each country in the PIP. The first and last survey years in the longest comparable spell vary by country. The countries represented here were designated as low-income countries in 1990 (and have survey data in PIP). The Arab Republic of Egypt and Myanmar are outliers and are not included for presentational purposes. The size of the marker is proportional to population size in the second survey year. For details on survey comparability, see https://datanalytics.worldbank.org/PIP-Methodology/welfareaggregate.html#comparability."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 101,
+ "captions": [
+  "FIGURE 1.8"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

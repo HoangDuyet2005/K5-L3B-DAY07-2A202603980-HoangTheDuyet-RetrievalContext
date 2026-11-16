@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5328,
+ "total_tokens": 1205,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 1.13\",\n      \"kind\": \"chart\",\n      \"title\": \"Age profile of the poor, 2022\",\n      \"bbox\": [\n        83,\n        167,\n        772,\n        833\n      ],\n      \"content\": \"The figure consists of two bar charts (a and b) showing poverty rates by age group (Child <18, Youth 15-24, Adult 25+) across different regions. Panel a: $2.15 poverty line. Panel b: $6.85 poverty line. Legend: Child (blue), Youth (yellow), Adult (red). Regions: East Asia and Pacific, Europe and Central Asia, Latin America and the Caribbean, Middle East and North Africa*, South Asia, Sub-Saharan Africa*, World. Trends: In both panels, children generally exhibit the highest poverty rates across most regions. Sub-Saharan Africa shows the highest poverty rates in both panels. Source: World Bank, Global Monitoring Database (GMD) (version September 2024). Note: Poverty rates are reported for the $2.15 and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). Estimates are not reported for the rest of the world, where poverty rates are low. Age cutoffs are defined as follows: child (<18), youth (15–24), adult (25+). Note that older children (ages 15–17) are included in both the child and youth categories. * For the Middle East and North Africa and Sub-Saharan Africa, the recent survey data do not cover at least 50 percent of the population.\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 1.13",
+   "kind": "chart",
+   "title": "Age profile of the poor, 2022",
+   "bbox": [
+    83,
+    167,
+    772,
+    833
+   ],
+   "content": "The figure consists of two bar charts (a and b) showing poverty rates by age group (Child <18, Youth 15-24, Adult 25+) across different regions. Panel a: $2.15 poverty line. Panel b: $6.85 poverty line. Legend: Child (blue), Youth (yellow), Adult (red). Regions: East Asia and Pacific, Europe and Central Asia, Latin America and the Caribbean, Middle East and North Africa*, South Asia, Sub-Saharan Africa*, World. Trends: In both panels, children generally exhibit the highest poverty rates across most regions. Sub-Saharan Africa shows the highest poverty rates in both panels. Source: World Bank, Global Monitoring Database (GMD) (version September 2024). Note: Poverty rates are reported for the $2.15 and $6.85 per person per day poverty lines (expressed in 2017 purchasing power parity dollars). Estimates are not reported for the rest of the world, where poverty rates are low. Age cutoffs are defined as follows: child (<18), youth (15–24), adult (25+). Note that older children (ages 15–17) are included in both the child and youth categories. * For the Middle East and North Africa and Sub-Saharan Africa, the recent survey data do not cover at least 50 percent of the population."
+  }
+ ],
+ "parse_ok": true,
+ "page": 115,
+ "captions": [
+  "FIGURE 1.13"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

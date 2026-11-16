@@ -1,0 +1,27 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 5204,
+ "total_tokens": 1617,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE B1.2.1\",\n      \"kind\": \"chart\",\n      \"title\": \"Share of population with survey data in 2020 or later for global poverty monitoring\",\n      \"bbox\": [\n        155,\n        165,\n        715,\n        815\n      ],\n      \"content\": \"The figure consists of two horizontal bar charts comparing population coverage (%) between PSPR 2022 and PPPR 2024. Panel a (Across regional groups) shows: East Asia and Pacific (PSPR 2022: approx. 25%, PPPR 2024: approx. 90%), Europe and Central Asia (PSPR 2022: approx. 40%, PPPR 2024: approx. 90%), Latin America and the Caribbean (PSPR 2022: approx. 80%, PPPR 2024: approx. 85%), Middle East and North Africa (PSPR 2022: 0%, PPPR 2024: approx. 30%), South Asia (PSPR 2022: 0%, PPPR 2024: approx. 85%), Sub-Saharan Africa (PSPR 2022: approx. 5%, PPPR 2024: approx. 40%), Rest of the world (PSPR 2022: approx. 50%, PPPR 2024: approx. 85%), World (PSPR 2022: approx. 20%, PPPR 2024: approx. 75%). Panel b (Across income and other groups) shows: Low-income countries (PSPR 2022: approx. 5%, PPPR 2024: approx. 35%), Lower-middle-income countries (PSPR 2022: approx. 5%, PPPR 2024: approx. 65%), Upper-middle-income countries (PSPR 2022: approx. 35%, PPPR 2024: approx. 90%), High-income countries (PSPR 2022: approx. 5%, PPPR 2024: approx. 95%), Fragile and conflict-affected countries (PSPR 2022: approx. 5%, PPPR 2024: approx. 30%), IDA countries (PSPR 2022: approx. 5%, PPPR 2024: approx. 40%). Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org. Note: IDA = International Development Association; PSPR 2022 = Poverty and Shared Prosperity report 2022; PPPR 2024 = Poverty, Prosperity, and Planet Report 2024. IDA countries are countries eligible for grants and concessionary loans from the World Bank’s IDA, which provides support to the poorest countries in the world (consisting of low-income countries and some countries in other income groups). Data coverage for 2022 is adequate when there are survey data for the year 2020 or later covering at least 50 percent of the population of a region or country group of interest. This condition is consistent with the coverage rules applied in the Poverty and Inequality Platform for reporting regional and global poverty estimates (Castañeda Aguilar et al. 2024).\"\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE B1.2.1",
+   "kind": "chart",
+   "title": "Share of population with survey data in 2020 or later for global poverty monitoring",
+   "bbox": [
+    155,
+    165,
+    715,
+    815
+   ],
+   "content": "The figure consists of two horizontal bar charts comparing population coverage (%) between PSPR 2022 and PPPR 2024. Panel a (Across regional groups) shows: East Asia and Pacific (PSPR 2022: approx. 25%, PPPR 2024: approx. 90%), Europe and Central Asia (PSPR 2022: approx. 40%, PPPR 2024: approx. 90%), Latin America and the Caribbean (PSPR 2022: approx. 80%, PPPR 2024: approx. 85%), Middle East and North Africa (PSPR 2022: 0%, PPPR 2024: approx. 30%), South Asia (PSPR 2022: 0%, PPPR 2024: approx. 85%), Sub-Saharan Africa (PSPR 2022: approx. 5%, PPPR 2024: approx. 40%), Rest of the world (PSPR 2022: approx. 50%, PPPR 2024: approx. 85%), World (PSPR 2022: approx. 20%, PPPR 2024: approx. 75%). Panel b (Across income and other groups) shows: Low-income countries (PSPR 2022: approx. 5%, PPPR 2024: approx. 35%), Lower-middle-income countries (PSPR 2022: approx. 5%, PPPR 2024: approx. 65%), Upper-middle-income countries (PSPR 2022: approx. 35%, PPPR 2024: approx. 90%), High-income countries (PSPR 2022: approx. 5%, PPPR 2024: approx. 95%), Fragile and conflict-affected countries (PSPR 2022: approx. 5%, PPPR 2024: approx. 30%), IDA countries (PSPR 2022: approx. 5%, PPPR 2024: approx. 40%). Source: World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org. Note: IDA = International Development Association; PSPR 2022 = Poverty and Shared Prosperity report 2022; PPPR 2024 = Poverty, Prosperity, and Planet Report 2024. IDA countries are countries eligible for grants and concessionary loans from the World Bank’s IDA, which provides support to the poorest countries in the world (consisting of low-income countries and some countries in other income groups). Data coverage for 2022 is adequate when there are survey data for the year 2020 or later covering at least 50 percent of the population of a region or country group of interest. This condition is consistent with the coverage rules applied in the Poverty and Inequality Platform for reporting regional and global poverty estimates (Castañeda Aguilar et al. 2024)."
+  }
+ ],
+ "parse_ok": true,
+ "page": 89,
+ "captions": [
+  "FIGURE B1.2.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

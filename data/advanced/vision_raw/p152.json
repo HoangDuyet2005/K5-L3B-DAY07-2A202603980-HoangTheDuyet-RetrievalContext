@@ -1,0 +1,141 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 3871,
+ "total_tokens": 1945,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 2.6\",\n      \"kind\": \"chart\",\n      \"title\": \"Inequality increases the Prosperity Gap\",\n      \"bbox\": [\n        86,\n        265,\n        585,\n        783\n      ],\n      \"content\": {\n        \"chart_type\": \"stacked horizontal bar chart\",\n        \"axis_titles\": {\n          \"x_axis\": \"Prosperity Gap\",\n          \"y_axis\": \"Countries\"\n        },\n        \"legend\": [\n          \"Prosperity Gap with benchmark inequality\",\n          \"Excess gap due to current level of inequality\"\n        ],\n        \"data\": [\n          {\n            \"country\": \"Madagascar\",\n            \"benchmark_gap\": 18.85,\n            \"excess_gap\": 27.32\n          },\n          {\n            \"country\": \"Congo, Dem. Rep.\",\n            \"benchmark_gap\": 17.16,\n            \"excess_gap\": 25.97\n          },\n          {\n            \"country\": \"Malawi\",\n            \"benchmark_gap\": 14.50,\n            \"excess_gap\": 18.70\n          },\n          {\n            \"country\": \"Mozambique\",\n            \"benchmark_gap\": 14.29,\n            \"excess_gap\": 25.16\n          },\n          {\n            \"country\": \"South Sudan\",\n            \"benchmark_gap\": 13.94,\n            \"excess_gap\": 22.44\n          },\n          {\n            \"country\": \"Central African Republic\",\n            \"benchmark_gap\": 13.39,\n            \"excess_gap\": 19.95\n          },\n          {\n            \"country\": \"Burundi\",\n            \"benchmark_gap\": 12.81,\n            \"excess_gap\": 16.34\n          },\n          {\n            \"country\": \"Zambia\",\n            \"benchmark_gap\": 11.87,\n            \"excess_gap\": 23.06\n          },\n          {\n            \"country\": \"Niger\",\n            \"benchmark_gap\": 11.15,\n            \"excess_gap\": 12.64\n          },\n          {\n            \"country\": \"Rwanda\",\n            \"benchmark_gap\": 9.72,\n            \"excess_gap\": 14.04\n          },\n          {\n            \"country\": \"Tanzania\",\n            \"benchmark_gap\": 9.11,\n            \"excess_gap\": 12.06\n          },\n          {\n            \"country\": \"Syrian Arab Republic\",\n            \"benchmark_gap\": 9.03,\n            \"excess_gap\": 9.53\n          },\n          {\n            \"country\": \"Turkmenistan\",\n            \"benchmark_gap\": 9.00,\n            \"excess_gap\": 12.59\n          },\n          {\n            \"country\": \"Timor-Leste\",\n            \"benchmark_gap\": 8.76,\n            \"excess_gap\": 9.33\n          },\n          {\n            \"country\": \"Papua New Guinea\",\n            \"benchmark_gap\": 8.64,\n            \"excess_gap\": 13.32\n          },\n          {\n            \"country\": \"Uganda\",\n            \"benchmark_gap\": 8.51,\n            \"excess_gap\": 12.14\n          },\n          {\n            \"country\": \"Kenya\",\n            \"benchmark_gap\": 8.35,\n            \"excess_gap\": 10.82\n          },\n          {\n            \"country\": \"Nigeria\",\n            \"benchmark_gap\": 8.21,\n            \"excess_gap\": 10.17\n          },\n          {\n            \"country\": \"Ethiopia\",\n            \"benchmark_gap\": 8.02,\n            \"excess_gap\": 9.84\n          },\n          {\n            \"country\": \"Liberia\",\n            \"benchmark_gap\": 7.73,\n            \"excess_gap\": 9.52\n          }\n        ],\n        \"source\": \"World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.\",\n        \"note\": \"Each bar indicates the Prosperity Gaps with benchmark level of inequality (dark blue) and with current level of inequality (yellow) for the 20 poorest countries with data, ranked by average per capita household consumption. Countries are ranked from the poorest (top) to the richest (bottom). The benchmark inequality is the lowest observed inequality in the Poverty and Inequality Platform. Estimates are reported using the latest household survey.\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 2.6",
+   "kind": "chart",
+   "title": "Inequality increases the Prosperity Gap",
+   "bbox": [
+    86,
+    265,
+    585,
+    783
+   ],
+   "content": {
+    "chart_type": "stacked horizontal bar chart",
+    "axis_titles": {
+     "x_axis": "Prosperity Gap",
+     "y_axis": "Countries"
+    },
+    "legend": [
+     "Prosperity Gap with benchmark inequality",
+     "Excess gap due to current level of inequality"
+    ],
+    "data": [
+     {
+      "country": "Madagascar",
+      "benchmark_gap": 18.85,
+      "excess_gap": 27.32
+     },
+     {
+      "country": "Congo, Dem. Rep.",
+      "benchmark_gap": 17.16,
+      "excess_gap": 25.97
+     },
+     {
+      "country": "Malawi",
+      "benchmark_gap": 14.5,
+      "excess_gap": 18.7
+     },
+     {
+      "country": "Mozambique",
+      "benchmark_gap": 14.29,
+      "excess_gap": 25.16
+     },
+     {
+      "country": "South Sudan",
+      "benchmark_gap": 13.94,
+      "excess_gap": 22.44
+     },
+     {
+      "country": "Central African Republic",
+      "benchmark_gap": 13.39,
+      "excess_gap": 19.95
+     },
+     {
+      "country": "Burundi",
+      "benchmark_gap": 12.81,
+      "excess_gap": 16.34
+     },
+     {
+      "country": "Zambia",
+      "benchmark_gap": 11.87,
+      "excess_gap": 23.06
+     },
+     {
+      "country": "Niger",
+      "benchmark_gap": 11.15,
+      "excess_gap": 12.64
+     },
+     {
+      "country": "Rwanda",
+      "benchmark_gap": 9.72,
+      "excess_gap": 14.04
+     },
+     {
+      "country": "Tanzania",
+      "benchmark_gap": 9.11,
+      "excess_gap": 12.06
+     },
+     {
+      "country": "Syrian Arab Republic",
+      "benchmark_gap": 9.03,
+      "excess_gap": 9.53
+     },
+     {
+      "country": "Turkmenistan",
+      "benchmark_gap": 9.0,
+      "excess_gap": 12.59
+     },
+     {
+      "country": "Timor-Leste",
+      "benchmark_gap": 8.76,
+      "excess_gap": 9.33
+     },
+     {
+      "country": "Papua New Guinea",
+      "benchmark_gap": 8.64,
+      "excess_gap": 13.32
+     },
+     {
+      "country": "Uganda",
+      "benchmark_gap": 8.51,
+      "excess_gap": 12.14
+     },
+     {
+      "country": "Kenya",
+      "benchmark_gap": 8.35,
+      "excess_gap": 10.82
+     },
+     {
+      "country": "Nigeria",
+      "benchmark_gap": 8.21,
+      "excess_gap": 10.17
+     },
+     {
+      "country": "Ethiopia",
+      "benchmark_gap": 8.02,
+      "excess_gap": 9.84
+     },
+     {
+      "country": "Liberia",
+      "benchmark_gap": 7.73,
+      "excess_gap": 9.52
+     }
+    ],
+    "source": "World Bank, Poverty and Inequality Platform (version September 2024), https://pip.worldbank.org.",
+    "note": "Each bar indicates the Prosperity Gaps with benchmark level of inequality (dark blue) and with current level of inequality (yellow) for the 20 poorest countries with data, ranked by average per capita household consumption. Countries are ranked from the poorest (top) to the richest (bottom). The benchmark inequality is the lowest observed inequality in the Poverty and Inequality Platform. Estimates are reported using the latest household survey."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 152,
+ "captions": [
+  "FIGURE 2.6"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}

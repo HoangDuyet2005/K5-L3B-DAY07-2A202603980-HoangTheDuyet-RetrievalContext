@@ -1,0 +1,126 @@
+{
+ "model_version": "gemini-3.1-flash-lite",
+ "finish_reason": "STOP",
+ "latency_ms": 7075,
+ "total_tokens": 2186,
+ "raw_text": "{\n  \"items\": [\n    {\n      \"label\": \"FIGURE 1B.1\",\n      \"kind\": \"chart\",\n      \"title\": \"Changes in poverty rates during the COVID-19 pandemic\",\n      \"bbox\": [\n        388,\n        168,\n        745,\n        832\n      ],\n      \"content\": {\n        \"chart_type\": \"horizontal bar chart\",\n        \"axes\": {\n          \"x_axis\": \"Change in poverty rate relative to previous year (percentage points)\",\n          \"y_axis\": \"Regions and World\"\n        },\n        \"legend\": [\n          \"PSPR 2020\",\n          \"PSPR 2022\",\n          \"PPPR 2024\"\n        ],\n        \"data_points\": {\n          \"East Asia and Pacific\": {\n            \"2020\": { \"PSPR 2020\": \"approx. 0.2\", \"PSPR 2022\": \"approx. 0.1\", \"PPPR 2024\": \"approx. 0.1\" },\n            \"2021\": { \"PSPR 2020\": null, \"PSPR 2022\": \"approx. -0.1\", \"PPPR 2024\": \"approx. -0.1\" }\n          },\n          \"Europe and Central Asia\": {\n            \"2020\": { \"PSPR 2020\": \"approx. 0.1\", \"PSPR 2022\": \"approx. 0.1\", \"PPPR 2024\": \"approx. 0.1\" },\n            \"2021\": { \"PSPR 2020\": null, \"PSPR 2022\": \"approx. -0.1\", \"PPPR 2024\": \"approx. -0.1\" }\n          },\n          \"Latin America and the Caribbean\": {\n            \"2020\": { \"PSPR 2020\": \"approx. 0.5\", \"PSPR 2022\": \"approx. 0.5\", \"PPPR 2024\": \"approx. 0.3\" },\n            \"2021\": { \"PSPR 2020\": null, \"PSPR 2022\": \"approx. -0.2\", \"PPPR 2024\": \"approx. -0.2\" }\n          },\n          \"South Asia\": {\n            \"2020\": { \"PSPR 2020\": \"approx. 1.5\", \"PSPR 2022\": \"approx. 2.5\", \"PPPR 2024\": \"approx. 2.2\" },\n            \"2021\": { \"PSPR 2020\": null, \"PSPR 2022\": \"approx. -0.5\", \"PPPR 2024\": \"approx. -0.5\" }\n          },\n          \"Sub-Saharan Africa*\": {\n            \"2020\": { \"PSPR 2020\": \"approx. 0.5\", \"PSPR 2022\": \"approx. 1.2\", \"PPPR 2024\": \"approx. 1.2\" },\n            \"2021\": { \"PSPR 2020\": null, \"PSPR 2022\": \"approx. -0.2\", \"PPPR 2024\": \"approx. -0.2\" }\n          },\n          \"Rest of the world\": {\n            \"2020\": { \"PSPR 2020\": \"approx. 0.1\", \"PSPR 2022\": \"approx. 0.1\", \"PPPR 2024\": \"approx. 0.1\" },\n            \"2021\": { \"PSPR 2020\": null, \"PSPR 2022\": \"approx. 0.0\", \"PPPR 2024\": \"approx. 0.0\" }\n          },\n          \"World\": {\n            \"2020\": { \"PSPR 2020\": \"approx. 0.8\", \"PSPR 2022\": \"approx. 0.9\", \"PPPR 2024\": \"approx. 0.85\" },\n            \"2021\": { \"PSPR 2020\": null, \"PSPR 2022\": \"approx. -0.2\", \"PPPR 2024\": \"approx. -0.2\" }\n          }\n        },\n        \"sources\": \"World Bank 2020, 2022; World Bank, Poverty and Inequality Platform (PIP, version September 2024), https://pip.worldbank.org.\",\n        \"notes\": \"PPPR = Poverty, Prosperity, and Planet Report; PSPR = Poverty and Shared Prosperity report. Poverty is reported using the $2.15 per person per day poverty line (expressed in 2017 purchasing power parity dollars). Estimates for the Middle East and North Africa are not shown because population coverage is insufficient and was not reported in the earlier publications. Different editions of PIP and growth data have been used for each of the three reports. The latest available growth data used for nowcasting poverty at the time of writing the 2020 PSPR was the June 2020 version of the Global Economic Prospects (GEP) database. The 2022 PSPR used the June 2022 version of GEP and accounted for some distributional impacts of COVID-19 on households. See box 1.3 of the 2022 PSPR for more details (World Bank 2022). * Less than 50 percent of the population is covered with a recent survey (conducted in 2020 or later).\"\n      }\n    }\n  ]\n}",
+ "items": [
+  {
+   "label": "FIGURE 1B.1",
+   "kind": "chart",
+   "title": "Changes in poverty rates during the COVID-19 pandemic",
+   "bbox": [
+    388,
+    168,
+    745,
+    832
+   ],
+   "content": {
+    "chart_type": "horizontal bar chart",
+    "axes": {
+     "x_axis": "Change in poverty rate relative to previous year (percentage points)",
+     "y_axis": "Regions and World"
+    },
+    "legend": [
+     "PSPR 2020",
+     "PSPR 2022",
+     "PPPR 2024"
+    ],
+    "data_points": {
+     "East Asia and Pacific": {
+      "2020": {
+       "PSPR 2020": "approx. 0.2",
+       "PSPR 2022": "approx. 0.1",
+       "PPPR 2024": "approx. 0.1"
+      },
+      "2021": {
+       "PSPR 2020": null,
+       "PSPR 2022": "approx. -0.1",
+       "PPPR 2024": "approx. -0.1"
+      }
+     },
+     "Europe and Central Asia": {
+      "2020": {
+       "PSPR 2020": "approx. 0.1",
+       "PSPR 2022": "approx. 0.1",
+       "PPPR 2024": "approx. 0.1"
+      },
+      "2021": {
+       "PSPR 2020": null,
+       "PSPR 2022": "approx. -0.1",
+       "PPPR 2024": "approx. -0.1"
+      }
+     },
+     "Latin America and the Caribbean": {
+      "2020": {
+       "PSPR 2020": "approx. 0.5",
+       "PSPR 2022": "approx. 0.5",
+       "PPPR 2024": "approx. 0.3"
+      },
+      "2021": {
+       "PSPR 2020": null,
+       "PSPR 2022": "approx. -0.2",
+       "PPPR 2024": "approx. -0.2"
+      }
+     },
+     "South Asia": {
+      "2020": {
+       "PSPR 2020": "approx. 1.5",
+       "PSPR 2022": "approx. 2.5",
+       "PPPR 2024": "approx. 2.2"
+      },
+      "2021": {
+       "PSPR 2020": null,
+       "PSPR 2022": "approx. -0.5",
+       "PPPR 2024": "approx. -0.5"
+      }
+     },
+     "Sub-Saharan Africa*": {
+      "2020": {
+       "PSPR 2020": "approx. 0.5",
+       "PSPR 2022": "approx. 1.2",
+       "PPPR 2024": "approx. 1.2"
+      },
+      "2021": {
+       "PSPR 2020": null,
+       "PSPR 2022": "approx. -0.2",
+       "PPPR 2024": "approx. -0.2"
+      }
+     },
+     "Rest of the world": {
+      "2020": {
+       "PSPR 2020": "approx. 0.1",
+       "PSPR 2022": "approx. 0.1",
+       "PPPR 2024": "approx. 0.1"
+      },
+      "2021": {
+       "PSPR 2020": null,
+       "PSPR 2022": "approx. 0.0",
+       "PPPR 2024": "approx. 0.0"
+      }
+     },
+     "World": {
+      "2020": {
+       "PSPR 2020": "approx. 0.8",
+       "PSPR 2022": "approx. 0.9",
+       "PPPR 2024": "approx. 0.85"
+      },
+      "2021": {
+       "PSPR 2020": null,
+       "PSPR 2022": "approx. -0.2",
+       "PPPR 2024": "approx. -0.2"
+      }
+     }
+    },
+    "sources": "World Bank 2020, 2022; World Bank, Poverty and Inequality Platform (PIP, version September 2024), https://pip.worldbank.org.",
+    "notes": "PPPR = Poverty, Prosperity, and Planet Report; PSPR = Poverty and Shared Prosperity report. Poverty is reported using the $2.15 per person per day poverty line (expressed in 2017 purchasing power parity dollars). Estimates for the Middle East and North Africa are not shown because population coverage is insufficient and was not reported in the earlier publications. Different editions of PIP and growth data have been used for each of the three reports. The latest available growth data used for nowcasting poverty at the time of writing the 2020 PSPR was the June 2020 version of the Global Economic Prospects (GEP) database. The 2022 PSPR used the June 2022 version of GEP and accounted for some distributional impacts of COVID-19 on households. See box 1.3 of the 2022 PSPR for more details (World Bank 2022). * Less than 50 percent of the population is covered with a recent survey (conducted in 2020 or later)."
+   }
+  }
+ ],
+ "parse_ok": true,
+ "page": 123,
+ "captions": [
+  "FIGURE 1B.1"
+ ],
+ "model_requested": "gemini-3.1-flash-lite"
+}
