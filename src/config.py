@@ -15,8 +15,10 @@ ENV_PATH = REPO_DIR / ".env"
 # --- Agent model (approved by the student on 2026-11-16) -------------------------------
 # Gemini API over REST with urllib; no SDK. Google may serve a newer build under this name,
 # so every call must log the `modelVersion` returned in the response.
+# Switched from "gemini-3.5-flash" (served as gemini-3.6-flash) on 2026-11-16, before any full
+# agent evaluation: its free tier allows only 20 requests/day; 3.5 Flash-Lite allows 500/day.
 AGENT_PROVIDER = "gemini-api"
-AGENT_MODEL = "gemini-3.5-flash"
+AGENT_MODEL = "gemini-3.5-flash-lite"
 GEMINI_API_BASE = "https://generativelanguage.googleapis.com/v1beta"
 
 # --- Day 6 embedding: must match the stored index; never change ------------------------

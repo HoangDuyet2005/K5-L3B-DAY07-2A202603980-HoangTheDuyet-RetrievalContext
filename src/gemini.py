@@ -21,6 +21,15 @@ class GeminiError(RuntimeError):
     pass
 
 
+class GeminiQuotaExhausted(GeminiError):
+    """Daily quota used up: retrying the same day cannot succeed, so callers should stop."""
+
+
+def is_daily_quota_error(status: int, detail: str) -> bool:
+    text = detail.lower()
+    return status == 429 and ("perday" in text or "per day" in text)
+
+
 class GeminiClient:
     def __init__(self, api_key: str, model: str, *, base: str = GEMINI_API_BASE, timeout: float = 120.0,
                  max_retries: int = 2, backoff_seconds: float = 10.0) -> None:
@@ -42,9 +51,12 @@ class GeminiClient:
                 return {"response": payload, "attempts": attempts,
                         "latency_ms": sum(a["ms"] for a in attempts)}
             except urllib.error.HTTPError as e:
-                detail = e.read().decode("utf-8", "replace")[:500]
+                detail = e.read().decode("utf-8", "replace")[:2000]
                 attempts.append({"status": e.code, "ms": round((time.perf_counter() - started) * 1000),
-                                 "error": detail})
+                                 "error": detail[:500]})
+                if is_daily_quota_error(e.code, detail):
+                    raise GeminiQuotaExhausted(f"HTTP 429 daily quota exhausted for {self.model}: "
+                                               f"{detail[:300]}") from e
                 if e.code not in RETRY_STATUS or attempt == self.max_retries:
                     raise GeminiError(f"HTTP {e.code}: {detail}") from e
             except (urllib.error.URLError, TimeoutError) as e:

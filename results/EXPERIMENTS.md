@@ -101,3 +101,10 @@ Không thay đổi tiêu chí này sau khi thấy kết quả. Nếu buộc ph�
 → **Ứng viên: hybrid RRF, budget 2.700.** Chênh lệch ở bước 4 rất nhỏ (khoảng 5–33 ký tự trung bình), nên trên dev ba ứng viên gần như ngang nhau; việc chọn hybrid RRF là theo đúng tiêu chí đã ghi, không phải vì nó tốt hơn rõ rệt. Metric này đo bằng **câu hỏi gốc**; agent sẽ tự viết query, nên bước B (agent trên dev) mới là xác nhận thực tế.
 
 **Bước B, dự kiến:** chạy agent Gemini đủ 23 câu dev cho baseline (dense, 800) và ứng viên (hybrid RRF, 2.700), cùng `max_searches` = 3, rồi chấm tay grounded answer, citation và abstention.
+
+### Sự cố S2: hết hạn mức gói miễn phí, đổi agent model (2026-11-16)
+
+- **Chuyện gì xảy ra:** lần chạy bước B đầu tiên (baseline dense/800, commit `8d3450e`, bắt đầu 07:19 UTC) chạy được dev-q01 (abstain) và dev-q02 (answered); từ dev-q03 trở đi mọi câu báo `error`. Request chẩn đoán trả về `HTTP 429 RESOURCE_EXHAUSTED: generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash` (quota `GenerateRequestsPerDayPerProjectPerModel-FreeTier`). Gói miễn phí của `gemini-3.5-flash` (Google phục vụ bằng `gemini-3.6-flash`) chỉ cho 20 request/ngày; chạy thử ở chặng 0 và S1 cùng 9 request của lần chạy này đã dùng hết.
+- **Xử lý:** dừng lần chạy ở dev-q07. Không có file kết quả nào được giữ, vì code cũ chỉ ghi trace khi chạy xong cả lượt, nên kết quả của dev-q01 và dev-q02 bị mất; lần chạy này không được dùng để chọn cấu hình.
+- **Đổi agent model** (học viên duyệt) sang `gemini-3.5-flash-lite`: cùng thế hệ 3.5, gói miễn phí 500 request/ngày (theo trang Rate limit của AI Studio, project của học viên). Dự phòng: `gemini-3.1-flash-lite` (500/ngày). Việc đổi xảy ra **trước mọi lần chạy agent chính thức**; baseline và ứng viên dùng cùng model mới. Run thử S1 giữ lại làm tư liệu và được ghi rõ là dùng model cũ.
+- **Sửa code để không lặp lại:** ghi trace ngay sau mỗi câu; dừng cả lượt khi gặp lỗi hết hạn mức trong ngày (lỗi 429 tạm thời theo phút vẫn được thử lại); `run_metadata.json` ghi `completed` và `aborted_reason`.

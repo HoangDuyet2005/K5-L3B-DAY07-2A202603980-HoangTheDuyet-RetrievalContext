@@ -50,7 +50,7 @@ class Day6AdapterTests(unittest.TestCase):
             with mock.patch.dict(os.environ, {}, clear=True):
                 settings = load_settings(env)
                 self.assertEqual(settings.gemini_api_key, 'k')
-                self.assertEqual(settings.agent_model, 'gemini-3.5-flash')
+                self.assertEqual(settings.agent_model, 'gemini-3.5-flash-lite')
             with mock.patch.dict(os.environ, {'GEMINI_API_KEY': 'from-env', 'GEMINI_MODEL': 'other'}, clear=True):
                 settings = load_settings(env)
                 self.assertEqual(settings.gemini_api_key, 'from-env')

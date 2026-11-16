@@ -84,6 +84,20 @@ class ParseTests(unittest.TestCase):
         name, args, meta = parse_function_call(resp)
         self.assertEqual((name, args, meta['model_version'], meta['thought_tokens']), ('search', {'query': 'x'}, 'gemini-x', 33))
 
+    def test_daily_quota_is_detected_and_stops_the_case(self):
+        from src.gemini import GeminiQuotaExhausted, is_daily_quota_error
+        body = '{"error": {"code": 429, "details": [{"quotaId": "GenerateRequestsPerDayPerProjectPerModel-FreeTier"}]}}'
+        self.assertTrue(is_daily_quota_error(429, body))
+        self.assertFalse(is_daily_quota_error(429, '{"quotaId": "GenerateRequestsPerMinutePerProjectPerModel"}'))
+        self.assertFalse(is_daily_quota_error(503, body))
+
+        class QuotaController:
+            def decide(self, *args):
+                raise GeminiQuotaExhausted('HTTP 429 daily quota exhausted')
+        r = run_agent('Q?', filters=None, controller=QuotaController(), retriever=FakeRetriever())
+        self.assertEqual(r['status'], 'error')
+        self.assertTrue(r['error'].startswith('GeminiQuotaExhausted'))
+
     def test_text_only_response_raises(self):
         with self.assertRaises(GeminiError):
             parse_function_call({'candidates': [{'content': {'parts': [{'text': 'hello'}]}}]})
