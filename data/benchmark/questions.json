@@ -1,0 +1,564 @@
+[
+  {
+    "id": "dev-q01",
+    "split": "dev",
+    "question": "What share of the global population lives in extreme poverty in 2024, and how many people is that?",
+    "expected_answer": "About 8.5 percent of the global population, i.e. 692 million people living on less than $2.15 per person per day.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 35,
+        "evidence": "About 8.5 percent of the global population lives in extreme poverty in 2024. This means that 692 million people worldwide live on less than $2.15 per person per day"
+      }
+    ],
+    "type": "direct",
+    "section": "progress",
+    "origin": "day6:q01",
+    "day6_split": "dev",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "Copied from Day 6; seen during Day 6 development, so used only as Day 7 dev."
+  },
+  {
+    "id": "dev-q02",
+    "split": "dev",
+    "question": "Under a scenario where every country grows 2 percent per capita per year, how much faster would poverty be eradicated if each country's Gini index also fell by 2 percent annually?",
+    "expected_answer": "It would take 40 years less: 20 years instead of 60 years.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 36,
+        "evidence": "under the 2 percent per capita growth scenario, if the Gini index in every country were to also decrease by 2 percent annually, it would take 40 years less to eradicate poverty (20 versus 60 years)."
+      }
+    ],
+    "type": "condition",
+    "section": "progress",
+    "origin": "day6:q02",
+    "day6_split": "dev",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "Copied from Day 6; seen during Day 6 development, so used only as Day 7 dev."
+  },
+  {
+    "id": "dev-q03",
+    "split": "dev",
+    "question": "How much in potential lifetime earnings does the current generation of students risk losing, in present value?",
+    "expected_answer": "$21 trillion in potential lifetime earnings in present value, equivalent to 17 percent of today's global GDP.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 40,
+        "evidence": "This generation of students now risks losing $21 trillion in potential lifetime earnings in present value, or the equivalent of 17 percent of today’s global GDP"
+      }
+    ],
+    "type": "paraphrase",
+    "section": "progress",
+    "origin": "day6:q03",
+    "day6_split": "dev",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "Copied from Day 6; seen during Day 6 development, so used only as Day 7 dev."
+  },
+  {
+    "id": "dev-q04",
+    "split": "dev",
+    "question": "In the Progress section of the overview, what share of the global extreme poor live in countries eligible for IDA support?",
+    "expected_answer": "IDA-eligible countries account for 7 in 10 of the global extreme poor.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 41,
+        "evidence": "countries eligible for support through the International Development Association (IDA) account for 7 in 10 of the global extreme poor."
+      }
+    ],
+    "type": "metadata_filter",
+    "section": "progress",
+    "origin": "day6:q04",
+    "day6_split": "dev",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "Copied from Day 6; seen during Day 6 development, so used only as Day 7 dev.",
+    "filter": {
+      "section": "progress"
+    }
+  },
+  {
+    "id": "dev-q05",
+    "split": "dev",
+    "question": "What is the Global Prosperity Gap and what prosperity standard does it use?",
+    "expected_answer": "It is the average factor by which incomes need to be multiplied to bring everyone in the world to the prosperity standard of $25 per person per day.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 41,
+        "evidence": "It is the average factor by which incomes need to be multiplied to bring everyone in the world to the prosperity standard of $25 per person per day"
+      },
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 42,
+        "evidence": "The Prosperity Gap is defined as the average income multiple needed to reach that $25 standard for every member of that society"
+      }
+    ],
+    "type": "direct",
+    "section": "progress",
+    "origin": "day6:q05",
+    "day6_split": "dev",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "Copied from Day 6; seen during Day 6 development, so used only as Day 7 dev. Day 6 evidence spans two index-B chunks (p41 c002+c003), so it is replaced by two alternative single-chunk quotes: the definition on p41 and the Box O.1 definition on p42."
+  },
+  {
+    "id": "dev-q06",
+    "split": "dev",
+    "question": "At what annual rate did the Global Prosperity Gap improve between 1990 and 2024, and what drove it?",
+    "expected_answer": "2.34 percent per year, with global mean income rising 1.48 percent per year and global inequality declining by 0.86 percent.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 44,
+        "evidence": "Between 1990 and 2024, the Global Prosperity Gap improved at an annual rate of 2.34 percent, with global mean income increasing at an annual rate of 1.48 percent and global inequality declining by 0.86 percent."
+      }
+    ],
+    "type": "direct",
+    "section": "progress",
+    "origin": "day6:q06",
+    "day6_split": "dev",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "Copied from Day 6; seen during Day 6 development, so used only as Day 7 dev."
+  },
+  {
+    "id": "dev-q07",
+    "split": "dev",
+    "question": "What proportion of people worldwide face a high risk of a severe climate shock they would struggle to recover from?",
+    "expected_answer": "Nearly one in five people (17.9 percent).",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 49,
+        "evidence": "Nearly one in five people (17.9 percent) is at high risk from climate-related hazards globally, meaning they are likely to experience a severe climate shock in their lifetime that they will struggle to recover from."
+      }
+    ],
+    "type": "paraphrase",
+    "section": "progress",
+    "origin": "day6:q07",
+    "day6_split": "dev",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "Copied from Day 6; seen during Day 6 development, so used only as Day 7 dev."
+  },
+  {
+    "id": "dev-q08",
+    "split": "dev",
+    "question": "In low-income countries, what share of natural disaster losses was covered by insurance?",
+    "expected_answer": "Less than 10 percent of losses were covered by insurance in low-income countries (compared with about one-third of the $380 billion global natural-disaster losses in 2023), forcing governments to redirect limited development funds toward disaster recovery.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 55,
+        "evidence": "In 2023, the estimated global economic losses due to natural disasters was $380 billion,15 of which only about one-third were covered by insurance. In low-income countries, less than 10 percent of losses were covered by insurance, forcing governments to redirect limited development funds toward disaster recovery."
+      }
+    ],
+    "type": "direct",
+    "section": "pathways",
+    "origin": "day6:q08",
+    "day6_split": "dev",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "Copied from Day 6; seen during Day 6 development, so used only as Day 7 dev."
+  },
+  {
+    "id": "dev-q09",
+    "split": "dev",
+    "question": "How many people did Bangladesh evacuate for Cyclone Amphan in 2020, and how many fatalities were there?",
+    "expected_answer": "2.4 million people were evacuated, with 20 fatalities.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 57,
+        "evidence": "in 2020, Bangladesh evacuated 2.4 million people for Cyclone Amphan, with 20 fatalities."
+      }
+    ],
+    "type": "direct",
+    "section": "pathways",
+    "origin": "day6:q09",
+    "day6_split": "dev",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "Copied from Day 6; seen during Day 6 development, so used only as Day 7 dev."
+  },
+  {
+    "id": "dev-q10",
+    "split": "dev",
+    "question": "Relative to 2019, how much additional emissions would eradicating extreme poverty entail, and how much would they reach at the $6.85-per-day poverty line?",
+    "expected_answer": "Eradicating extreme poverty would entail 4.7 percent more emissions than in 2019; at $6.85 per person per day, additional emissions would reach 46 percent (with historical emission intensities).",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 59,
+        "evidence": "Eradicating extreme poverty would entail 4.7 percent more emissions than in 2019 (figure O.10). This number becomes larger at higher poverty lines. At $6.85 per person per day, additional emissions would reach 46 percent with historical emission intensities"
+      }
+    ],
+    "type": "condition",
+    "section": "pathways",
+    "origin": "day6:q10",
+    "day6_split": "dev",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "Copied from Day 6; seen during Day 6 development, so used only as Day 7 dev."
+  },
+  {
+    "id": "dev-q11",
+    "split": "dev",
+    "question": "Why are cuts in coal production unlikely to hurt national employment much in a major coal exporter like Indonesia?",
+    "expected_answer": "Because the coal industry has a low labor share: in Indonesia it accounts for less than 2 percent of GDP and employs only 0.2 percent of the workforce.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 62,
+        "evidence": "Reductions in coal production are unlikely to have substantial effects on national employment and output in many economies because of the industry’s low labor share. For example, in Indonesia, the world’s second-largest coal exporter, the coal industry’s share of the GDP is less than 2 percent, and it employs only 0.2 percent of the workforce"
+      }
+    ],
+    "type": "paraphrase",
+    "section": "pathways",
+    "origin": "day6:q11",
+    "day6_split": "dev",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "Copied from Day 6; seen during Day 6 development, so used only as Day 7 dev."
+  },
+  {
+    "id": "dev-q12",
+    "split": "dev",
+    "question": "How large have interest payments on external debt in IDA countries become?",
+    "expected_answer": "They have quadrupled since 2012, reaching an all-time high of $23.6 billion.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 64,
+        "evidence": "Interest payments on their total external debt stock in IDA countries have quadrupled since 2012, reaching an all-time high of $23.6 billion"
+      }
+    ],
+    "type": "direct",
+    "section": "priorities",
+    "origin": "day6:q12",
+    "day6_split": "dev",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "Copied from Day 6; seen during Day 6 development, so used only as Day 7 dev."
+  },
+  {
+    "id": "dev-q13",
+    "split": "dev",
+    "question": "In the Priorities section of the overview, what share of the global poor are current IDA countries projected to account for in 2030?",
+    "expected_answer": "82 percent of the global poor in 2030 (and 90 percent of the global extreme poor in 2050), with currently projected growth rates.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 66,
+        "evidence": "Current IDA countries will comprise 82 percent of the global poor in 2030 with the currently projected growth rates, and 90 percent of the global extreme poor in 2050."
+      }
+    ],
+    "type": "metadata_filter",
+    "section": "priorities",
+    "origin": "day6:q13",
+    "day6_split": "dev",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "Copied from Day 6; seen during Day 6 development, so used only as Day 7 dev.",
+    "filter": {
+      "section": "priorities"
+    }
+  },
+  {
+    "id": "dev-q14",
+    "split": "dev",
+    "question": "What shares of global CO2 emissions and of the global population do high-income and upper-middle-income countries account for?",
+    "expected_answer": "High-income countries: 32 percent of global CO2 emissions and 15 percent of the population; upper-middle-income countries: 52 percent of emissions and 35 percent of the population.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 69,
+        "evidence": "High-income countries and upper-middle-income countries respectively account for 32 percent and 52 percent of global CO2 emissions, while accounting only for 15 percent and 35 percent of the global population."
+      }
+    ],
+    "type": "direct",
+    "section": "priorities",
+    "origin": "day6:q14",
+    "day6_split": "dev",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "Copied from Day 6; seen during Day 6 development, so used only as Day 7 dev."
+  },
+  {
+    "id": "dev-q15",
+    "split": "dev",
+    "question": "Which country is cited as an example of a country with significant renewable potential that can fully decarbonize its power system without higher costs?",
+    "expected_answer": "Brazil: countries with significant renewable potential, like Brazil, can fully decarbonize their power systems without higher costs or compromising resilience.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 71,
+        "evidence": "Recent evidence indicates that countries with significant renewable potential, like Brazil, can fully decarbonize their power systems without higher costs or compromising resilience"
+      }
+    ],
+    "type": "direct",
+    "section": "priorities",
+    "origin": "day6:q15",
+    "day6_split": "dev",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "Copied from Day 6; seen during Day 6 development, so used only as Day 7 dev."
+  },
+  {
+    "id": "dev-q16",
+    "split": "dev",
+    "question": "How has the count of high-inequality economies (Gini above 40) changed over the past decade?",
+    "expected_answer": "It fell from 66 economies a decade earlier to 49 in the most recent year.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 46,
+        "evidence": "The number of economies with high inequality has fallen, from 66 a decade earlier to 49 in the most recent year."
+      }
+    ],
+    "type": "paraphrase",
+    "section": "progress",
+    "origin": "day6:q16",
+    "day6_split": "test",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "Copied from Day 6; seen during Day 6 development, so used only as Day 7 dev."
+  },
+  {
+    "id": "dev-q17",
+    "split": "dev",
+    "question": "How has the share of global emissions covered by carbon taxes and emission trading systems changed since 1990?",
+    "expected_answer": "It increased from 0.15 percent of global emissions in 1990 to 24 percent in 2024.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 58,
+        "evidence": "The coverage of carbon taxes and emission trading systems (ETS) has increased from 0.15 percent of global emissions in 1990 to 24 percent in 2024."
+      }
+    ],
+    "type": "direct",
+    "section": "pathways",
+    "origin": "day6:q17",
+    "day6_split": "test",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "Copied from Day 6; seen during Day 6 development, so used only as Day 7 dev."
+  },
+  {
+    "id": "dev-q18",
+    "split": "dev",
+    "question": "In the Pathways section of the overview, what global health cost is attributed to air pollution?",
+    "expected_answer": "A global health cost equal to 6.1 percent of global GDP in 2019.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 61,
+        "evidence": "Air pollution today carries a global health cost representing 6.1 percent of global GDP in 2019"
+      }
+    ],
+    "type": "metadata_filter",
+    "section": "pathways",
+    "origin": "day6:q18",
+    "day6_split": "test",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "Copied from Day 6; seen during Day 6 development, so used only as Day 7 dev.",
+    "filter": {
+      "section": "pathways"
+    }
+  },
+  {
+    "id": "dev-q19",
+    "split": "dev",
+    "question": "In the Priorities section of the overview, what share of the population in IDA countries is exposed to extreme weather hazards, and what share is at risk?",
+    "expected_answer": "Of the IDA-country population covered by the report's extreme-weather risk data, 56 percent are exposed and 47 percent are at risk, so 84 percent of those exposed are also at risk.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 67,
+        "evidence": "For example, of the population in IDA countries covered by the data on risks from extreme weather events used for this report, 56 percent are exposed to extreme weather hazards and 47 percent are at risk. This means that 84 percent of those who are exposed are also at risk."
+      }
+    ],
+    "type": "metadata_filter",
+    "section": "priorities",
+    "origin": "day6:q19",
+    "day6_split": "test",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "Copied from Day 6; seen during Day 6 development, so used only as Day 7 dev.",
+    "filter": {
+      "section": "priorities"
+    }
+  },
+  {
+    "id": "dev-q20",
+    "split": "dev",
+    "question": "If warming exceeds 2°C, how high could adaptation costs in Africa rise by the 2070s?",
+    "expected_answer": "Up to $200 billion per year by the 2070s (current adaptation costs in Africa are estimated at $7-$15 billion per year).",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 73,
+        "evidence": "Current adaptation costs in Africa are estimated to be in the range of $7–$15 billion per year, with projections suggesting these could rise to $35 billion annually by the 2040s and up to $200 billion per year by the 2070s if warming exceeds 2°C."
+      }
+    ],
+    "type": "condition",
+    "section": "priorities",
+    "origin": "day6:q20",
+    "day6_split": "test",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "Copied from Day 6; seen during Day 6 development, so used only as Day 7 dev."
+  },
+  {
+    "id": "test-a1",
+    "split": "test",
+    "question": "What share of people in low-income countries are in extreme poverty in 2024?",
+    "expected_answer": "43 percent of people in low-income countries are in extreme poverty in 2024.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 39,
+        "evidence": "In 2024, 43 percent of people in low-income countries are in extreme poverty."
+      }
+    ],
+    "type": "direct",
+    "section": "progress",
+    "origin": "day7-new",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "New for Day 7 from a page never used as Day 6 gold; written before any Day 7 run."
+  },
+  {
+    "id": "test-a2",
+    "split": "test",
+    "question": "Which welfare measure, income, consumption or wealth, tends to be distributed the most unequally?",
+    "expected_answer": "Wealth: its distribution tends to be much more unequal than either income or consumption.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 47,
+        "evidence": "The distribution of wealth tends to be much more unequal than either income or consumption."
+      }
+    ],
+    "type": "paraphrase",
+    "section": "progress",
+    "origin": "day7-new",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "New for Day 7 from a page never used as Day 6 gold; written before any Day 7 run."
+  },
+  {
+    "id": "test-a3",
+    "split": "test",
+    "question": "How many countries does the indicator of people at high risk from climate-related hazards cover, and what share of the world population do they represent?",
+    "expected_answer": "A sample of 103 countries with data on all vulnerability dimensions, covering 86 percent of the world population.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 52,
+        "evidence": "The indicator is based on a sample of 103 countries with data on all vulnerability dimensions and covers 86 percent of the world population."
+      }
+    ],
+    "type": "direct",
+    "section": "progress",
+    "origin": "day7-new",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "New for Day 7 from a page never used as Day 6 gold; written before any Day 7 run."
+  },
+  {
+    "id": "test-a4",
+    "split": "test",
+    "question": "In Sub-Saharan Africa, what share of the population has access to electricity and to basic drinking water?",
+    "expected_answer": "Only 50 percent has access to electricity and 65 percent has access to basic drinking water.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 53,
+        "evidence": "only 50 percent of the population in Sub-Saharan Africa has access to electricity, and 65 percent has access to basic drinking water."
+      }
+    ],
+    "type": "direct",
+    "section": "progress",
+    "origin": "day7-new",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "New for Day 7 from a page never used as Day 6 gold; written before any Day 7 run."
+  },
+  {
+    "id": "test-a5",
+    "split": "test",
+    "question": "What proportion of Sub-Saharan Africans facing severe climate hazards fall outside social protection systems?",
+    "expected_answer": "71.2 percent of the people exposed to severe cyclones, floods, droughts and heatwaves are neither covered nor contributing to social protection.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 56,
+        "evidence": "in Sub-Saharan Africa, 71.2 percent of the people exposed to severe cyclones, floods, droughts, and heatwaves are neither covered nor contributing to social protection"
+      }
+    ],
+    "type": "paraphrase",
+    "section": "pathways",
+    "origin": "day7-new",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "New for Day 7 from a page never used as Day 6 gold; written before any Day 7 run."
+  },
+  {
+    "id": "test-a6",
+    "split": "test",
+    "question": "According to simulations, what would combined investment in renewable energy and energy efficiency do to the additional emissions that come with the growth needed to reduce poverty?",
+    "expected_answer": "It would lower those additional emissions by more than half.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 60,
+        "evidence": "Simulations indicate that investing in renewable energy and energy efficiency combined would in fact lower the additional emissions that accompany the economic growth needed to reduce poverty by more than half"
+      }
+    ],
+    "type": "condition",
+    "section": "pathways",
+    "origin": "day7-new",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "New for Day 7 from a page never used as Day 6 gold; written before any Day 7 run."
+  },
+  {
+    "id": "test-a7",
+    "split": "test",
+    "question": "What kind of policy instrument is the Carbon Border Adjustment Mechanism, and which exports does it penalize?",
+    "expected_answer": "A carbon tariff that penalizes high-carbon exports to the European Union.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 63,
+        "evidence": "the Carbon Border Adjustment Mechanism (CBAM), a carbon tariff that penalizes high-carbon exports to the European Union."
+      }
+    ],
+    "type": "direct",
+    "section": "pathways",
+    "origin": "day7-new",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "New for Day 7 from a page never used as Day 6 gold; written before any Day 7 run."
+  },
+  {
+    "id": "test-a8",
+    "split": "test",
+    "question": "As of 2022, what share of all historical CO2 emissions were high-income and upper-middle-income countries responsible for, and how much of that came from high-income countries?",
+    "expected_answer": "90 percent of all historical CO2 emissions, of which high-income countries make up roughly two-thirds.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 70,
+        "evidence": "In 2022, high-income countries and upper-middle-income countries were responsible for 90 percent of all historical CO2 emissions, of which emissions from high-income countries make up roughly two-thirds."
+      }
+    ],
+    "type": "direct",
+    "section": "priorities",
+    "origin": "day7-new",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "New for Day 7 from a page never used as Day 6 gold; written before any Day 7 run."
+  },
+  {
+    "id": "test-a9",
+    "split": "test",
+    "question": "In the Priorities section of the overview, how many IDA countries had a household survey available in 2020 or later?",
+    "expected_answer": "Less than half of IDA countries had a household survey available in 2020 or later.",
+    "gold": [
+      {
+        "source_id": "wb-ppp-2024",
+        "page": 72,
+        "evidence": "less than half of IDA countries had a household survey available in 2020 or later."
+      }
+    ],
+    "type": "metadata_filter",
+    "section": "priorities",
+    "origin": "day7-new",
+    "review_status": "student_reviewed_2026-11-16",
+    "review_note": "New for Day 7 from a page never used as Day 6 gold; written before any Day 7 run. Household surveys are also discussed in the Progress section (p46-47).",
+    "filter": {
+      "section": "priorities"
+    }
+  }
+]

@@ -1,0 +1,316 @@
+[
+  {
+    "id": "dev-q01",
+    "split": "dev",
+    "question": "What share of the global population lives in extreme poverty in 2024, and how many people is that?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "dev-q02",
+    "split": "dev",
+    "question": "Under a scenario where every country grows 2 percent per capita per year, how much faster would poverty be eradicated if each country's Gini index also fell by 2 percent annually?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "dev-q03",
+    "split": "dev",
+    "question": "How much in potential lifetime earnings does the current generation of students risk losing, in present value?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "dev-q04",
+    "split": "dev",
+    "question": "In the Progress section of the overview, what share of the global extreme poor live in countries eligible for IDA support?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "progress"
+    }
+  },
+  {
+    "id": "dev-q05",
+    "split": "dev",
+    "question": "What is the Global Prosperity Gap and what prosperity standard does it use?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "dev-q06",
+    "split": "dev",
+    "question": "At what annual rate did the Global Prosperity Gap improve between 1990 and 2024, and what drove it?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "dev-q07",
+    "split": "dev",
+    "question": "What proportion of people worldwide face a high risk of a severe climate shock they would struggle to recover from?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "dev-q08",
+    "split": "dev",
+    "question": "In low-income countries, what share of natural disaster losses was covered by insurance?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "dev-q09",
+    "split": "dev",
+    "question": "How many people did Bangladesh evacuate for Cyclone Amphan in 2020, and how many fatalities were there?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "dev-q10",
+    "split": "dev",
+    "question": "Relative to 2019, how much additional emissions would eradicating extreme poverty entail, and how much would they reach at the $6.85-per-day poverty line?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "dev-q11",
+    "split": "dev",
+    "question": "Why are cuts in coal production unlikely to hurt national employment much in a major coal exporter like Indonesia?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "dev-q12",
+    "split": "dev",
+    "question": "How large have interest payments on external debt in IDA countries become?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "dev-q13",
+    "split": "dev",
+    "question": "In the Priorities section of the overview, what share of the global poor are current IDA countries projected to account for in 2030?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "priorities"
+    }
+  },
+  {
+    "id": "dev-q14",
+    "split": "dev",
+    "question": "What shares of global CO2 emissions and of the global population do high-income and upper-middle-income countries account for?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "dev-q15",
+    "split": "dev",
+    "question": "Which country is cited as an example of a country with significant renewable potential that can fully decarbonize its power system without higher costs?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "dev-q16",
+    "split": "dev",
+    "question": "How has the count of high-inequality economies (Gini above 40) changed over the past decade?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "dev-q17",
+    "split": "dev",
+    "question": "How has the share of global emissions covered by carbon taxes and emission trading systems changed since 1990?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "dev-q18",
+    "split": "dev",
+    "question": "In the Pathways section of the overview, what global health cost is attributed to air pollution?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "pathways"
+    }
+  },
+  {
+    "id": "dev-q19",
+    "split": "dev",
+    "question": "In the Priorities section of the overview, what share of the population in IDA countries is exposed to extreme weather hazards, and what share is at risk?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "priorities"
+    }
+  },
+  {
+    "id": "dev-q20",
+    "split": "dev",
+    "question": "If warming exceeds 2°C, how high could adaptation costs in Africa rise by the 2070s?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "test-a1",
+    "split": "test",
+    "question": "What share of people in low-income countries are in extreme poverty in 2024?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "test-a2",
+    "split": "test",
+    "question": "Which welfare measure, income, consumption or wealth, tends to be distributed the most unequally?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "test-a3",
+    "split": "test",
+    "question": "How many countries does the indicator of people at high risk from climate-related hazards cover, and what share of the world population do they represent?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "test-a4",
+    "split": "test",
+    "question": "In Sub-Saharan Africa, what share of the population has access to electricity and to basic drinking water?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "test-a5",
+    "split": "test",
+    "question": "What proportion of Sub-Saharan Africans facing severe climate hazards fall outside social protection systems?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "test-a6",
+    "split": "test",
+    "question": "According to simulations, what would combined investment in renewable energy and energy efficiency do to the additional emissions that come with the growth needed to reduce poverty?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "test-a7",
+    "split": "test",
+    "question": "What kind of policy instrument is the Carbon Border Adjustment Mechanism, and which exports does it penalize?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "test-a8",
+    "split": "test",
+    "question": "As of 2022, what share of all historical CO2 emissions were high-income and upper-middle-income countries responsible for, and how much of that came from high-income countries?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
+  },
+  {
+    "id": "test-a9",
+    "split": "test",
+    "question": "In the Priorities section of the overview, how many IDA countries had a household survey available in 2020 or later?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "filter": {
+      "section": "priorities"
+    }
+  },
+  {
+    "id": "dev-u1",
+    "split": "dev",
+    "question": "What was Vietnam's extreme poverty rate in 2024?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Vietnam is not mentioned anywhere in the indexed Overview; poverty rates are given only globally, by region or by income group.",
+    "absence_check": {
+      "keywords": [
+        "viet"
+      ],
+      "method": "case-insensitive keyword search over all 130 index-B chunks and the pypdf text of PDF pages 35-73 (including figure labels), then manual reading of every match"
+    },
+    "review_status": "student_reviewed_2026-11-16"
+  },
+  {
+    "id": "dev-u2",
+    "split": "dev",
+    "question": "How much funding did the IDA21 replenishment raise?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "IDA countries are discussed at length, but the Overview never mentions IDA21 or any replenishment amount.",
+    "absence_check": {
+      "keywords": [
+        "ida21",
+        "replenish"
+      ],
+      "method": "case-insensitive keyword search over all 130 index-B chunks and the pypdf text of PDF pages 35-73 (including figure labels), then manual reading of every match"
+    },
+    "review_status": "student_reviewed_2026-11-16"
+  },
+  {
+    "id": "dev-u3",
+    "split": "dev",
+    "question": "What carbon price per ton of CO2 does the report recommend?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Page 58 discusses carbon pricing coverage (0.15 to 24 percent of emissions) and the global total carbon price trend, but gives no price level per ton and no recommended price.",
+    "absence_check": {
+      "keywords": [
+        "per ton",
+        "per tonne",
+        "tco2",
+        "carbon price"
+      ],
+      "method": "case-insensitive keyword search over all 130 index-B chunks and the pypdf text of PDF pages 35-73 (including figure labels), then manual reading of every match"
+    },
+    "review_status": "student_reviewed_2026-11-16"
+  },
+  {
+    "id": "test-u1",
+    "split": "test",
+    "question": "How many households did the Philippines' Pantawid Pamilyang Pilipino Program support after Typhoon Yolanda in 2013?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Page 56 says the program supported recipients hit by the typhoon but gives no number; the household counts in the same chunk (100,000 and 200,000) belong to Kenya's Hunger Safety Net Programme.",
+    "absence_check": {
+      "keywords": [
+        "philippines",
+        "pantawid"
+      ],
+      "method": "case-insensitive keyword search over all 130 index-B chunks and the pypdf text of PDF pages 35-73 (including figure labels), then manual reading of every match"
+    },
+    "review_status": "student_reviewed_2026-11-16"
+  },
+  {
+    "id": "test-u2",
+    "split": "test",
+    "question": "What is the youth unemployment rate in Sub-Saharan Africa?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The Overview discusses jobs and labor markets but never mentions unemployment or youth.",
+    "absence_check": {
+      "keywords": [
+        "unemploy",
+        "youth"
+      ],
+      "method": "case-insensitive keyword search over all 130 index-B chunks and the pypdf text of PDF pages 35-73 (including figure labels), then manual reading of every match"
+    },
+    "review_status": "student_reviewed_2026-11-16"
+  },
+  {
+    "id": "test-u3",
+    "split": "test",
+    "question": "What share of Indonesia's coal production is exported?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Page 62 calls Indonesia the world's second-largest coal exporter and gives the coal industry's GDP and employment shares, but not the share of production exported.",
+    "absence_check": {
+      "keywords": [
+        "indonesia"
+      ],
+      "method": "case-insensitive keyword search over all 130 index-B chunks and the pypdf text of PDF pages 35-73 (including figure labels), then manual reading of every match"
+    },
+    "review_status": "student_reviewed_2026-11-16"
+  }
+]

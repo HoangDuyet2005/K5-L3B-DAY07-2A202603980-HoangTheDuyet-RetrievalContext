@@ -1,0 +1,592 @@
+{
+  "ok": true,
+  "problems": [],
+  "counts": {
+    "dev/unanswerable": 3,
+    "dev/answerable": 20,
+    "test/unanswerable": 3,
+    "test/answerable": 9
+  },
+  "answerable": [
+    {
+      "id": "dev-q01",
+      "split": "dev",
+      "gold": [
+        {
+          "page": 35,
+          "chunks": [
+            "B:wb-ppp-2024:p035s0:c003"
+          ],
+          "sections": [
+            "progress"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "dev-q02",
+      "split": "dev",
+      "gold": [
+        {
+          "page": 36,
+          "chunks": [
+            "B:wb-ppp-2024:p036s0:c004"
+          ],
+          "sections": [
+            "progress"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "dev-q03",
+      "split": "dev",
+      "gold": [
+        {
+          "page": 40,
+          "chunks": [
+            "B:wb-ppp-2024:p040s0:c002"
+          ],
+          "sections": [
+            "progress"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "dev-q04",
+      "split": "dev",
+      "gold": [
+        {
+          "page": 41,
+          "chunks": [
+            "B:wb-ppp-2024:p041s0:c000"
+          ],
+          "sections": [
+            "progress"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "dev-q05",
+      "split": "dev",
+      "gold": [
+        {
+          "page": 41,
+          "chunks": [
+            "B:wb-ppp-2024:p041s0:c003"
+          ],
+          "sections": [
+            "progress"
+          ],
+          "in_pdf_text": true
+        },
+        {
+          "page": 42,
+          "chunks": [
+            "B:wb-ppp-2024:p042s0:c000"
+          ],
+          "sections": [
+            "progress"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "dev-q06",
+      "split": "dev",
+      "gold": [
+        {
+          "page": 44,
+          "chunks": [
+            "B:wb-ppp-2024:p044s0:c000"
+          ],
+          "sections": [
+            "progress"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "dev-q07",
+      "split": "dev",
+      "gold": [
+        {
+          "page": 49,
+          "chunks": [
+            "B:wb-ppp-2024:p049s0:c002"
+          ],
+          "sections": [
+            "progress"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "dev-q08",
+      "split": "dev",
+      "gold": [
+        {
+          "page": 55,
+          "chunks": [
+            "B:wb-ppp-2024:p055s0:c003"
+          ],
+          "sections": [
+            "pathways"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "dev-q09",
+      "split": "dev",
+      "gold": [
+        {
+          "page": 57,
+          "chunks": [
+            "B:wb-ppp-2024:p057s0:c001"
+          ],
+          "sections": [
+            "pathways"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "dev-q10",
+      "split": "dev",
+      "gold": [
+        {
+          "page": 59,
+          "chunks": [
+            "B:wb-ppp-2024:p059s0:c001"
+          ],
+          "sections": [
+            "pathways"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "dev-q11",
+      "split": "dev",
+      "gold": [
+        {
+          "page": 62,
+          "chunks": [
+            "B:wb-ppp-2024:p062s0:c005"
+          ],
+          "sections": [
+            "pathways"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "dev-q12",
+      "split": "dev",
+      "gold": [
+        {
+          "page": 64,
+          "chunks": [
+            "B:wb-ppp-2024:p064s1:c001"
+          ],
+          "sections": [
+            "priorities"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "dev-q13",
+      "split": "dev",
+      "gold": [
+        {
+          "page": 66,
+          "chunks": [
+            "B:wb-ppp-2024:p066s0:c001"
+          ],
+          "sections": [
+            "priorities"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "dev-q14",
+      "split": "dev",
+      "gold": [
+        {
+          "page": 69,
+          "chunks": [
+            "B:wb-ppp-2024:p069s0:c003"
+          ],
+          "sections": [
+            "priorities"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "dev-q15",
+      "split": "dev",
+      "gold": [
+        {
+          "page": 71,
+          "chunks": [
+            "B:wb-ppp-2024:p071s0:c001"
+          ],
+          "sections": [
+            "priorities"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "dev-q16",
+      "split": "dev",
+      "gold": [
+        {
+          "page": 46,
+          "chunks": [
+            "B:wb-ppp-2024:p046s0:c004"
+          ],
+          "sections": [
+            "progress"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "dev-q17",
+      "split": "dev",
+      "gold": [
+        {
+          "page": 58,
+          "chunks": [
+            "B:wb-ppp-2024:p058s0:c000"
+          ],
+          "sections": [
+            "pathways"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "dev-q18",
+      "split": "dev",
+      "gold": [
+        {
+          "page": 61,
+          "chunks": [
+            "B:wb-ppp-2024:p061s0:c000"
+          ],
+          "sections": [
+            "pathways"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "dev-q19",
+      "split": "dev",
+      "gold": [
+        {
+          "page": 67,
+          "chunks": [
+            "B:wb-ppp-2024:p067s0:c003"
+          ],
+          "sections": [
+            "priorities"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "dev-q20",
+      "split": "dev",
+      "gold": [
+        {
+          "page": 73,
+          "chunks": [
+            "B:wb-ppp-2024:p073s0:c002"
+          ],
+          "sections": [
+            "priorities"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "test-a1",
+      "split": "test",
+      "gold": [
+        {
+          "page": 39,
+          "chunks": [
+            "B:wb-ppp-2024:p039s0:c000"
+          ],
+          "sections": [
+            "progress"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "test-a2",
+      "split": "test",
+      "gold": [
+        {
+          "page": 47,
+          "chunks": [
+            "B:wb-ppp-2024:p047s0:c001"
+          ],
+          "sections": [
+            "progress"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "test-a3",
+      "split": "test",
+      "gold": [
+        {
+          "page": 52,
+          "chunks": [
+            "B:wb-ppp-2024:p052s0:c001"
+          ],
+          "sections": [
+            "progress"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "test-a4",
+      "split": "test",
+      "gold": [
+        {
+          "page": 53,
+          "chunks": [
+            "B:wb-ppp-2024:p053s0:c001"
+          ],
+          "sections": [
+            "progress"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "test-a5",
+      "split": "test",
+      "gold": [
+        {
+          "page": 56,
+          "chunks": [
+            "B:wb-ppp-2024:p056s0:c002"
+          ],
+          "sections": [
+            "pathways"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "test-a6",
+      "split": "test",
+      "gold": [
+        {
+          "page": 60,
+          "chunks": [
+            "B:wb-ppp-2024:p060s0:c001"
+          ],
+          "sections": [
+            "pathways"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "test-a7",
+      "split": "test",
+      "gold": [
+        {
+          "page": 63,
+          "chunks": [
+            "B:wb-ppp-2024:p063s0:c001"
+          ],
+          "sections": [
+            "pathways"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "test-a8",
+      "split": "test",
+      "gold": [
+        {
+          "page": 70,
+          "chunks": [
+            "B:wb-ppp-2024:p070s0:c000"
+          ],
+          "sections": [
+            "priorities"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    },
+    {
+      "id": "test-a9",
+      "split": "test",
+      "gold": [
+        {
+          "page": 72,
+          "chunks": [
+            "B:wb-ppp-2024:p072s0:c002"
+          ],
+          "sections": [
+            "priorities"
+          ],
+          "in_pdf_text": true
+        }
+      ]
+    }
+  ],
+  "unanswerable": [
+    {
+      "id": "dev-u1",
+      "split": "dev",
+      "chunk_matches": {
+        "viet": []
+      },
+      "pdf_page_matches": {
+        "viet": []
+      },
+      "note": "every match must be read manually; a match does not by itself mean answerable"
+    },
+    {
+      "id": "dev-u2",
+      "split": "dev",
+      "chunk_matches": {
+        "ida21": [],
+        "replenish": []
+      },
+      "pdf_page_matches": {
+        "ida21": [],
+        "replenish": []
+      },
+      "note": "every match must be read manually; a match does not by itself mean answerable"
+    },
+    {
+      "id": "dev-u3",
+      "split": "dev",
+      "chunk_matches": {
+        "per ton": [],
+        "per tonne": [],
+        "tco2": [],
+        "carbon price": [
+          "B:wb-ppp-2024:p058s0:c000"
+        ]
+      },
+      "pdf_page_matches": {
+        "per ton": [],
+        "per tonne": [],
+        "tco2": [],
+        "carbon price": [
+          58
+        ]
+      },
+      "note": "every match must be read manually; a match does not by itself mean answerable"
+    },
+    {
+      "id": "test-u1",
+      "split": "test",
+      "chunk_matches": {
+        "philippines": [
+          "B:wb-ppp-2024:p056s0:c001"
+        ],
+        "pantawid": [
+          "B:wb-ppp-2024:p056s0:c001"
+        ]
+      },
+      "pdf_page_matches": {
+        "philippines": [
+          56
+        ],
+        "pantawid": [
+          56
+        ]
+      },
+      "note": "every match must be read manually; a match does not by itself mean answerable"
+    },
+    {
+      "id": "test-u2",
+      "split": "test",
+      "chunk_matches": {
+        "unemploy": [],
+        "youth": []
+      },
+      "pdf_page_matches": {
+        "unemploy": [],
+        "youth": []
+      },
+      "note": "every match must be read manually; a match does not by itself mean answerable"
+    },
+    {
+      "id": "test-u3",
+      "split": "test",
+      "chunk_matches": {
+        "indonesia": [
+          "B:wb-ppp-2024:p062s0:c005"
+        ]
+      },
+      "pdf_page_matches": {
+        "indonesia": [
+          62,
+          65,
+          71
+        ]
+      },
+      "note": "every match must be read manually; a match does not by itself mean answerable"
+    }
+  ],
+  "files": {
+    "questions.json": "5f4c4046643100dd2cd318d14a9164f140b538e0e46409faab5731ec55552a2d",
+    "cases.json": "1f1981919dda2a74162a72e5c5e3235218929e3d0fa94230c79fa2018f823266",
+    "chunks": {
+      "path": "starter\\data\\day6\\chunks_B.json",
+      "sha256": "a78d08254714780fbf43c0d3f1d8a16f002d716ba4ccc78956b309674f6bd78b"
+    }
+  }
+}
