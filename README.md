@@ -23,8 +23,6 @@ Benchmark tối thiểu có **24 câu**: dev gồm 15 câu có đáp án và 2 c
 
 Index một tài liệu thực tế từ **100 trang** có bảng, ảnh và biểu đồ; xây agent truy xuất và trả lời các câu hỏi về nội dung đó. Hoàn thành [thử thách nâng cao](ADVANCED.md) và đạt **ít nhất 90% benchmark test** để nhận 15 điểm bonus. Phần cơ bản tối đa 85 điểm; toàn bài tối đa 100 điểm.
 
-**Bài làm phần nâng cao (Hoàng Thế Duyệt, 2A202603980):** xem [docs/ADVANCED.md](docs/ADVANCED.md) — tài liệu 300 trang, index, benchmark, cách chạy, kết quả test 30/30 và giới hạn. Code ở `src/adv/`, dữ liệu ở `data/advanced/`, kết quả từng câu ở `results/advanced/`.
-
 ## Bắt đầu
 
 1. Đọc [hướng dẫn](GUIDE.md), [rubric](RUBRIC.md) và [quy tắc](RULES.md).
