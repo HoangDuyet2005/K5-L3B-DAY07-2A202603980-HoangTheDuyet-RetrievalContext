@@ -1,0 +1,24 @@
+﻿query_id,split,answerable,status,abstain_reason,citations,answer_grade,citation_support,abstention_correct,context_grade,reviewer,note
+dev-q01,dev,1,answered,,B:wb-ppp-2024:p036s0:c000,1,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",Đúng 8.5% có citation; nói rõ passage không có số người (692 triệu ở chunk p035 không vào context vì budget 800). Đúng một phần. CẦN XEM KỸ
+dev-q02,dev,1,answered,,B:wb-ppp-2024:p036s0:c004,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa","40 năm ít hơn (20 vs 60), đúng điều kiện; khớp p036 c004. B0 bị loại vì định dạng, B1 đã đúng"
+dev-q03,dev,1,abstain,model_abstained,,0,,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md
+dev-q04,dev,1,abstain,model_abstained,,0,,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md
+dev-q05,dev,1,answered,,B:wb-ppp-2024:p044s0:c000,0,0,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",Dùng tool answer để nói passage không định nghĩa Prosperity Gap (context chỉ có p044 c000); không trả lời câu hỏi; citation không hỗ trợ nội dung nào của đáp án. CẦN XEM KỸ
+dev-q06,dev,1,answered,,B:wb-ppp-2024:p044s0:c000,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa","Đủ 2.34%, 1.48%, 0.86%; khớp p044 c000"
+dev-q07,dev,1,abstain,model_abstained,,0,,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md
+dev-q08,dev,1,abstain,model_abstained,,0,,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md
+dev-q09,dev,1,answered,,B:wb-ppp-2024:p057s0:c001,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa","2.4 million, 20 fatalities; khớp p057 c001"
+dev-q10,dev,1,abstain,model_abstained,,0,,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md
+dev-q11,dev,1,answered,,B:wb-ppp-2024:p062s0:c005,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa","Low labor share; <2% GDP, 0.2% workforce; khớp p062 c005"
+dev-q12,dev,1,abstain,model_abstained,,0,,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md
+dev-q13,dev,1,answered,,B:wb-ppp-2024:p066s0:c001,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa","82% năm 2030 với điều kiện growth rates; khớp p066 c001. B0 bị loại vì định dạng, B1 đã đúng"
+dev-q14,dev,1,answered,,B:wb-ppp-2024:p069s0:c003,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",32%/15% và 52%/35%; khớp p069 c003
+dev-q15,dev,1,abstain,model_abstained,,0,,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md
+dev-q16,dev,1,abstain,model_abstained,,0,,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md
+dev-q17,dev,1,abstain,model_abstained,,0,,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md
+dev-q18,dev,1,abstain,model_abstained,,0,,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md
+dev-q19,dev,1,abstain,model_abstained,,0,,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md
+dev-q20,dev,1,abstain,model_abstained,,0,,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md
+dev-u1,dev,0,answered,,B:wb-ppp-2024:p036s0:c000,,1,0,,"Claude nháp; học viên duyệt 2026-11-16, không sửa","Status answered nhưng nội dung là từ chối đúng: nói không có số cho Vietnam, chỉ có tỷ lệ chung 8.5% (đúng với chunk). Không có khẳng định vô căn cứ, nhưng dùng tool answer nên script tính là không từ chối (agent_metrics không cho abstention_correct=1 khi status khác abstain). CẦN XEM KỸ"
+dev-u2,dev,0,abstain,model_abstained,,,,1,,"Claude nháp; học viên duyệt 2026-11-16, không sửa","Từ chối, không khẳng định gì về IDA21"
+dev-u3,dev,0,abstain,model_abstained,,,,1,,"Claude nháp; học viên duyệt 2026-11-16, không sửa","Từ chối, không đưa ra mức giá carbon"

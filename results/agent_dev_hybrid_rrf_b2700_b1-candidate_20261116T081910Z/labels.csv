@@ -1,0 +1,24 @@
+﻿query_id,split,answerable,status,abstain_reason,citations,answer_grade,citation_support,abstention_correct,context_grade,reviewer,note
+dev-q01,dev,1,answered,,B:wb-ppp-2024:p035s0:c003,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",8.5% và 692 million; khớp p035 c003
+dev-q02,dev,1,answered,,B:wb-ppp-2024:p036s0:c004,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa","40 năm ít hơn (20 vs 60), đúng điều kiện; khớp p036 c004"
+dev-q03,dev,1,answered,,B:wb-ppp-2024:p040s0:c002,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",$21 trillion present value; bỏ ý 17% GDP nhưng câu hỏi chỉ hỏi số tiền. CẦN XEM KỸ (2 hay 1)
+dev-q04,dev,1,answered,,B:wb-ppp-2024:p041s0:c000,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa","7 in 10 extreme poor ở nước đủ điều kiện IDA; khớp p041 c000. B0 bị loại vì định dạng, B1 đã đúng"
+dev-q05,dev,1,answered,,B:wb-ppp-2024:p041s0:c003,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa","Định nghĩa đúng: average factor, chuẩn $25/người/ngày, gần thu nhập TB khi lên high-income; khớp p041 c003. B0 bị loại vì gộp ngoặc, B1 đã đúng"
+dev-q06,dev,1,answered,,B:wb-ppp-2024:p044s0:c000,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa","Đủ 2.34%, 1.48%, 0.86%; khớp p044 c000"
+dev-q07,dev,1,answered,,B:wb-ppp-2024:p049s0:c002,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",Nearly one in five (17.9%); khớp p049 c002
+dev-q08,dev,1,answered,,B:wb-ppp-2024:p055s0:c003,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",Less than 10%; khớp p055 c003; bỏ bối cảnh $380 tỷ nhưng câu hỏi chỉ hỏi tỷ lệ. CẦN XEM KỸ (2 hay 1)
+dev-q09,dev,1,answered,,B:wb-ppp-2024:p057s0:c001,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa","2.4 million, 20 fatalities; khớp p057 c001"
+dev-q10,dev,1,answered,,B:wb-ppp-2024:p059s0:c001,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",4.7% và 46% tại $6.85; khớp p059 c001 (không nhắc historical intensities nhưng câu hỏi không hỏi)
+dev-q11,dev,1,answered,,B:wb-ppp-2024:p062s0:c005,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa","Low labor share; <2% GDP, 0.2% workforce; khớp p062 c005"
+dev-q12,dev,1,answered,,B:wb-ppp-2024:p064s1:c001,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa","Quadrupled since 2012, $23.6 billion; khớp p064s1 c001"
+dev-q13,dev,1,answered,,B:wb-ppp-2024:p066s0:c001,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",82% năm 2030 với điều kiện growth rates; bỏ ý 2050 nhưng câu hỏi chỉ hỏi 2030. CẦN XEM KỸ (2 hay 1)
+dev-q14,dev,1,answered,,B:wb-ppp-2024:p069s0:c003,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",32%/15% và 52%/35%; khớp p069 c003
+dev-q15,dev,1,answered,,B:wb-ppp-2024:p071s0:c001,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",Brazil; khớp p071 c001
+dev-q16,dev,1,answered,,B:wb-ppp-2024:p046s0:c003;B:wb-ppp-2024:p046s0:c004,2,1;1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa","66 → 49; c003 hỗ trợ ngưỡng Gini > 40, c004 hỗ trợ 66 → 49"
+dev-q17,dev,1,error,,,,,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa","Lỗi provider: HTTP 429 vượt 15 request/phút sau 2 lần thử lại; báo riêng, không chấm"
+dev-q18,dev,1,answered,,B:wb-ppp-2024:p061s0:c000,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",6.1% GDP năm 2019; khớp p061 c000
+dev-q19,dev,1,answered,,B:wb-ppp-2024:p067s0:c003,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa","56% exposed, 47% at risk; bỏ ý 84% nhưng câu hỏi chỉ hỏi hai tỷ lệ. CẦN XEM KỸ (2 hay 1)"
+dev-q20,dev,1,answered,,B:wb-ppp-2024:p073s0:c002,2,1,,,"Claude nháp; học viên duyệt 2026-11-16, không sửa",Up to $200 billion/năm by 2070s nếu warming > 2°C; khớp p073 c002
+dev-u1,dev,0,answered,,B:wb-ppp-2024:p036s0:c000,,0,0,,"Claude nháp; học viên duyệt 2026-11-16, không sửa","BỊA: khẳng định ""The poverty rate in Vietnam fell from 38 percent in 1990 to 8.5 percent in 2024""; chunk p036 c000 nói về tỷ lệ toàn cầu, không nhắc Vietnam. Citation có trong context (validator cho qua) nhưng KHÔNG hỗ trợ khẳng định. CẦN XEM KỸ"
+dev-u2,dev,0,abstain,model_abstained,,,,1,,"Claude nháp; học viên duyệt 2026-11-16, không sửa","Từ chối, không khẳng định gì về IDA21"
+dev-u3,dev,0,abstain,model_abstained,,,,1,,"Claude nháp; học viên duyệt 2026-11-16, không sửa","Từ chối, nêu rõ không có mức giá carbon"

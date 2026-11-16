@@ -140,3 +140,45 @@ Không thay đổi tiêu chí này sau khi thấy kết quả. Nếu buộc ph�
 - **Thay đổi (chung, áp dụng như nhau cho mọi cấu hình):** (1) system prompt yêu cầu mỗi ID trong ngoặc vuông riêng, đặt ngay sau câu nó hỗ trợ, và nói rõ câu trả lời không có ID trong văn bản sẽ bị loại; (2) validator chấp nhận dạng gộp `[id1, id2]` / `[id1; id2]`. Vẫn giữ yêu cầu của starter: mọi citation phải xuất hiện trong văn bản câu trả lời và nằm trong context.
 - **Giả thuyết:** số câu bị loại vì `invalid_citations` giảm về 0 hoặc gần 0 ở cả hai cấu hình; grounded answer trung bình tăng tương ứng; các chỉ số khác (Context Evidence Rate, từ chối đúng) không đổi đáng kể. Model không xác định hoàn toàn (không đặt temperature), nên các câu khác có thể dao động nhẹ.
 - **Tiêu chí chọn không đổi** (mục 1, bước B). B1 thay B0 làm kết quả bước B; học viên duyệt nhãn B1.
+
+### B1: kết quả
+
+- **Runs:** `agent_dev_dense_b800_b1-baseline_20261116T081407Z` và `agent_dev_hybrid_rrf_b2700_b1-candidate_20261116T081910Z`, commit `31b0dcd`, cây code sạch, `gemini-3.5-flash-lite`, 0 USD (free tier).
+
+| Chỉ số | Baseline dense/800 | Ứng viên hybrid RRF/2.700 |
+|---|---|---|
+| Lỗi provider (báo riêng, không chấm) | 0 | 1 (dev-q17: HTTP 429 vượt 15 request/phút sau 2 lần thử lại) |
+| Tool use | 23/23 | 22/22 |
+| Grounded answer 0/1/2, trung bình /2 | 13/1/6, 0.65 | 0/0/19, 2.00 |
+| Citation hợp lệ (trong context và hỗ trợ) | 8/9 | 20/21 |
+| Câu trả lời có citation | 9/9 | 20/20 |
+| Từ chối đúng (thiếu bằng chứng) | 2/3 | 2/3 |
+| Từ chối nhầm (có đáp án) | 12/20 | 0/19 |
+| Context Evidence Rate | 6/20 | 19/19 |
+| Model calls / token / trung vị mỗi câu | 80 / 57.782 / 4,9 s | 53 / 49.652 / 3,1 s |
+
+- **So với giả thuyết B1:** **xác nhận.** `invalid_citations` giảm từ 2 + 2 (B0) về 0 + 0; grounded trung bình tăng (baseline 0.35 → 0.65, ứng viên 1.80 → 2.00).
+- **Tác dụng phụ (lỗi dev #5):** prompt mới ("câu trả lời không có ID sẽ bị loại") làm model đôi khi gọi `answer` kèm citation để nói rằng không có thông tin, thay vì `abstain`: baseline dev-q05 (chấm 0) và baseline dev-u1 (nội dung từ chối đúng, nhưng status `answered` nên tính là không từ chối).
+- **Lỗi dev #6, nghiêm trọng: ứng viên dev-u1 bịa.** Câu trả lời "The poverty rate in Vietnam fell from 38 percent in 1990 to 8.5 percent in 2024" trích `p036s0:c000`; chunk này nói về tỷ lệ **toàn cầu**, không nhắc Vietnam. Validator cho qua vì ID có trong context; chỉ chấm tay mới phát hiện. Metric nhị phân "từ chối đúng" tính baseline dev-u1 (từ chối đúng nội dung, sai tool) và ứng viên dev-u1 (bịa) như nhau, nên cần đọc kèm nhãn citation.
+- **Bước B (tiêu chí mục 1):** grounded ứng viên 2.00 ≥ baseline 0.65 → đạt; từ chối đúng 2/3 = 2/3, không ít hơn baseline → đạt. **→ Chọn hybrid RRF, budget 2.700.**
+- **Nhãn:** Claude chấm nháp; học viên đọc `review_sheet.md`, duyệt toàn bộ 46 dòng `labels.csv` ngày 2026-11-16 và không sửa dòng nào (cột `reviewer`). Số liệu trong bảng là từ `agent_metrics.json` sau khi duyệt.
+- **Sửa hạ tầng trước test (không đổi hành vi agent):** để không mất câu vì giới hạn 15 request/phút như dev-q17, client Gemini giãn cách request tối thiểu 4,5 s (khoảng 13 request/phút), thử lại tối đa 4 lần và chờ đúng `retryDelay` do server trả về.
+
+## 4. Khóa cấu hình trước test (2026-11-16)
+
+Cấu hình dưới đây được chốt trên dev và khóa bằng **commit chứa mục này**, trước mọi lần chạy trên test. Sau khi thấy kết quả test, không thay đổi code, prompt, tham số hay nhãn dev; mọi thay đổi bắt buộc (nếu có) sẽ được ghi rõ là sau test và không được báo như kết quả holdout.
+
+| | **Cấu hình chọn** | **Baseline** |
+|---|---|---|
+| Retrieval | Hybrid RRF: dense (EmbeddingGemma `google/embeddinggemma-2`, pgvector `day6_chunks` index B) + BM25 (k1 1.5, b 0.75); RRF k = 60, pool 10 mỗi retriever | Dense (cùng embedding và index) |
+| Top-k mỗi lần search | 3 | 3 |
+| Context | starter `pack_context`, theo thứ tự truy xuất, **2.700 ký tự** (tính cả header) | 800 ký tự |
+| Filter | `filter` do người dùng cung cấp trong câu hỏi, áp dụng như nhau | như nhau |
+| Agent | `gemini-3.5-flash-lite` (Gemini API free tier, REST), tools search / answer / abstain, function calling mode ANY, tối đa 3 search, system prompt trong `src/agent.py` | như nhau |
+| Client | giãn cách 4,5 s, thử lại tối đa 4 lần theo `retryDelay`, dừng khi hết hạn mức ngày | như nhau |
+
+**Quy trình test (chạy một lần, cờ `--allow-test`):**
+1. Retrieval: `python -m src.eval_retrieval --split test --allow-test --methods dense,hybrid_rrf --budget 800` và `--budget 2700` → Hit@1, Evidence Hit@3, MRR@10, Context Evidence Rate trên 9 câu test có đáp án.
+2. Agent: `python -m src.run_agent --split test --allow-test` cho baseline (`--method dense --budget 800`) và cấu hình chọn (`--method hybrid_rrf --budget 2700`), 12 câu mỗi cấu hình.
+3. Chấm tay **toàn bộ** test (9 câu có đáp án + 3 câu thiếu bằng chứng, cho cả hai cấu hình): grounded answer 0/1/2, citation hỗ trợ, abstention, và **context 0/1/2** cho mọi câu có đáp án (BENCHMARK.md §2 yêu cầu ít nhất 5). Lỗi provider được báo riêng.
+4. Không chạy lại test để "lấy kết quả tốt hơn". Nếu một lần chạy bị lỗi hạ tầng (ví dụ hết hạn mức ngày), chỉ chạy tiếp các câu chưa chạy và ghi rõ.

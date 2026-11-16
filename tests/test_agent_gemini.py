@@ -110,6 +110,12 @@ class ParseTests(unittest.TestCase):
         self.assertEqual(r['status'], 'error')
         self.assertTrue(r['error'].startswith('GeminiQuotaExhausted'))
 
+    def test_retry_delay_is_parsed_from_error_details(self):
+        from src.gemini import retry_delay_seconds
+        self.assertEqual(retry_delay_seconds('{"@type": "RetryInfo", "retryDelay": "23s"}'), 23.0)
+        self.assertEqual(retry_delay_seconds('{"retryDelay":"1.5s"}'), 1.5)
+        self.assertIsNone(retry_delay_seconds('{"error": "no hint"}'))
+
     def test_text_only_response_raises(self):
         with self.assertRaises(GeminiError):
             parse_function_call({'candidates': [{'content': {'parts': [{'text': 'hello'}]}}]})

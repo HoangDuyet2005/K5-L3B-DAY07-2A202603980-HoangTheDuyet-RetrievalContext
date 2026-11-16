@@ -1,0 +1,197 @@
+[
+  {
+    "query_id": "dev-q01",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16, không sửa",
+    "note": "8.5% và 692 million; khớp p035 c003",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-q02",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16, không sửa",
+    "note": "40 năm ít hơn (20 vs 60), đúng điều kiện; khớp p036 c004",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-q03",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16, không sửa",
+    "note": "$21 trillion present value; bỏ ý 17% GDP nhưng câu hỏi chỉ hỏi số tiền. CẦN XEM KỸ (2 hay 1)",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-q04",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16, không sửa",
+    "note": "7 in 10 extreme poor ở nước đủ điều kiện IDA; khớp p041 c000. B0 bị loại vì định dạng, B1 đã đúng",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-q05",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16, không sửa",
+    "note": "Định nghĩa đúng: average factor, chuẩn $25/người/ngày, gần thu nhập TB khi lên high-income; khớp p041 c003. B0 bị loại vì gộp ngoặc, B1 đã đúng",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-q06",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16, không sửa",
+    "note": "Đủ 2.34%, 1.48%, 0.86%; khớp p044 c000",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-q07",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16, không sửa",
+    "note": "Nearly one in five (17.9%); khớp p049 c002",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-q08",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16, không sửa",
+    "note": "Less than 10%; khớp p055 c003; bỏ bối cảnh $380 tỷ nhưng câu hỏi chỉ hỏi tỷ lệ. CẦN XEM KỸ (2 hay 1)",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-q09",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16, không sửa",
+    "note": "2.4 million, 20 fatalities; khớp p057 c001",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-q10",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16, không sửa",
+    "note": "4.7% và 46% tại $6.85; khớp p059 c001 (không nhắc historical intensities nhưng câu hỏi không hỏi)",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-q11",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16, không sửa",
+    "note": "Low labor share; <2% GDP, 0.2% workforce; khớp p062 c005",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-q12",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16, không sửa",
+    "note": "Quadrupled since 2012, $23.6 billion; khớp p064s1 c001",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-q13",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16, không sửa",
+    "note": "82% năm 2030 với điều kiện growth rates; bỏ ý 2050 nhưng câu hỏi chỉ hỏi 2030. CẦN XEM KỸ (2 hay 1)",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-q14",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16, không sửa",
+    "note": "32%/15% và 52%/35%; khớp p069 c003",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-q15",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16, không sửa",
+    "note": "Brazil; khớp p071 c001",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-q16",
+    "citation_support": [
+      true,
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16, không sửa",
+    "note": "66 → 49; c003 hỗ trợ ngưỡng Gini > 40, c004 hỗ trợ 66 → 49",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-q18",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16, không sửa",
+    "note": "6.1% GDP năm 2019; khớp p061 c000",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-q19",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16, không sửa",
+    "note": "56% exposed, 47% at risk; bỏ ý 84% nhưng câu hỏi chỉ hỏi hai tỷ lệ. CẦN XEM KỸ (2 hay 1)",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-q20",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16, không sửa",
+    "note": "Up to $200 billion/năm by 2070s nếu warming > 2°C; khớp p073 c002",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-u1",
+    "citation_support": [
+      false
+    ],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16, không sửa",
+    "note": "BỊA: khẳng định \"The poverty rate in Vietnam fell from 38 percent in 1990 to 8.5 percent in 2024\"; chunk p036 c000 nói về tỷ lệ toàn cầu, không nhắc Vietnam. Citation có trong context (validator cho qua) nhưng KHÔNG hỗ trợ khẳng định. CẦN XEM KỸ",
+    "abstention_correct": false
+  },
+  {
+    "query_id": "dev-u2",
+    "citation_support": [],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16, không sửa",
+    "note": "Từ chối, không khẳng định gì về IDA21",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "dev-u3",
+    "citation_support": [],
+    "reviewer": "Claude nháp; học viên duyệt 2026-11-16, không sửa",
+    "note": "Từ chối, nêu rõ không có mức giá carbon",
+    "abstention_correct": true
+  }
+]
