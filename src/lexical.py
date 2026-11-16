@@ -51,7 +51,7 @@ class BM25Retriever:
     def _score(self, query_terms: set[str], i: int) -> float:
         counts, length = self.term_counts[i], self.lengths[i]
         score = 0.0
-        for term in query_terms:
+        for term in sorted(query_terms):  # fixed order: set order varies between runs (hash seed)
             tf = counts.get(term, 0)
             if tf:
                 norm = self.k1 * (1 - self.b + self.b * length / self.avg_length)
