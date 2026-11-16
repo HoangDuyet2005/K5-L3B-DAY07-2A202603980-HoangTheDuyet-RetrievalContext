@@ -1,0 +1,24 @@
+﻿query_id,split,answerable,status,abstain_reason,citations,answer_grade,citation_support,abstention_correct,context_grade,reviewer,note
+dev-q01,dev,1,answered,,B:wb-ppp-2024:p035s0:c003,2,1,,,"Claude (nháp, chờ học viên duyệt)",8.5% và 692 million; khớp p035 c003
+dev-q02,dev,1,answered,,B:wb-ppp-2024:p036s0:c004,2,1,,,"Claude (nháp, chờ học viên duyệt)",40 năm ít hơn (20 vs 60); đúng điều kiện Gini -2%/năm; khớp p036 c004
+dev-q03,dev,1,answered,,B:wb-ppp-2024:p040s0:c002,2,1,,,"Claude (nháp, chờ học viên duyệt)",$21 trillion present value; bỏ ý 17% GDP nhưng câu hỏi chỉ hỏi số tiền. CẦN XEM KỸ (2 hay 1)
+dev-q04,dev,1,abstain,invalid_citations,,0,,,,"Claude (nháp, chờ học viên duyệt)","Nội dung đúng nhưng câu trả lời không có [chunk-id] trong văn bản (model chỉ liệt kê citation riêng) nên validator loại, status abstain: 0 theo quy định. CẦN XEM KỸ"
+dev-q05,dev,1,abstain,invalid_citations,,0,,,,"Claude (nháp, chờ học viên duyệt)","Nội dung đúng (định nghĩa, chuẩn $25) nhưng viết 2 ID chung một ngoặc [id1, id2] nên validator loại, status abstain: 0 theo quy định. CẦN XEM KỸ"
+dev-q06,dev,1,answered,,B:wb-ppp-2024:p044s0:c000,2,1,,,"Claude (nháp, chờ học viên duyệt)","Đủ 2.34%, 1.48%, 0.86%; khớp p044 c000"
+dev-q07,dev,1,answered,,B:wb-ppp-2024:p049s0:c002,2,1,,,"Claude (nháp, chờ học viên duyệt)",Nearly one in five (17.9%); khớp p049 c002
+dev-q08,dev,1,answered,,B:wb-ppp-2024:p055s0:c003,2,1,,,"Claude (nháp, chờ học viên duyệt)",Less than 10%; khớp p055 c003; bỏ bối cảnh $380 tỷ nhưng câu hỏi chỉ hỏi tỷ lệ ở nước thu nhập thấp. CẦN XEM KỸ (2 hay 1)
+dev-q09,dev,1,answered,,B:wb-ppp-2024:p057s0:c001,2,1,,,"Claude (nháp, chờ học viên duyệt)","2.4 million, 20 fatalities; khớp p057 c001"
+dev-q10,dev,1,answered,,B:wb-ppp-2024:p059s0:c001,2,1,,,"Claude (nháp, chờ học viên duyệt)","4.7% và 46% tại $6.85, có điều kiện historical intensities; khớp p059 c001"
+dev-q11,dev,1,answered,,B:wb-ppp-2024:p062s0:c005,2,1,,,"Claude (nháp, chờ học viên duyệt)","Low labor share; <2% GDP, 0.2% workforce; khớp p062 c005"
+dev-q12,dev,1,answered,,B:wb-ppp-2024:p064s1:c001,2,1,,,"Claude (nháp, chờ học viên duyệt)","Quadrupled since 2012, $23.6 billion; khớp p064s1 c001"
+dev-q13,dev,1,answered,,B:wb-ppp-2024:p066s0:c001,2,1,,,"Claude (nháp, chờ học viên duyệt)",82% năm 2030 với điều kiện growth rates; bỏ ý 2050 nhưng câu hỏi chỉ hỏi 2030. CẦN XEM KỸ (2 hay 1)
+dev-q14,dev,1,answered,,B:wb-ppp-2024:p069s0:c003,2,1,,,"Claude (nháp, chờ học viên duyệt)",32%/15% và 52%/35%; khớp p069 c003
+dev-q15,dev,1,answered,,B:wb-ppp-2024:p071s0:c001,2,1,,,"Claude (nháp, chờ học viên duyệt)",Brazil; khớp p071 c001
+dev-q16,dev,1,answered,,B:wb-ppp-2024:p046s0:c004,2,1,,,"Claude (nháp, chờ học viên duyệt)",66 → 49; ý Gini > 40 cũng có trong chunk; khớp p046 c004
+dev-q17,dev,1,answered,,B:wb-ppp-2024:p058s0:c000,2,1,,,"Claude (nháp, chờ học viên duyệt)",0.15% (1990) → 24% (2024); khớp p058 c000
+dev-q18,dev,1,answered,,B:wb-ppp-2024:p061s0:c000,2,1,,,"Claude (nháp, chờ học viên duyệt)",6.1% GDP năm 2019; khớp p061 c000
+dev-q19,dev,1,answered,,B:wb-ppp-2024:p067s0:c003,2,1,,,"Claude (nháp, chờ học viên duyệt)","56% exposed, 47% at risk; bỏ ý 84% nhưng câu hỏi chỉ hỏi hai tỷ lệ. CẦN XEM KỸ (2 hay 1)"
+dev-q20,dev,1,answered,,B:wb-ppp-2024:p073s0:c002,2,1,,,"Claude (nháp, chờ học viên duyệt)",Up to $200 billion/năm by 2070s nếu warming > 2°C; khớp p073 c002
+dev-u1,dev,0,answered,,B:wb-ppp-2024:p036s0:c000,,1,0,,"Claude (nháp, chờ học viên duyệt)","Status answered: nói không có số cho Vietnam nhưng thêm câu gây hiểu nhầm ""without explicitly identifying the country"" về con số 8.5% (thực ra là toàn cầu). Citation p036 c000 đúng với câu được trích. Không phải từ chối sạch. CẦN XEM KỸ"
+dev-u2,dev,0,abstain,model_abstained,,,,1,,"Claude (nháp, chờ học viên duyệt)","Từ chối, không khẳng định gì về IDA21"
+dev-u3,dev,0,abstain,model_abstained,,,,1,,"Claude (nháp, chờ học viên duyệt)","Từ chối, nêu rõ có nói carbon pricing nhưng không có mức giá"

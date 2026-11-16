@@ -1,0 +1,171 @@
+[
+  {
+    "query_id": "dev-q01",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "Đúng 8.5% và có citation hỗ trợ; nói rõ passage không có số người (692 triệu nằm ở chunk p035 không vào context). Đúng một phần. CẦN XEM KỸ",
+    "answer_grade": 1
+  },
+  {
+    "query_id": "dev-q02",
+    "citation_support": [],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "Nội dung đúng nhưng câu trả lời không có [chunk-id] trong văn bản (model chỉ liệt kê citation riêng) nên validator loại, status abstain: 0 theo quy định. CẦN XEM KỸ",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "dev-q03",
+    "citation_support": [],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "dev-q04",
+    "citation_support": [],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "dev-q05",
+    "citation_support": [],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "dev-q06",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "Đủ 2.34%, 1.48%, 0.86%; khớp nguyên văn p044 c000",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-q07",
+    "citation_support": [],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "dev-q08",
+    "citation_support": [],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "dev-q09",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "2.4 million, 20 fatalities; khớp p057 c001",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-q10",
+    "citation_support": [],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "dev-q11",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "Low labor share; <2% GDP, 0.2% workforce; khớp p062 c005",
+    "answer_grade": 2
+  },
+  {
+    "query_id": "dev-q12",
+    "citation_support": [],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "dev-q13",
+    "citation_support": [],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "Nội dung đúng nhưng câu trả lời không có [chunk-id] trong văn bản (model chỉ liệt kê citation riêng) nên validator loại, status abstain: 0 theo quy định. CẦN XEM KỸ",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "dev-q14",
+    "citation_support": [],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "dev-q15",
+    "citation_support": [],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "dev-q16",
+    "citation_support": [],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "dev-q17",
+    "citation_support": [],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "dev-q18",
+    "citation_support": [],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "dev-q19",
+    "citation_support": [],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "dev-q20",
+    "citation_support": [],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "Từ chối trên câu có đáp án: 0 theo quy định BENCHMARK.md",
+    "answer_grade": 0
+  },
+  {
+    "query_id": "dev-u1",
+    "citation_support": [],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "Từ chối, không khẳng định gì về Vietnam",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "dev-u2",
+    "citation_support": [],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "Từ chối, không khẳng định gì về IDA21",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "dev-u3",
+    "citation_support": [],
+    "reviewer": "Claude (nháp, chờ học viên duyệt)",
+    "note": "Từ chối, không đưa ra mức giá carbon",
+    "abstention_correct": true
+  }
+]

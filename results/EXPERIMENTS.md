@@ -117,3 +117,26 @@ Không thay đổi tiêu chí này sau khi thấy kết quả. Nếu buộc ph�
 - **Sửa (trước mọi lần chạy agent chính thức, áp dụng như nhau cho mọi cấu hình):** thêm vào system prompt: "Never call `answer` to say that the information is missing or not given; that case must be `abstain`." Sửa dựa trên quan sát ở dev, không dùng test.
 - **Kiểm tra sau khi sửa:** run `agent_dev_dense_b800_promptcheck_20261116T074503Z` (prompt mới, trước khi commit), dense/800, ba câu dev: dev-u1 → abstain, dev-u3 → abstain (không nhầm với đoạn nói về carbon pricing), dev-q02 → answered (không từ chối quá mức). 10 request, 6.759 token, 4,2–6,6 s mỗi câu.
 - Hai run S3 chỉ là kiểm tra kỹ thuật trên 5 câu dev, không dùng để chọn cấu hình; được lưu ngoài `results/` (thư mục tạm của phiên làm việc) vì chạy khi code chưa commit.
+
+### B0: agent trên toàn bộ dev, baseline và ứng viên (2026-11-16)
+
+- **Runs:** `agent_dev_dense_b800_baseline_20261116T074804Z` và `agent_dev_hybrid_rrf_b2700_candidate_20261116T075344Z`, commit `89e7f8b`, `gemini-3.5-flash-lite`, `max_searches` = 3, 23 câu dev mỗi cấu hình, 0 lỗi provider, 0 USD (free tier).
+- **Nhãn:** Claude chấm nháp (`labels.csv`, `review_sheet.md`); B0 **không dùng để chốt cấu hình** vì phát hiện lỗi định dạng citation dưới đây và được thay bằng B1. Nhãn B0 giữ lại để đối chiếu trước/sau và không được học viên duyệt riêng.
+
+| Chỉ số (nhãn nháp) | Baseline dense/800 | Ứng viên hybrid RRF/2.700 |
+|---|---|---|
+| Grounded answer 0/1/2, trung bình | 16/1/3, 0.35 | 2/0/18, 1.80 |
+| Citation hợp lệ | 4/4 | 19/19 |
+| Từ chối đúng (thiếu bằng chứng) | 3/3 | 2/3 |
+| Từ chối nhầm (có đáp án) | 16/20 | 2/20 |
+| Context Evidence Rate | 5/20 | 20/20 |
+| Request / token / trung vị mỗi câu | 82 / 55.774 / 6,5 s | 53 / 47.091 / 2,6 s |
+
+- **Lỗi dev #3: định dạng citation.** 4 câu trả lời có nội dung đúng bị validator loại (`invalid_citations`), chấm 0: baseline dev-q02, dev-q13 và ứng viên dev-q04 (model không chèn `[id]` vào văn bản, chỉ liệt kê trong `citations`); ứng viên dev-q05 (gộp hai ID trong một ngoặc `[id1, id2]`). Lỗi này không phụ thuộc retrieval và làm sai lệch cả hai cấu hình.
+- **Lỗi dev #4: ứng viên dev-u1.** Model gọi `answer` để nói không có số liệu cho Vietnam, kèm câu gây hiểu nhầm về con số 8.5% (thực ra là toàn cầu); chấm là từ chối không đúng. Không sửa riêng cho câu này, để tránh chỉnh theo từng câu dev; ghi nhận là giới hạn.
+
+### B1: sửa định dạng citation (giả thuyết ghi trước khi chạy)
+
+- **Thay đổi (chung, áp dụng như nhau cho mọi cấu hình):** (1) system prompt yêu cầu mỗi ID trong ngoặc vuông riêng, đặt ngay sau câu nó hỗ trợ, và nói rõ câu trả lời không có ID trong văn bản sẽ bị loại; (2) validator chấp nhận dạng gộp `[id1, id2]` / `[id1; id2]`. Vẫn giữ yêu cầu của starter: mọi citation phải xuất hiện trong văn bản câu trả lời và nằm trong context.
+- **Giả thuyết:** số câu bị loại vì `invalid_citations` giảm về 0 hoặc gần 0 ở cả hai cấu hình; grounded answer trung bình tăng tương ứng; các chỉ số khác (Context Evidence Rate, từ chối đúng) không đổi đáng kể. Model không xác định hoàn toàn (không đặt temperature), nên các câu khác có thể dao động nhẹ.
+- **Tiêu chí chọn không đổi** (mục 1, bước B). B1 thay B0 làm kết quả bước B; học viên duyệt nhãn B1.

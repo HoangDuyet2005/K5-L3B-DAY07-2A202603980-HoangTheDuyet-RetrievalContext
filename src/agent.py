@@ -9,13 +9,15 @@ Design (adapted from starter/agentic.py):
   used up, only answer/abstain are allowed.
 - Context = starter `pack_context` over all retrieved chunks in retrieval order (dedup by ID,
   earlier chunks first, a chunk that does not fit the character budget is skipped).
-- An answer is accepted only if every citation ID is in the final context and appears as
-  [id] in the answer text; otherwise the run ends as abstain (reason invalid_citations).
+- An answer is accepted only if every citation ID is in the final context and appears in square
+  brackets in the answer text ([id], or grouped as [id1, id2]); otherwise the run ends as abstain
+  (reason invalid_citations).
   This checks IDs only; whether the source supports the claim is labelled by hand.
 - Only the question text and the user-provided filter reach this module; never gold labels.
 """
 from __future__ import annotations
 
+import re
 import sys
 import time
 from typing import Any, Protocol
@@ -36,9 +38,10 @@ Rules:
 - Call `search` with a short, focused English query. If the passages do not contain the evidence, \
 you may search again with a different query while searches remain.
 - Call `answer` only when the passages contain evidence for every part of the answer. State numbers, \
-units, years and conditions exactly as in the passages. Cite every passage you rely on by putting \
-its exact ID in square brackets in the answer text, e.g. [B:wb-ppp-2024:p035s0:c000], and list the \
-same IDs in `citations`.
+units, years and conditions exactly as in the passages. Cite every passage you rely on inside the \
+answer text: put its exact ID in its own square brackets right after the sentence it supports, e.g. \
+"... 8.5 percent [B:wb-ppp-2024:p035s0:c003]." Use one bracket per ID (write [id1] [id2], not \
+[id1, id2]). List the same IDs in `citations`. An answer without bracketed IDs in its text is rejected.
 - Call `abstain` if, after searching, the passages do not contain enough evidence. Do not use outside \
 knowledge and do not guess. Similar numbers about a different country, program, year or group are \
 not evidence.
@@ -110,6 +113,14 @@ class GeminiController:
         raise ValueError(f"unknown function {name!r}")
 
 
+def inline_citations(text: str) -> set[str]:
+    """IDs cited in square brackets inside the answer text; [a, b] or [a; b] count as two IDs."""
+    ids: set[str] = set()
+    for group in re.findall(r"\[([^\[\]]+)\]", text):
+        ids.update(part.strip() for part in re.split(r"[,;]", group) if part.strip())
+    return ids
+
+
 def _slim(result: dict[str, Any]) -> dict[str, Any]:
     return {"rank": result["rank"], "id": result["id"], "page": result["page"],
             "section": result["metadata"].get("section"), "score": result["score"],
@@ -152,8 +163,9 @@ def run_agent(question: str, *, filters: dict[str, Any] | None, controller: Any,
                                "elapsed_ms": round((time.perf_counter() - t0) * 1000, 1)})
             elif action["action"] == "answer":
                 answer, citations = action["answer"], action["citations"]
+                inline = inline_citations(answer)
                 valid = bool(answer.strip() and citations and
-                             all(c in context_ids and f"[{c}]" in answer for c in citations))
+                             all(c in context_ids and c in inline for c in citations))
                 if valid:
                     events.append({"event": "answer"})
                     return finish("answered", answer, citations)

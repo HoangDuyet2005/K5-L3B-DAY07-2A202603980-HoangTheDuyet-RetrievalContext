@@ -49,6 +49,18 @@ class AgentLoopTests(unittest.TestCase):
         r = run_agent('Share?', filters=None, controller=ctrl, retriever=FakeRetriever())
         self.assertEqual((r['status'], r['answer'], r['abstain_reason']), ('abstain', ABSTAIN_TEXT, 'invalid_citations'))
 
+    def test_grouped_brackets_accepted_but_missing_inline_rejected(self):
+        two = [CHUNK, {**CHUNK, 'id': 'B:doc:p2:c0', 'page': 2, 'rank': 2}]
+        ctrl = FakeController([{'action': 'search', 'query': 'q'},
+                               {'action': 'answer', 'answer': '43 percent [B:doc:p1:c0, B:doc:p2:c0].',
+                                'citations': ['B:doc:p1:c0', 'B:doc:p2:c0']}])
+        r = run_agent('Share?', filters=None, controller=ctrl, retriever=FakeRetriever(two), budget=2000)
+        self.assertEqual(r['status'], 'answered')
+        ctrl = FakeController([{'action': 'search', 'query': 'q'},
+                               {'action': 'answer', 'answer': '43 percent.', 'citations': ['B:doc:p1:c0']}])
+        r = run_agent('Share?', filters=None, controller=ctrl, retriever=FakeRetriever())
+        self.assertEqual((r['status'], r['abstain_reason']), ('abstain', 'invalid_citations'))
+
     def test_model_abstention_and_search_limit(self):
         ctrl = FakeController([{'action': 'search', 'query': 'q'}, {'action': 'abstain', 'reason': 'no number'}])
         r = run_agent('Q?', filters=None, controller=ctrl, retriever=FakeRetriever())
