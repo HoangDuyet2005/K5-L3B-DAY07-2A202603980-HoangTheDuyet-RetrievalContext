@@ -54,4 +54,20 @@ Không thay đổi tiêu chí này sau khi thấy kết quả. Nếu buộc ph�
 
 ## 3. Kết quả
 
-(Ghi sau khi chạy: run ID, commit, bảng số liệu, so sánh với dự đoán, kết luận.)
+### S1: chạy thử agent (smoke test), không phải thử nghiệm cải thiện
+
+- **Run:** `agent_dev_dense_b800_smoke_20261116T052845Z`. Mục đích: kiểm tra toàn bộ chuỗi Gemini → search → context → answer/abstain trước khi chạy đủ dev.
+- **Code:** chạy lúc code chưa commit, nhưng mọi file code được sửa lần cuối trước lúc chạy (05:28:45 UTC) và được commit nguyên trạng ở `e839b10`. `run_metadata.json` ghi các file này là untracked tại thời điểm chạy.
+- **Cấu hình:** baseline agent: dense, top-3, budget 800 ký tự, tối đa 3 search, `gemini-3.5-flash` (response ghi `modelVersion` = `gemini-3.6-flash` ở cả 14 lần gọi).
+- **Câu chạy:** dev-q01, dev-q04, dev-q09, dev-u1.
+
+| Câu | Status | Quan sát (chưa phải nhãn chấm tay chính thức) |
+|---|---|---|
+| dev-q09 | answered | "2.4 million people… 20 fatalities" `[B:wb-ppp-2024:p057s0:c001]`: khớp đáp án, citation trỏ đúng chunk evidence |
+| dev-u1 | abstain | Từ chối sau 3 search; không bịa số liệu |
+| dev-q01 | abstain | Từ chối nhầm: context chỉ có `p036s0:c000` (8.5 percent) qua cả 3 lượt; chunk evidence `p035s0:c003` (có 692 million) không nằm trong top-3 của các query agent tự viết |
+| dev-q04 | abstain | Từ chối nhầm: lượt search 1 đưa `p041s0:c001` (791 ký tự) vào context; cả 3 lượt đều **tìm thấy** chunk evidence `p041s0:c000` (hạng 3, 3, 2) nhưng nó không vừa budget còn lại, vì `pack_context` giữ chunk cũ trước |
+
+- **Lỗi dev #1 (dev-q04): context bị khóa bởi chunk đầu tiên.** Với budget 800, chunk của lượt search đầu chiếm gần hết budget; evidence tìm thấy ở lượt sau bị bỏ. Agent vẫn từ chối đúng với context nó thấy. Liên quan trực tiếp tới E2.
+- **Lỗi dev #2 (dev-q01): thiếu một phần đáp án trong context.** Context chỉ chứa một chunk cùng chủ đề (tỷ lệ 8.5%) nhưng thiếu số người (692 million); agent từ chối thay vì trả lời một nửa. Ở đánh giá retrieval, câu hỏi gốc đưa chunk evidence lên hạng 3 của dense; còn 3 query agent tự viết lại ("extreme poverty 2024 share population people", "8.5 percent 2024 extreme poverty people million"…) không đưa được nó vào top-3. Liên quan tới E1 (xếp lại ứng viên) và E2 (chứa thêm chunk).
+- **Thời gian và token:** mỗi lần gọi Gemini mất 15–37 s; mỗi câu 55–128 s (trung vị khoảng 92 s); tổng 12.575 token cho 4 câu (prompt 9.024, output 430, thinking 3.121). Ước tính chạy đủ 23 câu dev mất khoảng 35 phút và khoảng 70k token cho mỗi cấu hình.
