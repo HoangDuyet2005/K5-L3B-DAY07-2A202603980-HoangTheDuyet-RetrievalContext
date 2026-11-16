@@ -108,3 +108,12 @@ Không thay đổi tiêu chí này sau khi thấy kết quả. Nếu buộc ph�
 - **Xử lý:** dừng lần chạy ở dev-q07. Không có file kết quả nào được giữ, vì code cũ chỉ ghi trace khi chạy xong cả lượt, nên kết quả của dev-q01 và dev-q02 bị mất; lần chạy này không được dùng để chọn cấu hình.
 - **Đổi agent model** (học viên duyệt) sang `gemini-3.5-flash-lite`: cùng thế hệ 3.5, gói miễn phí 500 request/ngày (theo trang Rate limit của AI Studio, project của học viên). Dự phòng: `gemini-3.1-flash-lite` (500/ngày). Việc đổi xảy ra **trước mọi lần chạy agent chính thức**; baseline và ứng viên dùng cùng model mới. Run thử S1 giữ lại làm tư liệu và được ghi rõ là dùng model cũ.
 - **Sửa code để không lặp lại:** ghi trace ngay sau mỗi câu; dừng cả lượt khi gặp lỗi hết hạn mức trong ngày (lỗi 429 tạm thời theo phút vẫn được thử lại); `run_metadata.json` ghi `completed` và `aborted_reason`.
+
+### S3: chạy thử model mới, sửa prompt về abstention (2026-11-16)
+
+- **Run:** `agent_dev_dense_b800_smoke2_20261116T074153Z` (commit `288ad01`, `gemini-3.5-flash-lite`, dense/800), câu dev-q09 và dev-u1. Model mới nhanh hơn nhiều: 2,9–5,1 s mỗi câu (so với 55–128 s ở S1), không dùng thinking token; 6 request, 4.044 token.
+- **dev-q09:** answered, đúng như S1 ("2.4 million… 20 fatalities" `[…p057s0:c001]`).
+- **dev-u1 (thiếu bằng chứng):** nội dung là từ chối ("there is no specific data given for Vietnam's extreme poverty rate in 2024"), kèm con số toàn cầu 8.5% có trích dẫn đúng, nhưng model gọi tool `answer` thay vì `abstain`, nên status ghi `answered`. Model cũ (S1) dùng đúng `abstain` cho câu này.
+- **Sửa (trước mọi lần chạy agent chính thức, áp dụng như nhau cho mọi cấu hình):** thêm vào system prompt: "Never call `answer` to say that the information is missing or not given; that case must be `abstain`." Sửa dựa trên quan sát ở dev, không dùng test.
+- **Kiểm tra sau khi sửa:** run `agent_dev_dense_b800_promptcheck_20261116T074503Z` (prompt mới, trước khi commit), dense/800, ba câu dev: dev-u1 → abstain, dev-u3 → abstain (không nhầm với đoạn nói về carbon pricing), dev-q02 → answered (không từ chối quá mức). 10 request, 6.759 token, 4,2–6,6 s mỗi câu.
+- Hai run S3 chỉ là kiểm tra kỹ thuật trên 5 câu dev, không dùng để chọn cấu hình; được lưu ngoài `results/` (thư mục tạm của phiên làm việc) vì chạy khi code chưa commit.

@@ -42,6 +42,7 @@ same IDs in `citations`.
 - Call `abstain` if, after searching, the passages do not contain enough evidence. Do not use outside \
 knowledge and do not guess. Similar numbers about a different country, program, year or group are \
 not evidence.
+- Never call `answer` to say that the information is missing or not given; that case must be `abstain`.
 - Keep answers to one or two sentences."""
 
 TOOLS = [{"functionDeclarations": [
