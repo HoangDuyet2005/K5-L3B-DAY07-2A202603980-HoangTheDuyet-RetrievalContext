@@ -1,0 +1,12 @@
+# Day 7 reuses the Day 6 environment (Python 3.11.9, Windows, CPU). Versions copied from the
+# Day 6 repo's starter/requirements.txt so query embeddings match the stored index.
+# The Gemini agent is called over HTTPS with the standard library; no Gemini SDK is needed.
+psycopg[binary]==3.3.8
+sentence-transformers==6.3.0
+transformers==5.23.0
+torch==2.15.0
+huggingface-hub==2.4.0
+numpy==2.4.6
+# Needed only to load google/embeddinggemma-2 (its config declares an image processor).
+torchvision==0.29.2
+pillow==13.0.0

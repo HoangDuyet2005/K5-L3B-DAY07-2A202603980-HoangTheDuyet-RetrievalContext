@@ -1,0 +1,2 @@
+# Keep LF in locked benchmark files so their recorded sha256 is identical on every OS.
+data/benchmark/*.json text eol=lf
