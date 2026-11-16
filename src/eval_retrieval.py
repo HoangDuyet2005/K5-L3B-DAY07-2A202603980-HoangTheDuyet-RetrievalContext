@@ -29,12 +29,13 @@ from .config import DAY6_INDEX, REPO_DIR, load_settings
 from .day6 import Day6Store, DenseRetriever, QueryEmbedder
 from .hybrid import CANDIDATE_POOL, RRF_K, HybridRRFRetriever
 from .lexical import BM25_B, BM25_K1, BM25Retriever
+from .rerank import CrossEncoderReranker, RerankRetriever
 
 sys.path.insert(0, str(REPO_DIR / "starter"))
 from baseline import hit, pack_context  # noqa: E402  (starter definitions keep metrics comparable)
 
 QUESTIONS = REPO_DIR / "data" / "benchmark" / "questions.json"
-METHODS = ("dense", "bm25", "hybrid_rrf")
+METHODS = ("dense", "bm25", "hybrid_rrf", "hybrid_rrf_rerank")
 TOP_K = 3
 
 
@@ -69,7 +70,7 @@ def evaluate_question(question: dict[str, Any], retriever: Any, pool: int, budge
     gold_ranks = [c["rank"] for c in marked if c["hit"]]
     results = [{"rank": c["rank"], "id": c["id"], "source_id": c["source_id"], "source": c["source"],
                 "page": c["page"], "section": c["metadata"].get("section"), "score": c["score"], "hit": c["hit"],
-                **({"component_ranks": c["component_ranks"]} if "component_ranks" in c else {}),
+                **{k: c[k] for k in ("component_ranks", "first_stage_rank", "first_stage_score") if k in c},
                 "text": c["text"], "metadata": c["metadata"]} for c in marked]
     return {"query_id": question["id"], "split": question["split"], "type": question.get("type"),
             "question": question["question"], "filter": filters, "method": retriever.name,
@@ -138,9 +139,14 @@ def main() -> None:
         embedder = QueryEmbedder(settings.embedding_device)
         dense = DenseRetriever(store, embedder)
         bm25 = BM25Retriever(chunks)
-        available = {"dense": dense, "bm25": bm25, "hybrid_rrf": HybridRRFRetriever(dense, bm25, pool=args.pool)}
+        hybrid = HybridRRFRetriever(dense, bm25, pool=args.pool)
+        available = {"dense": dense, "bm25": bm25, "hybrid_rrf": hybrid}
+        reranker = CrossEncoderReranker(settings.embedding_device) if "hybrid_rrf_rerank" in methods else None
+        if reranker:
+            available["hybrid_rrf_rerank"] = RerankRetriever(hybrid, reranker, pool=args.pool)
         traces = {m: [evaluate_question(q, available[m], args.pool, args.budget) for q in questions] for m in methods}
         embedder_info = embedder.info()
+        reranker_info = reranker.info() if reranker else None
 
     summaries = [summarize(m, traces[m]) for m in methods]
     run_id = started_at.strftime("%Y%m%dT%H%M%SZ")
@@ -162,7 +168,9 @@ def main() -> None:
                    "context_packing": "starter/baseline.py pack_context over the top-3 results",
                    "filter_policy": "question `filter` (user-provided) applied identically to every method",
                    "bm25": {"k1": BM25_K1, "b": BM25_B, "tokenizer": "NFC casefold \\w+, no stemming/stop words"},
-                   "hybrid_rrf": {"k": RRF_K, "inputs": ["dense", "bm25"], "pool_per_retriever": args.pool}},
+                   "hybrid_rrf": {"k": RRF_K, "inputs": ["dense", "bm25"], "pool_per_retriever": args.pool},
+                   "hybrid_rrf_rerank": {"first_stage": "hybrid_rrf", "pool": args.pool,
+                                         "reranker": reranker_info} if reranker_info else None},
         "embedder": embedder_info, "cost_usd": 0.0, "summaries": summaries}
     (out / "run_metadata.json").write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + "\n",
                                            encoding="utf-8", newline="\n")

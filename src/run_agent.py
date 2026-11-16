@@ -26,6 +26,7 @@ from .eval_retrieval import _git_state, _sha256, check_same_corpus
 from .gemini import GeminiClient
 from .hybrid import CANDIDATE_POOL, HybridRRFRetriever
 from .lexical import BM25Retriever
+from .rerank import RERANK_POOL, CrossEncoderReranker, RerankRetriever
 
 sys.path.insert(0, str(REPO_DIR / "starter"))
 from baseline import hit  # noqa: E402
@@ -64,7 +65,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Chạy agent Gemini trên benchmark")
     parser.add_argument("--split", choices=("dev", "test"), required=True)
     parser.add_argument("--chunks", type=Path, required=True)
-    parser.add_argument("--method", choices=("dense", "bm25", "hybrid_rrf"), default="dense")
+    parser.add_argument("--method", choices=("dense", "bm25", "hybrid_rrf", "hybrid_rrf_rerank"), default="dense")
     parser.add_argument("--top-k", type=int, default=3)
     parser.add_argument("--budget", type=int, default=800)
     parser.add_argument("--max-searches", type=int, default=3)
@@ -96,8 +97,11 @@ def main() -> None:
         bm25 = BM25Retriever(chunks)
         embedder = QueryEmbedder(settings.embedding_device) if args.method != "bm25" else None
         dense = DenseRetriever(store, embedder) if embedder else None
-        retriever = {"dense": dense, "bm25": bm25,
-                     "hybrid_rrf": HybridRRFRetriever(dense, bm25, pool=CANDIDATE_POOL) if dense else None}[args.method]
+        hybrid = HybridRRFRetriever(dense, bm25, pool=CANDIDATE_POOL) if dense else None
+        reranker = CrossEncoderReranker(settings.embedding_device) if args.method == "hybrid_rrf_rerank" else None
+        retriever = {"dense": dense, "bm25": bm25, "hybrid_rrf": hybrid,
+                     "hybrid_rrf_rerank": RerankRetriever(hybrid, reranker, pool=RERANK_POOL) if reranker else None
+                     }[args.method]
         for case in cases:  # only question + filter enter the agent
             result = run_agent(case["question"], filters=case.get("filter"), controller=controller,
                                retriever=retriever, max_searches=args.max_searches, top_k=args.top_k,
@@ -107,6 +111,7 @@ def main() -> None:
             print(f"{case['id']}: {result['status']} searches={result['n_searches']} "
                   f"calls={result['n_model_calls']} {result['elapsed_ms']} ms", flush=True)
         embedder_info = embedder.info() if embedder else None
+        reranker_info = reranker.info() if reranker else None
 
     gold = {q["id"]: q["gold"] for q in json.loads((BENCH / "questions.json").read_text(encoding="utf-8"))}
     for t in traces:  # scoring after the run; gold never reached the agent
@@ -135,7 +140,7 @@ def main() -> None:
                   "system_prompt": SYSTEM_PROMPT},
         "config": {"method": args.method, "top_k": args.top_k, "context_budget_chars": args.budget,
                    "max_searches": args.max_searches, "context_packing": "starter pack_context, retrieval order"},
-        "embedder": embedder_info, "summary": summary}
+        "embedder": embedder_info, "reranker": reranker_info, "summary": summary}
     (out / "run_metadata.json").write_text(json.dumps(metadata, ensure_ascii=False, indent=2) + "\n",
                                            encoding="utf-8", newline="\n")
     print(json.dumps(summary, ensure_ascii=False, indent=2))

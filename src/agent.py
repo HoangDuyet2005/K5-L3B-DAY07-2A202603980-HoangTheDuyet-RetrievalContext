@@ -112,7 +112,7 @@ class GeminiController:
 def _slim(result: dict[str, Any]) -> dict[str, Any]:
     return {"rank": result["rank"], "id": result["id"], "page": result["page"],
             "section": result["metadata"].get("section"), "score": result["score"],
-            **({"component_ranks": result["component_ranks"]} if "component_ranks" in result else {})}
+            **{k: result[k] for k in ("component_ranks", "first_stage_rank") if k in result}}
 
 
 def run_agent(question: str, *, filters: dict[str, Any] | None, controller: Any, retriever: Retriever,

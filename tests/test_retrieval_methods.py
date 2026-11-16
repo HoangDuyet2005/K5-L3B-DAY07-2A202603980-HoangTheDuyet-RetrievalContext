@@ -58,5 +58,21 @@ class RRFTests(unittest.TestCase):
         self.assertEqual([r['id'] for r in hybrid.search('q', top_k=2)], ['a', 'b'])
 
 
+class RerankTests(unittest.TestCase):
+    def test_rerank_resorts_pool_and_keeps_first_stage_rank(self):
+        from src.rerank import RerankRetriever
+
+        class Scorer:
+            def score(self, query, texts):
+                return [len(t) for t in texts]  # longer text = higher score, just for the test
+
+        base = FakeRetriever('hybrid_rrf', ['a', 'bbb', 'cc'])
+        results = RerankRetriever(base, Scorer(), pool=3).search('q', top_k=2)
+        self.assertEqual([r['id'] for r in results], ['bbb', 'cc'])
+        self.assertEqual([r['first_stage_rank'] for r in results], [2, 3])
+        self.assertEqual(results[0]['retriever'], 'hybrid_rrf_rerank')
+        self.assertEqual([r['rank'] for r in results], [1, 2])
+
+
 if __name__ == '__main__':
     unittest.main()

@@ -11,7 +11,8 @@ from typing import Any, Protocol
 RRF_K = 60
 CANDIDATE_POOL = 10  # candidates taken from each retriever before fusion
 
-_METHOD_FIELDS = ("score", "distance", "rank", "retriever", "timing", "component_ranks")
+_METHOD_FIELDS = ("score", "distance", "rank", "retriever", "timing", "component_ranks", "first_stage_rank",
+                  "first_stage_score", "rerank_ms")
 
 
 class Retriever(Protocol):
